@@ -96,7 +96,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -121,7 +121,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["18AB749F3D12826F"]
@@ -177,7 +177,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["51C1587257D31C07"]
@@ -197,6 +197,38 @@
 			}]
 			x: -0.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["1DB13345D6C1C917"]
+			id: "7D70184C6C6FA8F5"
+			rewards: [
+				{
+					count: 1024
+					id: "560E5C1B6583B05E"
+					item: "mek1000:blast_coil"
+					type: "item"
+				}
+				{
+					count: 512
+					id: "1D720A36C99D3558"
+					item: "mek1000:tin_casing"
+					type: "item"
+				}
+				{
+					count: 960
+					id: "5A87180546AFB161"
+					item: "mek1000:electricity_resistant_reinforced_casing"
+					type: "item"
+				}
+			]
+			subtitle: "頑張って"
+			tasks: [{
+				id: "78D948021D9ADEE8"
+				item: "mek1000:dimensional_blast_furnace"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.092727BC36641B8A.subtitle0}"]

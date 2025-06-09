@@ -1,0 +1,8 @@
+// Compost colors for mae2a. You may add your own colors, change existing ones, or remove colors that aren't needed.
+cable_place_tools, #ca98e7
+fake_crafting_card, #c5b9b5
+infinite_dyes_cell, #80a7f4
+item_package, #ffffbe
+pattern_modify_tool, #c8e7eb
+pattern_provider_upgrade, #feebeb
+pattern_refill_card, #c9c2bf

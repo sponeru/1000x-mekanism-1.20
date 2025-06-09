@@ -19,7 +19,7 @@
 	#Item names are strictly replaced with the sub-language in any case.
 	#If false, primary language is your selected language.
 	#Sub-language (default is English) is simply added to the second line of the tooltip.
-	replaceItemNames = true
+	replaceItemNames = false
 	#
 	#subLanguage (default:en_us)
 	#Sub-language for item names.

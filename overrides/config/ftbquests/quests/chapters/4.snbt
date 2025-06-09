@@ -6,15 +6,23 @@
 	icon: "mek1000:infinity_ingot"
 	id: "5DD3C47237F10280"
 	order_index: 4
-	quest_links: [{
-		id: "1FDF9DD2C1253AE4"
-		linked_quest: "66B8C5F402898F23"
-		x: 1.0d
-		y: -4.5d
-	}]
+	quest_links: [
+		{
+			id: "1FDF9DD2C1253AE4"
+			linked_quest: "66B8C5F402898F23"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "095F8F3575F5F97C"
+			linked_quest: "7D70184C6C6FA8F5"
+			x: 5.0d
+			y: -1.5d
+		}
+	]
 	quests: [
 		{
-			dependencies: ["016780D32B1ABC49"]
+			dependencies: ["65211AE2930E4A03"]
 			id: "72875BEA367BA174"
 			rewards: [{
 				count: 15
@@ -417,6 +425,25 @@
 			title: "{ftbquests.chapter.4.quest27.title}"
 			x: 3.0d
 			y: 22.0d
+		}
+		{
+			dependencies: ["7D70184C6C6FA8F5"]
+			id: "65211AE2930E4A03"
+			rewards: [{
+				count: 3
+				id: "3EFF92553DDBF25C"
+				item: "mek1000:ultimate_alloy_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "494D41E0A3BAF595"
+				item: "mek1000:ultimate_alloy_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.4.subtitle0}"]
