@@ -70,6 +70,7 @@
   "mek1000.gas_generator": "Large Combustion Gas Burning",
   "mek1000.rockbreak_simulate": "Rockbreak Simulate",
   "mek1000.experience_generate": "Knowledge Converting",
+  "mek1000.dimensional_blast_smelting": "Multidimensionaly Blast Smelting",
   "block.mek1000.sml_drill_s": "SML Drill S",
   "block.mek1000.sml_drill_m": "SML Drill M",
   "block.mek1000.sml_drill_l": "SML Drill L",
@@ -93,6 +94,8 @@
   "block.mek1000.rockbreak_simulator": "Rockbreak Simulator",
   "mek1000.library_of_babel.desc": "Saturated Knowledge",
   "block.mek1000.library_of_babel": "Library Of Babel",
+  "mek1000.dimensional_blast_furnace.desc": "déjà vu",
+  "block.mek1000.dimensional_blast_furnace": "Multidimensionaly Blast Furnace",
   "mek1000.multi.desc": "See JEI for machine structure",
   "block.mek1000.energy_output": "Energy Output Port",
   "block.mek1000.fluid_output": "Fluid Output Port",
@@ -121,6 +124,7 @@
   "item.mek1000.polonium_synced": "Synced Polonium Pellet w/ fluorite (40x packed into package)",
   "item.mek1000.cat_coin": "Cat Coin",
   "item.mek1000.ultimate_dye_base": "Versatile Dye Base",
+  "item.mek1000.ultimate_alloy_ingot": "Ultimate Alloy Ingot",
   "gas.mek1000.activated_redstone": "Activator Redstone Gas",
   "gas.mek1000.active_aqua_regia": "Activated Aqua Regia"
 }

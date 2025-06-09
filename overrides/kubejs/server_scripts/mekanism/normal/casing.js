@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
     type: "mekanism:reaction",
     itemInput: {
       ingredient: {
-        item: "mek1000:bedrockium_ingot",
+        item: "mek1000:ultimate_alloy_ingot",
       },
     },
     fluidInput: {
@@ -204,7 +204,7 @@ ServerEvents.recipes(event => {
 
   // tin casing craft
   event
-    .shaped(`mek1000:tin_casing_incomplete`, ["tgt", "obo", "tst"], {
+    .shaped(`8x mek1000:tin_casing_incomplete`, ["tgt", "obo", "tst"], {
       t: `mekanism:block_tin`,
       b: `mekanism:block_bronze`,
       s: `mekanism_extras:supreme_control_circuit`,
@@ -216,9 +216,9 @@ ServerEvents.recipes(event => {
   // tin casing wrapping
   event.recipes.mekanism
     .combining(
-      `mek1000:tin_casing`,
-      "mek1000:tin_casing_incomplete",
-      "16x mek1000:ldpe"
+      `8x mek1000:tin_casing`,
+      "8x mek1000:tin_casing_incomplete",
+      "32x mek1000:ldpe"
     )
     .id(`mek1000:tincasing_2`);
 })

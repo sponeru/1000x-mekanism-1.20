@@ -12,6 +12,7 @@ StartupEvents.registry("item", event => {
 
     event.create('mek1000:dust_amethyst').texture('kubejs:item/dust_iridium').color(0, "#9400d3").tag('forge:dusts').tag('forge:dusts/amethyst')
     event.create('mek1000:bedrockium_ingot')
+    event.create("mek1000:ultimate_alloy_ingot")
     event.create('mek1000:neutronium_ingot')
     event.create('mek1000:infinity_ingot').texture('mek1000:item/infinity_ingot')
 

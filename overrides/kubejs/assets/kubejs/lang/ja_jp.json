@@ -70,6 +70,7 @@
   "mek1000.gas_generator": "大型ガス燃焼",
   "mek1000.rockbreak_simulate": "砕石シミュレート",
   "mek1000.experience_generate": "知識変換",
+  "mek1000.dimensional_blast_smelting": "多次元精錬",
   "block.mek1000.sml_drill_s": "SMLドリル S",
   "block.mek1000.sml_drill_m": "SMLドリル M",
   "block.mek1000.sml_drill_l": "SMLドリル L",
@@ -93,6 +94,8 @@
   "block.mek1000.rockbreak_simulator": "砕石シミュレーター",
   "mek1000.library_of_babel.desc": "飽和した知識",
   "block.mek1000.library_of_babel": "バベルの図書館",
+  "mek1000.dimensional_blast_furnace.desc": "既視感",
+  "block.mek1000.dimensional_blast_furnace": "多次元高炉",
   "mek1000.multi.desc": "マルチブロックの構造はJEIを見てください",
   "block.mek1000.energy_output": "エネルギー搬出ポート",
   "block.mek1000.fluid_output": "液体搬出ポート",
@@ -113,7 +116,7 @@
   "block.mek1000.compressed_sps_casing": "圧縮SPSケーシング",
   "block.mek1000.tin_casing": "錫製ケーシング",
   "block.mek1000.tin_casing_incomplete": "未完成の錫製ケーシング",
-  "block.mek1000.blast_coil":"高炉コイル",
+  "block.mek1000.blast_coil": "高炉コイル",
   "item.mek1000.energy_cataryst": "エネルギーカタリスト",
   "item.mek1000.item_cataryst": "アイテムカタリスト",
   "item.mek1000.fluid_cataryst": "液体カタリスト",
@@ -130,6 +133,7 @@
   "item.mek1000.neutronium_ingot": "ニュートロニウムインゴット",
   "item.mek1000.cat_coin": "猫コイン",
   "item.mek1000.ultimate_dye_base": "万能な染料ベース",
+  "item.mek1000.ultimate_alloy_ingot": "究極合金インゴット",
   "gas.mek1000.activated_redstone": "活性化レッドストーンガス",
   "gas.mek1000.active_aqua_regia": "王水"
 }
