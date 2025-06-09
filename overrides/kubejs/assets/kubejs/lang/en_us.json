@@ -111,6 +111,8 @@
   "block.mek1000.fusion_coil": "Creativity Fusion Coil",
   "block.mek1000.fusion_casing": "Creativity Fusion Casing",
   "block.mek1000.compressed_sps_casing": "Compressed Sps Casing",
+  "block.mek1000.tin_casing": "Tin Casing",
+  "block.mek1000.tin_casing_incomplete": "Incomplete Tin Casing",
   "item.mek1000.emc": "Energy Matter Cluster",
   "item.mek1000.the_null": "Null",
   "item.mek1000.the_null.desc": "Texture is Missing!",

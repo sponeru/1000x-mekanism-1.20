@@ -291,5 +291,15 @@ ServerEvents.recipes((event) => {
 
         .outputItems('1024x kubejs:ore_iridium')
         .outputItems('1024x kubejs:dense_ore_iridium')
+    
+        event.recipes.mek1000
+          .sml_drill()
+          .id("mek1000:sml_drilling_l18")
+          .machineLevel(2)
+          .duration(20 * 1)
+          .perTick((builder) => builder.inputFE(2147483647))
+          .chance(0, (builder) => builder.inputItems("mekanism:laser"))
+          .inputItems("mek1000:emc", 'deepdepthnetherite:deepslate_netherite_ore')
+          .outputItems("1024x deepdepthnetherite:deepslate_netherite_ore")
 
 })
