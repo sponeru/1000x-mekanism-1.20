@@ -220,7 +220,7 @@
 				id: "270DB3DB81C7FC6E"
 				type: "checkmark"
 			}]
-			title: "王水"
+			title: "{ftbquests.chapter.4AD13DA3EE99321A.quest11.title}"
 			x: 1.0d
 			y: -4.5d
 		}
@@ -236,5 +236,5 @@
 			y: -4.5d
 		}
 	]
-	title: "鉱石処理"
+	title: "{ftbquests.chapter.4AD13DA3EE99321A.title}"
 }
