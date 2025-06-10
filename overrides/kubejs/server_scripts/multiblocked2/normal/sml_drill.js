@@ -187,20 +187,17 @@ ServerEvents.recipes((event) => {
         .outputItems('1024x minecraft:redstone_ore')
         .outputItems('1024x denseores:dense_redstone_ore')
 
-    event.recipes.mek1000.sml_drill()
-        .id("mek1000:sml_drilling_l11")
-        .machineLevel(2)
-        .duration(20 * 1)
-        .perTick(builder => builder
-            .inputFE(2147483647)
-        )
-        .chance(0, builder => builder
-            .inputItems('mekanism:laser')
-        )
-        .inputItems('mek1000:emc', 'overworld_quartz:overworld_quartz_ore')
+    event.recipes.mek1000
+      .sml_drill()
+      .id("mek1000:sml_drilling_l11")
+      .machineLevel(2)
+      .duration(20 * 1)
+      .perTick((builder) => builder.inputFE(2147483647))
+      .chance(0, (builder) => builder.inputItems("mekanism:laser"))
+      .inputItems("mek1000:emc", "overworld_quartz:overworld_quartz_ore")
 
-        .outputItems('1024x overworld_quartz:overworld_quartz_ore')
-        .outputItems('1024x denseores:dense_nether_quartz_ore')
+      .outputItems("1024x overworld_quartz:overworld_quartz_ore")
+      .outputItems("1024x kubejs:dense_ore_quartz");
 
     event.recipes.mek1000.sml_drill()
         .id("mek1000:sml_drilling_l12")
