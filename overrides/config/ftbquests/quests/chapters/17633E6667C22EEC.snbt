@@ -238,6 +238,19 @@
 			x: -1.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			description: ["{ftbquests.chapter.17633E6667C22EEC.quest12.description1}"]
+			id: "69954DAF8A2C3BF0"
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest12.subtitle}"
+			tasks: [{
+				id: "59FD9B6DFEF8296E"
+				item: "minecraft:netherite_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
 	]
 	subtitle: ["{ftbquests.chapter.17633E6667C22EEC.subtitle0}"]
 	title: "{ftbquests.chapter.17633E6667C22EEC.title}"

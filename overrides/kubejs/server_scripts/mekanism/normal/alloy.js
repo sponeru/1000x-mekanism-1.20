@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mekanism_extras:metallurgic_infusing/alloy/spectrum' })
 
     event.remove({ id: 'mekanism_extras:processing/dust_radiance/from_glowstone' })
-    event.recipes.mekanism.compressing('1x mekanism_extras:dust_radiance', '10x kubejs:iridium', '200x mekanism:uranium_oxide')
+    event.recipes.mekanism.compressing('1x mekanism_extras:dust_radiance', '10x kubejs:iridium', '30x mekanism:uranium_oxide')
 
     event.recipes.mekanismMetallurgicInfusing('mekanism:alloy_infused', '10x #forge:ingots/iron', '100x mekanism:redstone')
 
