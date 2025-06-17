@@ -14,7 +14,20 @@
 		y: -7.5d
 	}]
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "29617B8228D058C1"
+			linked_quest: "25D4C3E90302E4EC"
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			id: "46DABDF94AB05D6C"
+			linked_quest: "5C461433047AC112"
+			x: -6.5d
+			y: -6.5d
+		}
+	]
 	quests: [
 		{
 			dependencies: [
@@ -665,7 +678,7 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
+			x: -4.5d
 			y: -4.5d
 		}
 		{
@@ -744,6 +757,23 @@
 			title: "{ftbquests.chapter.1.quest27.title}"
 			x: 0.0d
 			y: -15.5d
+		}
+		{
+			dependencies: ["5C461433047AC112"]
+			id: "28D157828E4A6B31"
+			rewards: [{
+				count: 3
+				id: "32A618034B6ED543"
+				item: "minecraft:budding_amethyst"
+				type: "item"
+			}]
+			tasks: [{
+				id: "369AFA3C07A82284"
+				item: "minecraft:budding_amethyst"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.1.subtitle0}"]
