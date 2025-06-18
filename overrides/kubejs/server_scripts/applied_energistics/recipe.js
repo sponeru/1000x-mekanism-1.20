@@ -92,4 +92,151 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'mae2a:pattern_provider_plus' })
 
     event.recipes.mekanism.crushing("ae2:ender_dust", "minecraft:ender_pearl");
+
+    event.custom({
+      type: "advanced_ae:reaction",
+      energy: 5000000,
+      fluid: {
+        fluidStack: {
+          Amount: 16000,
+          FluidName: "advanced_ae:quantum_infusion_source",
+        },
+      },
+      input_items: [
+        {
+          amount: 8,
+          ingredient: {
+            item: "ae2_mega_things:mega_item_disk_housing",
+          },
+        },
+        {
+          amount: 8,
+          ingredient: {
+            item: "ae2_mega_things:mega_fluid_disk_housing",
+          },
+        },
+        {
+          amount: 8,
+          ingredient: {
+            item: "ae2_mega_things:mega_chemical_disk_housing",
+          },
+        },
+        {
+          amount: 64,
+          ingredient: {
+            item: "advanced_ae:quantum_alloy",
+          },
+        },
+      ],
+      output: {
+        "#": 1,
+        "#c": "ae2:i",
+        id: "mek1000:ultimate_storage_housing",
+      },
+    });
+
+    event.custom({
+      type: "advanced_ae:reaction",
+      energy: 5000000,
+      fluid: {
+        fluidStack: {
+          Amount: 16000,
+          FluidName: "advanced_ae:quantum_infusion_source",
+        },
+      },
+      input_items: [
+        {
+          amount: 32,
+          ingredient: {
+            item: "megacells:cell_component_256m",
+          },
+        },
+        {
+          amount: 1,
+          ingredient: {
+            item: "megacells:bulk_cell_component",
+          },
+        },
+      ],
+      output: {
+        "#": 1,
+        "#c": "ae2:i",
+        id: "mek1000:infinity_item_component",
+      },
+    });
+
+    event.custom({
+      type: "advanced_ae:reaction",
+      energy: 5000000,
+      fluid: {
+        fluidStack: {
+          Amount: 16000,
+          FluidName: "advanced_ae:quantum_infusion_source",
+        },
+      },
+      input_items: [
+        {
+          amount: 32,
+          ingredient: {
+            item: "megacells:cell_component_256m",
+          },
+        },
+        {
+          amount: 1,
+          ingredient: {
+            item: "mekanism_extras:infinite_fluid_tank",
+          },
+        },
+      ],
+      output: {
+        "#": 1,
+        "#c": "ae2:i",
+        id: "mek1000:infinity_fluid_component",
+      },
+    });
+
+    event.custom({
+      type: "advanced_ae:reaction",
+      energy: 5000000,
+      fluid: {
+        fluidStack: {
+          Amount: 16000,
+          FluidName: "advanced_ae:quantum_infusion_source",
+        },
+      },
+      input_items: [
+        {
+          amount: 32,
+          ingredient: {
+            item: "megacells:cell_component_256m",
+          },
+        },
+        {
+          amount: 1,
+          ingredient: {
+            item: "mekanism_extras:infinite_chemical_tank",
+          },
+        },
+      ],
+      output: {
+        "#": 1,
+        "#c": "ae2:i",
+        id: "mek1000:infinity_chemical_component",
+      },
+    });
+
+    event.shapeless("mek1000:item_disk_drive_infinity", [
+      "mek1000:ultimate_storage_housing",
+      "mek1000:infinity_item_component",
+    ]);
+
+    event.shapeless("mek1000:fluid_disk_drive_infinity", [
+      "mek1000:ultimate_storage_housing",
+      "mek1000:infinity_fluid_component",
+    ]);
+
+    event.shapeless("mek1000:chemical_disk_drive_infinity", [
+      "mek1000:ultimate_storage_housing",
+      "mek1000:infinity_chemical_component",
+    ]);
 })

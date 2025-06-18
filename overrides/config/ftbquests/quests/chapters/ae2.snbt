@@ -453,7 +453,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 5.0d
 			y: -3.0d
 		}
 		{
@@ -478,6 +478,39 @@
 			}]
 			x: -2.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["0BC6B3768C9D496F"]
+			id: "6D39411494D38B97"
+			tasks: [{
+				id: "2DFE472685D645A9"
+				item: "mek1000:item_disk_drive_infinity"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BC6B3768C9D496F"]
+			id: "2788F952D2D99902"
+			tasks: [{
+				id: "52D08940569AE238"
+				item: "mek1000:fluid_disk_drive_infinity"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BC6B3768C9D496F"]
+			id: "190C5F3601643547"
+			tasks: [{
+				id: "0D601BB0160E369D"
+				item: "mek1000:chemical_disk_drive_infinity"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.ae2.subtitle0}"]
