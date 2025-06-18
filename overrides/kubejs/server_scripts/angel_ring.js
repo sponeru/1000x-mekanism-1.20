@@ -4,8 +4,4 @@ ServerEvents.recipes((event) => {
     "minecraft:nether_star",
     "minecraft:elytra"
   );
-
-  event.shapeless("better_angel_ring:angel_ring", "doomangelring:angelring");
-
-  event.remove({ output: "doomangelring:angelring" });
 });
