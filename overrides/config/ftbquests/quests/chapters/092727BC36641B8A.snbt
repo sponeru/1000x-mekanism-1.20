@@ -230,6 +230,17 @@
 			x: -3.5d
 			y: 3.5d
 		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			id: "2FD5521EC0CFB8E9"
+			tasks: [{
+				id: "1AFF33C50ED87F3B"
+				item: "mbd2:mbd_gadgets"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
 	]
 	subtitle: ["{ftbquests.chapter.092727BC36641B8A.subtitle0}"]
 	title: "{ftbquests.chapter.092727BC36641B8A.title}"
