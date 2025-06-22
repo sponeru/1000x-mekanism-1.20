@@ -143,6 +143,8 @@
   "item.mek1000.teleporter": "Teleporter",
   "item.mek1000.flat_teleporter": "Flat Dimension Teleporter",
   "item.mek1000.void_teleporter": "Void Dimension Teleporter",
+  "mek1000.teleporter.desc": "§bRight-Click§e to Teleport!§r",
+  "mek1000.teleporter.register.desc": "§bRight-Click§e to register §aPosition§e!§r",
   "gas.mek1000.activated_redstone": "Activator Redstone Gas",
   "gas.mek1000.active_aqua_regia": "Activated Aqua Regia"
 }
