@@ -775,6 +775,39 @@
 			x: -6.5d
 			y: -4.5d
 		}
+		{
+			dependencies: ["4E1C88D7480C205E"]
+			id: "2CB5E1FC1C447B86"
+			tasks: [{
+				id: "422365CED42F52A4"
+				item: "mek1000:blank_teleporter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2CB5E1FC1C447B86"]
+			id: "4CD814B3D5FED15B"
+			tasks: [{
+				id: "2E2E210C10343805"
+				item: "mek1000:void_teleporter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2CB5E1FC1C447B86"]
+			id: "1225D560891AC861"
+			tasks: [{
+				id: "0B4D4C0711B0F277"
+				item: "mek1000:flat_teleporter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
 	]
 	subtitle: ["{ftbquests.chapter.1.subtitle0}"]
 	title: "{ftbquests.chapter.1.title}"
