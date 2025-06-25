@@ -89,7 +89,7 @@
 		#Whether vines can spread to other blocks. Cave vines, weeping vines, and twisting vines are not affected.
 		do_vines_spread = true
 		#Whether the weather can change naturally. The /weather command can still change weather.
-		do_weather_cycle = true
+		do_weather_cycle = false
 		#Whether new sources of lava are allowed to form.
 		lava_source_conversion = false
 		#How often a random block tick occurs (such as plant growth, leaf decay, etc.) per chunk section per game tick. 0 and negative values disables random ticks, higher numbers increase random ticks. Setting to a high integer results in high speeds of decay and growth. Numbers over 4096 make plant growth or leaf decay instantaneous.
