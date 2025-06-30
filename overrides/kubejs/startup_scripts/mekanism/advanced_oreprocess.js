@@ -5,27 +5,62 @@ function capitalizeFirstLetter(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
+let types = [
+  // ["name",0x color,langkey]
+  ["iron", 0xfafafa, Text.translate("mek1000.material.iron")],
+  ["copper", 0xdea924, Text.translate("mek1000.material.copper")],
+  ["gold", 0xfffb00, Text.translate("mek1000.material.gold")],
+  ["osmium", 0x63cedb, Text.translate("mek1000.material.osmium")],
+  ["tin", 0xddddea, Text.translate("mek1000.material.tin")],
+  ["lead", 0x63a2a4, Text.translate("mek1000.material.lead")],
+  ["uranium", 0x9cff9c, Text.translate("mek1000.material.uranium")],
+  ["iridium", 0xf3ff80, Text.translate("mek1000.material.iridium")],
+  ["redstone", 0xff2020, Text.translate("mek1000.material.redstone")],
+  ["quartz", 0xffc0b1, Text.translate("mek1000.material.quartz")],
+  ["certus_quartz", 0xb1c0ff, Text.translate("mek1000.material.certus_quartz")],
+  ["fluorite", 0xffb0ff, Text.translate("mek1000.material.fluorite")],
+  ["coal", 0x444444, Text.translate("mek1000.material.coal")],
+  ["lapis", 0x4444ff, Text.translate("mek1000.material.lapis")],
+  ["diamond", 0x33b1ff, Text.translate("mek1000.material.diamond")],
+  ["emerald", 0x33ff61, Text.translate("mek1000.material.emerald")],
+  ["debri", 0xa34f05, Text.translate("mek1000.material.debri")],
+];
+
+
+StartupEvents.registry("block", (event) => {
+  types.forEach((item) => { 
+    event
+      .create(`mek1000:block_dust_${item[0]}`)
+      .displayName(Text.translate("block.mek1000.dust.name", item[2]))
+      .soundType(SoundType.SAND)
+      .hardness(1.0)
+      .color(0, item[1])
+      .item((itemForm) => {
+        itemForm.color(0, item[1]);
+      })
+      .textureAll("mek1000:block/dust")
+      .tagBlock("minecraft:mineable/shovel")
+      .tagItem(`forge:storage_blocks/dust_${item[0]}`)
+      .requiresTool(true);
+    
+      event
+        .create(`mek1000:block_dirty_dust_${item[0]}`)
+        .displayName(Text.translate("block.mek1000.dirty_dust.name", item[2]))
+        .soundType(SoundType.SAND)
+        .hardness(1.0)
+        .color(0, item[1])
+        .item((itemForm) => {
+          itemForm.color(0, item[1]);
+        })
+        .textureAll("mek1000:block/dirty_dust")
+        .tagBlock("minecraft:mineable/shovel")
+        .tagItem(`forge:storage_blocks/dirty_dust_${item[0]}`)
+        .requiresTool(true);
+  })
+
+});
+
 StartupEvents.registry("item", (event) => {
-  let types = [
-    // ["name",0x color,langkey]
-    ["iron", 0xfafafa, Text.translate("mek1000.material.iron")],
-    ["copper", 0xdea924, Text.translate("mek1000.material.copper")],
-    ["gold", 0xfffb00, Text.translate("mek1000.material.gold")],
-    ["osmium", 0x63cedb, Text.translate("mek1000.material.osmium")],
-    ["tin", 0xddddea, Text.translate("mek1000.material.tin")],
-    ["lead", 0x63a2a4, Text.translate("mek1000.material.lead")],
-    ["uranium", 0x9cff9c, Text.translate("mek1000.material.uranium")],
-    ["iridium", 0xf3ff80, Text.translate("mek1000.material.iridium")],
-    ["redstone", 0xff2020, Text.translate("mek1000.material.redstone")],
-    ["quartz", 0xffc0b1, Text.translate("mek1000.material.quartz")],
-    ["certus_quartz",0xb1c0ff,Text.translate("mek1000.material.certus_quartz")],
-    ["fluorite", 0xffb0ff, Text.translate("mek1000.material.fluorite")],
-    ["coal", 0x444444, Text.translate("mek1000.material.coal")],
-    ["lapis", 0x4444ff, Text.translate("mek1000.material.lapis")],
-    ["diamond", 0x33b1ff, Text.translate("mek1000.material.diamond")],
-    ["emerald", 0x33ff61, Text.translate("mek1000.material.emerald")],
-    ["debri", 0xa34f05, Text.translate("mek1000.material.debri")],
-  ];
 
   types.forEach((item) => {
     event // 精製原石

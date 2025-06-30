@@ -37,6 +37,8 @@
   "item.mek1000.purified_rawore.name": "純化された%s鉱石",
   "item.mek1000.compressed_purified_rawore.name": "高密度な純化された%s鉱石",
   "item.mek1000.crystalized_rawore.name": "精密に結晶化された%s鉱石",
+  "block.mek1000.dust.name": "%sの粉ブロック",
+  "block.mek1000.dirty_dust.name": "汚れた%sの粉ブロック",
   "item.mek1000.purified_rawore.desc": "とても純粋",
   "item.mek1000.compressed_purified_rawore.desc": "まないたでModpackをぶっ壊そう。\nなおこれをエメラルドで増殖しないように。",
   "item.mek1000.crystalized_rawore.desc": "最後の強化",
@@ -155,5 +157,7 @@
   "mek1000.teleporter.desc": "§b右クリック§eでテレポート！§r",
   "mek1000.teleporter.register.desc": "§b右クリック§eで§a位置§eを登録！§r",
   "gas.mek1000.activated_redstone": "活性化レッドストーンガス",
-  "gas.mek1000.active_aqua_regia": "王水"
+  "gas.mek1000.active_aqua_regia": "王水",
+  "mek1000.guide_name": "桁違いなガイド本",
+  "mek1000.guide_desc": "完璧で究極な工場を建築するために(JP Only)"
 }

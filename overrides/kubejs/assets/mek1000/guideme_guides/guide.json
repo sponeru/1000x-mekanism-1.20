@@ -1,0 +1,17 @@
+{
+  "default_language": "ja_jp",
+  "item_settings": {
+    "display_name": {
+      "type": "translatable",
+      "translate": "mek1000.guide_name"
+    },
+    "tooltip_lines": [
+      {
+        "type": "translatable",
+        "translate": "mek1000.guide_desc",
+        "color": "yellow"
+      }
+    ],
+    "model": "mek1000:item/guide"
+  }
+}

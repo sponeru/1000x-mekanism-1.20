@@ -37,6 +37,8 @@
   "item.mek1000.purified_rawore.name": "Purified %s Ore",
   "item.mek1000.compressed_purified_rawore.name": "Compressed Purified %s Ore",
   "item.mek1000.crystalized_rawore.name": "Delicately Crystalized %s Ore",
+  "block.mek1000.dust.name": "%s Dust Block",
+  "block.mek1000.dirty_dust.name": "Dirty %s Dust Block",
   "item.mek1000.purified_rawore.desc": "So pure.",
   "item.mek1000.compressed_purified_rawore.desc": "He says Emerald Cutting Board is enough to break modpack, right?",
   "item.mek1000.crystalized_rawore.desc": "The final upgrade.",
@@ -146,5 +148,7 @@
   "mek1000.teleporter.desc": "§bRight-Click§e to Teleport!§r",
   "mek1000.teleporter.register.desc": "§bRight-Click§e to register §aPosition§e!§r",
   "gas.mek1000.activated_redstone": "Activator Redstone Gas",
-  "gas.mek1000.active_aqua_regia": "Activated Aqua Regia"
+  "gas.mek1000.active_aqua_regia": "Activated Aqua Regia",
+  "mek1000.guide_name": "Extraordinary Guidebook",
+  "mek1000.guide_desc": "To build the perfect, ultimate factory (JP Only)"
 }

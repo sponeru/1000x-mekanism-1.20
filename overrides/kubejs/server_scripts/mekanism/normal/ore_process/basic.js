@@ -11,12 +11,18 @@ ServerEvents.recipes(event => {
 
         event.recipes.mekanism.purifying(`2x mekanism:clump_${id}`, `mekanism:shard_${id}`, '1x mekanism:oxygen')
         event.recipes.mekanism.purifying(`2x mek1000:compressed_${id}_clump`, `mek1000:compressed_${id}_shard`, '9x mekanism:oxygen')
-        event.custom(
-            {
-                "type": "mekanism:crushing",
-                "input": { "ingredient": { "count": 1, "item": `mek1000:compressed_${id}_clump` } },
-                "output": { "count": 9, "item": `mekanism:dirty_dust_${id}` }
-            })
+        event.custom({
+          type: "mekanism:crushing",
+          input: {
+            ingredient: { count: 1, item: `mek1000:compressed_${id}_clump` },
+          },
+          output: { count: 1, item: `mek1000:block_dirty_dust_${id}` },
+        });
+
+        event.recipes.mekanism.enriching(
+          `mek1000:block_dust_${id}`,
+          `mek1000:block_dirty_dust_${id}`
+        );
 
         for (let i = 0; i <= 3; i++) {
             switch (i) {
@@ -97,10 +103,32 @@ ServerEvents.recipes(event => {
         event.custom({ type: "mekanism:injecting", itemInput: { "ingredient": { "item": `mek1000:compressed_${type}_crystal` } }, "chemicalInput": { "amount": 9, "gas": "mekanism:hydrogen_chloride" }, "output": { "item": `mek1000:compressed_${type}_shard` } })
     })
     event.recipes.mekanism.purifying(`2x mek1000:compressed_iridium_clump`, `mek1000:compressed_iridium_shard`, '9x mekanism:oxygen')
-    event.custom({ "type": "mekanism:crushing", "input": { "ingredient": { "count": 1, "item": `mek1000:compressed_iridium_clump` } }, "output": { "count": 9, "item": `kubejs:dirty_dust_iridium` } })
+    event.custom({
+      type: "mekanism:crushing",
+      input: {
+        ingredient: { count: 1, item: `mek1000:compressed_iridium_clump` },
+      },
+      output: { count: 1, item: `mek1000:block_dirty_dust_iridium` },
+    });
+
+    event.recipes.mekanism.enriching(
+      "mek1000:block_dust_iridium",
+      "mek1000:block_dirty_dust_iridium"
+    );
 
     event.recipes.mekanism.purifying(`2x mek1000:compressed_debri_clump`, `mek1000:compressed_debri_shard`, '9x mekanism:oxygen')
-    event.custom({ "type": "mekanism:crushing", "input": { "ingredient": { "count": 1, "item": `mek1000:compressed_debri_clump` } }, "output": { "count": 9, "item": `kubejs:dirty_dust_debri` } })
+    event.custom({
+      type: "mekanism:crushing",
+      input: {
+        ingredient: { count: 1, item: `mek1000:compressed_debri_clump` },
+      },
+      output: { count: 1, item: `mek1000:block_dirty_dust_debri` },
+    });
+
+    event.recipes.mekanism.enriching(
+      "mek1000:block_dust_debri",
+      "mek1000:block_dirty_dust_debri"
+    );
 
     let tag = `#forge:ores/certus_quartz`
     event.recipes.mekanism.enriching(`6x ae2:certus_quartz_crystal`, `mek1000:softore_certus_quartz`) //2.5
