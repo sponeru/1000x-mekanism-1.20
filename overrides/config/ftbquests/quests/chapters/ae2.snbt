@@ -15,8 +15,7 @@
 			id: "092854B5937D5094"
 			optional: true
 			rewards: [{
-				command: "/ae2 channelmode infinite"
-				elevate_perms: true
+				command: "/infchannel"
 				id: "7F028A45FE41565D"
 				type: "command"
 			}]
@@ -35,7 +34,7 @@
 			id: "019118B4B2406698"
 			optional: true
 			rewards: [{
-				command: "/ae2 channelmode default"
+				command: "/defchannel"
 				elevate_perms: true
 				id: "4FB4BDDB6598785B"
 				type: "command"
