@@ -31,6 +31,16 @@ let DustSmelting = [
   ["mek1000:block_dust_debri", "minecraft:netherite_scrap"],
 ];
 
+let RawBlockSmelting = [
+  ["minecraft:raw_iron_block", "minecraft:iron_block"],
+  ["minecraft:raw_gold_block", "minecraft:gold_block"],
+  ["mekanism:block_raw_osmium", "mekanism:block_osmium"],
+  ["minecraft:raw_copper_block", "minecraft:copper_block"],
+  ["mekanism:block_raw_tin", "mekanism:block_tin"],
+  ["mekanism:block_raw_lead", "mekanism:block_lead"],
+  ["mekanism:block_raw_uranium", "mekanism:block_uranium"],
+];
+
 ServerEvents.recipes(event => {
     DustBlocks.forEach(item => {
         event.shaped(item[0], ["AAA", "AAA", "AAA"], { A: item[1] })
@@ -41,4 +51,9 @@ ServerEvents.recipes(event => {
         event.smelting(Item.of(item[1], 9), item[0]).cookingTime(800);
         event.blasting(Item.of(item[1], 9), item[0]).cookingTime(400);
     })
+
+    RawBlockSmelting.forEach((item) => {
+      event.smelting(Item.of(item[1], 1), item[0]).cookingTime(800);
+      event.blasting(Item.of(item[1], 1), item[0]).cookingTime(400);
+    });
 })
