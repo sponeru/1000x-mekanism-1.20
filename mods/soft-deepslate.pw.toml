@@ -1,0 +1,13 @@
+name = "Soft Deepslate"
+filename = "softdeepslate-forge-mc1.20.1-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "da4cece867cd66cb551808b948933e807421ffeb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5540084
+project-id = 1030021

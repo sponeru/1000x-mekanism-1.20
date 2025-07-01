@@ -1,0 +1,13 @@
+name = "Disable Structures"
+filename = "DisableStructures-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "42dbffc537d1205cff9f76ecbf97c727e4e26248"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5539220
+project-id = 693923

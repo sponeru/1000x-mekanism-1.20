@@ -1,0 +1,13 @@
+name = "extraordinary_energy_modern"
+author = "Sponeru"
+version = "1.0.7"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "24bf2e6f6e9baa8ae90a2a1d63f0d62ae82e9a87531f5208c051773549d676ec"
+
+[versions]
+forge = "47.4.0"
+minecraft = "1.20.1"

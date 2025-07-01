@@ -1,0 +1,13 @@
+name = "Dynamic FPS"
+filename = "dynamic-fps-3.9.4+minecraft-1.20.0-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8abb7fd84ccd0647f672dc7315e428f1873d8f2d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6501903
+project-id = 335493

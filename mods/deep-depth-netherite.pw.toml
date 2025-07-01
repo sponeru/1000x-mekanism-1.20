@@ -1,0 +1,13 @@
+name = "Deep Depth Netherite"
+filename = "deepdepthnetherite-1.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7d04c6b772db361dd35f493631043648fa8794ab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6183783
+project-id = 1198691

@@ -1,0 +1,13 @@
+name = "Mekanism Advanced Generators"
+filename = "MekanismAdvancedGenerators-1.20.1-2.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5e217b7e6e87de9eb36383688121a9e53fddebf1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6431429
+project-id = 844063

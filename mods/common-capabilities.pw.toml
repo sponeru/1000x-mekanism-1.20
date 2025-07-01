@@ -1,0 +1,13 @@
+name = "Common Capabilities"
+filename = "CommonCapabilities-1.20.1-2.9.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c70ac8726ca044645d2d3638622cb09ca3c17715"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6514954
+project-id = 247007

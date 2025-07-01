@@ -1,0 +1,13 @@
+name = "Dense Ores - Abundant!"
+filename = "denseores-1.20.1-1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ccdf015a46f5efd5cb807a6e92685dc89f2ba693"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4993069
+project-id = 729297

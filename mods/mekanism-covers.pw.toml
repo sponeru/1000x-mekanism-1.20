@@ -1,0 +1,13 @@
+name = "Mekanism Covers"
+filename = "mekanismcovers-1.3-BETA+1.20.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "797a35ae6dd408ac8c4c429b1cd03f5b2a359b0e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6071725
+project-id = 1119874
