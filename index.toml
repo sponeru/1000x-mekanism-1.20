@@ -4016,6 +4016,11 @@ hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
 metafile = true
 
 [[files]]
+file = "mods/mru.pw.toml"
+hash = "9adb961d42928ca5f873586b6595d028dd35ff3226807d8ab41e574c68d501c7"
+metafile = true
+
+[[files]]
 file = "mods/multiblocked2.pw.toml"
 hash = "b1cb1ecd16cda663a3b72e543efae88a91d14d5ec4e763a7f76a7d552efda6ff"
 metafile = true
@@ -4123,6 +4128,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "27efd1f344b3aac24c30624c46d935fe1906983d7e6479def2bfdabc158c2d0d"
+metafile = true
+
+[[files]]
+file = "mods/sound.pw.toml"
+hash = "3fff9456c0ef97caab6584a10517f20822e138b627da4b26c8c46e6330d7e7cd"
 metafile = true
 
 [[files]]
