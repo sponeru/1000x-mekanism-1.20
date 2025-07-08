@@ -3661,6 +3661,11 @@ hash = "a1575677daaaf6ea6dac12e5a10073e34025e5ca2c35b6d36ad4a5a0edbc0e82"
 metafile = true
 
 [[files]]
+file = "mods/entangled.pw.toml"
+hash = "07f4675d7bbf74292ba194982c1884578b65873929697fdcbd1ab908027e27e4"
+metafile = true
+
+[[files]]
 file = "mods/ex-deorum.pw.toml"
 hash = "c70b8cc108006966a59d751f28d926add4b1cfb32d283a23e8eee23efa20f284"
 metafile = true
@@ -3888,6 +3893,11 @@ metafile = true
 [[files]]
 file = "mods/journeymap.pw.toml"
 hash = "664a573384edf644e9b788c7c29fe32593917ac8283bb794cc46b471a0a6504a"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-mekanism-multiblocks.pw.toml"
+hash = "60776b0996f7fa66305b9d6143c13b4adf5aebaf31fd3be19863d8964d12c23f"
 metafile = true
 
 [[files]]
@@ -4133,6 +4143,16 @@ metafile = true
 [[files]]
 file = "mods/sound.pw.toml"
 hash = "3fff9456c0ef97caab6584a10517f20822e138b627da4b26c8c46e6330d7e7cd"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "3eede8a7ebafb69840153ff51dbc879b0232799e90a834ab6d71274b1316179f"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "4ddff1daf862f7e481a6c30c4cbb4bb32165f2c73cefc908dbf62b18f0d46a56"
 metafile = true
 
 [[files]]
