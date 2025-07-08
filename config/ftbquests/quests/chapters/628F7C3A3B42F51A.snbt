@@ -49,6 +49,7 @@
 			y: -3.0d
 		}
 		{
+			description: ["{ftbquests.chapter.628F7C3A3B42F51A.quest3.description1}"]
 			id: "58D19A0956CF8EDC"
 			rewards: [{
 				auto: "invisible"

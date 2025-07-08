@@ -3836,6 +3836,11 @@ hash = "270520ae1f0be7d376a89dbc08298e80adbe126e73b135f69a3a2f0c8ed68b3d"
 metafile = true
 
 [[files]]
+file = "mods/immersive-ui.pw.toml"
+hash = "2caf631ee176d7d1134a654b8d1512fb37d7e789519925793b2e5c1428b318f7"
+metafile = true
+
+[[files]]
 file = "mods/integrated-dynamics.pw.toml"
 hash = "facbfc4791eb14f9f8b3112195d91e6a04ed1b7e36643811d1e2b776e56df384"
 metafile = true
