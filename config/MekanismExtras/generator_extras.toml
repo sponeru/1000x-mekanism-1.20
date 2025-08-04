@@ -19,10 +19,10 @@
 	#Range: 2 ~ 1000000
 	fuelCapacity = 1000
 	#Amount of energy (J) the naquadah reactor can store.
-	energyCapacity = "10000000000000"
+	energyCapacity = "9223372036854775807"
 	#Amount of water (mB) per injection rate that the naquadah reactor can store. Max = injectionRate * waterPerInjection
 	#Range: 1 ~ 21913098
-	waterPerInjection = 100000
+	waterPerInjection = 21913098
 	#Amount of polonium (mB) per injection rate that the naquadah reactor can store. Max = injectionRate * poloniumPerInjection
 	#Range: 1 ~ 94116041192395671
 	poloniumPerInjection = 94116041192395671
