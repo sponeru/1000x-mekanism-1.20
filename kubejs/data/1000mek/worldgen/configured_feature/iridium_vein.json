@@ -15,7 +15,7 @@
             },
             {
                 "state": {
-                    "Name": "kubejs:ore_iridium"
+                    "Name": "kubejs:ore_iridium_deepslate"
                 },
                 "target": {
                     "predicate_type": "minecraft:tag_match",

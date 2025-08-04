@@ -15,7 +15,7 @@
             },
             {
                 "state": {
-                    "Name": "kubejs:dense_ore_quartz"
+                    "Name": "kubejs:dense_ore_quartz_deepslate"
                 },
                 "target": {
                     "predicate_type": "minecraft:tag_match",

@@ -80,4 +80,33 @@ StartupEvents.registry("block", (event) => {
     .tagBlock("minecraft:mineable/pickaxe")
     .tagBlock("forge:mineable/paxel")
     .requiresTool(true);
+
+  event
+    .create("ore_iridium_deepslate")
+    .soundType(SoundType.DEEPSLATE)
+    .tagBlock("minecraft:mineable/pickaxe")
+    .tagBlock("forge:mineable/paxel")
+    .requiresTool(true)
+    .tag("forge:ores/iridium");
+
+  event
+    .create("dense_ore_iridium_deepslate")
+    .soundType(SoundType.DEEPSLATE)
+    .tagBlock("minecraft:mineable/pickaxe")
+    .tagBlock("forge:mineable/paxel")
+    .requiresTool(true);
+
+  event
+    .create("ore_quartz_deepslate")
+    .soundType(SoundType.DEEPSLATE)
+    .tagBlock("minecraft:mineable/pickaxe")
+    .tagBlock("forge:mineable/paxel")
+    .requiresTool(true);
+
+  event
+    .create("dense_ore_quartz_deepslate")
+    .soundType(SoundType.DEEPSLATE)
+    .tagBlock("minecraft:mineable/pickaxe")
+    .tagBlock("forge:mineable/paxel")
+    .requiresTool(true);
 });

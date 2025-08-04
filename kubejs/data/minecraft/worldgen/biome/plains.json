@@ -120,8 +120,8 @@
       },
       {
         "type": "minecraft:cow",
-        "maxCount": 20,
-        "minCount": 20,
+        "maxCount": 4,
+        "minCount": 4,
         "weight": 12
       },
       {

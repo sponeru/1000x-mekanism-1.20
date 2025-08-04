@@ -6,7 +6,7 @@
         "targets": [
             {
                 "state": {
-                    "Name": "overworld_quartz:overworld_quartz_ore"
+                    "Name": "kubejs:ore_quartz"
                 },
                 "target": {
                     "predicate_type": "minecraft:tag_match",
@@ -15,7 +15,7 @@
             },
             {
                 "state": {
-                    "Name": "overworld_quartz:deepslate_quartz_ore"
+                    "Name": "kubejs:ore_quartz_deepslate"
                 },
                 "target": {
                     "predicate_type": "minecraft:tag_match",
