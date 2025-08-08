@@ -15,7 +15,7 @@
             },
             {
                 "state": {
-                    "Name": "deepdepthnetherite:deepslate_netherite_ore"
+                    "Name": "kubejs:ore_debri_deepslate"
                 },
                 "target": {
                     "predicate_type": "minecraft:tag_match",

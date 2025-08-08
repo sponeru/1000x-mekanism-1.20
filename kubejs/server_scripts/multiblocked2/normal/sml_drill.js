@@ -1,5 +1,22 @@
 ServerEvents.recipes((event) => {
-    let sml_s_ores = ['minecraft:coal_ore', 'minecraft:iron_ore', 'minecraft:copper_ore', 'minecraft:gold_ore', 'minecraft:redstone_ore', 'minecraft:emerald_ore', 'minecraft:lapis_ore', 'minecraft:diamond_ore', 'kubejs:ore_quartz', 'deepdepthnetherite:deepslate_netherite_ore', 'mekanism:tin_ore', 'mekanism:osmium_ore', 'mekanism:uranium_ore', 'mekanism:fluorite_ore', 'mekanism:lead_ore', 'kubejs:ore_iridium']
+    let sml_s_ores = [
+      "minecraft:coal_ore",
+      "minecraft:iron_ore",
+      "minecraft:copper_ore",
+      "minecraft:gold_ore",
+      "minecraft:redstone_ore",
+      "minecraft:emerald_ore",
+      "minecraft:lapis_ore",
+      "minecraft:diamond_ore",
+      "kubejs:ore_quartz",
+      "kubejs:ore_debri_deepslate",
+      "mekanism:tin_ore",
+      "mekanism:osmium_ore",
+      "mekanism:uranium_ore",
+      "mekanism:fluorite_ore",
+      "mekanism:lead_ore",
+      "kubejs:ore_iridium",
+    ];
 
     event.recipes.mek1000.sml_drill()
         .id("mek1000:sml_drilling_s")
@@ -296,7 +313,7 @@ ServerEvents.recipes((event) => {
           .duration(20 * 1)
           .perTick((builder) => builder.inputFE(2147483647))
           .chance(0, (builder) => builder.inputItems("mekanism:laser"))
-          .inputItems("mek1000:emc", 'deepdepthnetherite:deepslate_netherite_ore')
-          .outputItems("1024x deepdepthnetherite:deepslate_netherite_ore")
+          .inputItems("mek1000:emc", "kubejs:ore_debri_deepslate")
+          .outputItems("1024x kubejs:ore_debri_deepslate");
 
 })

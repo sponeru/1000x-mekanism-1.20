@@ -64,6 +64,7 @@
   "block.kubejs.ore_quartz_deepslate": "Deepslate Quartz Ore",
   "block.kubejs.dense_ore_iridium_deepslate": "Dense Deepslate Iridium Ore",
   "block.kubejs.dense_ore_quartz_deepslate": "Dense Deepslate Quartz Ore",
+  "block.kubejs.ore_debri_deepslate" : "Deepslate Ancient Debri Ore",
   "item.kubejs.iridium": "Iridium",
   "item.kubejs.crystal_iridium": "Iridium Crystal",
   "item.kubejs.shard_iridium": "Iridium Shard",

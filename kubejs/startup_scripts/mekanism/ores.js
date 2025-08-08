@@ -109,4 +109,12 @@ StartupEvents.registry("block", (event) => {
     .tagBlock("minecraft:mineable/pickaxe")
     .tagBlock("forge:mineable/paxel")
     .requiresTool(true);
+
+  event
+    .create("ore_debri_deepslate")
+    .soundType(SoundType.DEEPSLATE)
+    .tagBlock("minecraft:mineable/pickaxe")
+    .tagBlock("forge:mineable/paxel")
+    .requiresTool(true)
+    .tag("forge:ores/debri");
 });
