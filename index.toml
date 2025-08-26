@@ -3692,11 +3692,6 @@ hash = "b610ff9e3d52e3fdf8541b3a5f8cad4f51cad3be89134707eaba98434f6bf703"
 metafile = true
 
 [[files]]
-file = "mods/deep-depth-netherite.pw.toml"
-hash = "dcf65d7957c1db21aed9141e4f7e687cdc515b3663e4e982a23c871a83879940"
-metafile = true
-
-[[files]]
 file = "mods/dense-mekanism.pw.toml"
 hash = "6de48070c340d835b6adead8d3e56cc7287fa40ba8afe6246306a3965e20811b"
 metafile = true
@@ -3962,11 +3957,6 @@ hash = "aba5a3408880f30daf3442ff6d0a640e9a78e578d9f0c3a3be175ca12dbc3167"
 metafile = true
 
 [[files]]
-file = "mods/javd.pw.toml"
-hash = "3452c3d4cc9cb17ae96759c799857c742c48e2e53b9b7dd38c190c8b804b95eb"
-metafile = true
-
-[[files]]
 file = "mods/jei.pw.toml"
 hash = "5f7c3cf35124bf96e880cc8562fc44ac15990a89b07db299aed9a88ce3752cb1"
 metafile = true
@@ -4144,11 +4134,6 @@ metafile = true
 [[files]]
 file = "mods/openblocks-elevator.pw.toml"
 hash = "9d66478fde6c978312f93734d481bcb9ae9c49b74cb4538fce58c65ef15d593c"
-metafile = true
-
-[[files]]
-file = "mods/overworld-quartz-forge.pw.toml"
-hash = "1aa4f07bd277ea61ff3834bb63d0272721a7127c10de2bd3380f8a644442dbaa"
 metafile = true
 
 [[files]]

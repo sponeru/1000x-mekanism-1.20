@@ -485,7 +485,7 @@ ServerEvents.recipes((event) => {
     )
     .slotName("s5", (builder) =>
       builder.inputItems(
-        "64x mekanismadvancedgenerators:big_photonic_solar_generator"
+        "64x solarpanels:photonic_solar_panel"
       )
     )
     .slotName("s6", (builder) =>
