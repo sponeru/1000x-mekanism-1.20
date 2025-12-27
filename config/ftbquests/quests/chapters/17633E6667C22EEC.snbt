@@ -147,13 +147,13 @@
 			rewards: [{
 				count: 15
 				id: "5B21AFA226C46B52"
-				item: "cookingforblockheads:sink"
+				item: "mwgr:water_generator"
 				type: "item"
 			}]
 			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest9.subtitle}"
 			tasks: [{
-				id: "37C3DA361C0EE141"
-				item: "cookingforblockheads:sink"
+				id: "52C10BFAB8DABE2B"
+				item: "mwgr:water_generator"
 				type: "item"
 			}]
 			x: -3.5d

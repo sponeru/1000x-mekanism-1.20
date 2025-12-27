@@ -789,6 +789,7 @@
 		{
 			dependencies: ["2CB5E1FC1C447B86"]
 			id: "4CD814B3D5FED15B"
+			subtitle: "足元注意"
 			tasks: [{
 				id: "2E2E210C10343805"
 				item: "mek1000:void_teleporter"
@@ -806,6 +807,25 @@
 				type: "item"
 			}]
 			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"503CF531934055CD"
+				"13697F0024B3E315"
+			]
+			id: "2975555D5450CD77"
+			rewards: [{
+				id: "33648B966ECE858B"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5206DEF45819C763"
+				item: "mekmm:cnc_stamper"
+				type: "item"
+			}]
+			x: -4.5d
 			y: -2.5d
 		}
 	]
