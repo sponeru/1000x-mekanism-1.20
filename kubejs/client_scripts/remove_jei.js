@@ -6,6 +6,8 @@ JEIEvents.hideItems(event => {
         event.hide(item)
     })
 
+    event.hide('hyperdaimc:materializer')
+    
     event.hide('expatternprovider:fishbig')
     event.hide(Item.of('ae2:facade', '{item:"expatternprovider:fishbig"}'))
 })
