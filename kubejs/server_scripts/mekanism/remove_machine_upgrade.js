@@ -10,9 +10,10 @@ ServerEvents.recipes(event => {
             event.remove({ id: `mekanism_extras:factory/infinite/${id}` })
     })
 
-    var mmlist = ['planting', 'recycling', 'stamping', 'lathing', 'rolling_mill', 'replicating']
+    var allmmlist = ['planting', 'recycling', 'stamping', 'lathing', 'rolling_mill', 'replicating']
+    var mmlist = ['planting', 'recycling', 'stamping']
 
-    mmlist.forEach((id)=>{
+    allmmlist.forEach((id)=>{
             event.remove({ id: `mekmm:factory/basic/${id}` }),
             event.remove({ id: `mekmm:factory/advanced/${id}` }),
             event.remove({ id: `mekmm:factory/elite/${id}` }),
@@ -34,10 +35,6 @@ ServerEvents.recipes(event => {
         ["centrifuging",'mekanism:isotopic_centrifuge'],
         ["liquifying",'mekanism:nutritional_liquifier']        
         ])
-
-    //lathing
-    //replicating
-    //rolling_mill
 
     advMachineList.forEach((id)=>{
             event.remove({ id: `mekmm:factory/basic/${id}` }),

@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
             "gas": "mek1000:saltless_dried_soysouce"
         },
         "output": {
-            "gas": "mekanism_extras:silicon_uranium_fuel",
+            "gas": "mekanism_extras:naquadah_uranium_fuel",
             "amount": 10000
         }
     })

@@ -251,6 +251,24 @@
 			x: -0.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["68335D23BF84FEE3"]
+			id: "634F9F87DFF73DD4"
+			subtitle: "光あれ"
+			tasks: [{
+				id: "14197110D93989B2"
+				item: {
+					Count: 1
+					id: "lightingwand:wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
 	]
 	subtitle: ["{ftbquests.chapter.17633E6667C22EEC.subtitle0}"]
 	title: "{ftbquests.chapter.17633E6667C22EEC.title}"

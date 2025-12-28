@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5"
+	group: "29F87984A1A84EBA"
+	icon: "hyperdaimc:muteki"
+	id: "008633818E24C63E"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "チャプター5"
+}
