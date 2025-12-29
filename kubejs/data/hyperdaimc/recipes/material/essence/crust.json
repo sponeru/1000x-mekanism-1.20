@@ -1,0 +1,28 @@
+{
+  "type": "hyperdaimc:shapeless_desk",
+  "result": {
+    "item": "hyperdaimc:crust_essence"
+  },
+  "values": [
+    "hyperdaimc:bug_star",
+    "mekanismelements:light_gray_high_quality_concrete",
+    "mekanismelements:gray_high_quality_concrete",
+    "mekanismelements:light_blue_high_quality_concrete",
+    "mekanismelements:lime_high_quality_concrete",
+    "mekanismelements:red_high_quality_concrete",
+    "mekanismelements:magenta_high_quality_concrete",
+    "mekanismelements:yellow_high_quality_concrete",
+    "mekanismelements:white_high_quality_concrete",
+    "mekanismelements:brown_high_quality_concrete",
+    "mekanismelements:pink_high_quality_concrete",
+    "mekanismelements:high_quality_concrete",
+    "mekanismelements:aqua_high_quality_concrete",
+    "mekanismelements:black_high_quality_concrete",
+    "mekanismelements:blue_high_quality_concrete",
+    "mekanismelements:green_high_quality_concrete",
+    "mekanismelements:cyan_high_quality_concrete",
+    "mekanismelements:dark_red_high_quality_concrete",
+    "mekanismelements:purple_high_quality_concrete",
+    "mekanismelements:orange_high_quality_concrete"
+  ]
+}

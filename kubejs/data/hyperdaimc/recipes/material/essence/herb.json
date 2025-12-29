@@ -1,0 +1,27 @@
+{
+  "type": "hyperdaimc:shapeless_desk",
+  "result": {
+    "item": "hyperdaimc:herb_essence"
+  },
+  "values": [
+    "hyperdaimc:bug_star",
+    "minecraft:melon",
+    "minecraft:glow_berries",
+    "minecraft:cactus",
+    "minecraft:sugar_cane",
+    "minecraft:wheat_seeds",
+    "minecraft:cocoa_beans",
+    "minecraft:pumpkin_seeds",
+    "minecraft:melon_seeds",
+    "minecraft:beetroot_seeds",
+    "minecraft:torchflower_seeds",
+    "minecraft:pitcher_pod",
+    "minecraft:melon",
+    "minecraft:pumpkin",
+    "minecraft:hay_block",
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
+    "minecraft:cactus",
+    "minecraft:sugar_cane"
+  ]
+}
