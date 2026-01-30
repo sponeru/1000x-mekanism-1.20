@@ -76,13 +76,9 @@ ServerEvents.recipes((event) => {
         .chance(0, builder => builder
             .inputItems('mekanism:laser')
         )
-        .inputItems('mek1000:emc', 'ae2:flawless_budding_quartz')
-        .outputItems('1024x ae2:quartz_cluster')
-        .outputItems('1024x ae2:quartz_cluster')
-        .outputItems('1024x ae2:quartz_cluster')
-        .chance(0.1, builder => builder
-            .outputItems('8192x ae2:quartz_cluster')
-        )
+        .inputItems('mek1000:emc', 'kubejs:ore_certus_quartz')
+        .outputItems('1024x kubejs:ore_certus_quartz')
+        .outputItems('1024x kubejs:dense_ore_certus_quartz')
 
     event.recipes.mek1000.sml_drill()
         .id("mek1000:sml_drilling_l3")

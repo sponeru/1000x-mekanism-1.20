@@ -37,16 +37,16 @@ ServerEvents.recipes((event) => {
       });
     } else if (ore_type == "certus_quartz") {
       event.recipes.mekanism.enriching(
-        `${Math.floor(multiplier * 6)}x minecraft:redstone`,
+        `${Math.floor(multiplier * 6)}x mek1000:crystal_certus_quartz`,
         input_item
       ); //2
       event.recipes.mekanism.purifying(
-        `${Math.floor(multiplier * 4)}x mek1000:softore_redstone`,
+        `${Math.floor(multiplier * 4)}x mek1000:softore_certus_quartz`,
         input_item,
         "1x mekanism:oxygen"
       ); //3
       event.recipes.mekanism.injecting(
-        `${Math.floor(multiplier * 8)}x mek1000:extructed_redstone`,
+        `${Math.floor(multiplier * 8)}x mek1000:extructed_certus_quartz`,
         input_item,
         "1x mekanism:hydrogen_chloride"
       ); //4
@@ -59,7 +59,7 @@ ServerEvents.recipes((event) => {
           gas: "mekanism:sulfuric_acid",
         },
         output: {
-          slurry: "mek1000:dirty_redstone",
+          slurry: "mek1000:dirty_certus_quartz",
           amount: Math.floor(multiplier * 125) * 20,
           chemicalType: "slurry",
         },
@@ -313,6 +313,8 @@ ServerEvents.recipes((event) => {
   appendix_extreme("denseores:dense_deepslate_lapis_ore", "lapis_lazuli", 4);
   appendix_extreme("denseores:dense_redstone_ore", "redstone", 4);
   appendix_extreme("denseores:dense_deepslate_redstone_ore", "redstone", 4);
+  appendix_extreme('kubejs:dense_ore_certus_quartz', "certus_quartz", 4);
+  appendix_extreme('kubejs:dense_ore_certus_quartz_deepslate', "certus_quartz", 4);
   appendix_extreme("kubejs:dense_ore_quartz", "quartz", 4);
   appendix_extreme("densemekanism:dense_osmium_ore", "osmium", 4);
   appendix_extreme("densemekanism:dense_deepslate_osmium_ore", "osmium", 4);

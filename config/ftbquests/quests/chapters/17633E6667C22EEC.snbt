@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "17633E6667C22EEC"
 	group: "7955F24567DE4319"
+	hide_quest_until_deps_complete: true
 	id: "17633E6667C22EEC"
 	order_index: 3
 	quest_links: [ ]
@@ -239,19 +240,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["016780D32B1ABC49"]
-			description: ["{ftbquests.chapter.17633E6667C22EEC.quest12.description1}"]
-			id: "69954DAF8A2C3BF0"
-			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest12.subtitle}"
-			tasks: [{
-				id: "59FD9B6DFEF8296E"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -2.0d
-		}
-		{
 			dependencies: ["68335D23BF84FEE3"]
 			id: "634F9F87DFF73DD4"
 			subtitle: "光あれ"
@@ -267,6 +255,40 @@
 				type: "item"
 			}]
 			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			id: "66749D40CCB801F9"
+			rewards: [{
+				id: "693D8464C66F0D56"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "g_abun:absolutelyunbreakable"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E6A85C7F28454B6"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "g_abun:absolutelyunbreakable"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
 			y: -2.0d
 		}
 	]

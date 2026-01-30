@@ -1,0 +1,59 @@
+{
+    "type": "hyperdaimc:shaped_desk",
+    "pattern": [
+        "         ",
+        " AAAAAAA ",
+        " ASM2MSA ",
+        " AMTUEMA ",
+        " A1C?C3A ",
+        " AMEPTMA ",
+        " ASM4MSA ",
+        " AAAAAAA ",
+        "         "
+    ],
+    "key": {
+        "?": {
+            "item": "hyperdaimc:game_orb"
+        },
+        "A": {
+            "item": "evolvedmekanism:block_alloy_creative"
+        },
+        "S": {
+            "item": "astral_mekanism:spacetime_modulation_core"
+        },
+        "M": {
+            "item": "functionalstorage:max_storage_upgrade"
+        },
+        "1": {
+            "item": "hyperdaimc:muteki"
+        },
+        "2": {
+            "item": "hyperdaimc:novel"
+        },
+        "3": {
+            "item": "hyperdaimc:paradox"
+        },
+        "4": {
+            "item": "hyperdaimc:chronicle"
+        },
+        "C": {
+            "item": "advanced_ae:quantum_storage_256"
+        },
+        "T": {
+            "item": "advanced_ae:quantum_multi_threader"
+        },
+        "E": {
+            "item": "advanced_ae:data_entangler"
+        },
+        "U": {
+            "item": "expandedae:exp_crafting_accelerator_1m"
+        },
+        "P": {
+            "item": "megacells:256m_crafting_storage"
+        }
+    },
+    "result": {
+        "item": "hyperdaimc:vrx"
+    },
+    "minecraft": true
+}

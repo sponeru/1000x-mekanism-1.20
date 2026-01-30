@@ -1,6 +1,9 @@
 ServerEvents.recipes(event => {
     let removeItem = ['exdeorum:mechanical_hammer', 'exdeorum:mechanical_sieve', 'exdeorum:end_cake']
 
+    let removeItem2 = ['exdeorum:stone_barrel', 'exdeorum:oak_sieve', 'exdeorum:spruce_sieve', 'exdeorum:birch_sieve', 'exdeorum:jungle_sieve', 'exdeorum:acacia_sieve', 'exdeorum:dark_oak_sieve', 'exdeorum:mangrove_sieve', 'exdeorum:cherry_sieve', 'exdeorum:bamboo_sieve', 'exdeorum:crimson_sieve', 'exdeorum:warped_sieve', 'exdeorum:oak_compressed_sieve', 'exdeorum:spruce_compressed_sieve', 'exdeorum:birch_compressed_sieve', 'exdeorum:jungle_compressed_sieve', 'exdeorum:acacia_compressed_sieve', 'exdeorum:dark_oak_compressed_sieve', 'exdeorum:mangrove_compressed_sieve', 'exdeorum:cherry_compressed_sieve', 'exdeorum:bamboo_compressed_sieve', 'exdeorum:warped_compressed_sieve', 'exdeorum:crimson_compressed_sieve']
+    let removeItem3 = ['exdeorum:unfired_porcelain_crucible', 'exdeorum:warped_crucible', 'exdeorum:crimson_crucible', 'exdeorum:spruce_crucible', 'exdeorum:birch_crucible', 'exdeorum:jungle_crucible', 'exdeorum:acacia_crucible', 'exdeorum:dark_oak_crucible', 'exdeorum:mangrove_crucible', 'exdeorum:cherry_crucible', 'exdeorum:bamboo_crucible']
+
     let ores = ['minecraft:coal', 'minecraft:raw_iron', 'minecraft:raw_copper', 'minecraft:raw_gold', 'mekanism:raw_osmium', 'mekanism:raw_tin', 'mekanism:raw_lead', 'mekanism:raw_uranium', 'minecraft:lapis_lazuli', 'minecraft:diamond', 'minecraft:emerald', 'kubejs:iridium', 'mekanism:fluorite_gem', 'minecraft:quartz', 'kubejs:ore_debri_deepslate', 'minecraft:redstone']
     let dense = ['denseores:dense_redstone_ore', 'denseores:dense_emerald_ore', 'denseores:dense_lapis_ore', 'denseores:dense_diamond_ore', 'kubejs:dense_ore_iridium', 'kubejs:dense_ore_quartz', 'densemekanism:dense_tin_ore', 'densemekanism:dense_osmium_ore', 'densemekanism:dense_uranium_ore', 'densemekanism:dense_fluorite_ore', 'densemekanism:dense_lead_ore', 'denseores:dense_coal_ore', 'denseores:dense_iron_ore', 'denseores:dense_copper_ore', 'denseores:dense_gold_ore']
     let allMesh = ['exdeorum:string_mesh', 'exdeorum:flint_mesh', 'exdeorum:iron_mesh', 'exdeorum:golden_mesh', 'exdeorum:diamond_mesh', 'exdeorum:netherite_mesh']
@@ -9,6 +12,14 @@ ServerEvents.recipes(event => {
     event.remove({ type: "exdeorum:compressed_sieve" })
 
     removeItem.forEach(item => {
+        event.remove({ output: item })
+    })
+
+    removeItem2.forEach(item => {
+        event.remove({ output: item })
+    })
+
+    removeItem3.forEach(item => {
         event.remove({ output: item })
     })
 

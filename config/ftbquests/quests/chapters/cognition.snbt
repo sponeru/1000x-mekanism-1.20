@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "cognition"
 	group: "7955F24567DE4319"
+	hide_quest_until_deps_complete: true
 	icon: "experienceobelisk:bibliophage"
 	id: "558566367F924239"
 	order_index: 1

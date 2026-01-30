@@ -4,8 +4,6 @@ ServerEvents.recipes(event => {
 
     event.recipes.mekanismMetallurgicInfusing('10x minecraft:glowstone_dust', '10x mekanism:fluorite_gem', '100x mekanism:gold')
 
-    event.recipes.mekanismMetallurgicInfusing('ae2:flawless_budding_quartz', 'minecraft:diamond_block', '1000x mekanism:redstone')
-
     event.recipes.mekanismMetallurgicInfusing('minecraft:budding_amethyst', 'minecraft:purple_wool', '1000x mekanism:redstone')
 
     event.recipes.mekanismMetallurgicInfusing('minecraft:soul_sand', 'minecraft:sand', '10x mekanism:redstone')
@@ -57,6 +55,19 @@ ServerEvents.recipes(event => {
             "amount": 50
         },
         "output": 'minecraft:kelp'
+    })
+
+    event.custom({
+        "type": "mekanism:painting",
+        "itemInput": {
+            "ingredient": { "item": 'minecraft:grass' },
+            "amount": 1
+        },
+        "chemicalInput": {
+            "pigment": "mekanism:lime",
+            "amount": 50
+        },
+        "output": 'minecraft:seagrass'
     })
 
     event.custom({

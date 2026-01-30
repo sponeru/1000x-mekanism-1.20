@@ -1,0 +1,25 @@
+ServerEvents.recipes((event) => {
+    event.recipes.mek1000.skyblock_craft()
+        .id("mek1000:recipe_sieve")
+        .duration(10)
+        .outputItems('exdeorum:oak_sieve')
+        .inputItems('4x #minecraft:planks', '#minecraft:wooden_slabs','2x #c:rods/wooden')
+        
+    event.recipes.mek1000.skyblock_craft()
+        .id("mek1000:recipe_stone_barrel")
+        .duration(10)
+        .outputItems('exdeorum:stone_barrel')
+        .inputItems('6x minecraft:stone', 'minecraft:stone_slab')
+
+    event.recipes.mek1000.skyblock_craft()
+        .id("mek1000:recipe_crucible")
+        .duration(10)
+        .outputItems('exdeorum:unfired_porcelain_crucible')
+        .inputItems('7x exdeorum:porcelain_clay_ball')
+
+    event.recipes.mek1000.skyblock_craft()
+        .id("mek1000:recipe_wood_crucible")
+        .duration(10)
+        .outputItems('exdeorum:oak_crucible')
+        .inputItems('6x #minecraft:logs', '#minecraft:wooden_slabs')
+})

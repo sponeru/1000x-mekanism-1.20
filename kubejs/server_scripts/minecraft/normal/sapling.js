@@ -313,4 +313,130 @@ ServerEvents.recipes(event => {
         cost: 20,
         processTime: 20
     })
+
+    event.custom({
+        type: 'experienceobelisk:molecular_metamorphosis',
+        ingredient1:
+            { item: 'minecraft:oak_leaves' }
+        ,
+        count1: 1,
+        ingredient2:
+            { item: 'experienceobelisk:transforming_focus' }
+        ,
+        count2: 1,
+        ingredient3:
+            []
+        ,
+        count3: 0,
+        result:
+            { item: 'minecraft:vine', count: 1 }
+        ,
+        cost: 20,
+        processTime: 20
+    })
+
+    event.custom({
+        type: 'experienceobelisk:molecular_metamorphosis',
+        ingredient1:
+            { item: 'minecraft:vine' }
+        ,
+        count1: 1,
+        ingredient2:
+            { item: 'experienceobelisk:transforming_focus' }
+        ,
+        count2: 1,
+        ingredient3:
+            []
+        ,
+        count3: 0,
+        result:
+            { item: 'minecraft:glow_lichen', count: 1 }
+        ,
+        cost: 20,
+        processTime: 20
+    })
+
+    event.custom({
+        type: 'experienceobelisk:molecular_metamorphosis',
+        ingredient1:
+            { item: 'minecraft:wheat' }
+        ,
+        count1: 1,
+        ingredient2:
+            { item: 'experienceobelisk:transforming_focus' }
+        ,
+        count2: 1,
+        ingredient3:
+            []
+        ,
+        count3: 0,
+        result:
+            { item: 'minecraft:carrot', count: 1 }
+        ,
+        cost: 20,
+        processTime: 20
+    })
+
+    event.custom({
+        type: 'experienceobelisk:molecular_metamorphosis',
+        ingredient1:
+            { item: 'minecraft:carrot' }
+        ,
+        count1: 1,
+        ingredient2:
+            { item: 'experienceobelisk:transforming_focus' }
+        ,
+        count2: 1,
+        ingredient3:
+            []
+        ,
+        count3: 0,
+        result:
+            { item: 'minecraft:potato', count: 1 }
+        ,
+        cost: 20,
+        processTime: 20
+    })
+
+    event.custom({
+        type: 'experienceobelisk:molecular_metamorphosis',
+        ingredient1:
+            { item: 'minecraft:skeleton_skull' }
+        ,
+        count1: 1,
+        ingredient2:
+            { item: 'experienceobelisk:transforming_focus' }
+        ,
+        count2: 1,
+        ingredient3:
+            []
+        ,
+        count3: 0,
+        result:
+            { item: 'minecraft:creeper_head', count: 1 }
+        ,
+        cost: 200,
+        processTime: 20
+    })
+
+    event.custom({
+        type: 'experienceobelisk:molecular_metamorphosis',
+        ingredient1:
+            { item: 'minecraft:green_candle' }
+        ,
+        count1: 1,
+        ingredient2:
+            { item: 'experienceobelisk:transforming_focus' }
+        ,
+        count2: 1,
+        ingredient3:
+            []
+        ,
+        count3: 0,
+        result:
+            { item: 'minecraft:sea_pickle', count: 1 }
+        ,
+        cost: 200,
+        processTime: 20
+    })
 })

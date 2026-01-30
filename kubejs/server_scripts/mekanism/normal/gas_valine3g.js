@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
 
     event.custom({
         "type": "mekanism:reaction",
-        "itemInput": { "ingredient": { "amount": 32, "item": "minecraft:hay_block" } },
+        "itemInput": { amount: 32, "ingredient": {"item": "minecraft:hay_block" } },
         "fluidInput": { "amount": 3642, "fluid": "minecraft:water" },
         "gasInput": { "amount": 7, "gas": "mek1000:valine3g" },
         "energyRequired": 1000, "duration": 1000,

@@ -3,10 +3,775 @@
 	default_quest_shape: ""
 	filename: "5"
 	group: "29F87984A1A84EBA"
+	hide_quest_until_deps_complete: true
 	icon: "hyperdaimc:muteki"
 	id: "008633818E24C63E"
 	order_index: 5
-	quest_links: [ ]
-	quests: [ ]
+	quest_links: [{
+		id: "379BDC2D6C7DFED1"
+		linked_quest: "6D7A910C7242BA45"
+		shape: "pentagon"
+		size: 3.0d
+		x: 0.0d
+		y: -3.0d
+	}]
+	quests: [
+		{
+			dependencies: ["6D7A910C7242BA45"]
+			id: "0BFC343E63F85C6C"
+			tasks: [{
+				id: "3895BC10CF894CA3"
+				item: "hyperdaimc:ground_essence"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D7A910C7242BA45"]
+			id: "2371921A1A79BEC0"
+			tasks: [{
+				id: "482DFF358AB92220"
+				item: "hyperdaimc:crust_essence"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D7A910C7242BA45"]
+			id: "117E063D2ECF8E9F"
+			tasks: [{
+				id: "1DAC8D0B7D7B7E39"
+				item: "hyperdaimc:mineral_essence"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D7A910C7242BA45"]
+			id: "7076698B5F4454C9"
+			tasks: [{
+				id: "71AFA54A7A968EC2"
+				item: "hyperdaimc:herb_essence"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D7A910C7242BA45"]
+			id: "38EEA52B914C612B"
+			tasks: [{
+				id: "4A57C43334CA4121"
+				item: "hyperdaimc:tree_essence"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D7A910C7242BA45"]
+			id: "650F1849265A42E8"
+			tasks: [{
+				id: "387CA8B5792EE7E9"
+				item: "hyperdaimc:marine_essence"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D7A910C7242BA45"]
+			id: "77D0AAD97A8CC767"
+			tasks: [{
+				id: "6A48BFD2A1FB732D"
+				item: "hyperdaimc:food_essence"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D7A910C7242BA45"]
+			id: "0CC8432B630D45DC"
+			tasks: [{
+				id: "67E6EA145273558F"
+				item: "hyperdaimc:motion_essence"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D7A910C7242BA45"]
+			id: "572AC6E93CB6B921"
+			tasks: [{
+				id: "0B2C48031C73E2AD"
+				item: "hyperdaimc:partition_essence"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D7A910C7242BA45"]
+			id: "78AD00FBE2E0CF53"
+			tasks: [{
+				id: "1B94E6108CF8A6C8"
+				item: "hyperdaimc:light_essence"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D7A910C7242BA45"]
+			id: "59448BE082C575C4"
+			tasks: [{
+				id: "60CB8CF03D960470"
+				item: "hyperdaimc:shadow_essence"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D7A910C7242BA45"]
+			id: "1DF3ABDCF66615CE"
+			tasks: [{
+				id: "041619C66456DED8"
+				item: "hyperdaimc:battle_essence"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D7A910C7242BA45"]
+			id: "5D2CA7659E1AFA85"
+			tasks: [{
+				id: "48E4883367E5F6BC"
+				item: "hyperdaimc:sound_essence"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D7A910C7242BA45"]
+			id: "315E4E2D77666575"
+			tasks: [{
+				id: "297A17A8E1AFC130"
+				item: "hyperdaimc:work_essence"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D7A910C7242BA45"]
+			id: "54EC93A1CF684574"
+			tasks: [{
+				id: "0A1EFF73BD4AE0BF"
+				item: "hyperdaimc:drawing_essence"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D7A910C7242BA45"]
+			id: "7C7FAE25FDE0F759"
+			size: 2.0d
+			tasks: [{
+				id: "5D1CA8F3CA61D513"
+				item: "hyperdaimc:bug_star_zwei"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7076698B5F4454C9"
+				"77D0AAD97A8CC767"
+				"0BFC343E63F85C6C"
+				"2371921A1A79BEC0"
+				"7C7FAE25FDE0F759"
+			]
+			id: "1CF8B7755FEFE977"
+			tasks: [{
+				id: "5E200A40BEC20317"
+				item: "hyperdaimc:land_core"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2371921A1A79BEC0"
+				"117E063D2ECF8E9F"
+				"59448BE082C575C4"
+				"7C7FAE25FDE0F759"
+			]
+			id: "45827405773FD843"
+			tasks: [{
+				id: "132B8C6397D8E3AB"
+				item: "hyperdaimc:cave_core"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"78AD00FBE2E0CF53"
+				"7076698B5F4454C9"
+				"572AC6E93CB6B921"
+				"0BFC343E63F85C6C"
+				"7C7FAE25FDE0F759"
+			]
+			id: "1B7E1C664E906A2C"
+			tasks: [{
+				id: "53734BEF37CAFD57"
+				item: "hyperdaimc:garden_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0CC8432B630D45DC"
+				"572AC6E93CB6B921"
+				"0BFC343E63F85C6C"
+			]
+			id: "5E19E68992332B2C"
+			tasks: [{
+				id: "4EEA231D64CD8DA1"
+				item: "hyperdaimc:wind_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"78AD00FBE2E0CF53"
+				"0CC8432B630D45DC"
+				"5D2CA7659E1AFA85"
+				"38EEA52B914C612B"
+				"7C7FAE25FDE0F759"
+			]
+			id: "3B16318080C86C56"
+			tasks: [{
+				id: "5F92B2372A60F3A2"
+				item: "hyperdaimc:thunder_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1DF3ABDCF66615CE"
+				"572AC6E93CB6B921"
+				"117E063D2ECF8E9F"
+				"650F1849265A42E8"
+				"7C7FAE25FDE0F759"
+			]
+			id: "541DB77AF0C23BC3"
+			tasks: [{
+				id: "10D1F5C7E6D1502A"
+				item: "hyperdaimc:treasure_core"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"78AD00FBE2E0CF53"
+				"0CC8432B630D45DC"
+				"38EEA52B914C612B"
+				"7C7FAE25FDE0F759"
+			]
+			id: "3BC312E3B0C2C90F"
+			tasks: [{
+				id: "1957DDB46B270D34"
+				item: "hyperdaimc:flame_core"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"572AC6E93CB6B921"
+				"650F1849265A42E8"
+				"59448BE082C575C4"
+				"77D0AAD97A8CC767"
+				"7C7FAE25FDE0F759"
+			]
+			id: "77DD1FDF9C839F16"
+			tasks: [{
+				id: "48BA5BF4C6A7C77E"
+				item: "hyperdaimc:frost_core"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"78AD00FBE2E0CF53"
+				"0CC8432B630D45DC"
+				"77D0AAD97A8CC767"
+				"7C7FAE25FDE0F759"
+			]
+			id: "34AC8FD3AC6921EB"
+			tasks: [{
+				id: "4C021A662E3642D9"
+				item: "hyperdaimc:animal_core"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"59448BE082C575C4"
+				"0CC8432B630D45DC"
+				"2371921A1A79BEC0"
+				"7C7FAE25FDE0F759"
+			]
+			id: "66A38DC823F3AF39"
+			tasks: [{
+				id: "29234FCBA012D760"
+				item: "hyperdaimc:monster_core"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"78AD00FBE2E0CF53"
+				"5D2CA7659E1AFA85"
+				"1DF3ABDCF66615CE"
+				"0CC8432B630D45DC"
+				"7C7FAE25FDE0F759"
+			]
+			id: "14FAA39AF9462B14"
+			tasks: [{
+				id: "547CECA08DD2FB86"
+				item: "hyperdaimc:amusement_core"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"77D0AAD97A8CC767"
+				"572AC6E93CB6B921"
+				"315E4E2D77666575"
+				"7C7FAE25FDE0F759"
+			]
+			id: "48232C6769E4AD2B"
+			tasks: [{
+				id: "3314D908F1803F6C"
+				item: "hyperdaimc:order_core"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"7076698B5F4454C9"
+				"54EC93A1CF684574"
+				"5D2CA7659E1AFA85"
+				"77D0AAD97A8CC767"
+				"650F1849265A42E8"
+				"7C7FAE25FDE0F759"
+			]
+			id: "6123FA58B5C1543C"
+			tasks: [{
+				id: "54125D19E66A3C74"
+				item: "hyperdaimc:healing_core"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"572AC6E93CB6B921"
+				"59448BE082C575C4"
+				"5D2CA7659E1AFA85"
+				"7C7FAE25FDE0F759"
+			]
+			id: "07F2AC8C0EF1E0FF"
+			tasks: [{
+				id: "0251D1F40DF01C19"
+				item: "hyperdaimc:echo_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"59448BE082C575C4"
+				"0CC8432B630D45DC"
+				"572AC6E93CB6B921"
+				"77D0AAD97A8CC767"
+				"7C7FAE25FDE0F759"
+			]
+			id: "782CE0AC1294045C"
+			tasks: [{
+				id: "16B3B3F340C0B581"
+				item: "hyperdaimc:death_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"54EC93A1CF684574"
+				"78AD00FBE2E0CF53"
+				"59448BE082C575C4"
+				"7C7FAE25FDE0F759"
+			]
+			id: "40B8190EE4FD5B5D"
+			tasks: [{
+				id: "4EC37E9AFF085881"
+				item: "hyperdaimc:wonder_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7076698B5F4454C9"
+				"77D0AAD97A8CC767"
+				"650F1849265A42E8"
+				"38EEA52B914C612B"
+				"7C7FAE25FDE0F759"
+			]
+			id: "55CA0599985214AB"
+			tasks: [{
+				id: "6CD7FC5D924F89D1"
+				item: "hyperdaimc:forest_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C7FAE25FDE0F759"]
+			id: "7CB9AED1DFEACADF"
+			size: 2.0d
+			tasks: [{
+				id: "6DC6F8DE07470A71"
+				item: "hyperdaimc:bug_star_drei"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"07F2AC8C0EF1E0FF"
+				"315E4E2D77666575"
+				"54EC93A1CF684574"
+				"38EEA52B914C612B"
+				"117E063D2ECF8E9F"
+				"7CB9AED1DFEACADF"
+			]
+			id: "7BE05E9E689B630E"
+			tasks: [{
+				id: "40996932FCEA0C2B"
+				item: "hyperdaimc:contraption_gist"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"5E19E68992332B2C"
+				"3B16318080C86C56"
+				"78AD00FBE2E0CF53"
+				"77DD1FDF9C839F16"
+				"650F1849265A42E8"
+				"7CB9AED1DFEACADF"
+			]
+			id: "31C14645E0C1252B"
+			tasks: [{
+				id: "10924C9BC2F59A6F"
+				item: "hyperdaimc:sky_gist"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"48232C6769E4AD2B"
+				"782CE0AC1294045C"
+				"34AC8FD3AC6921EB"
+				"6123FA58B5C1543C"
+				"14FAA39AF9462B14"
+				"7CB9AED1DFEACADF"
+			]
+			id: "51485AA2522AE1EA"
+			tasks: [{
+				id: "65F69BD12DD93998"
+				item: "hyperdaimc:love_gist"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"45827405773FD843"
+				"07F2AC8C0EF1E0FF"
+				"40B8190EE4FD5B5D"
+				"59448BE082C575C4"
+				"7CB9AED1DFEACADF"
+			]
+			id: "1F98F12FB13695C0"
+			tasks: [{
+				id: "67C72E03C90E3EB4"
+				item: "hyperdaimc:fear_gist"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"541DB77AF0C23BC3"
+				"45827405773FD843"
+				"55CA0599985214AB"
+				"40B8190EE4FD5B5D"
+				"6123FA58B5C1543C"
+				"1CF8B7755FEFE977"
+				"0CC8432B630D45DC"
+				"7CB9AED1DFEACADF"
+			]
+			id: "2F9348C95538E534"
+			tasks: [{
+				id: "742306712CDFC7F5"
+				item: "hyperdaimc:adventure_gist"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"48232C6769E4AD2B"
+				"40B8190EE4FD5B5D"
+				"14FAA39AF9462B14"
+				"5D2CA7659E1AFA85"
+				"54EC93A1CF684574"
+				"7CB9AED1DFEACADF"
+			]
+			id: "334CE4A0FB7897D7"
+			tasks: [{
+				id: "7E1F9FFE93A7B3B1"
+				item: "hyperdaimc:taint_gist"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"14FAA39AF9462B14"
+				"66A38DC823F3AF39"
+				"541DB77AF0C23BC3"
+				"572AC6E93CB6B921"
+				"7CB9AED1DFEACADF"
+			]
+			id: "3A18A3F4BFF947EB"
+			tasks: [{
+				id: "4C9BDF02BC01BBAB"
+				item: "hyperdaimc:destruction_gist"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"48232C6769E4AD2B"
+				"5E19E68992332B2C"
+				"1B7E1C664E906A2C"
+				"0CC8432B630D45DC"
+				"7CB9AED1DFEACADF"
+			]
+			id: "0CD48801EB35EE7B"
+			tasks: [{
+				id: "29386032FBA78868"
+				item: "hyperdaimc:leaping_gist"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"6123FA58B5C1543C"
+				"3BC312E3B0C2C90F"
+				"40B8190EE4FD5B5D"
+				"66A38DC823F3AF39"
+				"7CB9AED1DFEACADF"
+			]
+			id: "3DEEB1BCE0573E66"
+			tasks: [{
+				id: "49B12AC409547E63"
+				item: "hyperdaimc:fairy_gist"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"7BE05E9E689B630E"
+				"2F9348C95538E534"
+				"31C14645E0C1252B"
+				"3DEEB1BCE0573E66"
+				"1F98F12FB13695C0"
+				"51485AA2522AE1EA"
+				"3A18A3F4BFF947EB"
+				"334CE4A0FB7897D7"
+				"0CD48801EB35EE7B"
+				"79896856FE750D5D"
+				"10050B7F64430EBD"
+				"59401C265DEB5E33"
+				"2A994D1DDF1039D5"
+			]
+			id: "0A918FC3618E6617"
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				id: "47FFD2D25B24C52F"
+				item: "hyperdaimc:game_orb"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["0A918FC3618E6617"]
+			id: "318EBC8C76DF6BD9"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "01AA4285C4BEE909"
+				item: "hyperdaimc:muteki"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0A918FC3618E6617"]
+			id: "2F2A0FD61731D154"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "7662B8EDBB3D0680"
+				item: "hyperdaimc:novel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0A918FC3618E6617"]
+			id: "5D23EE1BB5618835"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "020B5A98D46D84E1"
+				item: "hyperdaimc:chronicle"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0A918FC3618E6617"]
+			id: "5C5A3CB9CAFA2C31"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1793500A8222749D"
+				item: "hyperdaimc:paradox"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"0A918FC3618E6617"
+				"318EBC8C76DF6BD9"
+				"2F2A0FD61731D154"
+				"5D23EE1BB5618835"
+				"5C5A3CB9CAFA2C31"
+			]
+			id: "2D972B1C904F13A0"
+			shape: "hexagon"
+			size: 4.0d
+			subtitle: "Thank you for playing!"
+			tasks: [{
+				id: "2EF7D2976269E2E9"
+				item: "hyperdaimc:vrx"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"5C124BC2B5689E7B"
+				"2D972B1C904F13A0"
+			]
+			hide_until_deps_complete: true
+			icon: "expatternprovider:fishbig"
+			id: "7F92227071F6846E"
+			optional: true
+			rewards: [{
+				id: "717065BCA8577FEE"
+				ignore_reward_blocking: true
+				item: "expatternprovider:fishbig"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.4.quest27.subtitle}"
+			tasks: [{
+				id: "769A5ECE13687872"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.4.quest27.title}"
+			x: 0.0d
+			y: 28.0d
+		}
+	]
+	subtitle: ["シン・旅の終わり"]
 	title: "チャプター5"
 }

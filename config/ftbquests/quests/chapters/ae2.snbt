@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "ae2"
 	group: "7955F24567DE4319"
+	hide_quest_until_deps_complete: true
 	icon: "ae2:controller"
 	id: "797F5C220099BEC3"
 	order_index: 0
@@ -11,7 +12,7 @@
 		{
 			can_repeat: true
 			dependencies: ["503CF531934055CD"]
-			icon: "sophisticatedstorage:survival_infinity_upgrade"
+			icon: "ae2:singularity"
 			id: "092854B5937D5094"
 			optional: true
 			rewards: [{
@@ -56,6 +57,7 @@
 				item: "ae2:controller"
 				type: "item"
 			}]
+			subtitle: "ゲーミングキラキラキューブ"
 			tasks: [{
 				id: "71B57271F0EDE0A3"
 				item: "ae2:controller"
@@ -287,6 +289,7 @@
 		{
 			dependencies: ["25D4C3E90302E4EC"]
 			id: "5C461433047AC112"
+			subtitle: "レインボーなアートを描こう"
 			tasks: [{
 				id: "6BC50F46E8AA496D"
 				item: "mae2a:infinite_dyes_cell"

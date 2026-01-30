@@ -11,6 +11,22 @@ ServerEvents.recipes(event => {
         })
     }
 
+    let ast_replaceGases = (id, prefix) => {
+        const GAS_ID = (prefix == null) ? id : `${id}_${prefix}`
+        event.remove({ id: `astral_mekanism:infuse_type/${GAS_ID}2` })
+        event.custom({
+            type: 'mekanism:infusion_conversion',
+            input: {
+                'ingredient': { 'item': `astral_mekanism:enriched_${id}` }
+            },
+            output: { 'infuse_type': `astral_mekanism:${GAS_ID}`, 'amount': 100 }
+        })
+    }
+
+    ast_replaceGases('singularity')
+    ast_replaceGases('nether_star')
+    ast_replaceGases('utility', 'infuse')
+
     replaceGases('redstone')
     replaceGases('carbon')
     replaceGases('obsidian', 'refined')

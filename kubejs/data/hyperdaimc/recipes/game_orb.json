@@ -1,0 +1,182 @@
+{
+    "type": "hyperdaimc:shaped_desk",
+    "minecraft": true,
+    "key": {
+        "a": {
+            "item": "astral_mekanism:starlight_lead"
+        },
+        "b": {
+            "item": "astral_mekanism:starlight_uranium"
+        },
+        "c": {
+            "item": "astral_mekanism:starlight_emerald"
+        },
+        "d": {
+            "item": "astral_mekanism:starlight_diamond"
+        },
+        "e": {
+            "item": "astral_mekanism:starlight_copper"
+        },
+        "f": {
+            "item": "astral_mekanism:starlight_quartz"
+        },
+        "g": {
+            "item": "astral_mekanism:starlight_gold"
+        },
+        "h": {
+            "item": "mek1000:starlight_iridium"
+        },
+        "i": {
+            "item": "astral_mekanism:starlight_coal"
+        },
+        "j": {
+            "item": "mek1000:starlight_amethyst"
+        },
+        "k": {
+            "item": "astral_mekanism:starlight_redstone"
+        },
+        "l": {
+            "item": "astral_mekanism:starlight_tin"
+        },
+        "m": {
+            "item": "astral_mekanism:starlight_iron"
+        },
+        "n": {
+            "item": "astral_mekanism:starlight_lapis_lazuli"
+        },
+        "o": {
+            "item": "astral_mekanism:starlight_osmium"
+        },
+        "p": {
+            "item": "astral_mekanism:starlight_fluorite"
+        },
+        "q": {
+            "item": "astral_mekanism:astral_rotary_condensentrator"
+        },
+        "r": {
+            "item": "astral_mekanism:astral_chemical_injection_chamber"
+        },
+        "s": {
+            "item": "astral_mekanism:astral_purification_chamber"
+        },
+        "t": {
+            "item": "astral_mekanism:astral_chemical_infuser"
+        },
+        "u": {
+            "item": "astral_mekanism:astral_greenhouse"
+        },
+        "v": {
+            "item": "astral_mekanism:astral_osmium_compressor"
+        },
+        "w": {
+            "item": "astral_mekanism:astral_precision_sawmill"
+        },
+        "x": {
+            "item": "astral_mekanism:astral_chemical_oxidizer"
+        },
+        "y": {
+            "item": "astral_mekanism:astral_dissolution_chamber"
+        },
+        "z": {
+            "item": "astral_mekanism:astral_prc"
+        },
+        "A": {
+            "item": "astral_mekanism:astral_mekanical_transformer"
+        },
+        "B": {
+            "item": "astral_mekanism:astral_enrichment_chamber"
+        },
+        "C": {
+            "item": "astral_mekanism:astral_electrolytic_separator"
+        },
+        "D": {
+            "item": "astral_mekanism:astral_energized_smelter"
+        },
+        "E": {
+            "item": "astral_mekanism:astral_isotopic_centrifuge"
+        },
+        "F": {
+            "item": "astral_mekanism:astral_mekanical_charger"
+        },
+        "G": {
+            "item": "astral_mekanism:astral_crusher"
+        },
+        "H": {
+            "item": "astral_mekanism:astral_mekanical_inscriber"
+        },
+        "I": {
+            "item": "astral_mekanism:astral_crystallizer"
+        },
+        "J": {
+            "item": "astral_mekanism:astral_combiner"
+        },
+        "K": {
+            "item": "astral_mekanism:astral_chemical_washer"
+        },
+        "L": {
+            "item": "astral_mekanism:astral_gna"
+        },
+        "M": {
+            "item": "astral_mekanism:astral_metallurgic_infuser"
+        },
+        "N": {
+            "item": "astral_mekanism:astral_sps"
+        },
+        "O": {
+            "item": "hyperdaimc:sky_gist"
+        },
+        "P": {
+            "item": "hyperdaimc:leaping_gist"
+        },
+        "Q": {
+            "item": "hyperdaimc:fear_gist"
+        },
+        "R": {
+            "item": "hyperdaimc:fairy_gist"
+        },
+        "S": {
+            "item": "hyperdaimc:taint_gist"
+        },
+        "T": {
+            "item": "hyperdaimc:love_gist"
+        },
+        "U": {
+            "item": "hyperdaimc:adventure_gist"
+        },
+        "V": {
+            "item": "hyperdaimc:destruction_gist"
+        },
+        "W": {
+            "item": "hyperdaimc:contraption_gist"
+        },
+        "X": {
+            "item": "mekanism:creative_energy_cube"
+        },
+        "Y": {
+            "item": "mekanism:creative_fluid_tank"
+        },
+        "Z": {
+            "item": "ae2:creative_energy_cell"
+        },
+        "1": {
+            "item": "mekanism:creative_chemical_tank"
+        },
+        "2": {
+            "item": "emextras:infinite_multiversal_tier_installer"
+        }
+    },
+    "pattern": [
+        "   aqp   ",
+        "  brOFo  ",
+        " csXG1En ",
+        "dt2HSN2Dm",
+        "uPITWVMRC",
+        "ev2JUL2Bl",
+        " fwYKZAk ",
+        "  gxQzj  ",
+        "   hyi   "
+    ],
+    "result": {
+        "item": "hyperdaimc:game_orb"
+    }
+}

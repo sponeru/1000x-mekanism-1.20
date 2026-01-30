@@ -37,17 +37,19 @@ ServerEvents.recipes(event => {
     //Advanced Upgrade
     
     let advUpgr = (output,input) =>{
+            event.remove({output:output})
             event.custom({
             type: "mekanism:reaction",
             itemInput: { amount: 64,ingredient: { item: input} },
             fluidInput: { fluid: "mek1000:condenced_lux", amount: 500 },
             gasInput: { gas: "mekanism:antimatter", amount: 500 },
-            energyRequired: 20,
-            duration: 50,
+            energyRequired: 20000,
+            duration: 200,
             itemOutput: { item: output },
             //gasOutput: { gas: "mek1000:activated_redstone", amount: 1 },
         });
     }
 
     advUpgr('mekanism_empowered:upgrade_empowered_speed','mekanism:upgrade_speed')
+    advUpgr('mekanism_empowered:upgrade_empowered_energy','mekanism:upgrade_energy')
 })

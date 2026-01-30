@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "1"
 	group: "29F87984A1A84EBA"
+	hide_quest_until_deps_complete: true
 	icon: "minecraft:oak_log"
 	id: "6B1C4E8298A2900E"
 	images: [{
@@ -18,13 +19,13 @@
 		{
 			id: "29617B8228D058C1"
 			linked_quest: "25D4C3E90302E4EC"
-			x: -4.5d
+			x: -5.0d
 			y: -6.5d
 		}
 		{
 			id: "46DABDF94AB05D6C"
 			linked_quest: "5C461433047AC112"
-			x: -6.5d
+			x: -7.0d
 			y: -6.5d
 		}
 	]
@@ -69,42 +70,7 @@
 			}]
 			title: "{ftbquests.chapter.1.quest1.title}"
 			x: 0.0d
-			y: -13.0d
-		}
-		{
-			dependencies: ["016780D32B1ABC49"]
-			description: [
-				"{ftbquests.chapter.1.quest2.description1}"
-				""
-				"{ftbquests.chapter.1.quest2.description2}"
-				"{ftbquests.chapter.1.quest2.description3}"
-				""
-				"{ftbquests.chapter.1.quest2.description4}"
-				"{ftbquests.chapter.1.quest2.description5}"
-				""
-				"{ftbquests.chapter.1.quest2.description6}"
-				"{ftbquests.chapter.1.quest2.description7}"
-				""
-				"{ftbquests.chapter.1.quest2.description8}"
-				""
-				"{ftbquests.chapter.1.quest2.description9}"
-				"{ftbquests.chapter.1.quest2.description10}"
-				""
-				"{ftbquests.chapter.1.quest2.description11}"
-				"{ftbquests.chapter.1.quest2.description12}"
-				"{ftbquests.chapter.1.quest2.description13}"
-				""
-				"{ftbquests.chapter.1.quest2.description14}"
-			]
-			id: "7171F34F7B348F9C"
-			optional: true
-			tasks: [{
-				id: "3F6909393EC6B88D"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.1.quest2.title}"
-			x: -2.5d
-			y: -13.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["016780D32B1ABC49"]
@@ -134,37 +100,57 @@
 				{
 					count: 1024L
 					id: "06D81984455DFF8E"
-					item: { Count: 1024, id: "minecraft:raw_iron" }
+					item: {
+						BigCount: 1024
+						Count: 1024
+						id: "minecraft:raw_iron"
+					}
 					type: "item"
 				}
 				{
 					count: 1024L
 					id: "466D86E07E105F30"
-					item: { Count: 1024, id: "minecraft:diamond" }
+					item: {
+						BigCount: 1024
+						Count: 1024
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 				{
 					count: 1024L
 					id: "7A7AFD63B788D47D"
-					item: { Count: 1024, id: "minecraft:redstone" }
+					item: {
+						BigCount: 1024
+						Count: 1024
+						id: "minecraft:redstone"
+					}
 					type: "item"
 				}
 				{
 					count: 1024L
 					id: "5C8E63793064C890"
-					item: { Count: 1024, id: "mekanism:raw_osmium" }
+					item: {
+						BigCount: 1024
+						Count: 1024
+						id: "mekanism:raw_osmium"
+					}
 					type: "item"
 				}
 				{
 					count: 1024L
 					id: "0663372C95BA17DE"
-					item: { Count: 1024, id: "minecraft:coal" }
+					item: {
+						BigCount: 1024
+						Count: 1024
+						id: "minecraft:coal"
+					}
 					type: "item"
 				}
 			]
 			title: "{ftbquests.chapter.1.quest3.title}"
-			x: 2.5d
-			y: -9.0d
+			x: 3.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["016780D32B1ABC49"]
@@ -227,8 +213,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.1.quest5.title}"
-			x: 1.5d
-			y: -13.0d
+			x: -1.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["6FB7FFBB57D7E799"]
@@ -253,8 +239,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.1.quest6.title}"
-			x: 3.0d
-			y: -13.0d
+			x: -3.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["296399230B63F479"]
@@ -270,11 +256,15 @@
 			tasks: [{
 				count: 256L
 				id: "5F963FF488D652EA"
-				item: { Count: 256, id: "mekanismgenerators:wind_generator" }
+				item: {
+					BigCount: 256
+					Count: 256
+					id: "mekanismgenerators:wind_generator"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.1.quest7.title}"
-			x: 2.5d
+			x: 3.0d
 			y: -6.5d
 		}
 		{
@@ -306,41 +296,26 @@
 			}]
 			title: "{ftbquests.chapter.1.quest8.title}"
 			x: 0.0d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["68335D23BF84FEE3"]
 			description: ["{ftbquests.chapter.1.quest9.description1}"]
 			id: "2222120D1B1E679D"
-			rewards: [
-				{
-					count: 2
-					id: "109C322DBFB6D3B2"
-					item: "ae2:growth_accelerator"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "04E4022343440CDB"
-					item: "ae2:crystal_resonance_generator"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 32
+				id: "4D0DFF6B6C8C4948"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.1.quest9.subtitle}"
-			tasks: [
-				{
-					id: "7AFADB79BF632F99"
-					item: "ae2:flawless_budding_quartz"
-					type: "item"
-				}
-				{
-					id: "3E9962C49FA4CCBB"
-					item: "ae2:mysterious_cube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3E9962C49FA4CCBB"
+				item: "ae2:mysterious_cube"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.1.quest9.title}"
-			x: -2.5d
+			x: -3.0d
 			y: -6.5d
 		}
 		{
@@ -385,7 +360,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.1.quest10.title}"
-			x: -2.5d
+			x: -3.0d
 			y: -4.5d
 		}
 		{
@@ -434,7 +409,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.1.quest12.title}"
-			x: -2.5d
+			x: -3.0d
 			y: -2.5d
 		}
 		{
@@ -453,7 +428,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.1.quest13.title}"
-			x: 2.5d
+			x: 0.0d
 			y: -2.5d
 		}
 		{
@@ -652,7 +627,7 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
+			x: -5.0d
 			y: -4.5d
 		}
 		{
@@ -674,7 +649,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.1.quest25.title}"
-			x: -2.5d
+			x: -3.0d
 			y: -9.0d
 		}
 		{
@@ -729,8 +704,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.1.quest27.title}"
-			x: 0.0d
-			y: -15.5d
+			x: 1.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["5C461433047AC112"]
@@ -741,48 +716,14 @@
 				item: "minecraft:budding_amethyst"
 				type: "item"
 			}]
+			subtitle: "アメジスト生えるｗｗｗ"
 			tasks: [{
 				id: "369AFA3C07A82284"
 				item: "minecraft:budding_amethyst"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.0d
 			y: -4.5d
-		}
-		{
-			dependencies: ["4E1C88D7480C205E"]
-			id: "2CB5E1FC1C447B86"
-			tasks: [{
-				id: "422365CED42F52A4"
-				item: "mek1000:blank_teleporter"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["2CB5E1FC1C447B86"]
-			id: "4CD814B3D5FED15B"
-			subtitle: "足元注意"
-			tasks: [{
-				id: "2E2E210C10343805"
-				item: "mek1000:void_teleporter"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["2CB5E1FC1C447B86"]
-			id: "1225D560891AC861"
-			subtitle: "露天掘りの必要なし"
-			tasks: [{
-				id: "0B4D4C0711B0F277"
-				item: "mek1000:flat_teleporter"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -800,27 +741,58 @@
 				item: "mekmm:cnc_stamper"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.0d
 			y: -2.5d
 		}
 		{
-			dependencies: ["296399230B63F479"]
-			description: ["1種類のアイテムを&c大量に格納&rできます"]
-			id: "1BBF51BE446313BD"
-			subtitle: "たーる"
-			tasks: [{
-				id: "0305985BE6A0D786"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:limited_barrel_1"
-					tag: {
-						woodType: "oak"
-					}
-				}
+			dependencies: ["016780D32B1ABC49"]
+			id: "32BA30BD4C4537A0"
+			rewards: [{
+				id: "01C0669DB35F6C23"
+				item: "exdeorum:oak_crucible"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -9.0d
+			subtitle: "びちゃびちゃ"
+			tasks: [
+				{
+					id: "3D646585D32BAE6E"
+					item: "exdeorum:oak_crucible"
+					type: "item"
+				}
+				{
+					id: "0AB2DEE892FB2E7C"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			id: "46DB5D4B1A346D3E"
+			rewards: [{
+				count: 2
+				id: "61FF5D1444F167C2"
+				item: "expandedstorage:diamond_chest"
+				type: "item"
+			}]
+			subtitle: "ぐちゃぐちゃ防止"
+			tasks: [
+				{
+					id: "7B4CD2A2B97F001A"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "70B1017AA5D2FD90"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+			]
+			title: "Crafting Terminalとその他"
+			x: 3.0d
+			y: -12.0d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.1.subtitle0}"]

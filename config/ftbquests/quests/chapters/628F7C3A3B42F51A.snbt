@@ -52,11 +52,9 @@
 			description: ["{ftbquests.chapter.628F7C3A3B42F51A.quest3.description1}"]
 			id: "58D19A0956CF8EDC"
 			rewards: [{
-				auto: "invisible"
-				id: "4F98C64C35FA5B0C"
-				ignore_reward_blocking: true
-				stage: "skyblock"
-				type: "gamestage"
+				id: "34D8AE00B08E5C3C"
+				item: "mek1000:skyblock_crafter"
+				type: "item"
 			}]
 			secret: true
 			tasks: [{
