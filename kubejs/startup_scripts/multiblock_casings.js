@@ -88,4 +88,12 @@ StartupEvents.registry("block", (event) => {
     .tagBlock("minecraft:mineable/pickaxe")
     .tagBlock("minecraft:needs_iron_tool")
     .requiresTool(true);
+
+  event
+    .create("mek1000:super_computing_cell")
+    .soundType(SoundType.METAL)
+    .hardness(5.0)
+    .tagBlock("minecraft:mineable/pickaxe")
+    .tagBlock("minecraft:needs_iron_tool")
+    .requiresTool(true);
 });

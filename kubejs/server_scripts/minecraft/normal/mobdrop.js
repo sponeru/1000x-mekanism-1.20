@@ -95,6 +95,132 @@ ServerEvents.recipes(event => {
     })
 
     event.custom({
+        type: 'experienceobelisk:molecular_metamorphosis',
+        ingredient1:
+            { item: 'minecraft:note_block'}
+        ,
+        count1: 1,
+        ingredient2:
+            { item: 'evolvedmekanism:block_better_gold' }
+        ,
+        count2: 1,
+        ingredient3:
+            [{ item: 'experienceobelisk:transforming_focus'  }]
+        ,
+        count3: 1,
+        result:
+            { item: 'minecraft:bell', count: 1 }
+        ,
+        cost: 200,
+        processTime: 100
+    })
+
+    event.custom({
+        type: 'experienceobelisk:molecular_metamorphosis',
+        ingredient1:
+            { item: 'experienceobelisk:transforming_focus'}
+        ,
+        count1: 1,
+        ingredient2:
+            { item: 'minecraft:cooked_cod' }
+        ,
+        count2: 1,
+        ingredient3:
+            []
+        ,
+        count3: 0,
+        result:
+            { item: 'minecraft:cod', count: 2 }
+        ,
+        cost: 20,
+        processTime: 40
+    })
+
+    event.custom({
+        type: 'experienceobelisk:molecular_metamorphosis',
+        ingredient1:
+            { item: 'experienceobelisk:transforming_focus'}
+        ,
+        count1: 1,
+        ingredient2:
+            { item: 'minecraft:cooked_salmon' }
+        ,
+        count2: 1,
+        ingredient3:
+            []
+        ,
+        count3: 0,
+        result:
+            { item: 'minecraft:salmon', count: 2 }
+        ,
+        cost: 20,
+        processTime: 40
+    })
+
+    event.custom({
+        type: 'experienceobelisk:molecular_metamorphosis',
+        ingredient1:
+            { item: 'experienceobelisk:transforming_focus'}
+        ,
+        count1: 1,
+        ingredient2:
+            { item: 'minecraft:salmon' }
+        ,
+        count2: 1,
+        ingredient3:
+            {item: 'minecraft:cod'}
+        ,
+        count3: 1,
+        result:
+            { item: 'minecraft:tropical_fish', count: 1 }
+        ,
+        cost: 20,
+        processTime: 40
+    })
+
+    event.custom({
+        type: 'experienceobelisk:molecular_metamorphosis',
+        ingredient1:
+            { item: 'experienceobelisk:transforming_focus'}
+        ,
+        count1: 1,
+        ingredient2:
+            { item: 'minecraft:tropical_fish' }
+        ,
+        count2: 1,
+        ingredient3:
+            []
+        ,
+        count3: 0,
+        result:
+            { item: 'minecraft:pufferfish', count: 1 }
+        ,
+        cost: 20,
+        processTime: 40
+    })
+
+    event.custom({
+        type: 'experienceobelisk:molecular_metamorphosis',
+        ingredient1:
+            { item: 'minecraft:leather_horse_armor'}
+        ,
+        count1: 1,
+        ingredient2:
+            { item: 'evolvedmekanism:block_better_gold' }
+        ,
+        count2: 64,
+        ingredient3:
+            [{ item: 'evolvedmekanism:block_better_gold' }]
+        ,
+        count3: 64,
+        result:
+            { item: 'minecraft:golden_horse_armor', count: 1 }
+        ,
+        cost: 20000,
+        processTime: 1000
+    })
+
+    event.custom({
         "type": "mekanism:nucleosynthesizing",
         "itemInput": { "ingredient": { "item": 'minecraft:spider_eye' } },
         "gasInput": { "amount": 1, "gas": "mekanism:antimatter" },

@@ -174,7 +174,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["16F1DD1570039FA7"]

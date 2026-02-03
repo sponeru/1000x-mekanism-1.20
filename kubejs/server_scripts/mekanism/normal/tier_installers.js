@@ -1,6 +1,6 @@
 //packmode: normal
 
-let installers = ['mekanism:basic_tier_installer', 'mekanism:advanced_tier_installer', 'mekanism:elite_tier_installer', 'mekanism:ultimate_tier_installer', 'mekanism_extras:absolute_tier_installer', 'mekanism_extras:supreme_tier_installer', 'mekanism_extras:cosmic_tier_installer', 'mekanism_extras:infinite_tier_installer']
+let installers = ['mekanism:basic_tier_installer', 'mekanism:advanced_tier_installer', 'mekanism:elite_tier_installer', 'mekanism:ultimate_tier_installer', 'mekanism_extras:absolute_tier_installer', 'mekanism_extras:supreme_tier_installer', 'mekanism_extras:cosmic_tier_installer', 'mekanism_extras:infinite_tier_installer', 'evolvedmekanism:overclocked_tier_installer', 'evolvedmekanism:quantum_tier_installer', 'evolvedmekanism:dense_tier_installer', 'evolvedmekanism:multiversal_tier_installer']
 
 ServerEvents.recipes(event => {
     installers.forEach(item => {
@@ -126,4 +126,65 @@ ServerEvents.recipes(event => {
             D: 'igleelib:derium_block'
         }
     )
+
+    event.shaped(
+        Item.of('evolvedmekanism:overclocked_tier_installer', 1),
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'evolvedmekanism:alloy_hypercharged',
+            B: 'evolvedmekanism:overclocked_control_circuit',
+            C: '#forge:storage_blocks/netherite',
+            D: 'igleelib:modium_block'
+        }
+    )
+
+    event.shaped(
+        Item.of('evolvedmekanism:quantum_tier_installer', 1),
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'evolvedmekanism:alloy_subatomic',
+            B: 'evolvedmekanism:quantum_control_circuit',
+            C: 'igleelib:modium_block',
+            D: 'igleelib:blazum_block'
+        }
+    )
+
+    event.shaped(
+        Item.of('evolvedmekanism:dense_tier_installer', 1),
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'evolvedmekanism:alloy_singular',
+            B: 'evolvedmekanism:dense_control_circuit',
+            C: 'igleelib:blazum_block',
+            D: 'igleelib:lavium_block'
+        }
+    )
+
+    event.shaped(
+        Item.of('evolvedmekanism:multiversal_tier_installer', 1),
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'evolvedmekanism:alloy_exoversal',
+            B: 'evolvedmekanism:multiversal_control_circuit',
+            C: 'igleelib:lavium_block',
+            D: 'igleelib:derium_block'
+        }
+    )
+
 })

@@ -98,6 +98,8 @@
   "mek1000.rockbreak_simulate": "砕石シミュレート",
   "mek1000.experience_generate": "知識変換",
   "mek1000.dimensional_blast_smelting": "多次元精錬",
+  "mek1000.etheric_computing": "エーテリック演算処理",
+  "mek1000.skyblock_craft": "空島製造",
   "block.mek1000.sml_drill_s": "SMLドリル S",
   "block.mek1000.sml_drill_m": "SMLドリル M",
   "block.mek1000.sml_drill_l": "SMLドリル L",
@@ -123,6 +125,10 @@
   "block.mek1000.library_of_babel": "バベルの図書館",
   "mek1000.dimensional_blast_furnace.desc": "既視感",
   "block.mek1000.dimensional_blast_furnace": "多次元高炉",
+  "mek1000.etheric_computer_array.desc": "コインも掘れる",
+  "block.mek1000.etheric_computer_array": "エーテル演算配列",
+  "mek1000.skyblock_crafter.desc": "Skyblock専用！",
+  "block.mek1000.skyblock_crafter": "空島製造機",
   "mek1000.multi.desc": "マルチブロックの構造はJEIを見てください",
   "block.mek1000.energy_output": "エネルギー搬出ポート",
   "block.mek1000.fluid_output": "液体搬出ポート",
@@ -169,5 +175,45 @@
   "gas.mek1000.activated_redstone": "活性化レッドストーンガス",
   "gas.mek1000.active_aqua_regia": "王水",
   "mek1000.guide_name": "桁違いなガイド本",
-  "mek1000.guide_desc": "完璧で究極な工場を建築するために(JP Only)"
+  "mek1000.guide_desc": "完璧で究極な工場を建築するために(JP Only)",
+
+  "item.mek1000.basic_super_circuit" : "複層化§a基本§r制御回路",
+  "item.mek1000.advanced_super_circuit" : "複層化§c発展§r制御回路",
+  "item.mek1000.elite_super_circuit" : "複層化§b精鋭§r制御回路",
+  "item.mek1000.ultimate_super_circuit" : "複層化§d究極§r制御回路",
+  "item.mek1000.absolute_super_circuit" : "複層化§e絶対§r制御回路",
+  "item.mek1000.supreme_super_circuit" : "複層化§4至§c高§r制御回路",
+  "item.mek1000.cosmic_super_circuit" : "複層化§5宇§d宙§r制御回路",
+  "item.mek1000.infinite_super_circuit" : "複層化§c無§e限§r制御回路",
+
+  "item.mek1000.valine3g_ingot_7" : "バリニウムインゴット",
+  "item.mek1000.valine3g_ingot_6" : "未完成のバリニウムインゴット (7/8)",
+  "item.mek1000.valine3g_ingot_5" : "未完成のバリニウムインゴット (6/8)",
+  "item.mek1000.valine3g_ingot_4" : "未完成のバリニウムインゴット (5/8)",
+  "item.mek1000.valine3g_ingot_3" : "未完成のバリニウムインゴット (4/8)",
+  "item.mek1000.valine3g_ingot_2" : "未完成のバリニウムインゴット (3/8)",
+  "item.mek1000.valine3g_ingot_1" : "未完成のバリニウムインゴット (2/8)",
+  "item.mek1000.valine3g_ingot_0" : "未完成のバリニウムインゴット (1/8)",
+
+  "item.mek1000.solar_grade_silicon" : "太陽電池グレードシリコン",
+  "item.mek1000.printed_solar_grade_silicon" : "太陽電池グレードシリコン基板",
+  "item.mek1000.printed_flux_processor" : "フラックス回路",
+  "item.mek1000.printed_cognitive_processor" : "認知回路",
+  "item.mek1000.printed_echo_processor" : "反響回路",
+  "item.mek1000.printed_valinium_processor" : "バリニウム回路",
+
+  "item.mek1000.flux_processor" : "フラックスプロセッサ",
+  "item.mek1000.cognitive_processor" : "認知プロセッサ",
+  "item.mek1000.echo_processor" : "反響プロセッサ",
+  "item.mek1000.valinium_processor" : "バリニウムプロセッサ",
+
+  "item.mek1000.starlight_iridium" : "星の輝き<イリジウム>",
+  "item.mek1000.starlight_amethyst" : "星の輝き<アメジスト>",
+
+  "item.mek1000.creative_chemical_data" : "クリエィティブ化学タンクデータ",
+  "item.mek1000.creative_fluid_data" : "クリエィティブ液体タンクデータ",
+  "item.mek1000.creative_energy_data" : "クリエィティブ電力データ",
+
+  "item.mek1000.synced_bibliophage" : "共鳴する本の虫",
+  "block.mek1000.super_computing_cell" : "超演算セル"
 }

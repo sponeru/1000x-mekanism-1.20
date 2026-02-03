@@ -48,10 +48,20 @@ ItemEvents.tooltip((event) => {
     Text.translate("mek1000.multi.desc").aqua(),
   ]);
 
+  event.add("mek1000:etheric_computer_array", [
+    Text.translate("mek1000.etheric_computer_array.desc"),
+    Text.translate("mek1000.multi.desc").aqua(),
+  ]);
+
   event.add("mek1000:advanced_gas_burning_generator", [
     Text.translate("mek1000.advanced_gas_burning_generator.desc"),
   ]);
 
+  event.add("mek1000:skyblock_crafter", [
+    Text.translate("mek1000.skyblock_crafter.desc"),
+  ]);
+
+  
   event.add("mek1000:the_null", [Text.translate("item.mek1000.the_null.desc")]);
 });
 
