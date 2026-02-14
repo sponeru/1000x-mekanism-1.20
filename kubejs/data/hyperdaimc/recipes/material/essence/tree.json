@@ -44,7 +44,8 @@
     "minecraft:cherry_leaves",
     "minecraft:nether_wart_block",
     "minecraft:warped_wart_block",
-    "integrateddynamics:menril_leaves"
+    "integrateddynamics:menril_leaves",
+    "#minecraft:leaves"
   ],
   "result": {
     "item": "hyperdaimc:tree_essence"

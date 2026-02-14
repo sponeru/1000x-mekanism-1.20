@@ -1,3 +1,9 @@
+ServerEvents.tags("minecraft:item", event => {
+    event.add('exdeorum:sieve_meshes', 'mek1000:advanced_alloy_mesh')
+    event.add('exdeorum:sieve_meshes', 'mek1000:elite_alloy_mesh')
+    event.add('exdeorum:sieve_meshes', 'mek1000:ultimate_alloy_mesh')
+})
+
 ServerEvents.recipes(event => {
     let removeItem = ['exdeorum:mechanical_hammer', 'exdeorum:mechanical_sieve', 'exdeorum:end_cake']
 
@@ -10,6 +16,87 @@ ServerEvents.recipes(event => {
 
     event.remove({ type: "exdeorum:sieve" })
     event.remove({ type: "exdeorum:compressed_sieve" })
+
+    event.remove({output:"exdeorum:iron_mesh"})
+    event.remove({output:"exdeorum:golden_mesh"})
+    event.remove({output:"exdeorum:diamond_mesh"})
+    event.remove({output:"exdeorum:netherite_mesh"})
+
+    event.shaped(
+        Item.of('exdeorum:iron_mesh', 1),
+        [
+            ' B ',
+            'BMB',
+            ' B '
+        ],
+        {
+            B: 'minecraft:iron_block',
+            M: 'exdeorum:flint_mesh'
+        }
+    )
+    
+    event.shaped(
+        Item.of('mek1000:advanced_alloy_mesh', 1),
+        [
+            ' B ',
+            'BMB',
+            ' B '
+        ],
+        {
+            B: 'evolvedmekanism:block_alloy_infused',
+            M: 'exdeorum:iron_mesh'
+        }
+    )
+
+    event.custom({
+        "type": "evolvedmekanism:alloying",
+        "extraInput": {
+            "amount": 4,
+            "ingredient": {
+                "item": 'evolvedmekanism:block_alloy_reinforced'
+            }
+        },
+        "secondExtraInput": {
+            "amount": 4,
+            "ingredient": {
+                "item": 'appflux:charged_redstone'
+            }
+        },
+        "mainInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'mek1000:advanced_alloy_mesh',
+            }
+        },
+        "output": {
+            "item": 'mek1000:reinforced_alloy_mesh'
+        }
+    })
+
+    event.custom({
+        "type": "evolvedmekanism:alloying",
+        "extraInput": {
+            "amount": 4,
+            "ingredient": {
+                "item": 'evolvedmekanism:block_alloy_atomic'
+            }
+        },
+        "secondExtraInput": {
+            "amount": 16,
+            "ingredient": {
+                "item": 'appflux:charged_redstone'
+            }
+        },
+        "mainInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'mek1000:reinforced_alloy_mesh',
+            }
+        },
+        "output": {
+            "item": 'mek1000:ultimate_alloy_mesh'
+        }
+    })
 
     removeItem.forEach(item => {
         event.remove({ output: item })
@@ -92,7 +179,7 @@ ServerEvents.recipes(event => {
             "ingredient": {
                 "item": "minecraft:gravel"
             },
-            "mesh": "exdeorum:golden_mesh",
+            "mesh": 'mek1000:advanced_alloy_mesh',
             "result": item,
             "result_amount": {
                 "type": "minecraft:binomial",
@@ -108,7 +195,7 @@ ServerEvents.recipes(event => {
             "ingredient": {
                 "item": "minecraft:gravel"
             },
-            "mesh": "exdeorum:diamond_mesh",
+            "mesh": 'mek1000:reinforced_alloy_mesh',
             "result": item,
             "result_amount": {
                 "type": "minecraft:binomial",
@@ -124,7 +211,7 @@ ServerEvents.recipes(event => {
             "ingredient": {
                 "item": "minecraft:gravel"
             },
-            "mesh": "exdeorum:netherite_mesh",
+            "mesh": 'mek1000:ultimate_alloy_mesh',
             "result": item,
             "result_amount": {
                 "type": "minecraft:binomial",
@@ -140,7 +227,7 @@ ServerEvents.recipes(event => {
             "ingredient": {
                 "item": "minecraft:gravel"
             },
-            "mesh": "exdeorum:netherite_mesh",
+            "mesh": 'mek1000:ultimate_alloy_mesh',
             "result": item,
             "result_amount": {
                 "type": "minecraft:binomial",

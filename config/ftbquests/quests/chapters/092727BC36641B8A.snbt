@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "092727BC36641B8A"
 	group: "7955F24567DE4319"
-	hide_quest_until_deps_complete: true
 	icon: "mek1000:fusion_controller"
 	id: "092727BC36641B8A"
 	order_index: 2

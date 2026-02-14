@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "17633E6667C22EEC"
 	group: "7955F24567DE4319"
-	hide_quest_until_deps_complete: true
 	id: "17633E6667C22EEC"
 	order_index: 3
 	quest_links: [ ]
