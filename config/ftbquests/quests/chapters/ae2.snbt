@@ -63,7 +63,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["25D4C3E90302E4EC"]
@@ -514,6 +514,23 @@
 			}]
 			x: 5.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			description: [
+				"限界高度に&a上向き&rで設置するとMEネットワーク内に&aスカイストーンダスト&rが生成されます"
+				""
+				"ブロックを破壊するのにも使用できます(本来の用途)"
+			]
+			id: "02491F4F5E0B2531"
+			subtitle: "仰げば尊し"
+			tasks: [{
+				id: "1F49BA875DD9BCF5"
+				item: "ae2:annihilation_plane"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.ae2.subtitle0}"]
