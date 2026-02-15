@@ -6,6 +6,12 @@ JEIEvents.hideItems(event => {
         event.hide(item)
     })
 
+    let hideMesh = ['exdeorum:golden_mesh', 'exdeorum:diamond_mesh', 'exdeorum:netherite_mesh']
+
+    hideMesh.forEach(item =>{
+        event.hide(item)
+    })
+
     event.hide('hyperdaimc:materializer')
     
     event.hide('expatternprovider:fishbig')
