@@ -1,0 +1,13 @@
+name = "Mekanism: Empowered"
+filename = "MekanismEmpowered-1.20.1-20.1.1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e6c60e6be92a6385ba03e8f22e7e883f804869c2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7545276
+project-id = 1256390

@@ -1,13 +1,13 @@
 name = "Mekanism Advanced Generators"
-filename = "MekanismAdvancedGenerators-1.20.1-2.1.1.jar"
+filename = "Mekanism-MoreSolarPanels-1.20.1-1.5.9.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5e217b7e6e87de9eb36383688121a9e53fddebf1"
+hash = "fe1c2b785713496a0b2fc1f65a3c994b691fa61f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6431429
+file-id = 5138626
 project-id = 844063

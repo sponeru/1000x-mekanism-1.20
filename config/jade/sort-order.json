@@ -11,6 +11,12 @@
   "ae2:power_storage": null,
   "ae2:server_data": null,
   "balm:jade": null,
+  "compactcrafting:field_projector": null,
+  "compactcrafting:field_proxy": null,
+  "compactmachines:machine": null,
+  "compactmachines:machine_tunnels": null,
+  "compactmachines:tunnel": null,
+  "compactmachines:tunnel_connection": null,
   "cookingforblockheads:fridge": null,
   "cookingforblockheads:milk_jar": null,
   "cookingforblockheads:oven": null,
@@ -19,6 +25,7 @@
   "cookingforblockheads:toaster": null,
   "dimstorage:dim_block_base": null,
   "dimstorage:dim_tank": null,
+  "entangled:entangled_block_component": null,
   "exdeorum:barrel": null,
   "exdeorum:crucible": null,
   "exdeorum:infested_leaves": null,
@@ -42,6 +49,7 @@
   "extendedcrafting:ultimate_auto_table": null,
   "extendedcrafting:ultimate_table": null,
   "framedblocks:framed_item_frame": null,
+  "functionalstorage:armory": null,
   "gravestone:grave": null,
   "integrateddynamicscompat:drying_basin": null,
   "integrateddynamicscompat:mechanical_drying_basin": null,
@@ -108,5 +116,6 @@
   "mysticalagriculture:inferium_crop": null,
   "mysticalagriculture:infused_farmland": null,
   "uti:entity_name": null,
-  "uti:object_name": null
+  "uti:object_name": null,
+  "waystones:waystone": null
 }

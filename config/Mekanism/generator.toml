@@ -1,0 +1,8 @@
+
+#Stellar Generator Config. This config is synced between server and client.
+[stellarGenerator]
+	#Multiplier for energy generation duration
+	energyDurationMultiplier = 1.0
+	#Energy capacity of the Stellar Generator
+	energyCapacity = "18446744073709551615.9999"
+

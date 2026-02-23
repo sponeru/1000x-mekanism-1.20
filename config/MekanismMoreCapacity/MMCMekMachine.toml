@@ -111,17 +111,45 @@
 		#Range: 1 ~ 9223372036854775807
 		ultimateChemicalTankCapacity = 900000
 
-	[factories."CompressingFactory, injectingFactory, purifyingFactory"]
+	[factories.CompressingFactory]
 		#Chemical tank capacity (mB). Default: 63000, Vanilla: 630
 		#Range: 1 ~ 9223372036854775807
-		basicChemicalTankCapacity = 63000
+		basicChemicalInputTankCapacity = 63000
 		#Chemical tank capacity (mB). Default: 105000, Vanilla: 1050
 		#Range: 1 ~ 9223372036854775807
-		advancedChemicalTankCapacity = 105000
+		advancedChemicalInputTankCapacity = 105000
 		#Chemical tank capacity (mB). Default: 147000 , Vanilla: 1470
 		#Range: 1 ~ 9223372036854775807
-		eliteChemicalTankCapacity = 147000
+		eliteChemicalInputTankCapacity = 147000
 		#Chemical tank capacity (mB). Default: 189000 , Vanilla: 1890
 		#Range: 1 ~ 9223372036854775807
-		ultimateChemicalTankCapacity = 189000
+		ultimateChemicalInputTankCapacity = 189000
+
+	[factories.InjectingFactory]
+		#Chemical tank capacity (mB). Default: 63000, Vanilla: 630
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalInputTankCapacity = 63000
+		#Chemical tank capacity (mB). Default: 105000, Vanilla: 1050
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalInputTankCapacity = 105000
+		#Chemical tank capacity (mB). Default: 147000 , Vanilla: 1470
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalInputTankCapacity = 147000
+		#Chemical tank capacity (mB). Default: 189000 , Vanilla: 1890
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalInputTankCapacity = 189000
+
+	[factories.PurifyingFactory]
+		#Chemical tank capacity (mB). Default: 63000, Vanilla: 630
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalInputTankCapacity = 63000
+		#Chemical tank capacity (mB). Default: 105000, Vanilla: 1050
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalInputTankCapacity = 105000
+		#Chemical tank capacity (mB). Default: 147000 , Vanilla: 1470
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalInputTankCapacity = 147000
+		#Chemical tank capacity (mB). Default: 189000 , Vanilla: 1890
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalInputTankCapacity = 189000
 

@@ -54,9 +54,16 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "compactmachines": {
+    "machine": true,
+    "tunnel": true
+  },
   "dimstorage": {
     "dim_block_base": true,
     "dim_tank": true
+  },
+  "entangled": {
+    "entangled_block_component": true
   },
   "exdeorum": {
     "infested_leaves": true,
@@ -82,6 +89,13 @@
   "uti": {
     "entity_name": true,
     "object_name": true
+  },
+  "functionalstorage": {
+    "armory": true
+  },
+  "compactcrafting": {
+    "field_proxy": true,
+    "field_projector": true
   },
   "balm": {
     "jade": true
@@ -123,15 +137,10 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "waystones": {
+    "waystone": true
+  },
   "gravestone": {
     "grave": true
-  },
-  "cookingforblockheads": {
-    "fridge": true,
-    "oven": true,
-    "sink": true,
-    "preservation_chamber": true,
-    "milk_jar": true,
-    "toaster": true
   }
 }

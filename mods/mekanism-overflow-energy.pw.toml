@@ -1,0 +1,13 @@
+name = "Mekanism Overflow Energy"
+filename = "mekanismoverflowenergy-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0e0426740d06ccadd561a555e7ba4b05c7222d91"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6932893
+project-id = 1332314

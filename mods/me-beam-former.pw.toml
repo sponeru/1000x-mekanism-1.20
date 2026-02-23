@@ -1,0 +1,13 @@
+name = "Me-Beam-Former"
+filename = "me_beam_former-1.2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f99c99d1f5e15a2a75e7a1c52d1c17ac88ba4943"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7437191
+project-id = 1351545

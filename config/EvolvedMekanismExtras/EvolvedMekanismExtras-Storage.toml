@@ -1,0 +1,6 @@
+
+#Evolved Mekanism Extras Storage Config
+[storage]
+	#Base energy storage (Joules).
+	alloyer = "40000000"
+

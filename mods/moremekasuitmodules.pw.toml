@@ -1,0 +1,13 @@
+name = "MoreMekaSuitModules"
+filename = "moremekasuitmodules-1.20.1-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9603e3459d9b89c80ceed8e76099134cda940bcd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6891366
+project-id = 1205682

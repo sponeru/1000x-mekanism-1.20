@@ -1,0 +1,13 @@
+// Compost colors for moremekasuitmodules. You may add your own colors, change existing ones, or remove colors that aren't needed.
+module_advanced_interception_system_unit, #f7fff4
+module_automatic_attack_unit, #f5fcf2
+module_emergency_rescue_unit, #fbfff5
+module_energy_shield_unit, #f7fef2
+module_health_regeneration_unit, #fbfff7
+module_high_speed_cooling_unit, #fffaf7
+module_hp_boots_unit, #fbfff7
+module_infinite_chemical_and_fluid_supply_unit, #ffebf1
+module_infinite_energy_supply_unit, #d6c9c3
+module_infinite_interception_and_rescue_system_unit, #fff8f5
+module_insulated_unit, #f7f8f0
+module_power_enhancement_unit, #f7fff2

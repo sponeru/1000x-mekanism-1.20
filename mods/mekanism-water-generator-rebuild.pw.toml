@@ -1,0 +1,13 @@
+name = "Mekanism Water Generator Rebuild"
+filename = "mwgr-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a7014e184891055a6849f855b1bdcba7dc921096"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7285358
+project-id = 1396471

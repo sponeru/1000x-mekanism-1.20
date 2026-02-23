@@ -1,4 +1,5 @@
 ae2:meteorite
+ftbteambases:start
 minecraft:ancient_city
 minecraft:bastion_remnant
 minecraft:buried_treasure

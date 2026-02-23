@@ -1,13 +1,13 @@
 name = "UntranslatedItems: AlsoFluidsAndChemicals"
-filename = "uti_afac-1.1.4+1.20.1-forge.jar"
+filename = "uti_afac-1.1.5+1.20.1-forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "72b4ce4540e7cbca2a620e08af33295d53fba7f8"
+hash = "dba3a2b842815e44fc68c8ca2d5fd5a03a4c2b10"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6497931
+file-id = 6884952
 project-id = 1071634

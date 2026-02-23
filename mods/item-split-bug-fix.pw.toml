@@ -1,13 +1,13 @@
 name = "Item Split Bug Fix"
-filename = "item_split_bug_fix-1.20.1-1.3.jar"
+filename = "item_split_bug_fix-1.20.1-1.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ec0ce22b4a7aa83eb4f75155e2de1b6d8c04bd9d"
+hash = "200682cd4b74d9fd873cdb718a747616f3f79497"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6585691
+file-id = 6675232
 project-id = 1119284

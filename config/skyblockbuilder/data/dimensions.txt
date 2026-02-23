@@ -1,5 +1,8 @@
 minecraft:overworld
+mek1000:normal
 minecraft:the_end
-javd:void
+ftbteambases:lobby
 minecraft:the_nether
+mek1000:void
+ftbteambases:bases
 ae2:spatial_storage

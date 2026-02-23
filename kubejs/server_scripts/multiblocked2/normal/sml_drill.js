@@ -16,6 +16,7 @@ ServerEvents.recipes((event) => {
       "mekanism:fluorite_ore",
       "mekanism:lead_ore",
       "kubejs:ore_iridium",
+      'kubejs:ore_certus_quartz',
     ];
 
     event.recipes.mek1000.sml_drill()

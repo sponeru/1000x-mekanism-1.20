@@ -1,0 +1,11 @@
+// Compost colors for mekanism_empowered. You may add your own colors, change existing ones, or remove colors that aren't needed.
+advanced_gauge_dropper, #eed0cf
+basic_gauge_dropper, #c3f0dd
+elite_gauge_dropper, #c8f5f5
+ultimate_gauge_dropper, #e6d4e7
+upgrade_auto_inserter, #5e6f61
+upgrade_empowered_energy, #f7fff7
+upgrade_empowered_speed, #f1fff4
+upgrade_fast_item_eject, #f1fff4
+upgrade_fast_item_insert, #eefff4
+upgrade_io_capacity, #f1fff5

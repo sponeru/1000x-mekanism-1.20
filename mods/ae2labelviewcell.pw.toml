@@ -1,0 +1,13 @@
+name = "AE2LabelViewCell"
+filename = "AE2LabelViewCell-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "270dc7f8baeda5d8c34540e442482359c3fb6415"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7370022
+project-id = 1411927

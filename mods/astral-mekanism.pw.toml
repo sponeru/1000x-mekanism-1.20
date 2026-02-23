@@ -1,0 +1,13 @@
+name = "Astral Mekanism"
+filename = "astral_mekanism-1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ada3a3e2c37fb189594c5d6eb27ca8a925ee25c3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7455924
+project-id = 1415150

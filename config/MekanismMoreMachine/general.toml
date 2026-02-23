@@ -1,0 +1,16 @@
+
+#General Config. This config is synced from server to client.
+[general]
+	#mB of Unstable Dimensional Gas collected by the Ambient Gas Collector.
+	#Range: 1 ~ 1000
+	gasCollectAmount = 1
+	#mB of Unstable Dimensional Gas collected by the Ambient Gas Collector.
+	wirelessChargingStationChargingRate = "100000"
+
+	#Custom Replicator Recipes
+	[general.replicator_recipes]
+		#The recipes added here will be added to the item replicator. Write using modid:registeredName#amount, # followed by the amount(not null or zero) of UU matter consumed. For example:["minecraft:stone#10","mekanism:basic_bin#100"]
+		itemReplicatorRecipe = []
+		#The recipes added here will be added to the fluid replicator. Write using modid:registeredName#amount, # followed by the amount(not null or zero) of UU matter consumed. For example:["minecraft:water#10","mekanism:heavy_water#100"]
+		fluidReplicatorRecipe = []
+

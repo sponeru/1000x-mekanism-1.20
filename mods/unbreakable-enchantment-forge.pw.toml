@@ -1,0 +1,13 @@
+name = "Unbreakable Enchantment (FORGE)"
+filename = "AbsolutelyUnbreakable-2.0.1-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0465dee428efc927a420c3760428cd34336502e1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4630830
+project-id = 650164
