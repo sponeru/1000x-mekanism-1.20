@@ -15,6 +15,6 @@ ServerEvents.recipes(event => {
         "output": { "item": 'evolvedmekanism:alloy_subatomic' }, "duration": 1000
     })
 
-    event.recipes.mekanismMetallurgicInfusing('evolvedmekanism:alloy_subatomic', '4x emextras:absolute_overclocked_control_circuit', '50000x astral_mekanism:singularity')
+    event.recipes.mekanismMetallurgicInfusing('evolvedmekanism:alloy_subatomic', '8x emextras:absolute_overclocked_control_circuit', '50000x astral_mekanism:singularity')
     
 })
