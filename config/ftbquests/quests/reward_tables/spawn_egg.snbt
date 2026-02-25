@@ -54,5 +54,5 @@
 		{ item: "minecraft:villager_spawn_egg" }
 		{ item: "minecraft:turtle_spawn_egg" }
 	]
-	title: "Spawn Egg"
+	title: "{ftbquests.loot_table_2320373292357157649.title}"
 }

@@ -241,7 +241,7 @@
 		{
 			dependencies: ["68335D23BF84FEE3"]
 			id: "634F9F87DFF73DD4"
-			subtitle: "光あれ"
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest12.subtitle}"
 			tasks: [{
 				id: "14197110D93989B2"
 				item: {
@@ -273,7 +273,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "多分壊れない"
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest13.subtitle}"
 			tasks: [{
 				id: "0E6A85C7F28454B6"
 				item: {
@@ -433,7 +433,7 @@
 		}
 		{
 			dependencies: ["6BADA3B6CB0642D8"]
-			description: ["開けるとランダムなスポーンエッグが入手できます"]
+			description: ["{ftbquests.chapter.17633E6667C22EEC.quest22.description1}"]
 			id: "49112B5C9B9A1E5C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -441,7 +441,7 @@
 				table_id: 2320373292357157649L
 				type: "choice"
 			}]
-			subtitle: "魔法石で引くやつ"
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest22.subtitle}"
 			tasks: [{
 				id: "718F5A0F38FF420A"
 				item: {
@@ -458,7 +458,7 @@
 		}
 		{
 			dependencies: ["6BADA3B6CB0642D8"]
-			description: ["開けるとランダムなレコードを入手できます"]
+			description: ["{ftbquests.chapter.17633E6667C22EEC.quest23.description1}"]
 			id: "7B94ADFC703FE203"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -466,7 +466,7 @@
 				table_id: 7630844454365538480L
 				type: "choice"
 			}]
-			subtitle: "ディスコタイム！"
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest23.subtitle}"
 			tasks: [{
 				id: "79430D5B5C0AA83E"
 				item: {
@@ -485,16 +485,35 @@
 			dependencies: ["0D0C3C349D4C156C"]
 			id: "514B86381FC49FD4"
 			rewards: [{
-				id: "67B40037B6ED8C33"
-				item: "blockbooster:booster_t1"
+				id: "3E0062E84E932CE6"
+				item: {
+					Count: 1
+					id: "extendedae_plus:entity_speed_card"
+					tag: {
+						"EAS:mult": 4
+					}
+				}
 				type: "item"
 			}]
-			subtitle: "時は、加速する"
-			tasks: [{
-				id: "4F9D9363602A29EB"
-				item: "blockbooster:booster_t1"
-				type: "item"
-			}]
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest24.subtitle}"
+			tasks: [
+				{
+					id: "1EF3292EADD47BB6"
+					item: {
+						Count: 1
+						id: "extendedae_plus:entity_speed_card"
+						tag: {
+							"EAS:mult": 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39E9499F422288F5"
+					item: "extendedae_plus:entity_speed_ticker"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: -2.0d
 		}

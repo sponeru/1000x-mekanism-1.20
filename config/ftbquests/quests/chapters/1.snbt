@@ -74,10 +74,10 @@
 		{
 			dependencies: ["016780D32B1ABC49"]
 			description: [
-				"{ftbquests.chapter.1.quest3.description1}"
-				"{ftbquests.chapter.1.quest3.description2}"
+				"{ftbquests.chapter.1.quest2.description1}"
+				"{ftbquests.chapter.1.quest2.description2}"
 				""
-				"{ftbquests.chapter.1.quest3.description3}"
+				"{ftbquests.chapter.1.quest2.description3}"
 			]
 			id: "296399230B63F479"
 			rewards: [
@@ -154,9 +154,9 @@
 		{
 			dependencies: ["016780D32B1ABC49"]
 			description: [
-				"{ftbquests.chapter.1.quest4.description1}"
+				"{ftbquests.chapter.1.quest3.description1}"
 				""
-				"{ftbquests.chapter.1.quest4.description2}"
+				"{ftbquests.chapter.1.quest3.description2}"
 			]
 			id: "68760385B1DE4302"
 			rewards: [{
@@ -185,10 +185,10 @@
 		{
 			dependencies: ["016780D32B1ABC49"]
 			description: [
-				"{ftbquests.chapter.1.quest5.description1}"
+				"{ftbquests.chapter.1.quest4.description1}"
 				""
-				"{ftbquests.chapter.1.quest5.description2}"
-				"{ftbquests.chapter.1.quest5.description3}"
+				"{ftbquests.chapter.1.quest4.description2}"
+				"{ftbquests.chapter.1.quest4.description3}"
 			]
 			id: "6FB7FFBB57D7E799"
 			rewards: [{
@@ -218,10 +218,10 @@
 		{
 			dependencies: ["6FB7FFBB57D7E799"]
 			description: [
-				"{ftbquests.chapter.1.quest6.description1}"
-				"{ftbquests.chapter.1.quest6.description2}"
+				"{ftbquests.chapter.1.quest5.description1}"
+				"{ftbquests.chapter.1.quest5.description2}"
 				""
-				"{ftbquests.chapter.1.quest6.description3}"
+				"{ftbquests.chapter.1.quest5.description3}"
 			]
 			id: "05F676E3893ACC4D"
 			subtitle: "{ftbquests.chapter.1.quest6.subtitle}"
@@ -243,7 +243,7 @@
 		}
 		{
 			dependencies: ["296399230B63F479"]
-			description: ["{ftbquests.chapter.1.quest7.description1}"]
+			description: ["{ftbquests.chapter.1.quest6.description1}"]
 			id: "3F9B706BE86D157B"
 			rewards: [{
 				count: 256
@@ -269,8 +269,8 @@
 		{
 			dependencies: ["3F9B706BE86D157B"]
 			description: [
-				"{ftbquests.chapter.1.quest8.description1}"
-				"{ftbquests.chapter.1.quest8.description2}"
+				"{ftbquests.chapter.1.quest7.description1}"
+				"{ftbquests.chapter.1.quest7.description2}"
 			]
 			id: "68335D23BF84FEE3"
 			rewards: [
@@ -299,7 +299,7 @@
 		}
 		{
 			dependencies: ["68335D23BF84FEE3"]
-			description: ["{ftbquests.chapter.1.quest9.description1}"]
+			description: ["{ftbquests.chapter.1.quest8.description1}"]
 			id: "2222120D1B1E679D"
 			rewards: [{
 				count: 32
@@ -420,13 +420,13 @@
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.1.quest13.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest12.subtitle}"
 			tasks: [{
 				id: "0C8424CF566571A6"
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest13.title}"
+			title: "{ftbquests.chapter.1.quest12.title}"
 			x: 0.0d
 			y: -2.5d
 		}
@@ -450,7 +450,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.1.quest14.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest13.subtitle}"
 			tasks: [
 				{
 					id: "12E81BCCB02B32D5"
@@ -463,7 +463,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.1.quest14.title}"
+			title: "{ftbquests.chapter.1.quest13.title}"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -494,7 +494,7 @@
 				item: "mekanism:pressurized_reaction_chamber"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest16.title}"
+			title: "{ftbquests.chapter.1.quest15.title}"
 			x: 2.0d
 			y: 1.0d
 		}
@@ -512,7 +512,7 @@
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest17.title}"
+			title: "{ftbquests.chapter.1.quest16.title}"
 			x: 0.0d
 			y: 3.5d
 		}
@@ -555,7 +555,7 @@
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest20.title}"
+			title: "{ftbquests.chapter.1.quest19.title}"
 			x: 0.0d
 			y: 6.5d
 		}
@@ -632,7 +632,7 @@
 		{
 			dependencies: ["2222120D1B1E679D"]
 			id: "2E4A177EF279802F"
-			subtitle: "{ftbquests.chapter.1.quest25.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest24.subtitle}"
 			tasks: [
 				{
 					count: 4L
@@ -647,13 +647,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.1.quest25.title}"
+			title: "{ftbquests.chapter.1.quest24.title}"
 			x: -3.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["016780D32B1ABC49"]
-			description: ["{ftbquests.chapter.1.quest26.description1}"]
+			description: ["{ftbquests.chapter.1.quest25.description1}"]
 			id: "4E84A725FB985753"
 			rewards: [{
 				id: "02070DC4220BF12A"
@@ -684,16 +684,16 @@
 		{
 			dependencies: ["016780D32B1ABC49"]
 			description: [
-				"{ftbquests.chapter.1.quest27.description1}"
+				"{ftbquests.chapter.1.quest26.description1}"
 				""
-				"{ftbquests.chapter.1.quest27.description2}"
-				"{ftbquests.chapter.1.quest27.description3}"
+				"{ftbquests.chapter.1.quest26.description2}"
+				"{ftbquests.chapter.1.quest26.description3}"
 				""
-				"{ftbquests.chapter.1.quest27.description4}"
-				"{ftbquests.chapter.1.quest27.description5}"
+				"{ftbquests.chapter.1.quest26.description4}"
+				"{ftbquests.chapter.1.quest26.description5}"
 				""
-				"{ftbquests.chapter.1.quest27.description6}"
-				"{ftbquests.chapter.1.quest27.description7}"
+				"{ftbquests.chapter.1.quest26.description6}"
+				"{ftbquests.chapter.1.quest26.description7}"
 			]
 			id: "037FD1B69569861E"
 			optional: true
@@ -715,7 +715,7 @@
 				item: "minecraft:budding_amethyst"
 				type: "item"
 			}]
-			subtitle: "アメジスト生えるｗｗｗ"
+			subtitle: "{ftbquests.chapter.1.quest28.subtitle}"
 			tasks: [{
 				id: "369AFA3C07A82284"
 				item: "minecraft:budding_amethyst"
@@ -751,7 +751,7 @@
 				item: "exdeorum:oak_crucible"
 				type: "item"
 			}]
-			subtitle: "びちゃびちゃ"
+			subtitle: "{ftbquests.chapter.1.quest29.subtitle}"
 			tasks: [
 				{
 					id: "3D646585D32BAE6E"
@@ -776,7 +776,7 @@
 				item: "expandedstorage:diamond_chest"
 				type: "item"
 			}]
-			subtitle: "ぐちゃぐちゃ防止"
+			subtitle: "{ftbquests.chapter.1.quest30.subtitle}"
 			tasks: [
 				{
 					id: "7B4CD2A2B97F001A"
@@ -789,7 +789,7 @@
 					type: "item"
 				}
 			]
-			title: "Crafting Terminalとその他"
+			title: "{ftbquests.chapter.1.quest30.title}"
 			x: 3.0d
 			y: -12.0d
 		}

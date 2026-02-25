@@ -56,7 +56,7 @@
 				item: "ae2:controller"
 				type: "item"
 			}]
-			subtitle: "ゲーミングキラキラキューブ"
+			subtitle: "{ftbquests.chapter.ae2.quest3.subtitle}"
 			tasks: [{
 				id: "71B57271F0EDE0A3"
 				item: "ae2:controller"
@@ -288,7 +288,7 @@
 		{
 			dependencies: ["25D4C3E90302E4EC"]
 			id: "5C461433047AC112"
-			subtitle: "レインボーなアートを描こう"
+			subtitle: "{ftbquests.chapter.ae2.quest14.subtitle}"
 			tasks: [{
 				id: "6BC50F46E8AA496D"
 				item: "mae2a:infinite_dyes_cell"
@@ -518,12 +518,12 @@
 		{
 			dependencies: ["25D4C3E90302E4EC"]
 			description: [
-				"限界高度に&a上向き&rで設置するとMEネットワーク内に&aスカイストーンダスト&rが生成されます"
+				"{ftbquests.chapter.ae2.quest27.description1}"
 				""
-				"ブロックを破壊するのにも使用できます(本来の用途)"
+				"{ftbquests.chapter.ae2.quest27.description2}"
 			]
 			id: "02491F4F5E0B2531"
-			subtitle: "仰げば尊し"
+			subtitle: "{ftbquests.chapter.ae2.quest27.subtitle}"
 			tasks: [{
 				id: "1F49BA875DD9BCF5"
 				item: "ae2:annihilation_plane"

@@ -245,7 +245,7 @@
 		{
 			dependencies: ["7ED68F17797155BB"]
 			id: "06504391F9BD9CD7"
-			subtitle: "これはGreg？"
+			subtitle: "{ftbquests.chapter.2.quest16.subtitle}"
 			tasks: [
 				{
 					id: "01CE73A8589AFB77"

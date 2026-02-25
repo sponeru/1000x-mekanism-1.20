@@ -735,7 +735,7 @@
 			id: "2D972B1C904F13A0"
 			shape: "hexagon"
 			size: 4.0d
-			subtitle: "Thank you for playing!"
+			subtitle: "{ftbquests.chapter.5.quest24.subtitle}"
 			tasks: [{
 				id: "2EF7D2976269E2E9"
 				item: "hyperdaimc:vrx"
@@ -761,16 +761,16 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.4.quest27.subtitle}"
+			subtitle: "{ftbquests.chapter.5.quest25.subtitle}"
 			tasks: [{
 				id: "769A5ECE13687872"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.4.quest27.title}"
+			title: "{ftbquests.chapter.5.quest25\\.title}"
 			x: 0.0d
 			y: 28.0d
 		}
 	]
-	subtitle: ["シン・旅の終わり"]
-	title: "チャプター5"
+	subtitle: ["{ftbquests.chapter.5.subtitle}"]
+	title: "{ftbquests.chapter.5.title}"
 }

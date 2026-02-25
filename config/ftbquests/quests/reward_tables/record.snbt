@@ -25,5 +25,5 @@
 		{ item: "minecraft:music_disc_11" }
 		{ item: "minecraft:music_disc_wait" }
 	]
-	title: "Record"
+	title: "{ftbquests.loot_table_7630844454365538480.title}"
 }
