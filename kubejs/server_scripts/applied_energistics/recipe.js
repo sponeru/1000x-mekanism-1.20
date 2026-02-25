@@ -250,4 +250,8 @@ ServerEvents.recipes(event => {
       "mek1000:ultimate_storage_housing",
       "mek1000:infinity_chemical_component",
     ]);
-})
+
+    event.remove({id:"extendedae_plus:transform/oblivion_singularity"})
+    event.remove({id:"extendedae_plus:entity_speed_card_2x"})
+
+  })

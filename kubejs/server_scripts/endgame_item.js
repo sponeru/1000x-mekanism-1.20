@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
                 "item": 'functionalstorage:netherite_upgrade'
             },
             "B": {
-                "item": 'megacells:bulk_cell_component'
+                "item": 'extendedae_plus:infinity_core'
             },
             "1": {
                 "item": 'expandedstorage:netherite_chest'

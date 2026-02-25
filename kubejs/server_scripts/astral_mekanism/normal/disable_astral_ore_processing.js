@@ -2,6 +2,7 @@ ServerEvents.recipes(event => {
     let material = ["coal","iron","copper","gold","redstone","emerald","lapis_lazuli","diamond","quartz","tin","uranium","lead","osmium","fluorite","netherite"]
 
     material.forEach(value =>{
+        event.remove({id:`astral_mekanism:processing/${value}/ore`})
         event.remove({id:`astral_mekanism:processing/${value}/dirty_slurry`})
         event.remove({id:`astral_mekanism:processing/${value}/clean_slurry`})
         event.remove({id:`astral_mekanism:processing/${value}/dirty_compressed_slurry`})

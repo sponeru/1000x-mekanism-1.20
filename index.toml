@@ -4967,11 +4967,6 @@ hash = "0c468672c01c91f93d4e9a33ba1b334d93954f8cf92c91a9ffa8a1bea964af05"
 metafile = true
 
 [[files]]
-file = "mods/blocks-booster.pw.toml"
-hash = "6bd5d0b1d9edb382f69a651404544e8052ea7ae769489f263f55099a09c117b0"
-metafile = true
-
-[[files]]
 file = "mods/bocchium.pw.toml"
 hash = "7ec99baf6e863d37c9c5cf5960ca4adeaa9e6b4e83b956e5985807b460877cf7"
 metafile = true
@@ -5214,6 +5209,11 @@ metafile = true
 [[files]]
 file = "mods/expanded-storage-kots.pw.toml"
 hash = "40ef4fca3936362e6d2441afb3e23f9a55652da78dd1c4ae8d973158fc8c0057"
+metafile = true
+
+[[files]]
+file = "mods/extendedae-plus.pw.toml"
+hash = "7fbde4e60eb18a72231158ad7aaf13826de6f28bb5cdc00c84ae90a44a3c0c07"
 metafile = true
 
 [[files]]
@@ -5522,6 +5522,11 @@ hash = "f4e58a5e313483f4d0fd3fba8362c08cfed6b968103c609a5ba1c98b5664f0d4"
 metafile = true
 
 [[files]]
+file = "mods/me-placement-tool.pw.toml"
+hash = "03f25634ced010a002f0981c195ccd973b09da08e90b748e87e8bd88bf3a10d2"
+metafile = true
+
+[[files]]
 file = "mods/mega-cells.pw.toml"
 hash = "10f1b6b632db719ee2da37deb6899ed42e78251a3aba52e75446c74096779e65"
 metafile = true
@@ -5699,6 +5704,11 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "dec2bc011d4ca1d451aaa3eea477f13366bfb13beba0716018f47d9331a50d8e"
+metafile = true
+
+[[files]]
+file = "mods/patternprovidersave.pw.toml"
+hash = "94e2ee1779b29b79ccab51b6a73e64df7783a34879e1d453445c79f34ebacb49"
 metafile = true
 
 [[files]]
