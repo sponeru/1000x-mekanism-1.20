@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src=https://raw.githubusercontent.com/sponeru/1000x-mekanism-1.20/refs/heads/main/overrides/config/fancymenu/assets/modpack_title.png?raw=true></img>
+  <img src=https://raw.githubusercontent.com/sponeru/1000x-mekanism-1.20/refs/heads/main/config/fancymenu/assets/modpack_title.png?raw=true></img>
   <a href=https://www.curseforge.com/minecraft/modpacks/extraordinary-energy-modern><img src=https://cf.way2muchnoise.eu/1280775.svg?badge_style=for_the_badge></img></a>
   <a href=https://www.curseforge.com/minecraft/modpacks/extraordinary-energy-modern><img src=https://cf.way2muchnoise.eu/versions/For%20MC_1280775_all.svg?badge_style=for_the_badge></img></a>
 </h1>
