@@ -793,6 +793,24 @@
 			x: 3.0d
 			y: -12.0d
 		}
+		{
+			dependencies: ["32BA30BD4C4537A0"]
+			id: "5D812B702AB88859"
+			tasks: [
+				{
+					id: "3CE3C78C0F04420F"
+					item: "exdeorum:oak_barrel"
+					type: "item"
+				}
+				{
+					id: "7D13FD572A92CB56"
+					item: "minecraft:clay"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -10.5d
+		}
 	]
 	subtitle: ["{ftbquests.chapter.1.subtitle0}"]
 	title: "{ftbquests.chapter.1.title}"
