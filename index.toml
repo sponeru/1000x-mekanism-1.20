@@ -5532,6 +5532,11 @@ hash = "10f1b6b632db719ee2da37deb6899ed42e78251a3aba52e75446c74096779e65"
 metafile = true
 
 [[files]]
+file = "mods/mekajadeupgrades-unofficial.pw.toml"
+hash = "1ef6662430ba928b56f5d58723c468c5fccfdf16319f57b98e68579f0169465f"
+metafile = true
+
+[[files]]
 file = "mods/mekalus-oculus-fork-with-fixed-mekanism-mekasuit.pw.toml"
 hash = "58c66715a20423f327e23754c6542c0e4c3f50a485252df4e7e1be820487688c"
 metafile = true

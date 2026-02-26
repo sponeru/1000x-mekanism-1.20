@@ -420,13 +420,13 @@
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.1.quest12.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest13.subtitle}"
 			tasks: [{
 				id: "0C8424CF566571A6"
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest12.title}"
+			title: "{ftbquests.chapter.1.quest13.title}"
 			x: 0.0d
 			y: -2.5d
 		}
@@ -450,7 +450,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.1.quest13.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest14.subtitle}"
 			tasks: [
 				{
 					id: "12E81BCCB02B32D5"
@@ -463,7 +463,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.1.quest13.title}"
+			title: "{ftbquests.chapter.1.quest14.title}"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -512,7 +512,7 @@
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest16.title}"
+			title: "{ftbquests.chapter.1.quest15.title}"
 			x: 0.0d
 			y: 3.5d
 		}
@@ -555,7 +555,7 @@
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest19.title}"
+			title: "{ftbquests.chapter.1.quest20.title}"
 			x: 0.0d
 			y: 6.5d
 		}

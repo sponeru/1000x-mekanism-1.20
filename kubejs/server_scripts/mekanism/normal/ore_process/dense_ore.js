@@ -64,6 +64,20 @@ ServerEvents.recipes((event) => {
           chemicalType: "slurry",
         },
       });
+
+      event.custom({
+        type: "mekanism:reaction",
+        itemInput: { ingredient: { item: input_item } },
+        fluidInput: { fluid: "minecraft:water", amount: multiplier * 8 },
+        gasInput: { gas: "mekanism:antimatter", amount: multiplier * 8 },
+        energyRequired: multiplier * 160,
+        duration: 20,
+        gasOutput: {
+          gas: "mek1000:active_" + ore_type,
+          amount: multiplier * 40,
+        },
+      });
+      
     } else if (
       ore_type == "diamond" ||
       ore_type == "emerald" ||
