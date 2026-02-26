@@ -26,5 +26,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: build-files-${{ env.SHA }}
-          path: extraordinary_energy_modern-nightly-${{ env.SHA }}.zip | extraordinary_energy_modern-server-nightly-${{ env.SHA }}.zip
+          path: | 
+            extraordinary_energy_modern-nightly-${{ env.SHA }}.zip 
+            extraordinary_energy_modern-server-nightly-${{ env.SHA }}.zip
           retention-days: 7
