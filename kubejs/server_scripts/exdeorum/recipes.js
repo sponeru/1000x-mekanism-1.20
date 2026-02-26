@@ -21,6 +21,32 @@ ServerEvents.recipes(event => {
     event.remove({ output: "exdeorum:golden_mesh" })
     event.remove({ output: "exdeorum:diamond_mesh" })
     event.remove({ output: "exdeorum:netherite_mesh" })
+    
+    event.shaped(
+        Item.of('exdeorum:oak_barrel', 1),
+        [
+            'B B',
+            'B B',
+            'BSB'
+        ],
+        {
+            B: 'integrateddynamics:menril_planks',
+            S: 'integrateddynamics:menril_slab'
+        }
+    )
+
+    event.shaped(
+        Item.of('exdeorum:oak_crucible', 1),
+        [
+            'B B',
+            'B B',
+            'BSB'
+        ],
+        {
+            B: 'integrateddynamics:menril_log',
+            S: 'integrateddynamics:menril_slab'
+        }
+    )
 
     event.shaped(
         Item.of('exdeorum:iron_mesh', 1),
@@ -136,6 +162,20 @@ ServerEvents.recipes(event => {
                     "type": "minecraft:binomial",
                     "n": 1.0,
                     "p": 0.2
+                }
+            })
+
+            event.custom({
+                "type": "exdeorum:sieve",
+                "ingredient": {
+                    "item": "minecraft:dirt"
+                },
+                "mesh": item,
+                "result": 'minecraft:oak_sapling',
+                "result_amount": {
+                    "type": "minecraft:binomial",
+                    "n": 1.0,
+                    "p": 0.1
                 }
             })
     })
