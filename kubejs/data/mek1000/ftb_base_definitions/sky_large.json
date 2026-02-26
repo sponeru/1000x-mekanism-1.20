@@ -1,0 +1,20 @@
+{
+  "id": "mek1000:sky_large",
+  "description": "Large Skyblock Island (Skyblock Mode)",
+  "preview_image": "ftbteambases:textures/spawn/default.png",
+  "author": "Mek1000",
+  "construction": {
+    "structure_location": "mek1000:sky_large",
+    "y_pos": 64,
+    "include_entities": false
+  },
+  "spawn_offset": [
+    0,
+    0,
+    0
+  ],
+  "dimension": {
+    "private": false,
+    "dimension_id": "mek1000:void"
+  }
+}

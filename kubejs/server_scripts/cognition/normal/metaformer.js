@@ -65,8 +65,8 @@ ServerEvents.recipes(event => {
 
     metaformer(
         'mek1000:the_null',
-        4,
-        'mek1000:infinite_super_circuit',
+        8,
+        'astral_mekanism:illusion_control_circuit',
         1,
         'megacells:bulk_cell_component',
         4,
@@ -95,4 +95,50 @@ ServerEvents.recipes(event => {
         cost: 20,
         processTime: 20
     })
+
+    for (let index = 1; index < 4; index++) {
+        event.custom({
+            type: 'experienceobelisk:molecular_metamorphosis',
+            ingredient1:
+                { item: `mek1000:valine3g_ingot_${index - 1}` }
+            ,
+            count1: 2,
+            ingredient2:
+                { item: 'astral_mekanism:crystal_antimatter_charged' }
+            ,
+            count2: 1,
+            ingredient3:
+                []
+            ,
+            count3: 0,
+            result:
+                { item: `mek1000:valine3g_ingot_${index}`, count: 1 }
+            ,
+            cost: 16,
+            processTime: 1
+        })
+    }
+
+    for (let index = 4; index < 8; index++) {
+        event.custom({
+            type: 'experienceobelisk:molecular_metamorphosis',
+            ingredient1:
+                { item: `mek1000:valine3g_ingot_${index - 1}` }
+            ,
+            count1: 2,
+            ingredient2:
+                { item: 'astral_mekanism:crystal_antimatter_charged' }
+            ,
+            count2: 1,
+            ingredient3:
+                []
+            ,
+            count3: 0,
+            result:
+                { item: `mek1000:valine3g_ingot_${index}`, count: 1 }
+            ,
+            cost: 55,
+            processTime: 1
+        })
+    }
 })

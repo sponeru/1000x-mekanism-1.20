@@ -1,0 +1,19 @@
+#Base factor for working out machine performance with upgrades - UpgradeModifier * (UpgradesInstalled/UpgradesPossible).
+#Range: > 1
+maxUpgradeMultiplier = 20
+
+#Configurable Auto Inserter
+[AutoInserter]
+	#Configurable item rate for Auto Inserter
+	#Range: 1 ~ 64
+	itemRate = 8
+	#Configurable chemical rate for Auto Inserter
+	#Range: 1 ~ 9223372036854775807
+	chemicalRate = 128
+	#Configurable fluid rate for Auto Inserter
+	#Range: > 1
+	fluidRate = 128
+	#Configurable energy rate for Auto Inserter
+	#Range: 1 ~ 9223372036854775807
+	energyRate = 128
+

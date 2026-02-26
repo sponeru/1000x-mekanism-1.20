@@ -1,0 +1,13 @@
+name = "AE2 Pattern Encoding Access Terminal"
+filename = "ae2-pattern-encoding-access-terminal-1.20.1-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dd88b69d32963a1d58fd3391afb9ccdc32b910f8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7261198
+project-id = 1374596

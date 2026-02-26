@@ -8,8 +8,8 @@ ServerEvents.recipes((event) => {
         P: 'advanced_ae:quantum_processor',
         S: 'mekanism_extras:absolute_control_circuit',
         A: 'experienceobelisk:flask_of_hades',
-        B: 'cookingforblockheads:heating_unit',
+        B: 'mekanismtools:refined_obsidian_paxel',
         D: 'experienceobelisk:flask_of_poseidon',
-        E: 'cookingforblockheads:ice_unit'
+        E: 'mekanismtools:refined_obsidian_paxel'
     })
 })

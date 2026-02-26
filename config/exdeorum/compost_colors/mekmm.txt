@@ -1,0 +1,5 @@
+// Compost colors for mekmm. You may add your own colors, change existing ones, or remove colors that aren't needed.
+empty_crystal, #cdf1ff
+scrap, #7a5e52
+scrap_box, #ffffee
+uu_matter, #de6bff

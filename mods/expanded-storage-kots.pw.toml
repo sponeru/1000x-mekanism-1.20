@@ -1,0 +1,13 @@
+name = "Expanded Storage - KOTS"
+filename = "expandedstorage-10.3.4-KOTS.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d965dbcd62f2783e2ad154f842ea8c8acb306753"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7592915
+project-id = 1394855

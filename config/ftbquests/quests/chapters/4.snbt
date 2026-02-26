@@ -311,7 +311,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 10.5d
 		}
 		{
@@ -348,83 +348,8 @@
 				item: "ae2:creative_energy_cell"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 10.5d
-		}
-		{
-			dependencies: [
-				"79896856FE750D5D"
-				"59401C265DEB5E33"
-				"10050B7F64430EBD"
-				"2A994D1DDF1039D5"
-			]
-			id: "23FCE53F8C002D66"
-			rewards: [{
-				id: "660C0EB8DD2B376C"
-				item: "mekanism:creative_bin"
-				type: "item"
-			}]
-			shape: "octagon"
-			size: 3.0d
-			tasks: [{
-				id: "201B4108D421D70E"
-				item: "mekanism:creative_bin"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["23FCE53F8C002D66"]
-			id: "5F2D675BD436BA57"
-			rewards: [
-				{
-					id: "5DEEFA8A861391F4"
-					item: "ae2:creative_fluid_cell"
-					type: "item"
-				}
-				{
-					id: "1F4B5365D1D98C0F"
-					item: "appmek:creative_chemical_cell"
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			size: 5.0d
-			subtitle: "{ftbquests.chapter.4.quest26.subtitle}"
-			tasks: [{
-				id: "1C156AF31C0CE3E6"
-				item: "ae2:creative_item_cell"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 18.0d
-		}
-		{
-			dependencies: [
-				"5F2D675BD436BA57"
-				"5C124BC2B5689E7B"
-			]
-			hide_until_deps_complete: true
-			icon: "expatternprovider:fishbig"
-			id: "4697DC174E6CBF96"
-			optional: true
-			rewards: [{
-				id: "65BD71D28348A894"
-				ignore_reward_blocking: true
-				item: "expatternprovider:fishbig"
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 2.0d
-			subtitle: "{ftbquests.chapter.4.quest27.subtitle}"
-			tasks: [{
-				id: "602051C2B88E5073"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.4.quest27.title}"
-			x: 3.0d
-			y: 22.0d
 		}
 		{
 			dependencies: ["7D70184C6C6FA8F5"]
@@ -444,6 +369,30 @@
 			}]
 			x: 5.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["1A90004799FC9497"]
+			id: "6D7A910C7242BA45"
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				id: "28BBE0BBD844C628"
+				item: "hyperdaimc:desk"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6F6359AE040DD991"]
+			id: "1A90004799FC9497"
+			tasks: [{
+				id: "52C03664A022F323"
+				item: "hyperdaimc:bug_star"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.4.subtitle0}"]

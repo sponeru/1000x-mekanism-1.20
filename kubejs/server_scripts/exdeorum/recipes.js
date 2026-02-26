@@ -1,47 +1,215 @@
+ServerEvents.tags("minecraft:item", event => {
+    event.add('exdeorum:sieve_meshes', 'mek1000:advanced_alloy_mesh')
+    event.add('exdeorum:sieve_meshes', 'mek1000:elite_alloy_mesh')
+    event.add('exdeorum:sieve_meshes', 'mek1000:atomic_alloy_mesh')
+})
+
 ServerEvents.recipes(event => {
     let removeItem = ['exdeorum:mechanical_hammer', 'exdeorum:mechanical_sieve', 'exdeorum:end_cake']
 
-    let ores = ['minecraft:coal', 'minecraft:raw_iron', 'minecraft:raw_copper', 'minecraft:raw_gold', 'mekanism:raw_osmium', 'mekanism:raw_tin', 'mekanism:raw_lead', 'mekanism:raw_uranium', 'minecraft:lapis_lazuli', 'minecraft:diamond', 'minecraft:emerald', 'kubejs:iridium', 'mekanism:fluorite_gem', 'minecraft:quartz', 'deepdepthnetherite:deepslate_netherite_ore', 'minecraft:redstone']
-    let dense = ['denseores:dense_redstone_ore', 'denseores:dense_emerald_ore', 'denseores:dense_lapis_ore', 'denseores:dense_diamond_ore', 'kubejs:dense_ore_iridium', 'kubejs:dense_ore_quartz', 'densemekanism:dense_tin_ore', 'densemekanism:dense_osmium_ore', 'densemekanism:dense_uranium_ore', 'densemekanism:dense_fluorite_ore', 'densemekanism:dense_lead_ore', 'denseores:dense_coal_ore', 'denseores:dense_iron_ore', 'denseores:dense_copper_ore', 'denseores:dense_gold_ore']
-    let allMesh = ['exdeorum:string_mesh', 'exdeorum:flint_mesh', 'exdeorum:iron_mesh', 'exdeorum:golden_mesh', 'exdeorum:diamond_mesh', 'exdeorum:netherite_mesh']
+    let removeItem2 = ['exdeorum:stone_barrel', 'exdeorum:oak_sieve', 'exdeorum:spruce_sieve', 'exdeorum:birch_sieve', 'exdeorum:jungle_sieve', 'exdeorum:acacia_sieve', 'exdeorum:dark_oak_sieve', 'exdeorum:mangrove_sieve', 'exdeorum:cherry_sieve', 'exdeorum:bamboo_sieve', 'exdeorum:crimson_sieve', 'exdeorum:warped_sieve', 'exdeorum:oak_compressed_sieve', 'exdeorum:spruce_compressed_sieve', 'exdeorum:birch_compressed_sieve', 'exdeorum:jungle_compressed_sieve', 'exdeorum:acacia_compressed_sieve', 'exdeorum:dark_oak_compressed_sieve', 'exdeorum:mangrove_compressed_sieve', 'exdeorum:cherry_compressed_sieve', 'exdeorum:bamboo_compressed_sieve', 'exdeorum:warped_compressed_sieve', 'exdeorum:crimson_compressed_sieve']
+    let removeItem3 = ['exdeorum:unfired_porcelain_crucible', 'exdeorum:warped_crucible', 'exdeorum:crimson_crucible', 'exdeorum:spruce_crucible', 'exdeorum:birch_crucible', 'exdeorum:jungle_crucible', 'exdeorum:acacia_crucible', 'exdeorum:dark_oak_crucible', 'exdeorum:mangrove_crucible', 'exdeorum:cherry_crucible', 'exdeorum:bamboo_crucible']
+
+    let ores = ['minecraft:coal', 'minecraft:raw_iron', 'minecraft:raw_copper', 'minecraft:raw_gold', 'mekanism:raw_osmium', 'mekanism:raw_tin', 'mekanism:raw_lead', 'mekanism:raw_uranium', 'minecraft:lapis_lazuli', 'minecraft:diamond', 'minecraft:emerald', 'kubejs:iridium', 'mekanism:fluorite_gem', 'minecraft:quartz', 'kubejs:ore_debri_deepslate', 'minecraft:redstone', 'ae2:certus_quartz_crystal']
+    let dense = ['denseores:dense_redstone_ore', 'denseores:dense_emerald_ore', 'denseores:dense_lapis_ore', 'denseores:dense_diamond_ore', 'kubejs:dense_ore_iridium', 'kubejs:dense_ore_quartz', 'densemekanism:dense_tin_ore', 'densemekanism:dense_osmium_ore', 'densemekanism:dense_uranium_ore', 'densemekanism:dense_fluorite_ore', 'densemekanism:dense_lead_ore', 'denseores:dense_coal_ore', 'denseores:dense_iron_ore', 'denseores:dense_copper_ore', 'denseores:dense_gold_ore', 'kubejs:dense_ore_certus_quartz']
+    let allMesh = ['exdeorum:string_mesh', 'exdeorum:flint_mesh', 'exdeorum:iron_mesh' , 'mek1000:advanced_alloy_mesh' , 'mek1000:reinforced_alloy_mesh' , 'mek1000:atomic_alloy_mesh']
 
     event.remove({ type: "exdeorum:sieve" })
     event.remove({ type: "exdeorum:compressed_sieve" })
 
+    event.remove({ output: "exdeorum:iron_mesh" })
+    event.remove({ output: "exdeorum:golden_mesh" })
+    event.remove({ output: "exdeorum:diamond_mesh" })
+    event.remove({ output: "exdeorum:netherite_mesh" })
+    
+    event.shaped(
+        Item.of('exdeorum:oak_barrel', 1),
+        [
+            'B B',
+            'B B',
+            'BSB'
+        ],
+        {
+            B: 'integrateddynamics:menril_planks',
+            S: 'integrateddynamics:menril_slab'
+        }
+    )
+
+    event.shaped(
+        Item.of('exdeorum:oak_crucible', 1),
+        [
+            'B B',
+            'B B',
+            'BSB'
+        ],
+        {
+            B: 'integrateddynamics:menril_log',
+            S: 'integrateddynamics:menril_slab'
+        }
+    )
+
+    event.shaped(
+        Item.of('exdeorum:iron_mesh', 1),
+        [
+            ' B ',
+            'BMB',
+            ' B '
+        ],
+        {
+            B: 'minecraft:iron_block',
+            M: 'exdeorum:flint_mesh'
+        }
+    )
+
+    event.shaped(
+        Item.of('mek1000:advanced_alloy_mesh', 1),
+        [
+            ' B ',
+            'BMB',
+            ' B '
+        ],
+        {
+            B: 'evolvedmekanism:block_alloy_infused',
+            M: 'exdeorum:iron_mesh'
+        }
+    )
+
+    event.custom({
+        "type": "evolvedmekanism:alloying",
+        "extraInput": {
+            "amount": 4,
+            "ingredient": {
+                "item": 'evolvedmekanism:block_alloy_reinforced'
+            }
+        },
+        "secondExtraInput": {
+            "amount": 4,
+            "ingredient": {
+                "item": 'appflux:charged_redstone'
+            }
+        },
+        "mainInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'mek1000:advanced_alloy_mesh',
+            }
+        },
+        "output": {
+            "item": 'mek1000:reinforced_alloy_mesh'
+        }
+    })
+
+    event.custom({
+        "type": "evolvedmekanism:alloying",
+        "extraInput": {
+            "amount": 4,
+            "ingredient": {
+                "item": 'evolvedmekanism:block_alloy_atomic'
+            }
+        },
+        "secondExtraInput": {
+            "amount": 16,
+            "ingredient": {
+                "item": 'appflux:charged_redstone'
+            }
+        },
+        "mainInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'mek1000:reinforced_alloy_mesh',
+            }
+        },
+        "output": {
+            "item": 'mek1000:atomic_alloy_mesh'
+        }
+    })
+
     removeItem.forEach(item => {
         event.remove({ output: item })
+    })
+
+    removeItem2.forEach(item => {
+        event.remove({ output: item })
+    })
+
+    removeItem3.forEach(item => {
+        event.remove({ output: item })
+    })
+
+    allMesh.forEach(item => {
+            event.custom({
+                "type": "exdeorum:sieve",
+                "ingredient": {
+                    "item": "minecraft:dirt"
+                },
+                "mesh": item,
+                "result": 'exdeorum:stone_pebble',
+                "result_amount": {
+                    "type": "minecraft:binomial",
+                    "n": 8.0,
+                    "p": 0.9
+                }
+            })
+
+            event.custom({
+                "type": "exdeorum:sieve",
+                "ingredient": {
+                    "item": "minecraft:dirt"
+                },
+                "mesh": item,
+                "result": 'exdeorum:grass_seeds',
+                "result_amount": {
+                    "type": "minecraft:binomial",
+                    "n": 1.0,
+                    "p": 0.2
+                }
+            })
+
+            event.custom({
+                "type": "exdeorum:sieve",
+                "ingredient": {
+                    "item": "minecraft:dirt"
+                },
+                "mesh": item,
+                "result": 'minecraft:oak_sapling',
+                "result_amount": {
+                    "type": "minecraft:binomial",
+                    "n": 1.0,
+                    "p": 0.1
+                }
+            })
     })
 
     allMesh.forEach(item => {
         event.custom({
             "type": "exdeorum:sieve",
             "ingredient": {
-                "item": "minecraft:dirt"
+                "item": 'minecraft:spawner'
             },
             "mesh": item,
-            "result": 'exdeorum:stone_pebble',
+            "result": 'minecraft:cow_spawn_egg',
             "result_amount": {
                 "type": "minecraft:binomial",
-                "n": 8.0,
-                "p": 0.9
+                "n": 1,
+                "p": 1
             }
         })
+
 
         event.custom({
             "type": "exdeorum:sieve",
             "ingredient": {
-                "item": "minecraft:dirt"
+                "item": 'minecraft:spawner'
             },
             "mesh": item,
-            "result": 'exdeorum:grass_seeds',
+            "result": 'minecraft:sheep_spawn_egg',
             "result_amount": {
                 "type": "minecraft:binomial",
-                "n": 1.0,
-                "p": 0.2
+                "n": 1,
+                "p": 1
             }
         })
     })
-
 
     ores.forEach(item => {
         event.custom({
@@ -81,7 +249,7 @@ ServerEvents.recipes(event => {
             "ingredient": {
                 "item": "minecraft:gravel"
             },
-            "mesh": "exdeorum:golden_mesh",
+            "mesh": 'mek1000:advanced_alloy_mesh',
             "result": item,
             "result_amount": {
                 "type": "minecraft:binomial",
@@ -97,7 +265,7 @@ ServerEvents.recipes(event => {
             "ingredient": {
                 "item": "minecraft:gravel"
             },
-            "mesh": "exdeorum:diamond_mesh",
+            "mesh": 'mek1000:reinforced_alloy_mesh',
             "result": item,
             "result_amount": {
                 "type": "minecraft:binomial",
@@ -113,7 +281,7 @@ ServerEvents.recipes(event => {
             "ingredient": {
                 "item": "minecraft:gravel"
             },
-            "mesh": "exdeorum:netherite_mesh",
+            "mesh": 'mek1000:atomic_alloy_mesh',
             "result": item,
             "result_amount": {
                 "type": "minecraft:binomial",
@@ -129,43 +297,12 @@ ServerEvents.recipes(event => {
             "ingredient": {
                 "item": "minecraft:gravel"
             },
-            "mesh": "exdeorum:netherite_mesh",
+            "mesh": 'mek1000:atomic_alloy_mesh',
             "result": item,
             "result_amount": {
                 "type": "minecraft:binomial",
                 "n": 30.0,
                 "p": 0.8
-            }
-        })
-    })
-
-    allMesh.forEach(item => {
-        event.custom({
-            "type": "exdeorum:sieve",
-            "ingredient": {
-                "item": 'minecraft:spawner'
-            },
-            "mesh": item,
-            "result": 'minecraft:cow_spawn_egg',
-            "result_amount": {
-                "type": "minecraft:binomial",
-                "n": 1,
-                "p": 1
-            }
-        })
-
-
-        event.custom({
-            "type": "exdeorum:sieve",
-            "ingredient": {
-                "item": 'minecraft:spawner'
-            },
-            "mesh": item,
-            "result": 'minecraft:sheep_spawn_egg',
-            "result_amount": {
-                "type": "minecraft:binomial",
-                "n": 1,
-                "p": 1
             }
         })
     })

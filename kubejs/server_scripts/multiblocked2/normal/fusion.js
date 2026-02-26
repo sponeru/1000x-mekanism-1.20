@@ -35,12 +35,22 @@ ServerEvents.recipes((event) => {
         )
         .inputItems('mekanism_extras:infinite_fluid_tank', '8x mek1000:infinity_ingot')
 
+    event.remove({output: 'hyperdaimc:desk'})
     event.recipes.mek1000.fusion()
-        .id("mek1000:recipe_creative_cell")
+        .id("mek1000:recipe_gamacrafter")
         .duration(20 * 150)
-        .outputItems('ae2:creative_item_cell')
+        .outputItems('hyperdaimc:desk')
         .perTick(builder => builder
             .inputFE(2147483647)
         )
-        .inputItems('mekanism:creative_bin', '64x mek1000:infinity_ingot')
+        .inputItems('mekanism:formulaic_assemblicator', 'hyperdaimc:bug_star')
+
+    event.recipes.mek1000.fusion()
+        .id("mek1000:recipe_bugstar")
+        .duration(20 * 150)
+        .outputItems('4x hyperdaimc:bug_star')
+        .perTick(builder => builder
+            .inputFE(2147483647)
+        )
+        .inputItems('64x astral_mekanism:crystal_antimatter_charged', '64x mek1000:infinity_ingot')
 })

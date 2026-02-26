@@ -18,133 +18,157 @@ ServerEvents.recipes(event => {
 
     event.remove({ output: 'solarpanels:improved_hybrid_solar_element' })
     event.custom({
-        type: 'experienceobelisk:molecular_metamorphosis',
-        ingredient1:
-            { item: 'mekanism:alloy_reinforced' }
-        ,
-        count1: 1,
-        ingredient2:
-            { item: 'solarpanels:hybrid_solar_element' }
-        ,
-        count2: 1,
-        ingredient3:
-            { item: 'mekanism:hdpe_sheet' }
-        ,
-        count3: 4,
-        result:
-            { item: 'solarpanels:improved_hybrid_solar_element', count: 1 }
-        ,
-        cost: 20,
-        processTime: 10
+        "type": "evolvedmekanism:alloying",
+        "extraInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'mekanism:alloy_reinforced'
+            }
+        },
+        "secondExtraInput": {
+            "amount": 4,
+            "ingredient": {
+                "item": 'mekanism:hdpe_sheet'
+            }
+        },
+        "mainInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'solarpanels:hybrid_solar_element',
+            }
+        },
+        "output": {
+            "item": 'solarpanels:improved_hybrid_solar_element'
+        }
     })
 
     event.remove({ output: 'solarpanels:quantum_solar_element' })
     event.custom({
-        type: 'experienceobelisk:molecular_metamorphosis',
-        ingredient1:
-            { item: 'mekanism:alloy_atomic' }
-        ,
-        count1: 1,
-        ingredient2:
-            { item: 'solarpanels:improved_hybrid_solar_element' }
-        ,
-        count2: 1,
-        ingredient3:
-            { item: 'mekanism:hdpe_sheet' }
-        ,
-        count3: 4,
-        result:
-            { item: 'solarpanels:quantum_solar_element', count: 1 }
-        ,
-        cost: 40,
-        processTime: 10
+        "type": "evolvedmekanism:alloying",
+        "extraInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'mekanism:alloy_atomic'
+            }
+        },
+        "secondExtraInput": {
+            "amount": 4,
+            "ingredient": {
+                "item": 'mekanism:hdpe_sheet' 
+            }
+        },
+        "mainInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'solarpanels:improved_hybrid_solar_element',
+            }
+        },
+        "output": {
+            "item": 'solarpanels:quantum_solar_element'
+        }
     })
 
     event.remove({ output: 'solarpanels:spectral_solar_element' })
     event.custom({
-        type: 'experienceobelisk:molecular_metamorphosis',
-        ingredient1:
-            { item: 'mekanism_extras:alloy_radiance' }
-        ,
-        count1: 1,
-        ingredient2:
-            { item: 'solarpanels:quantum_solar_element' }
-        ,
-        count2: 1,
-        ingredient3:
-            { item: 'mekanism:hdpe_sheet' }
-        ,
-        count3: 8,
-        result:
-            { item: 'solarpanels:spectral_solar_element', count: 1 }
-        ,
-        cost: 80,
-        processTime: 10
+        "type": "evolvedmekanism:alloying",
+        "extraInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'mekanism_extras:alloy_radiance'
+            }
+        },
+        "secondExtraInput": {
+            "amount": 8,
+            "ingredient": {
+                "item": 'mekanism:hdpe_sheet' 
+            }
+        },
+        "mainInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'solarpanels:quantum_solar_element',
+            }
+        },
+        "output": {
+            "item": 'solarpanels:spectral_solar_element'
+        }
     })
 
     event.remove({ output: 'solarpanels:singular_solar_element' })
     event.custom({
-        type: 'experienceobelisk:molecular_metamorphosis',
-        ingredient1:
-            { item: 'mekanism_extras:alloy_thermonuclear' }
-        ,
-        count1: 1,
-        ingredient2:
-            { item: 'solarpanels:spectral_solar_element' }
-        ,
-        count2: 1,
-        ingredient3:
-            { item: 'mekanism:hdpe_sheet' }
-        ,
-        count3: 16,
-        result:
-            { item: 'solarpanels:singular_solar_element', count: 1 }
-        ,
-        cost: 160,
-        processTime: 10
+        "type": "evolvedmekanism:alloying",
+        "extraInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'mekanism_extras:alloy_thermonuclear'
+            }
+        },
+        "secondExtraInput": {
+            "amount": 16,
+            "ingredient": {
+                "item": 'mekanism:hdpe_sheet' 
+            }
+        },
+        "mainInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'solarpanels:spectral_solar_element',
+            }
+        },
+        "output": {
+            "item": 'solarpanels:singular_solar_element'
+        }
     })
 
     event.remove({ output: 'solarpanels:light_absorbing_solar_element' })
     event.custom({
-        type: 'experienceobelisk:molecular_metamorphosis',
-        ingredient1:
-            { item: 'mekanism_extras:alloy_shining' }
-        ,
-        count1: 1,
-        ingredient2:
-            { item: 'solarpanels:singular_solar_element' }
-        ,
-        count2: 1,
-        ingredient3:
-            { item: 'mekanism:hdpe_sheet' }
-        ,
-        count3: 32,
-        result:
-            { item: 'solarpanels:light_absorbing_solar_element', count: 1 }
-        ,
-        cost: 320,
-        processTime: 10
+        "type": "evolvedmekanism:alloying",
+        "extraInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'mekanism_extras:alloy_shining'
+            }
+        },
+        "secondExtraInput": {
+            "amount": 32,
+            "ingredient": {
+                "item": 'mekanism:hdpe_sheet' 
+            }
+        },
+        "mainInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'solarpanels:singular_solar_element',
+            }
+        },
+        "output": {
+            "item": 'solarpanels:light_absorbing_solar_element' 
+        }
     })
 
     event.remove({ output: 'solarpanels:photonic_solar_element' })
     event.custom({
-        type: 'experienceobelisk:molecular_metamorphosis',
-        ingredient1:
-            { item: 'mekanism_extras:alloy_spectrum' }
-        ,
-        count1: 1,
-        ingredient2:
-            { item: 'solarpanels:light_absorbing_solar_element' }
-        ,
-        count2: 1,
-        ingredient3:
-            { item: 'compactmekanismmachines:compressed_wind_generator_x131072' }
-        ,
-        count3: 1,
-        result:
-            { item: 'solarpanels:photonic_solar_element', count: 1 }
-        ,
-        cost: 640,
-        processTime: 10
+        "type": "evolvedmekanism:alloying",
+        "extraInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'astral_mekanism:illusion_control_circuit'
+            }
+        },
+        "secondExtraInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'compactmekanismmachines:compressed_wind_generator_x131072'
+            }
+        },
+        "mainInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'solarpanels:light_absorbing_solar_element',
+            }
+        },
+        "output": {
+            "item": 'solarpanels:photonic_solar_element'
+        }
     })
 })

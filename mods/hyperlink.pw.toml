@@ -1,0 +1,13 @@
+name = "Hyperlink"
+filename = "Hyperlink-1201.2.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6bce5095d1530f6f8a7ace7819d7b29e00156971"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7052766
+project-id = 1274604

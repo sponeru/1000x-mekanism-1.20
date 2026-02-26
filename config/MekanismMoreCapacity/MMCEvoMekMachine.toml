@@ -1,0 +1,90 @@
+
+#Adjustment of the capacity of the machine's internal tank
+[Evolved_Mekanism]
+
+	[Evolved_Mekanism.EvolvedCompressing]
+		#Chemical tank capacity (mB). Default: 231000, Vanilla: 2310
+		#Range: 1 ~ 9223372036854775807
+		overclockedChemicalTankCapacity = 231000
+		#Chemical tank capacity (mB). Default: 273000, Vanilla: 2730
+		#Range: 1 ~ 9223372036854775807
+		quantumChemicalTankCapacity = 273000
+		#Chemical tank capacity (mB). Default: 315000, Vanilla: 3150
+		#Range: 1 ~ 9223372036854775807
+		denseChemicalTankCapacity = 315000
+		#Chemical tank capacity (mB). Default: 357000, Vanilla: 3570
+		#Range: 1 ~ 9223372036854775807
+		multiversalChemicalTankCapacity = 357000
+		#Chemical tank capacity (mB). Default: 399000, Vanilla: 3990
+		#Range: 1 ~ 9223372036854775807
+		CreativeChemicalTankCapacity = 399000
+
+	[Evolved_Mekanism.Evolvedinjecting]
+		#Chemical tank capacity (mB). Default: 231000, Vanilla: 2310
+		#Range: 1 ~ 9223372036854775807
+		overclockedChemicalTankCapacity = 231000
+		#Chemical tank capacity (mB). Default: 273000, Vanilla: 2730
+		#Range: 1 ~ 9223372036854775807
+		quantumChemicalTankCapacity = 273000
+		#Chemical tank capacity (mB). Default: 315000, Vanilla: 3150
+		#Range: 1 ~ 9223372036854775807
+		denseChemicalTankCapacity = 315000
+		#Chemical tank capacity (mB). Default: 357000, Vanilla: 3570
+		#Range: 1 ~ 9223372036854775807
+		multiversalChemicalTankCapacity = 357000
+		#Chemical tank capacity (mB). Default: 399000, Vanilla: 3990
+		#Range: 1 ~ 9223372036854775807
+		CreativeChemicalTankCapacity = 399000
+
+	[Evolved_Mekanism.EvolvedPurifying]
+		#Chemical tank capacity (mB). Default: 231000, Vanilla: 2310
+		#Range: 1 ~ 9223372036854775807
+		overclockedChemicalTankCapacity = 231000
+		#Chemical tank capacity (mB). Default: 273000, Vanilla: 2730
+		#Range: 1 ~ 9223372036854775807
+		quantumChemicalTankCapacity = 273000
+		#Chemical tank capacity (mB). Default: 315000, Vanilla: 3150
+		#Range: 1 ~ 9223372036854775807
+		denseChemicalTankCapacity = 315000
+		#Chemical tank capacity (mB). Default: 357000, Vanilla: 3570
+		#Range: 1 ~ 9223372036854775807
+		multiversalChemicalTankCapacity = 357000
+		#Chemical tank capacity (mB). Default: 399000, Vanilla: 3990
+		#Range: 1 ~ 9223372036854775807
+		CreativeChemicalTankCapacity = 399000
+
+	[Evolved_Mekanism.InfusingFactoryEvolved]
+		#Chemical tank capacity (mB). Default: 1100000, Vanilla: 13000
+		#Range: 1 ~ 9223372036854775807
+		overclockedChemicalTankCapacity = 1100000
+		#Chemical tank capacity (mB). Default: 1300000, Vanilla: 
+		#Range: 1 ~ 9223372036854775807
+		quantumChemicalTankCapacity = 1300000
+		#Chemical tank capacity (mB). Default: 1500000, Vanilla: 15000
+		#Range: 1 ~ 9223372036854775807
+		denseChemicalTankCapacity = 1500000
+		#Chemical tank capacity (mB). Default: 1700000, Vanilla: 17000
+		#Range: 1 ~ 9223372036854775807
+		multiversalChemicalTankCapacity = 1700000
+		#Chemical tank capacity (mB). Default: 1900000, Vanilla: 19000
+		#Range: 1 ~ 9223372036854775807
+		CreativeChemicalTankCapacity = 1900000
+
+	[Evolved_Mekanism.Chemixer]
+		#Chemical tank capacity (mB). Default: 1000000, Vanilla: 10000
+		#Range: 1 ~ 9223372036854775807
+		ChemicalTankCapacity = 1000000
+
+	[Evolved_Mekanism.Thermalizer]
+		#Fluid tank capacity (mB). Default: 1600000, Vanilla: 16000
+		#Range: > 1
+		fluidTankCapacity = 1600000
+
+	[Evolved_Mekanism.Solidifier]
+		#Fluid tank capacity (mB). Default: 1000000, Vanilla: 10000
+		#Range: > 1
+		fluidTankCapacity = 1000000
+		#Fluid tank capacity (mB). Default: 1000000, Vanilla: 10000
+		#Range: > 1
+		extraFluidTankCapacity = 1000000
+

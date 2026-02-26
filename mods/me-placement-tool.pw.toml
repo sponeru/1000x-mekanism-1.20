@@ -1,0 +1,13 @@
+name = "ME Placement Tool"
+filename = "meplacementtool-2.1.2-forge1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "40568f0997233c215ab665cf09db83829731a75b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7565343
+project-id = 1408718

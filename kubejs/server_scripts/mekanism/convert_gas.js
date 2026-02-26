@@ -11,6 +11,38 @@ ServerEvents.recipes(event => {
         })
     }
 
+    let ast_replaceGases = (id, prefix) => {
+        const GAS_ID = (prefix == null) ? id : `${id}_${prefix}`
+        event.remove({ id: `astral_mekanism:infuse_type/${GAS_ID}2` })
+        event.custom({
+            type: 'mekanism:infusion_conversion',
+            input: {
+                'ingredient': { 'item': `astral_mekanism:enriched_${id}` }
+            },
+            output: { 'infuse_type': `astral_mekanism:${GAS_ID}`, 'amount': 100 }
+        })
+    }
+
+    let evo_replaceGases = (id, prefix) => {
+        const GAS_ID = (prefix == null) ? id : `${id}_${prefix}`
+        event.remove({ id: `evolvedmekanism:infusion_conversion/${GAS_ID}/from_enriched` })
+        event.custom({
+            type: 'mekanism:infusion_conversion',
+            input: {
+                'ingredient': { 'item': `evolvedmekanism:enriched_${id}` }
+            },
+            output: { 'infuse_type': `evolvedmekanism:${GAS_ID}`, 'amount': 100 }
+        })
+    }
+
+    ast_replaceGases('singularity')
+    ast_replaceGases('nether_star')
+    ast_replaceGases('utility', 'infuse')
+
+    evo_replaceGases('uranium')
+    evo_replaceGases('better_gold')
+    evo_replaceGases('plaslitherite')
+
     replaceGases('redstone')
     replaceGases('carbon')
     replaceGases('obsidian', 'refined')

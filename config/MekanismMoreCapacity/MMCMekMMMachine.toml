@@ -1,0 +1,473 @@
+
+#Adjustment of the capacity of the machine's internal tank
+[Mekanism_More_Machine]
+
+	[Mekanism_More_Machine.OxidizingFactory]
+		#Chemical tank capacity (mB). Default: 3000000, Vanilla: 30000
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalTankCapacity = 3000000
+		#Chemical tank capacity (mB). Default: 5000000, Vanilla: 50000
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalTankCapacity = 5000000
+		#Chemical tank capacity (mB). Default: 7000000, Vanilla: 70000
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalTankCapacity = 7000000
+		#Chemical tank capacity (mB). Default: 9000000, Vanilla: 90000
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalTankCapacity = 9000000
+		#Chemical tank capacity (mB). Default: 11000000, Vanilla: 110000
+		#Range: 1 ~ 9223372036854775807
+		OverclockedChemicalTankCapacity = 11000000
+		#Chemical tank capacity (mB). Default: 13000000, Vanilla: 130000
+		#Range: 1 ~ 9223372036854775807
+		QuantumChemicalTankCapacity = 13000000
+		#Chemical tank capacity (mB). Default: 15000000, Vanilla: 150000
+		#Range: 1 ~ 9223372036854775807
+		DenseChemicalTankCapacity = 15000000
+		#Chemical tank capacity (mB). Default: 17000000, Vanilla: 170000
+		#Range: 1 ~ 9223372036854775807
+		MultiversalChemicalTankCapacity = 17000000
+		#Chemical tank capacity (mB). Default: 19000000, Vanilla: 190000
+		#Range: 1 ~ 9223372036854775807
+		CreativeChemicalTankCapacity = 19000000
+
+	[Mekanism_More_Machine.DissolvingFactory]
+		#Chemical tank capacity (mB). Default: 3000000, Vanilla: 30000
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalInputTankCapacity = 3000000
+		#Chemical tank capacity (mB). Default: 5000000, Vanilla: 50000
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalInputTankCapacity = 5000000
+		#Chemical tank capacity (mB). Default: 7000000, Vanilla: 70000
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalInputTankCapacity = 7000000
+		#Chemical tank capacity (mB). Default: 9000000, Vanilla: 90000
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalInputTankCapacity = 9000000
+		#Chemical tank capacity (mB). Default: 11000000, Vanilla: 110000
+		#Range: 1 ~ 9223372036854775807
+		OverclockedChemicalInputTankCapacity = 11000000
+		#Chemical tank capacity (mB). Default: 13000000, Vanilla: 130000
+		#Range: 1 ~ 9223372036854775807
+		QuantumChemicalInputTankCapacity = 13000000
+		#Chemical tank capacity (mB). Default: 15000000, Vanilla: 150000
+		#Range: 1 ~ 9223372036854775807
+		DenseChemicalInputTankCapacity = 15000000
+		#Chemical tank capacity (mB). Default: 17000000, Vanilla: 170000
+		#Range: 1 ~ 9223372036854775807
+		MultiversalChemicalInputTankCapacity = 17000000
+		#Chemical tank capacity (mB). Default: 19000000, Vanilla: 190000
+		#Range: 1 ~ 9223372036854775807
+		CreativecChemicalInputTankCapacity = 19000000
+		#Chemical tank capacity (mB). Default: 3000000, Vanilla: 30000
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalOutputTankCapacity = 3000000
+		#Chemical tank capacity (mB). Default: 5000000, Vanilla: 50000
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalOutputTankCapacity = 5000000
+		#Chemical tank capacity (mB). Default: 7000000, Vanilla: 70000
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalOutputTankCapacity = 7000000
+		#Chemical tank capacity (mB). Default: 9000000, Vanilla: 90000
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalOutputTankCapacity = 9000000
+		#Chemical tank capacity (mB). Default: 11000000, Vanilla: 110000
+		#Range: 1 ~ 9223372036854775807
+		OverclockedChemicalOutputTankCapacity = 11000000
+		#Chemical tank capacity (mB). Default: 13000000, Vanilla: 130000
+		#Range: 1 ~ 9223372036854775807
+		QuantumChemicalOutputTankCapacity = 13000000
+		#Chemical tank capacity (mB). Default: 15000000, Vanilla: 150000
+		#Range: 1 ~ 9223372036854775807
+		DenseChemicalOutputTankCapacity = 15000000
+		#Chemical tank capacity (mB). Default: 17000000, Vanilla: 170000
+		#Range: 1 ~ 9223372036854775807
+		MultiversalChemicalOutputTankCapacity = 17000000
+		#Chemical tank capacity (mB). Default: 19000000, Vanilla: 190000
+		#Range: 1 ~ 9223372036854775807
+		CreativecChemicalOutputTankCapacity = 19000000
+
+	[Mekanism_More_Machine.CentrifugingFactory]
+		#Chemical tank capacity (mB). Default: 3000000, Vanilla: 30000
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalInputTankCapacity = 3000000
+		#Chemical tank capacity (mB). Default: 5000000, Vanilla: 50000
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalInputTankCapacity = 5000000
+		#Chemical tank capacity (mB). Default: 7000000, Vanilla: 70000
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalInputTankCapacity = 7000000
+		#Chemical tank capacity (mB). Default: 9000000, Vanilla: 90000
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalInputTankCapacity = 9000000
+		#Chemical tank capacity (mB). Default: 11000000, Vanilla: 110000
+		#Range: 1 ~ 9223372036854775807
+		OverclockedChemicalInputTankCapacity = 11000000
+		#Chemical tank capacity (mB). Default: 13000000, Vanilla: 130000
+		#Range: 1 ~ 9223372036854775807
+		QuantumChemicalInputTankCapacity = 13000000
+		#Chemical tank capacity (mB). Default: 15000000, Vanilla: 150000
+		#Range: 1 ~ 9223372036854775807
+		DenseChemicalInputTankCapacity = 15000000
+		#Chemical tank capacity (mB). Default: 17000000, Vanilla: 170000
+		#Range: 1 ~ 9223372036854775807
+		MultiversalChemicalInputTankCapacity = 17000000
+		#Chemical tank capacity (mB). Default: 19000000, Vanilla: 190000
+		#Range: 1 ~ 9223372036854775807
+		CreativeChemicalInputTankCapacity = 19000000
+		#Chemical tank capacity (mB). Default: 3000000, Vanilla: 30000
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalOutputTankCapacity = 3000000
+		#Chemical tank capacity (mB). Default: 5000000, Vanilla: 50000
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalOutputTankCapacity = 5000000
+		#Chemical tank capacity (mB). Default: 7000000, Vanilla: 70000
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalOutputTankCapacity = 7000000
+		#Chemical tank capacity (mB). Default: 9000000, Vanilla: 90000
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalOutputTankCapacity = 9000000
+		#Chemical tank capacity (mB). Default: 11000000, Vanilla: 110000
+		#Range: 1 ~ 9223372036854775807
+		OverclockedChemicalOutputTankCapacity = 11000000
+		#Chemical tank capacity (mB). Default: 13000000, Vanilla: 130000
+		#Range: 1 ~ 9223372036854775807
+		QuantumChemicalOutputTankCapacity = 13000000
+		#Chemical tank capacity (mB). Default: 15000000, Vanilla: 150000
+		#Range: 1 ~ 9223372036854775807
+		DenseChemicalOutputTankCapacity = 15000000
+		#Chemical tank capacity (mB). Default: 17000000, Vanilla: 170000
+		#Range: 1 ~ 9223372036854775807
+		MultiversalChemicalOutputTankCapacity = 17000000
+		#Chemical tank capacity (mB). Default: 19000000, Vanilla: 190000
+		#Range: 1 ~ 9223372036854775807
+		CreativeChemicalOutputTankCapacity = 19000000
+
+	[Mekanism_More_Machine.ChemicalInfusingFactory]
+		#Chemical tank capacity (mB) Chemical Infusing Factory only. Default: 3000000, Vanilla: 30000
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalRightInputTankCapacity = 3000000
+		#Chemical tank capacity (mB) Chemical Infusing Factory only. Default: 5000000, Vanilla: 50000
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalRightInputTankCapacity = 5000000
+		#Chemical tank capacity (mB) Chemical Infusing Factory only. Default: 7000000, Vanilla: 70000
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalRightInputTankCapacity = 7000000
+		#Chemical tank capacity (mB) Chemical Infusing Factory only. Default: 9000000, Vanilla: 90000
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalRightInputTankCapacity = 9000000
+		#Chemical tank capacity (mB) Chemical Infusing Factory only. Default: 11000000, Vanilla: 110000
+		#Range: 1 ~ 9223372036854775807
+		OverclockedChemicalRightInputTankCapacity = 11000000
+		#Chemical tank capacity (mB) Chemical Infusing Factory only. Default: 13000000, Vanilla: 130000
+		#Range: 1 ~ 9223372036854775807
+		QuantumChemicalRightInputTankCapacity = 13000000
+		#Chemical tank capacity (mB) Chemical Infusing Factory only. Default: 15000000, Vanilla: 150000
+		#Range: 1 ~ 9223372036854775807
+		DenseChemicalRightInputTankCapacity = 15000000
+		#Chemical tank capacity (mB) Chemical Infusing Factory only. Default: 17000000, Vanilla: 170000
+		#Range: 1 ~ 9223372036854775807
+		MultiversalChemicalRightInputTankCapacity = 17000000
+		#Chemical tank capacity (mB) Chemical Infusing Factory only. Default: 19000000, Vanilla: 190000
+		#Range: 1 ~ 9223372036854775807
+		CreativeChemicalRightInputTankCapacity = 19000000
+		#Chemical tank capacity (mB). Default: 3000000, Vanilla: 30000
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalOutputTankCapacity = 3000000
+		#Chemical tank capacity (mB). Default: 5000000, Vanilla: 50000
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalOutputTankCapacity = 5000000
+		#Chemical tank capacity (mB). Default: 7000000, Vanilla: 70000
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalOutputTankCapacity = 7000000
+		#Chemical tank capacity (mB). Default: 9000000, Vanilla: 90000
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalOutputTankCapacity = 9000000
+		#Chemical tank capacity (mB). Default: 11000000, Vanilla: 110000
+		#Range: 1 ~ 9223372036854775807
+		OverclockedChemicalOutputTankCapacity = 11000000
+		#Chemical tank capacity (mB). Default: 13000000, Vanilla: 130000
+		#Range: 1 ~ 9223372036854775807
+		QuantumChemicalOutputTankCapacity = 13000000
+		#Chemical tank capacity (mB). Default: 15000000, Vanilla: 150000
+		#Range: 1 ~ 9223372036854775807
+		DenseChemicalOutputTankCapacity = 15000000
+		#Chemical tank capacity (mB). Default: 17000000, Vanilla: 170000
+		#Range: 1 ~ 9223372036854775807
+		MultiversalChemicalOutputTankCapacity = 17000000
+		#Chemical tank capacity (mB). Default: 19000000, Vanilla: 190000
+		#Range: 1 ~ 9223372036854775807
+		CreativeChemicalOutputTankCapacity = 19000000
+		#Chemical tank capacity (mB). Default: 3000000, Vanilla: 30000
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalLeftInputTankCapacity = 3000000
+		#Chemical tank capacity (mB). Default: 5000000, Vanilla: 50000
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalLeftInputTankCapacity = 5000000
+		#Chemical tank capacity (mB). Default: 7000000, Vanilla: 70000
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalLeftInputTankCapacity = 7000000
+		#Chemical tank capacity (mB). Default: 9000000, Vanilla: 90000
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalLeftInputTankCapacity = 9000000
+		#Chemical tank capacity (mB). Default: 11000000, Vanilla: 110000
+		#Range: 1 ~ 9223372036854775807
+		OverclockedChemicalLeftInputTankCapacity = 11000000
+		#Chemical tank capacity (mB). Default: 13000000, Vanilla: 130000
+		#Range: 1 ~ 9223372036854775807
+		QuantumChemicalLeftInputTankCapacity = 13000000
+		#Chemical tank capacity (mB). Default: 15000000, Vanilla: 150000
+		#Range: 1 ~ 9223372036854775807
+		DenseChemicalLeftInputTankCapacity = 15000000
+		#Chemical tank capacity (mB). Default: 17000000, Vanilla: 170000
+		#Range: 1 ~ 9223372036854775807
+		MultiversalChemicalLeftInputTankCapacity = 17000000
+		#Chemical tank capacity (mB). Default: 19000000, Vanilla: 190000
+		#Range: 1 ~ 9223372036854775807
+		CreativeChemicalLeftInputTankCapacity = 19000000
+
+	[Mekanism_More_Machine.CrystallizingFactory]
+		#Chemical tank capacity (mB). Default: 3000000, Vanilla: 30000
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalTankCapacity = 3000000
+		#Chemical tank capacity (mB). Default: 5000000, Vanilla: 50000
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalTankCapacity = 5000000
+		#Chemical tank capacity (mB). Default: 7000000, Vanilla: 70000
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalTankCapacity = 7000000
+		#Chemical tank capacity (mB). Default: 9000000, Vanilla: 90000
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalTankCapacity = 9000000
+		#Chemical tank capacity (mB). Default: 11000000, Vanilla: 110000
+		#Range: 1 ~ 9223372036854775807
+		OverclockedChemicalTankCapacity = 11000000
+		#Chemical tank capacity (mB). Default: 13000000, Vanilla: 130000
+		#Range: 1 ~ 9223372036854775807
+		QuantumChemicalTankCapacity = 13000000
+		#Chemical tank capacity (mB). Default: 15000000, Vanilla: 150000
+		#Range: 1 ~ 9223372036854775807
+		DenseChemicalTankCapacity = 15000000
+		#Chemical tank capacity (mB). Default: 17000000, Vanilla: 170000
+		#Range: 1 ~ 9223372036854775807
+		MultiversalChemicalTankCapacity = 17000000
+		#Chemical tank capacity (mB). Default: 19000000, Vanilla: 190000
+		#Range: 1 ~ 9223372036854775807
+		CreativeChemicalTankCapacity = 19000000
+
+	[Mekanism_More_Machine.PressurizedReactingFactory]
+		#Chemical tank capacity (mB). Default: 3000000, Vanilla: 30000
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalInputTankCapacity = 3000000
+		#Chemical tank capacity (mB). Default: 5000000, Vanilla: 50000
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalInputTankCapacity = 5000000
+		#Chemical tank capacity (mB). Default: 7000000, Vanilla: 70000
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalInputTankCapacity = 7000000
+		#Chemical tank capacity (mB). Default: 9000000, Vanilla: 90000
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalInputTankCapacity = 9000000
+		#Chemical tank capacity (mB). Default: 11000000, Vanilla: 110000
+		#Range: 1 ~ 9223372036854775807
+		OverclockedChemicalInputTankCapacity = 11000000
+		#Chemical tank capacity (mB). Default: 13000000, Vanilla: 130000
+		#Range: 1 ~ 9223372036854775807
+		QuantumChemicalInputTankCapacity = 13000000
+		#Chemical tank capacity (mB). Default: 15000000, Vanilla: 150000
+		#Range: 1 ~ 9223372036854775807
+		DenseChemicalInputTankCapacity = 15000000
+		#Chemical tank capacity (mB). Default: 17000000, Vanilla: 170000
+		#Range: 1 ~ 9223372036854775807
+		MultiversalChemicalInputTankCapacity = 17000000
+		#Chemical tank capacity (mB). Default: 19000000, Vanilla: 190000
+		#Range: 1 ~ 9223372036854775807
+		CreativeChemicalInputTankCapacity = 19000000
+		#Chemical tank capacity (mB). Default: 3000000, Vanilla: 30000
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalOutputTankCapacity = 3000000
+		#Chemical tank capacity (mB). Default: 5000000, Vanilla: 50000
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalOutputTankCapacity = 5000000
+		#Chemical tank capacity (mB). Default: 7000000, Vanilla: 70000
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalOutputTankCapacity = 7000000
+		#Chemical tank capacity (mB). Default: 9000000, Vanilla: 90000
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalOutputTankCapacity = 9000000
+		#Chemical tank capacity (mB). Default: 11000000, Vanilla: 110000
+		#Range: 1 ~ 9223372036854775807
+		OverclockedChemicalOutputTankCapacity = 11000000
+		#Chemical tank capacity (mB). Default: 13000000, Vanilla: 130000
+		#Range: 1 ~ 9223372036854775807
+		QuantumChemicalOutputTankCapacity = 13000000
+		#Chemical tank capacity (mB). Default: 15000000, Vanilla: 150000
+		#Range: 1 ~ 9223372036854775807
+		DenseChemicalOutputTankCapacity = 15000000
+		#Chemical tank capacity (mB). Default: 17000000, Vanilla: 170000
+		#Range: 1 ~ 9223372036854775807
+		MultiversalChemicalOutputTankCapacity = 17000000
+		#Chemical tank capacity (mB). Default: 19000000, Vanilla: 190000
+		#Range: 1 ~ 9223372036854775807
+		CreativeChemicalOutputTankCapacity = 19000000
+
+	[Mekanism_More_Machine.PlantingStation]
+		#Chemical tank capacity (mB). Default: 21000, Vanilla: 210
+		#Range: 1 ~ 9223372036854775807
+		ChemicalInputTankCapacity = 21000
+		#Chemical tank capacity (mB). Default: 63000, Vanilla: 630
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalTankCapacity = 63000
+		#Chemical tank capacity (mB). Default: 105000, Vanilla: 1050
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalTankCapacity = 105000
+		#Chemical tank capacity (mB). Default: 147000 , Vanilla: 1470
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalTankCapacity = 147000
+		#Chemical tank capacity (mB). Default: 189000 , Vanilla: 1890
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalTankCapacity = 189000
+		#Chemical tank capacity (mB). Default: 231000, Vanilla: 2310
+		#Range: 1 ~ 9223372036854775807
+		OverclockedChemicalTankCapacity = 231000
+		#Chemical tank capacity (mB). Default: 273000, Vanilla: 2730
+		#Range: 1 ~ 9223372036854775807
+		QuantumChemicalTankCapacity = 273000
+		#Chemical tank capacity (mB). Default: 315000, Vanilla: 3150
+		#Range: 1 ~ 9223372036854775807
+		DenseChemicalTankCapacity = 315000
+		#Chemical tank capacity (mB). Default: 357000, Vanilla: 3570
+		#Range: 1 ~ 9223372036854775807
+		MultiversalChemicalTankCapacity = 357000
+		#Chemical tank capacity (mB). Default: 399000, Vanilla: 3990
+		#Range: 1 ~ 9223372036854775807
+		CreativeChemicalTankCapacity = 399000
+
+	[Mekanism_More_Machine.Replicator]
+		#Chemical tank capacity (mB). Default: 1000000, Vanilla: 10000
+		#Range: 1 ~ 9223372036854775807
+		ChemicalInputTankCapacity = 1000000
+		#Chemical tank capacity (mB). Default: 3000000, Vanilla: 30000
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalInputTankCapacity = 3000000
+		#Chemical tank capacity (mB). Default: 5000000, Vanilla: 50000
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalInputTankCapacity = 5000000
+		#Chemical tank capacity (mB). Default: 7000000, Vanilla: 70000
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalInputTankCapacity = 7000000
+		#Chemical tank capacity (mB). Default: 9000000, Vanilla: 90000
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalInputTankCapacity = 9000000
+		#Chemical tank capacity (mB). Default: 11000000, Vanilla: 110000
+		#Range: 1 ~ 9223372036854775807
+		OverclockedChemicalTankCapacity = 11000000
+		#Chemical tank capacity (mB). Default: 13000000, Vanilla: 130000
+		#Range: 1 ~ 9223372036854775807
+		QuantumChemicalTankCapacity = 13000000
+		#Chemical tank capacity (mB). Default: 15000000, Vanilla: 150000
+		#Range: 1 ~ 9223372036854775807
+		DenseChemicalTankCapacity = 15000000
+		#Chemical tank capacity (mB). Default: 17000000, Vanilla: 170000
+		#Range: 1 ~ 9223372036854775807
+		MultiversalChemicalTankCapacity = 17000000
+		#Chemical tank capacity (mB). Default: 19000000, Vanilla: 190000
+		#Range: 1 ~ 9223372036854775807
+		CreativeChemicalTankCapacity = 19000000
+
+	[Mekanism_More_Machine.WashingFactory]
+		#Fluid tank capacity (mB). Default: 3000000, Vanilla: 30000
+		#Range: > 1
+		basicFluidInputTankCapacity = 3000000
+		#Fluid tank capacity (mB). Default: 5000000, Vanilla: 50000
+		#Range: > 1
+		advancedFluidInputTankCapacity = 5000000
+		#Fluid tank capacity (mB). Default: 7000000, Vanilla: 70000
+		#Range: > 1
+		eliteFluidInputTankCapacity = 7000000
+		#Fluid tank capacity (mB). Default: 9000000, Vanilla: 90000
+		#Range: > 1
+		ultimateFluidInputTankCapacity = 9000000
+		#Fluid tank capacity (mB). Default: 11000000, Vanilla: 110000
+		#Range: > 1
+		OverclockedFluidInputTankCapacity = 11000000
+		#Fluid tank capacity (mB). Default: 13000000, Vanilla: 130000
+		#Range: > 1
+		QuantumFluidInputTankCapacity = 13000000
+		#Fluid tank capacity (mB). Default: 15000000, Vanilla: 150000
+		#Range: > 1
+		DenseFluidInputTankCapacity = 15000000
+		#Fluid tank capacity (mB). Default: 17000000, Vanilla: 170000
+		#Range: > 1
+		MultiversalFluidInputTankCapacity = 17000000
+		#Fluid tank capacity (mB). Default: 19000000, Vanilla: 190000
+		#Range: > 1
+		CreativeFluidInputTankCapacity = 19000000
+		#Chemical tank capacity (mB). Default: 3000000, Vanilla: 30000
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalInputTankCapacity = 3000000
+		#Chemical tank capacity (mB). Default: 5000000, Vanilla: 50000
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalInputTankCapacity = 5000000
+		#Chemical tank capacity (mB). Default: 7000000, Vanilla: 70000
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalInputTankCapacity = 7000000
+		#Chemical tank capacity (mB). Default: 9000000, Vanilla: 90000
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalInputTankCapacity = 9000000
+		#Chemical tank capacity (mB). Default: 11000000, Vanilla: 110000
+		#Range: 1 ~ 9223372036854775807
+		OverclockedChemicalInputTankCapacity = 11000000
+		#Chemical tank capacity (mB). Default: 13000000, Vanilla: 130000
+		#Range: 1 ~ 9223372036854775807
+		QuantumChemicalInputTankCapacity = 13000000
+		#Chemical tank capacity (mB). Default: 15000000, Vanilla: 150000
+		#Range: 1 ~ 9223372036854775807
+		DenseChemicalInputTankCapacity = 15000000
+		#Chemical tank capacity (mB). Default: 17000000, Vanilla: 170000
+		#Range: 1 ~ 9223372036854775807
+		MultiversalChemicalInputTankCapacity = 17000000
+		#Chemical tank capacity (mB). Default: 19000000, Vanilla: 190000
+		#Range: 1 ~ 9223372036854775807
+		CreativeChemicalInputTankCapacity = 19000000
+		#Chemical tank capacity (mB). Default: 3000000, Vanilla: 30000
+		#Range: 1 ~ 9223372036854775807
+		basicChemicalOutputTankCapacity = 3000000
+		#Chemical tank capacity (mB). Default: 5000000, Vanilla: 50000
+		#Range: 1 ~ 9223372036854775807
+		advancedChemicalOutputTankCapacity = 5000000
+		#Chemical tank capacity (mB). Default: 7000000, Vanilla: 70000
+		#Range: 1 ~ 9223372036854775807
+		eliteChemicalOutputTankCapacity = 7000000
+		#Chemical tank capacity (mB). Default: 9000000, Vanilla: 90000
+		#Range: 1 ~ 9223372036854775807
+		ultimateChemicalOutputTankCapacity = 9000000
+		#Chemical tank capacity (mB). Default: 11000000, Vanilla: 110000
+		#Range: 1 ~ 9223372036854775807
+		OverclockedChemicalOutputTankCapacity = 11000000
+		#Chemical tank capacity (mB). Default: 13000000, Vanilla: 130000
+		#Range: 1 ~ 9223372036854775807
+		QuantumChemicalOutputTankCapacity = 13000000
+		#Chemical tank capacity (mB). Default: 15000000, Vanilla: 150000
+		#Range: 1 ~ 9223372036854775807
+		DenseChemicalOutputTankCapacity = 15000000
+		#Chemical tank capacity (mB). Default: 17000000, Vanilla: 170000
+		#Range: 1 ~ 9223372036854775807
+		MultiversalChemicalOutputTankCapacity = 17000000
+		#Chemical tank capacity (mB). Default: 19000000, Vanilla: 190000
+		#Range: 1 ~ 9223372036854775807
+		CreativeChemicalOutputTankCapacity = 19000000
+
+	[Mekanism_More_Machine.AmbientGasCollector]
+		#Chemical tank capacity (mB). Default: 1000000, Vanilla: 10000
+		#Range: 1 ~ 9223372036854775807
+		ChemicalInputTankCapacity = 1000000
+
+	[Mekanism_More_Machine.FluidReplicator]
+		#Chemical tank capacity (mB). Default: 1000000, Vanilla: 10000
+		#Range: 1 ~ 9223372036854775807
+		ChemicalInputTankCapacity = 1000000
+		#Fluid tank capacity (mB). Default: 1000000, Vanilla:10000
+		#Range: > 1
+		FluidOutputTankCapacity = 1000000
+

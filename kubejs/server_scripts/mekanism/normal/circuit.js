@@ -70,7 +70,7 @@ ServerEvents.recipes(event => {
             ' BA'
         ],
         {
-            A: 'fluxnetworks:flux_core',
+            A: 'mek1000:flux_processor',
             B: 'mek1000:basic_super_circuit',
             C: 'mekanism:ultimate_control_circuit'
         }
@@ -85,7 +85,7 @@ ServerEvents.recipes(event => {
             ' BA'
         ],
         {
-            A: 'experienceobelisk:primordial_assembly',
+            A: 'mek1000:cognitive_processor',
             B: 'mek1000:advanced_super_circuit',
             C: 'mekanism_extras:absolute_control_circuit'
         }
@@ -100,7 +100,7 @@ ServerEvents.recipes(event => {
             ' BA'
         ],
         {
-            A: 'megacells:bulk_cell_component',
+            A: 'mek1000:echo_processor',
             B: 'mek1000:elite_super_circuit',
             C: 'mekanism_extras:supreme_control_circuit'
         }
@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
             ' BA'
         ],
         {
-            A: 'megacells:cell_component_256m',
+            A: 'mek1000:valinium_processor',
             B: 'mek1000:ultimate_super_circuit',
             C: 'mekanism_extras:cosmic_control_circuit'
         }

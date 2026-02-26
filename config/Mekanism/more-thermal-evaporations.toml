@@ -1,0 +1,67 @@
+
+#More Thermal Evaporations Settings
+[more_thermal_evaporation]
+	#Maximum temperature capping the temperature multiplier for the Basic Thermal Evaporation Plant.
+	#Range: 3000.0 ~ 2.147483646E9
+	basicThermalEvaporationMultiplierTempCap = 6000.0
+	#Buildable Height (in blocks) for the Basic Thermal Evaporation Plant.
+	#Range: 18 ~ 2147483646
+	basicThermalEvaporationHeight = 18
+	#Amount of fluid (mB) that each block of the Basic Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
+	#Range: 1 ~ 29826161
+	basicThermalEvaporationInputTankCapacity = 64000
+	#Amount of output fluid (mB) that the Basic Thermal Evaporation Plant can store.
+	#Range: 1 ~ 2147483646
+	basicThermalEvaporationOutputTankCapacity = 20000
+	#Maximum temperature capping the temperature multiplier for the Advanced Thermal Evaporation Plant.
+	#Range: 3000.0 ~ 2.147483646E9
+	advancedThermalEvaporationMultiplierTempCap = 12000.0
+	#Buildable Height (in blocks) for the Advanced Thermal Evaporation Plant.
+	#Range: 18 ~ 2147483646
+	advancedThermalEvaporationHeight = 18
+	#Amount of fluid (mB) that each block of the Advanced Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
+	#Range: 1 ~ 29826161
+	advancedThermalEvaporationInputTankCapacity = 64000
+	#Amount of output fluid (mB) that the Advanced Thermal Evaporation Plant can store.
+	#Range: 1 ~ 2147483646
+	advancedThermalEvaporationOutputTankCapacity = 80000
+	#Maximum temperature capping the temperature multiplier for the Elite Thermal Evaporation Plant.
+	#Range: 3000.0 ~ 2.147483646E9
+	eliteThermalEvaporationMultiplierTempCap = 24000.0
+	#Buildable Height (in blocks) for the Elite Thermal Evaporation Plant.
+	#Range: 18 ~ 2147483646
+	eliteThermalEvaporationHeight = 18
+	#Amount of fluid (mB) that each block of the Elite Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
+	#Range: 1 ~ 29826161
+	eliteThermalEvaporationInputTankCapacity = 64000
+	#Amount of output fluid (mB) that the Elite Thermal Evaporation Plant can store.
+	#Range: 1 ~ 2147483646
+	eliteThermalEvaporationOutputTankCapacity = 640000
+	#Maximum temperature capping the temperature multiplier for the Ultimate Thermal Evaporation Plant.
+	#Range: 3000.0 ~ 2.147483646E9
+	ultimateThermalEvaporationMultiplierTempCap = 48000.0
+	#Buildable Height (in blocks) for the Ultimate Thermal Evaporation Plant.
+	#Range: 18 ~ 2147483646
+	ultimateThermalEvaporationHeight = 18
+	#Amount of fluid (mB) that each block of the Ultimate Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
+	#Range: 1 ~ 29826161
+	ultimateThermalEvaporationInputTankCapacity = 64000
+	#Amount of output fluid (mB) that the Ultimate Thermal Evaporation Plant can store.
+	#Range: 1 ~ 2147483646
+	ultimateThermalEvaporationOutputTankCapacity = 10240000
+	#Maximum temperature capping the temperature multiplier for the Creative Thermal Evaporation Plant.
+	#Range: 3000.0 ~ 2.147483646E9
+	creativeThermalEvaporationMultiplierTempCap = 2.147483646E9
+	#Buildable Height (in blocks) for the Creative Thermal Evaporation Plant.
+	#Range: 18 ~ 2147483646
+	creativeThermalEvaporationHeight = 18
+	#Amount of fluid (mB) that each block of the Creative Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
+	#Range: 1 ~ 29826161
+	creativeThermalEvaporationInputTankCapacity = 29826161
+	#Amount of output fluid (mB) that the Creative Thermal Evaporation Plant can store.
+	#Range: 1 ~ 2147483646
+	creativeThermalEvaporationOutputTankCapacity = 2147483646
+	#Settings for the Render fluid
+	#Render fluid inside of Thermal Evaporation Plants.
+	RenderFluid = true
+

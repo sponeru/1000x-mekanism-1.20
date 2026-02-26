@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
   event.custom({
     type: "mekanism:chemical_infusing",
     chemicalType: "gas",
-    leftInput: { gas: "mekanismelements:aqua_regia", amount: 100 },
+    leftInput: { gas: "astral_mekanism:aqua_regia", amount: 100 },
     rightInput: { gas: "mek1000:activated_redstone", amount: 1 },
     output: { gas: "mek1000:active_aqua_regia", amount: 100 },
   });
@@ -65,7 +65,7 @@ ServerEvents.recipes((event) => {
     event.custom({
       type: "mekanism:chemical_infusing",
       chemicalType: "gas",
-      leftInput: { gas: "mekanismelements:aqua_regia", amount: 100 },
+      leftInput: { gas: "astral_mekanism:aqua_regia", amount: 100 },
       rightInput: { gas: "mek1000:active_" + type, amount: 10 },
       output: { gas: "mek1000:purified_" + type, amount: 10 },
     });

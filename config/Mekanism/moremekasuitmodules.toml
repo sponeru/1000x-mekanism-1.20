@@ -1,0 +1,30 @@
+
+#MoreMekaSuitModules Config. This config is synced from server to client.
+[moremekasuitmodules]
+
+	#MekaSuit Settings
+	[moremekasuitmodules.mekasuit]
+		#How much energy regeneration is needed for a health regeneration
+		mekaEnergyUsageHealthRegeneration = "100"
+		#Energy cost per tick attacking entity
+		energyUsageItemattack = "200"
+		#Allows MekAsuit to intercept direct setHealth with Emergency Rescue installed
+		mekaSuitOverloadProtection = true
+		#Enables the default calculation of the full set of shields
+		mekaSuitShield = true
+		#The default set of base shield values after installation
+		#Range: 1.0 ~ 3.4028234663852886E38
+		mekaSuitShieldCapacity = 1000.0
+		#Enables the default calculation of the full set of Recovery
+		mekaSuitRecovery = true
+		#The recovery rate of the full set of base shields after the default installation
+		#Range: 0.10000000149011612 ~ 3.4028234663852886E38
+		mekaSuitRecoveryRate = 10.0
+		#The amount of energy required whenever the shield recovers a little
+		#Range: > 0
+		mekaSuitShieldRestoresEnergy = 500
+		#How much energy regeneration is needed for a health regeneration
+		lastStandEnergyRequirement = 10000000
+		#Allows MekaSuit to display the module added in Tap
+		addAllModuleToMekaSuit = true
+

@@ -1,0 +1,13 @@
+name = "PatternProviderSave"
+filename = "patternprovidersave-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "06afe96b09fbc479420d7f8f8139aec3bb9aedba"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7383693
+project-id = 1409613

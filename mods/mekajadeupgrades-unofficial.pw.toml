@@ -1,0 +1,13 @@
+name = "MekaJadeUpgrades Unofficial"
+filename = "MekaJadeUpgrades-Unofficial-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4b8b9ad037925d6d86e25df64367f75ab24c9920"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7676263
+project-id = 1471490

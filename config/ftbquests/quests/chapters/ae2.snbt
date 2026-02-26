@@ -11,7 +11,7 @@
 		{
 			can_repeat: true
 			dependencies: ["503CF531934055CD"]
-			icon: "sophisticatedstorage:survival_infinity_upgrade"
+			icon: "ae2:singularity"
 			id: "092854B5937D5094"
 			optional: true
 			rewards: [{
@@ -56,13 +56,14 @@
 				item: "ae2:controller"
 				type: "item"
 			}]
+			subtitle: "{ftbquests.chapter.ae2.quest3.subtitle}"
 			tasks: [{
 				id: "71B57271F0EDE0A3"
 				item: "ae2:controller"
 				type: "item"
 			}]
 			x: 1.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["25D4C3E90302E4EC"]
@@ -287,6 +288,7 @@
 		{
 			dependencies: ["25D4C3E90302E4EC"]
 			id: "5C461433047AC112"
+			subtitle: "{ftbquests.chapter.ae2.quest14.subtitle}"
 			tasks: [{
 				id: "6BC50F46E8AA496D"
 				item: "mae2a:infinite_dyes_cell"
@@ -512,6 +514,23 @@
 			}]
 			x: 5.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			description: [
+				"{ftbquests.chapter.ae2.quest27.description1}"
+				""
+				"{ftbquests.chapter.ae2.quest27.description2}"
+			]
+			id: "02491F4F5E0B2531"
+			subtitle: "{ftbquests.chapter.ae2.quest27.subtitle}"
+			tasks: [{
+				id: "1F49BA875DD9BCF5"
+				item: "ae2:annihilation_plane"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.ae2.subtitle0}"]

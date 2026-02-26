@@ -1,0 +1,13 @@
+#Base factor for machine running time with upgrades[default:1]
+#Range: > 1
+time_multiplier = 1
+#Base factor for machine power consumption with upgrades[default:1]
+#Range: > 1
+electricity_multiplier = 1
+#Base factor for machine capacity with upgrades[default:1]
+#Range: > 1
+capacity_multiplier = 1
+#Maximum speed/energy upgrades a machine can accept[default:16]
+#Range: 1 ~ 64
+max_upgrade = 16
+

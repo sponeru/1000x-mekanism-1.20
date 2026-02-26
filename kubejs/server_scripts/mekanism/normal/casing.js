@@ -2,6 +2,7 @@ ServerEvents.recipes(event => {
   event.custom({
     type: "mekanism:reaction",
     itemInput: {
+      amount: 64,
       ingredient: {
         item: "mek1000:ultimate_alloy_ingot",
       },
@@ -221,4 +222,29 @@ ServerEvents.recipes(event => {
       "32x mek1000:ldpe"
     )
     .id(`mek1000:tincasing_2`);
+
+  event.custom({
+        "type": "evolvedmekanism:alloying",
+        "extraInput": {
+            "amount": 8,
+            "ingredient": {
+                "item": 'emextras:infinite_multiversal_control_circuit'
+            }
+        },
+        "secondExtraInput": {
+            "amount": 64,
+            "ingredient": {
+                "item": 'mek1000:valinium_processor'
+            }
+        },
+        "mainInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'mek1000:tin_casing',
+            }
+        },
+        "output": {
+            "item": 'mek1000:super_computing_cell'
+        }
+    })
 })

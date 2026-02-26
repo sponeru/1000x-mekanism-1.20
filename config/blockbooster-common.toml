@@ -1,0 +1,41 @@
+
+[General]
+	#Limit boosters per chunk. Boosters might affect server performance negatively. Consider limiting boosters per chunk
+	#Range: 1 ~ 20
+	boosters_per_chunk = 5
+	#Booster Tier 1 FE per tick to operate
+	t1_fe_per_tick = 100000000
+	#Booster Tier 1 boost rate
+	t1_boost_rate = 5
+	#Booster Tier 2 FE per tick to operate
+	t2_fe_per_tick = 1000000000
+	#Booster Tier 2 boost rate
+	t2_boost_rate = 5
+	#Booster Tier 3 FE per tick to operate
+	t3_fe_per_tick = 2147483647
+	#Booster Tier 3 boost rate
+	t3_boost_rate = 10
+	#Booster Tier 3 scan radius (scans a cube area)
+	#Range: 1 ~ 10
+	t3_scan_radius = 3
+	#Mana Booster mana per tick to operate
+	mana_per_tick = 100
+	#Mana Booster boost rate
+	mana_booster_rate = 5
+	#Deactivate booster with redstone signal
+	deactivate_with_redstone = true
+	#Blacklist of block entities by block id or block tags (example: "minecraft:furnace","#somemod:some_tag")
+	black_list = ["#mekanism:cardboard_blacklist"]
+	#Whitelist of block entities by id or block tags (example: "minecraft:furnace","#somemod:some_tag") has higher priority
+	white_list = []
+	#Enable TPS-based lag protection. Boosters will stop working when server TPS drops below threshold
+	enable_tps_protection = true
+	#Minimum TPS threshold for boosters to operate. If server TPS drops below this value, boosters will pause
+	#Range: 1.0 ~ 20.0
+	min_tps_threshold = 15.0
+	#Prevent boosting of slow blocks that take longer than the threshold to process
+	prevent_slow_blocks = true
+	#Threshold in nanoseconds for considering a block as 'slow'. Blocks taking longer will be marked as slow (1ms = 1000000ns)
+	#Range: 100000 ~ 100000000
+	slow_block_threshold_ns = 5000000
+

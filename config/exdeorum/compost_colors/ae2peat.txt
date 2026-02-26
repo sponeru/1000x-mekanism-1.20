@@ -1,0 +1,2 @@
+// Compost colors for ae2peat. You may add your own colors, change existing ones, or remove colors that aren't needed.
+wireless_pattern_encoding_access_terminal, #b8a5c3

@@ -439,88 +439,6 @@ ServerEvents.recipes((event) => {
 
   event.recipes.mek1000
     .large_digital_assemble()
-    .id("mek1000:recipe_creative_bin")
-    .duration(1000)
-    .outputItems("mekanism:creative_bin")
-    .perTick((builder) => builder.inputFE(2147483647))
-    .slotName("cat0", (builder) =>
-      builder.chance(0, (builder) =>
-        builder.inputItems(
-          Item.of(
-            "mekanism:creative_energy_cube",
-            '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}],componentConfig:{config0:{side0:4,side1:4,side2:4,side3:4,side4:4,side5:4}}}}'
-          )
-        )
-      )
-    )
-    .slotName("cat1", (builder) =>
-      builder.chance(0, (builder) =>
-        builder.inputItems("mekanism:creative_fluid_tank")
-      )
-    )
-    .slotName("cat2", (builder) =>
-      builder.chance(0, (builder) =>
-        builder.inputItems("mekanism:creative_chemical_tank")
-      )
-    )
-    .slotName("cat3", (builder) =>
-      builder.chance(0, (builder) =>
-        builder.inputItems("ae2:creative_energy_cell")
-      )
-    )
-    .slotName("s0", (builder) =>
-      builder.inputItems("8x mek1000:infinity_ingot")
-    )
-    .slotName("s1", (builder) =>
-      builder.inputItems("mek1000:infinite_super_circuit")
-    )
-    .slotName("s2", (builder) =>
-      builder.inputItems("mek1000:infinite_super_circuit")
-    )
-    .slotName("s3", (builder) =>
-      builder.inputItems("8x mek1000:infinity_ingot")
-    )
-    .slotName("s4", (builder) =>
-      builder.inputItems("mek1000:infinite_super_circuit")
-    )
-    .slotName("s5", (builder) =>
-      builder.inputItems(
-        "64x solarpanels:photonic_solar_panel"
-      )
-    )
-    .slotName("s6", (builder) =>
-      builder.inputItems("64x megacells:cell_component_256m")
-    )
-    .slotName("s7", (builder) =>
-      builder.inputItems("mek1000:infinite_super_circuit")
-    )
-    .slotName("s8", (builder) =>
-      builder.inputItems("mek1000:infinite_super_circuit")
-    )
-    .slotName("s9", (builder) =>
-      builder.inputItems("64x mekanism_extras:infinite_control_circuit")
-    )
-    .slotName("s10", (builder) =>
-      builder.inputItems("64x mekanism_extras:alloy_spectrum")
-    )
-    .slotName("s11", (builder) =>
-      builder.inputItems("mek1000:infinite_super_circuit")
-    )
-    .slotName("s12", (builder) =>
-      builder.inputItems("8x mek1000:infinity_ingot")
-    )
-    .slotName("s13", (builder) =>
-      builder.inputItems("mek1000:infinite_super_circuit")
-    )
-    .slotName("s14", (builder) =>
-      builder.inputItems("mek1000:infinite_super_circuit")
-    )
-    .slotName("s15", (builder) =>
-      builder.inputItems("8x mek1000:infinity_ingot")
-    );
-
-  event.recipes.mek1000
-    .large_digital_assemble()
     .id("mek1000:recipe_infinity_fusion_controller")
     .duration(3000)
     .outputItems("mek1000:infinity_fusion_controller")
@@ -651,4 +569,71 @@ ServerEvents.recipes((event) => {
       builder.inputItems("16x mek1000:electricity_resistant_reinforced_casing")
     );
       
+
+  event.recipes.mek1000
+    .large_digital_assemble()
+    .id("mek1000:recipe_etheric_computer_array")
+    .duration(3000)
+    .outputItems('mek1000:etheric_computer_array')
+    .perTick((builder) => builder.inputFE(2147483647))
+    .slotName("cat0", (builder) =>
+      builder.chance(0, (builder) =>
+        builder.inputItems("mek1000:energy_cataryst")
+      )
+    )
+    .slotName("cat1", (builder) =>
+      builder.chance(0, (builder) =>
+        builder.inputItems("mek1000:item_cataryst")
+      )
+    )
+    .slotName("cat2", (builder) =>
+      builder.inputItems('8x mek1000:super_computing_cell')
+  )
+    .slotName("cat3", (builder) =>
+      builder.inputItems('mek1000:black_casing')
+    )
+    .slotName("s0", (builder) =>
+      builder.inputItems('advanced_ae:quantum_core')
+    )
+    .slotName("s1", (builder) =>
+      builder.inputItems('64x mek1000:echo_processor')
+    )
+    .slotName("s2", (builder) =>
+      builder.inputItems('64x mek1000:echo_processor')
+    )
+    .slotName("s3", (builder) =>
+      builder.inputItems('advanced_ae:quantum_core')
+    )
+    .slotName("s4", (builder) =>
+      builder.inputItems('64x mek1000:flux_processor')
+    )
+    .slotName("s5", (builder) =>
+      builder.inputItems('64x megacells:256m_crafting_storage')
+    )
+    .slotName("s6", (builder) =>
+      builder.inputItems('64x megacells:256m_crafting_storage')
+    )
+    .slotName("s7", (builder) =>
+      builder.inputItems('64x mek1000:valinium_processor')
+    )
+    .slotName("s8", (builder) => builder.inputItems('64x mek1000:flux_processor'))
+    .slotName("s9", (builder) =>
+      builder.inputItems('64x megacells:256m_crafting_storage')
+    )
+    .slotName("s10", (builder) =>
+      builder.inputItems('64x megacells:256m_crafting_storage')
+    )
+    .slotName("s11", (builder) => builder.inputItems('64x mek1000:valinium_processor'))
+    .slotName("s12", (builder) =>
+      builder.inputItems('advanced_ae:quantum_core')
+    )
+    .slotName("s13", (builder) =>
+      builder.inputItems('64x mek1000:cognitive_processor')
+    )
+    .slotName("s14", (builder) =>
+      builder.inputItems('64x mek1000:cognitive_processor')
+    )
+    .slotName("s15", (builder) =>
+      builder.inputItems('advanced_ae:quantum_core')
+    );
 });

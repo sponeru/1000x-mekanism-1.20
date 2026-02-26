@@ -1,0 +1,2 @@
+// Compost colors for ae2_label_view_cell. You may add your own colors, change existing ones, or remove colors that aren't needed.
+label_view_cell, #d9bbcf

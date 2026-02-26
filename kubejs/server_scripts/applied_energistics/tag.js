@@ -83,7 +83,8 @@ let anyFECell = [
 ];
 
 ServerEvents.tags("minecraft:item", event => {
-    event.add('forge:ores/certus_quartz', 'ae2:quartz_cluster')
+    event.add('forge:ores/certus_quartz', 'kubejs:ore_certus_quartz')
+    event.add('forge:ores/certus_quartz', 'kubejs:ore_certus_quartz_deepslate')
 
     diskDrive.forEach(element => {
         event.add('mek1000:ae2/any_disk_drive', element)

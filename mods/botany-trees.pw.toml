@@ -1,13 +1,13 @@
 name = "Botany Trees"
-filename = "BotanyTrees-Forge-1.20.1-9.0.18.jar"
+filename = "BotanyTrees-Forge-1.20.1-9.0.19.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "895528ac9daddff96192a31f68f22c1f4f3ce493"
+hash = "7c5a1417b5d65cf53ecdb9fab6a1cdbf3eb8943b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6002883
+file-id = 7083881
 project-id = 411357

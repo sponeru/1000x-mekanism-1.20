@@ -82,6 +82,34 @@ StartupEvents.registry("block", (event) => {
     .requiresTool(true);
 
   event
+    .create("ore_certus_quartz")
+    .soundType(SoundType.STONE)
+    .tagBlock("minecraft:mineable/pickaxe")
+    .tagBlock("forge:mineable/paxel")
+    .requiresTool(true);
+
+  event
+    .create("dense_ore_certus_quartz")
+    .soundType(SoundType.STONE)
+    .tagBlock("minecraft:mineable/pickaxe")
+    .tagBlock("forge:mineable/paxel")
+    .requiresTool(true);
+
+  event
+    .create("ore_certus_quartz_deepslate")
+    .soundType(SoundType.DEEPSLATE)
+    .tagBlock("minecraft:mineable/pickaxe")
+    .tagBlock("forge:mineable/paxel")
+    .requiresTool(true);
+
+  event
+    .create("dense_ore_certus_quartz_deepslate")
+    .soundType(SoundType.DEEPSLATE)
+    .tagBlock("minecraft:mineable/pickaxe")
+    .tagBlock("forge:mineable/paxel")
+    .requiresTool(true);
+
+  event
     .create("ore_iridium_deepslate")
     .soundType(SoundType.DEEPSLATE)
     .tagBlock("minecraft:mineable/pickaxe")

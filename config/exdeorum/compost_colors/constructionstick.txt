@@ -1,0 +1,11 @@
+// Compost colors for constructionstick. You may add your own colors, change existing ones, or remove colors that aren't needed.
+copper_stick, #c0694d
+diamond_stick, #36aaa7
+iron_stick, #808080
+netherite_stick, #52484a
+template_angel, #ffffbc
+template_battery, #f5b58c
+template_destruction, #d26966
+template_replacement, #478089
+template_unbreakable, #7f7ab4
+wooden_stick, #6e5a36

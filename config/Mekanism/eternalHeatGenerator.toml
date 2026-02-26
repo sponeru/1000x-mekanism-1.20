@@ -1,0 +1,117 @@
+
+#Eternal Heat Generator Config. This config is synced between server and client.
+[eternalHeatGenerator]
+	#Maximum energy buffer of the Eternal Heat Generator
+	capacity = "131072"
+	#Amount of energy produced by the Eternal Heat Generator per tick
+	generation = "128"
+
+	#Compressed Eternal Heat Generator Config
+	[eternalHeatGenerator.compressed]
+
+		[eternalHeatGenerator.compressed.compressedEternalHeatGenerator8]
+			#Maximum energy buffer of the 8.0x Compressed Eternal Heat Generator
+			0xCapacity = "1048576"
+			#Maximum energy buffer of the 8.589934592E9x Compressed Eternal Heat Generator
+			589934592E9xCapacity = "1125899906842624"
+			#Amount of energy produced by the 8.0x Compressed Eternal Heat Generator per tick
+			0xGeneration = "1024"
+			#Amount of energy produced by the 8.589934592E9x Compressed Eternal Heat Generator per tick
+			589934592E9xGeneration = "1099511627776"
+
+		[eternalHeatGenerator.compressed.compressedEternalHeatGenerator64]
+			#Maximum energy buffer of the 64.0x Compressed Eternal Heat Generator
+			0xCapacity = "8388608"
+			#Amount of energy produced by the 64.0x Compressed Eternal Heat Generator per tick
+			0xGeneration = "8192"
+
+		[eternalHeatGenerator.compressed.compressedEternalHeatGenerator512]
+			#Maximum energy buffer of the 512.0x Compressed Eternal Heat Generator
+			0xCapacity = "67108864"
+			#Amount of energy produced by the 512.0x Compressed Eternal Heat Generator per tick
+			0xGeneration = "65536"
+
+		[eternalHeatGenerator.compressed.compressedEternalHeatGenerator4096]
+			#Maximum energy buffer of the 4096.0x Compressed Eternal Heat Generator
+			0xCapacity = "536870912"
+			#Amount of energy produced by the 4096.0x Compressed Eternal Heat Generator per tick
+			0xGeneration = "524288"
+
+		[eternalHeatGenerator.compressed.compressedEternalHeatGenerator32768]
+			#Maximum energy buffer of the 32768.0x Compressed Eternal Heat Generator
+			0xCapacity = "4294967296"
+			#Amount of energy produced by the 32768.0x Compressed Eternal Heat Generator per tick
+			0xGeneration = "4194304"
+
+		[eternalHeatGenerator.compressed.compressedEternalHeatGenerator262144]
+			#Maximum energy buffer of the 262144.0x Compressed Eternal Heat Generator
+			0xCapacity = "34359738368"
+			#Amount of energy produced by the 262144.0x Compressed Eternal Heat Generator per tick
+			0xGeneration = "33554432"
+
+		[eternalHeatGenerator.compressed.compressedEternalHeatGenerator2097152]
+			#Maximum energy buffer of the 2097152.0x Compressed Eternal Heat Generator
+			0xCapacity = "274877906944"
+			#Amount of energy produced by the 2097152.0x Compressed Eternal Heat Generator per tick
+			0xGeneration = "268435456"
+
+		[eternalHeatGenerator.compressed.compressedEternalHeatGenerator1]
+			#Maximum energy buffer of the 1.6777216E7x Compressed Eternal Heat Generator
+			6777216E7xCapacity = "2199023255552"
+			#Maximum energy buffer of the 1.34217728E8x Compressed Eternal Heat Generator
+			34217728E8xCapacity = "17592186044416"
+			#Maximum energy buffer of the 1.073741824E9x Compressed Eternal Heat Generator
+			073741824E9xCapacity = "140737488355328"
+			#Maximum energy buffer of the 1.8014398509481984E16x Compressed Eternal Heat Generator
+			8014398509481984E16xCapacity = "18446744073709551615.9999"
+			#Maximum energy buffer of the 1.44115188075855872E17x Compressed Eternal Heat Generator
+			44115188075855872E17xCapacity = "18446744073709551615.9999"
+			#Maximum energy buffer of the 1.15292150460684698E18x Compressed Eternal Heat Generator
+			15292150460684698E18xCapacity = "18446744073709551615.9999"
+			#Amount of energy produced by the 1.6777216E7x Compressed Eternal Heat Generator per tick
+			6777216E7xGeneration = "2147483648"
+			#Amount of energy produced by the 1.34217728E8x Compressed Eternal Heat Generator per tick
+			34217728E8xGeneration = "17179869184"
+			#Amount of energy produced by the 1.073741824E9x Compressed Eternal Heat Generator per tick
+			073741824E9xGeneration = "137438953472"
+			#Amount of energy produced by the 1.8014398509481984E16x Compressed Eternal Heat Generator per tick
+			8014398509481984E16xGeneration = "2305843009213693952"
+			#Amount of energy produced by the 1.44115188075855872E17x Compressed Eternal Heat Generator per tick
+			44115188075855872E17xGeneration = "9223372036854775807"
+			#Amount of energy produced by the 1.15292150460684698E18x Compressed Eternal Heat Generator per tick
+			15292150460684698E18xGeneration = "18446744073709551615.9999"
+
+		[eternalHeatGenerator.compressed.compressedEternalHeatGenerator6]
+			#Maximum energy buffer of the 6.8719476736E10x Compressed Eternal Heat Generator
+			8719476736E10xCapacity = "9007199254740992"
+			#Amount of energy produced by the 6.8719476736E10x Compressed Eternal Heat Generator per tick
+			8719476736E10xGeneration = "8796093022208"
+
+		[eternalHeatGenerator.compressed.compressedEternalHeatGenerator5]
+			#Maximum energy buffer of the 5.49755813888E11x Compressed Eternal Heat Generator
+			49755813888E11xCapacity = "72057594037927936"
+			#Amount of energy produced by the 5.49755813888E11x Compressed Eternal Heat Generator per tick
+			49755813888E11xGeneration = "70368744177664"
+
+		[eternalHeatGenerator.compressed.compressedEternalHeatGenerator4]
+			#Maximum energy buffer of the 4.398046511104E12x Compressed Eternal Heat Generator
+			398046511104E12xCapacity = "576460752303423488"
+			#Amount of energy produced by the 4.398046511104E12x Compressed Eternal Heat Generator per tick
+			398046511104E12xGeneration = "562949953421312"
+
+		[eternalHeatGenerator.compressed.compressedEternalHeatGenerator3]
+			#Maximum energy buffer of the 3.5184372088832E13x Compressed Eternal Heat Generator
+			5184372088832E13xCapacity = "4611686018427387904"
+			#Amount of energy produced by the 3.5184372088832E13x Compressed Eternal Heat Generator per tick
+			5184372088832E13xGeneration = "4503599627370496"
+
+		[eternalHeatGenerator.compressed.compressedEternalHeatGenerator2]
+			#Maximum energy buffer of the 2.81474976710656E14x Compressed Eternal Heat Generator
+			81474976710656E14xCapacity = "18446744073709551615.9999"
+			#Maximum energy buffer of the 2.251799813685248E15x Compressed Eternal Heat Generator
+			251799813685248E15xCapacity = "18446744073709551615.9999"
+			#Amount of energy produced by the 2.81474976710656E14x Compressed Eternal Heat Generator per tick
+			81474976710656E14xGeneration = "36028797018963968"
+			#Amount of energy produced by the 2.251799813685248E15x Compressed Eternal Heat Generator per tick
+			251799813685248E15xGeneration = "288230376151711744"
+

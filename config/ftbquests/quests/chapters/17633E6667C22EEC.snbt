@@ -23,7 +23,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["08BB3DA4AC97725A"]
@@ -40,7 +40,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6E6D8463CB3734DF"]
@@ -57,7 +57,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1250AB64CE893AC7"]
@@ -74,7 +74,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5ACEA5C15A2F5DD8"]
@@ -147,13 +147,13 @@
 			rewards: [{
 				count: 15
 				id: "5B21AFA226C46B52"
-				item: "cookingforblockheads:sink"
+				item: "mwgr:water_generator"
 				type: "item"
 			}]
 			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest9.subtitle}"
 			tasks: [{
-				id: "37C3DA361C0EE141"
-				item: "cookingforblockheads:sink"
+				id: "52C10BFAB8DABE2B"
+				item: "mwgr:water_generator"
 				type: "item"
 			}]
 			x: -3.5d
@@ -239,16 +239,282 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["016780D32B1ABC49"]
-			description: ["{ftbquests.chapter.17633E6667C22EEC.quest12.description1}"]
-			id: "69954DAF8A2C3BF0"
+			dependencies: ["68335D23BF84FEE3"]
+			id: "634F9F87DFF73DD4"
 			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest12.subtitle}"
 			tasks: [{
-				id: "59FD9B6DFEF8296E"
-				item: "minecraft:netherite_block"
+				id: "14197110D93989B2"
+				item: {
+					Count: 1
+					id: "lightingwand:wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			id: "66749D40CCB801F9"
+			rewards: [{
+				id: "693D8464C66F0D56"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "g_abun:absolutelyunbreakable"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest13.subtitle}"
+			tasks: [{
+				id: "0E6A85C7F28454B6"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "g_abun:absolutelyunbreakable"
+							lvl: 1s
+						}]
+					}
+				}
 				type: "item"
 			}]
 			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5ACEA5C15A2F5DD8"]
+			id: "0E7AE0FD29109D94"
+			rewards: [{
+				id: "56E2D76F42D8FE69"
+				item: "evolvedmekanism:overclocked_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EE43FC8D6469A74"
+				item: "evolvedmekanism:overclocked_tier_installer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0E7AE0FD29109D94"]
+			id: "65FDFB75ECA9CE64"
+			rewards: [{
+				id: "69576407BB71595C"
+				item: "evolvedmekanism:quantum_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FE3BBF293F59695"
+				item: "evolvedmekanism:quantum_tier_installer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65FDFB75ECA9CE64"]
+			id: "3FDA45AAA89AB028"
+			rewards: [{
+				id: "12EE5688ECD004B0"
+				item: "evolvedmekanism:dense_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7488F14BA40DCC22"
+				item: "evolvedmekanism:dense_tier_installer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3FDA45AAA89AB028"]
+			id: "73EE9F0C4AB0E4E9"
+			rewards: [{
+				id: "3D812B45A91B1840"
+				item: "evolvedmekanism:multiversal_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E8F26BF426CC509"
+				item: "evolvedmekanism:multiversal_tier_installer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"10FD2D4CB895DD18"
+				"0E7AE0FD29109D94"
+			]
+			id: "7AA514C39C5227E2"
+			rewards: [{
+				id: "1D45D3C127969035"
+				item: "emextras:absolute_overclocked_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F810826DEED885D"
+				item: "emextras:absolute_overclocked_tier_installer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"65FDFB75ECA9CE64"
+				"145DB7F24557B3A5"
+			]
+			id: "395755F4F317A2D0"
+			rewards: [{
+				id: "56BB99170C25E92C"
+				item: "emextras:supreme_quantum_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B3D0A4A3ED777E2"
+				item: "emextras:supreme_quantum_tier_installer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3FDA45AAA89AB028"
+				"22073660029A74E6"
+			]
+			id: "0491D156213FCA65"
+			rewards: [{
+				id: "6C860A687AEC3330"
+				item: "emextras:cosmic_dense_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E8C21D363DFD76C"
+				item: "emextras:cosmic_dense_tier_installer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"73EE9F0C4AB0E4E9"
+				"3C0D1CFFFCA42C53"
+			]
+			id: "45BE432D55FB50AB"
+			rewards: [{
+				id: "30B2FC27ACC826FB"
+				item: "emextras:infinite_multiversal_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76B43D55C9097CC2"
+				item: "emextras:infinite_multiversal_tier_installer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6BADA3B6CB0642D8"]
+			description: ["{ftbquests.chapter.17633E6667C22EEC.quest22.description1}"]
+			id: "49112B5C9B9A1E5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B4C7B30EB68CF2D"
+				table_id: 2320373292357157649L
+				type: "choice"
+			}]
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest22.subtitle}"
+			tasks: [{
+				id: "718F5A0F38FF420A"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "spawnegg"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6BADA3B6CB0642D8"]
+			description: ["{ftbquests.chapter.17633E6667C22EEC.quest23.description1}"]
+			id: "7B94ADFC703FE203"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4647C7333A68CFE1"
+				table_id: 7630844454365538480L
+				type: "choice"
+			}]
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest23.subtitle}"
+			tasks: [{
+				id: "79430D5B5C0AA83E"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "record"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D0C3C349D4C156C"]
+			id: "514B86381FC49FD4"
+			rewards: [{
+				id: "3E0062E84E932CE6"
+				item: {
+					Count: 1
+					id: "extendedae_plus:entity_speed_card"
+					tag: {
+						"EAS:mult": 4
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest24.subtitle}"
+			tasks: [
+				{
+					id: "1EF3292EADD47BB6"
+					item: {
+						Count: 1
+						id: "extendedae_plus:entity_speed_card"
+						tag: {
+							"EAS:mult": 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39E9499F422288F5"
+					item: "extendedae_plus:entity_speed_ticker"
+					type: "item"
+				}
+			]
+			x: 3.5d
 			y: -2.0d
 		}
 	]

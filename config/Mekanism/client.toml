@@ -111,7 +111,11 @@
 
 			[client.gui.window.upgrade]
 				x = 144
-				y = 24
+				y = 31
+
+			[client.gui.window.inserter]
+				x = 46
+				y = 15
 
 	#QIO Config
 	[client.qio]

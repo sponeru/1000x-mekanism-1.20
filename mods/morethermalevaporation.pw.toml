@@ -1,0 +1,13 @@
+name = "Mekanism: More Thermal Evaporation"
+filename = "morethermalevaporation-2.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "410e200e7bf775a574adfbe2a19c12409fcb7254"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7560641
+project-id = 1406469

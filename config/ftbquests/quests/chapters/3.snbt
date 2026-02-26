@@ -24,7 +24,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7979C1853DBBF69D"]
@@ -35,7 +35,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6CA637C34B354C01"]
@@ -46,7 +46,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -66,7 +66,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["016780D32B1ABC49"]
@@ -100,7 +100,7 @@
 			dependencies: [
 				"6B0FCC402876DBA0"
 				"6A2D004E23EAF784"
-				"3DCD430017C804E4"
+				"3115F760E64A51A4"
 			]
 			id: "260C6DE89D61CD5D"
 			rewards: [{
@@ -201,6 +201,17 @@
 				type: "item"
 			}]
 			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3DCD430017C804E4"]
+			id: "3115F760E64A51A4"
+			tasks: [{
+				id: "16570652C8EBB07D"
+				item: "astral_mekanism:illusion_control_circuit"
+				type: "item"
+			}]
+			x: -4.0d
 			y: 1.0d
 		}
 	]

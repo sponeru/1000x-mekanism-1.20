@@ -1,0 +1,61 @@
+
+#Tier Config. This config is synced from server to client.
+[tier]
+
+	#Large Chemical Tanks
+	[tier.large_chemical_tanks]
+
+		#Mid Chemical Tanks
+		[tier.large_chemical_tanks.mid]
+			#Storage size of Basic mid chemical tanks in mB.
+			#Range: 1 ~ 9223372036854775807
+			basicStorage = 160000
+			#Output rate of Basic mid chemical tanks in mB.
+			#Range: 1 ~ 9223372036854775807
+			basicOutput = 2500
+			#Storage size of Advanced mid chemical tanks in mB.
+			#Range: 1 ~ 9223372036854775807
+			advancedStorage = 640000
+			#Output rate of Advanced mid chemical tanks in mB.
+			#Range: 1 ~ 9223372036854775807
+			advancedOutput = 40000
+			#Storage size of Elite mid chemical tanks in mB.
+			#Range: 1 ~ 9223372036854775807
+			eliteStorage = 2560000
+			#Output rate of Elite mid chemical tanks in mB.
+			#Range: 1 ~ 9223372036854775807
+			eliteOutput = 320000
+			#Storage size of Ultimate mid chemical tanks in mB.
+			#Range: 1 ~ 9223372036854775807
+			ultimateStorage = 20480000
+			#Output rate of Ultimate mid chemical tanks in mB.
+			#Range: 1 ~ 9223372036854775807
+			ultimateOutput = 1280000
+
+		#Max Chemical Tanks
+		[tier.large_chemical_tanks.max]
+			#Storage size of Basic max chemical tanks in mB.
+			#Range: 1 ~ 9223372036854775807
+			basicStorage = 256000
+			#Output rate of Basic max chemical tanks in mB.
+			#Range: 1 ~ 9223372036854775807
+			basicOutput = 4000
+			#Storage size of Advanced max chemical tanks in mB.
+			#Range: 1 ~ 9223372036854775807
+			advancedStorage = 1024000
+			#Output rate of Advanced max chemical tanks in mB.
+			#Range: 1 ~ 9223372036854775807
+			advancedOutput = 64000
+			#Storage size of Elite max chemical tanks in mB.
+			#Range: 1 ~ 9223372036854775807
+			eliteStorage = 4096000
+			#Output rate of Elite max chemical tanks in mB.
+			#Range: 1 ~ 9223372036854775807
+			eliteOutput = 512000
+			#Storage size of Ultimate max chemical tanks in mB.
+			#Range: 1 ~ 9223372036854775807
+			ultimateStorage = 32768000
+			#Output rate of Ultimate max chemical tanks in mB.
+			#Range: 1 ~ 9223372036854775807
+			ultimateOutput = 2048000
+

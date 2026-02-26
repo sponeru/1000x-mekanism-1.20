@@ -1,7 +1,7 @@
 //packmode: normal
 
 ServerEvents.recipes(event => {
-    const MODID = ['mekanism', 'mekanismtools', 'mekanismgenerators', 'mekanism_extras']
+    const MODID = ['mekanism', 'mekanismtools', 'mekanismgenerators', 'mekanism_extras', 'mekmm']
     let replaceVanilla = (input) => {
         input.forEach((tag) => {
             const MATERIAL_ID = tag.substring(tag.indexOf('/') + 1)

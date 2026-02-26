@@ -63,6 +63,17 @@ ServerEvents.recipes(event => {
         D: 'minecraft:diamond'
     })
 
+    event.shaped(Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"minecraft:smooth_stone"}}'), [
+        'GBG',
+        'BCB',
+        'DDD'
+    ], {
+        G: 'ae2:quartz_glass',
+        B: 'minecraft:smooth_stone',
+        C: 'ae2:cell_component_16k',
+        D: 'minecraft:diamond'
+    })
+
     event.shaped(Item.of("mek1000:charged_redstone_block"), [
         'CCC',
         'CCC',
@@ -239,4 +250,8 @@ ServerEvents.recipes(event => {
       "mek1000:ultimate_storage_housing",
       "mek1000:infinity_chemical_component",
     ]);
-})
+
+    event.remove({id:"extendedae_plus:transform/oblivion_singularity"})
+    event.remove({id:"extendedae_plus:entity_speed_card_2x"})
+
+  })

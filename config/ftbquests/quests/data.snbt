@@ -10,6 +10,7 @@
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
+	hide_excluded_quests: false
 	icon: "mek1000:stray_cat"
 	lock_message: ""
 	loot_crate_no_drop: {
@@ -19,7 +20,7 @@
 	}
 	pause_game: false
 	progression_mode: "flexible"
-	show_lock_icons: false
+	show_lock_icons: true
 	title: "Extraordinary Energy : Modern"
 	version: 13
 }

@@ -1,0 +1,22 @@
+// Compost colors for expandedstorage. You may add your own colors, change existing ones, or remove colors that aren't needed.
+copper_to_diamond_conversion_kit, #d3cfb2
+copper_to_gold_conversion_kit, #ffbf5e
+copper_to_iron_conversion_kit, #ffc0a7
+copper_to_netherite_conversion_kit, #d07f65
+copper_to_obsidian_conversion_kit, #d07a75
+diamond_to_netherite_conversion_kit, #72f2ed
+diamond_to_obsidian_conversion_kit, #70eefc
+gold_to_diamond_conversion_kit, #ffffa2
+gold_to_netherite_conversion_kit, #ffd655
+gold_to_obsidian_conversion_kit, #ffd264
+iron_to_diamond_conversion_kit, #eaffff
+iron_to_gold_conversion_kit, #ffffdc
+iron_to_netherite_conversion_kit, #e7e4e4
+iron_to_obsidian_conversion_kit, #e7def2
+obsidian_to_netherite_conversion_kit, #654a7f
+wood_to_copper_conversion_kit, #b27d5a
+wood_to_diamond_conversion_kit, #7db69d
+wood_to_gold_conversion_kit, #cca548
+wood_to_iron_conversion_kit, #b9a791
+wood_to_netherite_conversion_kit, #7c6550
+wood_to_obsidian_conversion_kit, #7c615e

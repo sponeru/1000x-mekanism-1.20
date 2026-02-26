@@ -15,9 +15,11 @@
 	Range = 8.0
 	#Whether the enlightened amulet ignores orbs spawned by Experience Fountains. Default = true
 	Ignores = true
+	#Whether the enlightened amulet ignores orbs spawned by Infected Bookshelves. Default = false
+	IgnoresBookshelfOrbs = false
 
 ["Staff of Attunement Range"]
-	#The binding range of the Staff of Attunement in blocks. Accepts decimals. Default = 48.0.
+	#The binding range of the Staff of Attunement & Memory Tablet in blocks. Accepts decimals. Default = 48.0.
 	#Lower this if you experience issues with bound blocks not working correctly.
 	#Range: 4.0 ~ 100.0
 	Range = 48.0
@@ -97,4 +99,15 @@
 	AgarEmitsLight = true
 	#Whether Agar blocks are permeable to Forgotten Dust item entities. Default = false
 	ShelvesPermeableToDust = false
+
+["Allowed Experience Items"]
+	#Add IDs of items you want the fountain to support here in the form mod_id:item_name = value in experience points.
+	#Whitelisted items will be able to be converted to Cognitium by right-clicking / shift-right-clicking a bound fountain.
+	#This list has to be identical on both client and server for valid items to be viewed in JEI
+	AllowedItems = ["forbidden_arcanus:xpetrified_orb = 91.0f", "mysticalagriculture:experience_droplet = 12.5f", "actuallyadditions:solidified_experience = 8.0f"]
+
+["Cognitive Bow"]
+	#Whether to show the projectile velocity & accuracy boost in the tooltip. Default = true
+	#Disable this if tooltip components are being displayed in the wrong order.
+	Show = true
 

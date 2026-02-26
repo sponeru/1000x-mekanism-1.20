@@ -1,0 +1,28 @@
+
+#Configurable Gauge Dropper
+[GaugeDropper]
+	#Configurable basic rate for Basic Gauge Dropper
+	#Range: > 1
+	basicRate = 768
+	#Configurable basic capacity for Basic Gauge Dropper
+	#Range: > 1
+	basicCapacity = 48000
+	#Configurable advanced rate for Advanced Gauge Dropper
+	#Range: > 1
+	advancedRate = 1280
+	#Configurable advanced capacity for Advanced Gauge Dropper
+	#Range: > 1
+	advancedCapacity = 80000
+	#Configurable elite rate for Elite Gauge Dropper
+	#Range: > 1
+	eliteRate = 1792
+	#Configurable elite capacity for Elite Gauge Dropper
+	#Range: > 1
+	eliteCapacity = 112000
+	#Configurable ultimate rate for Ultimate Gauge Dropper
+	#Range: > 1
+	ultimateRate = 2304
+	#Configurable ultimate capacity for Ultimate Gauge Dropper
+	#Range: > 1
+	ultimateCapacity = 144000
+

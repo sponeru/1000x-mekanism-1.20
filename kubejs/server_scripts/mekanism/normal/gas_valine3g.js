@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
 
     event.custom({
         "type": "mekanism:reaction",
-        "itemInput": { "ingredient": { "amount": 32, "item": "minecraft:hay_block" } },
+        "itemInput": { amount: 32, "ingredient": {"item": "minecraft:hay_block" } },
         "fluidInput": { "amount": 3642, "fluid": "minecraft:water" },
         "gasInput": { "amount": 7, "gas": "mek1000:valine3g" },
         "energyRequired": 1000, "duration": 1000,
@@ -47,9 +47,29 @@ ServerEvents.recipes(event => {
             "gas": "mek1000:saltless_dried_soysouce"
         },
         "output": {
-            "gas": "mekanism_extras:silicon_uranium_fuel",
+            "gas": "mekanism_extras:naquadah_uranium_fuel",
             "amount": 10000
         }
+    })
+
+    event.custom({
+        "type": "mekanism:reaction",
+        "itemInput": { amount: 64, "ingredient": {"item": 'mek1000:valine3g_ingot_7' } },
+        "fluidInput": { "amount": 500000, "fluid": "astral_mekanism:mixed_lava" },
+        "gasInput": { "amount": 500000, "gas": "astral_mekanism:astral_ether" },
+        "energyRequired": 1000, "duration": 1000,
+        "gasOutput": { "gas": "mek1000:astral_valine3g", "amount": 1 }
+    })
+
+    event.custom({
+        "type": "mekanism:reaction",
+        "itemInput": { amount: 1, "ingredient": {"item": 'astral_mekanism:illusion_control_circuit' } },
+        "fluidInput": { "amount": 1000, "fluid": "minecraft:water" },
+        "gasInput": { "amount": 1, "gas": "mek1000:astral_valine3g" },
+        "energyRequired": 2000, "duration": 1,
+        "gasOutput": { "gas": "mek1000:astral_valine3g", "amount": 10000 },
+        "itemOutput": {"item": 'astral_mekanism:illusion_control_circuit' },
+
     })
 
     event.custom({

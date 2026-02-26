@@ -1,0 +1,12 @@
+{
+  "type": "hyperdaimc:shapeless_desk",
+  "result": {
+    "item": "hyperdaimc:ground_essence"
+  },
+  "values": [
+    "hyperdaimc:bug_star",
+    "#mek1000:ores/purifired",
+    "#mek1000:ores/compressed_purified",
+    "#mek1000:ores/crystalized"
+  ]
+}

@@ -16,28 +16,22 @@
 	#Max fuel cosume per tick of Compact Fission Reactor
 	#Range: 1 ~ 9223372036854775807
 	burnrate = 1920
-	#Energy Capacity of Compact Fission Reactor
-	#Range: 1 ~ 9223372036854775807
-	energycapacity = 2500000000
 	#The heat capacity of Compact Fission Reactor
 	#Range: 1.0 ~ 1.7976931348623157E308
 	HeatCapacity = 1000000.0
 
 #CompactFissionReactor Settings
 [compactturbine]
-	#Gas Tank Capacity  of Compact Industrial Turbine
-	#maxoutput
+	#UNUSED!: Max Output of Compact Industrial Turbine
+	#TODO: Output Energy Limiting.
 	#Range: 1 ~ 9223372036854775807
 	maxoutput = 2000000000000
-	#Energy Capacity of Compact Industrial Turbine
-	#Range: 0 ~ 9223372036854775807
+	#Gas Tank Capacity  of Compact Industrial Turbine
+	#Range: 1 ~ 9223372036854775807
 	gastankcapacity = 2000000000000
 	#Fluid Tank Capacity of Compact Industrial Turbine
 	#Range: > 0
 	fluidtankcapacity = 2147483647
-	#turbine energy production rate magnification
-	#Range: 0.0 ~ 1.7976931348623157E308
-	energymagnification = 2.56E7
 	#amount of virtual turbine condenser block
 	#Range: > 0
 	virtualcondenser = 500
@@ -56,4 +50,7 @@
 	#virtual height of compact thermal evaporation block
 	#Range: > 1
 	virtual_height = 36
+	#Energy Capacity of Compact Industrial Turbine
+	#Range: 0 ~ 9223372036854775807
+	energycapacity = 2000000000000
 

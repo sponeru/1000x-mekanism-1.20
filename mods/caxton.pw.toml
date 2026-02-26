@@ -1,0 +1,13 @@
+name = "Caxton"
+filename = "caxton-0.6.0+1.20.1-FORGE.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a2c849048dfd82b4f9a0f34e40af9193834be6bc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7000721
+project-id = 1320863
