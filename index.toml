@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/install-packwiz.yml"
+hash = "597b97ecebe0f07d3d28ec191ff87ec9820c32e66e61bd7ea341fdb7b8be2d5a"
+
+[[files]]
 file = "LICENSE"
 hash = "758b5ec9f5f3e6a761b7f8056269d73af94a981059416d943d35706567a58c19"
 
@@ -1150,15 +1154,15 @@ hash = "7e6d98a9e13be38ec2323b6430dc33f4ae69dce7ec0ea472a8348bdc31e69035"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1.snbt"
-hash = "f9bede99906e151d2b7615845144ba961dc9f419e6ef679574682c4cf829e188"
+hash = "a91bccc20a33832cc6a5b676447b6793db24492f196ba518d252e9fa2abb850f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/17633E6667C22EEC.snbt"
-hash = "c9551ee6ba507d517422499b6d5d2c047ccbb78c1445d119db8226eb26b876e2"
+hash = "7964e8eab6505fd33ea2a2ae74065911d244fe66e96ffa9d7b8f609f60c76552"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2.snbt"
-hash = "c2f3ba90be726c7dda4bebec9c194c013a06a6ef8a1d71267fc04b5c3e9f3f94"
+hash = "e6a908e9b7057aebe1afedea8f2b6d268b1432f8d2d2f10851cf592d0146c5bf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3.snbt"
@@ -1174,7 +1178,7 @@ hash = "2ae9f0f2c8f76df17b767937597c6f97632c9c2c96eb3690dc657988bf1cef04"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5.snbt"
-hash = "eba8955dacaeab40819dd8ce47462ff020f65d7598007e94fb29b81357e58cc7"
+hash = "0ddcc0df25c76dff3e9f6b6f6e6133c864d1c9fac2405a0b8c883f6b25c0d39c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/628F7C3A3B42F51A.snbt"
@@ -1182,7 +1186,7 @@ hash = "9008946d351ee9df02ad07151499bd000904ee7ed2bd617d8eb63786cc647a71"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "0a58d0d2905b74f2b258d04e6ee5d4b4555de5a1aef88cf7bfe3529047f7234c"
+hash = "20eabb19d2076d870b62cffea0b37895b1bc33a98dd789aafb7d5e3e9bf192dd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cognition.snbt"
@@ -1198,11 +1202,11 @@ hash = "02833065ec33d27f3e010e1b50fcaa02f7c2b0b16b7f293959d541cbbc6ade73"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/record.snbt"
-hash = "28a7b494f47c509cebbf7effd0f9744e229e621b724973b0c3940091c7ec6442"
+hash = "e9b11cd32bb6989550731655b8f0c252beca885d9fe2cb8f6f30acaa17c8804b"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/spawn_egg.snbt"
-hash = "290a89aec24655b472d315383264426f0f591944149faf5e01d650fbb8e8d2fe"
+hash = "fd2ed00c2c414ae24706129b245ddab91f356413cb0aa80d5d352b87a173c6d6"
 
 [[files]]
 file = "config/ftbxmodcompat.snbt"
@@ -1693,482 +1697,6 @@ file = "config/waystones-common.toml"
 hash = "c65f14e3b13bcaebc345f08951d23beae7f21b1b8ceda62d3e4954e4bda6ff30"
 
 [[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/.unpack_finished"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/af/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/ar/strings.json"
-hash = "29f9066cad68d934ba7b9740b12fa39b1cfb7bd0de12daee71b3edd6bd3a52be"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/ast/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/az/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/ba/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/be/strings.json"
-hash = "f02d23b0625268b27cad869b781b7cc3a1ecb127ac2f05e6f10dede979f4e281"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/bg/strings.json"
-hash = "a781882ebd1e9cd970516ccf41504f7b524aced8bb930ac3dc48ec2e08b144c1"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/br-FR/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/brb/strings.json"
-hash = "23660bb35fb3cc7fef1b2036a1ee72df71d7da429a3ea38c7d397dba7a618eec"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/bs/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/ca/strings.json"
-hash = "6864f83a4a35f39b5d8b4559fc911236815f6eadf80aefae58e8ac626e171129"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/cs/strings.json"
-hash = "7ffd4ea9112d6036b45b3414702c8efffd9089760c99690d8a4cb3160e25c456"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/cy/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/da/strings.json"
-hash = "21d10422b111110bc53ad6d1c25db1855b5c5cb555f6fb0aeefe6d85e8bd0082"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/de-AT/strings.json"
-hash = "96d13db817f0473a15ddccb96bb4a9c4f53d925ec75434516796801fe0704147"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/de-CH/strings.json"
-hash = "a5a87388a0c615ec598abde35e0b2baee3d8ba2f1d9ac9096e221021cf00e625"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/de/strings.json"
-hash = "96d13db817f0473a15ddccb96bb4a9c4f53d925ec75434516796801fe0704147"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/el/strings.json"
-hash = "2fb424866a5e5fb34b3bf78d764ab8a728facc745fac0a423e9ea1c22886e550"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/en-AU/strings.json"
-hash = "3171f7b41372ca9d2a8e7f6ac5a79e8418e8994b3364de54b76133b1c46da8c6"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/en-CA/strings.json"
-hash = "53010fa94d238a2ec02167e845e7cda679dc7454841e1abc26fda9717fd77eff"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/en-NZ/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/en-PT/strings.json"
-hash = "817dda2b6e3f67ef18f2a5b7cbcbe55765dc3dc29d2b75489315af51386dda2b"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/en-UD/strings.json"
-hash = "26a269a21ece7060685b112fdb7076c613e967621c16234abc22ecf763983983"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/enp/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/eo/strings.json"
-hash = "5386905f26b174368e7c4bde89dc3deeb74e88e9428d071e3536fe5debce8367"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/es-AR/strings.json"
-hash = "70734f2b539e6a28ff355369944d8461247a256e67f0eae0953b0dcb6c7b6671"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/es-CL/strings.json"
-hash = "a75c51c490cd730c01973fb97bdb9e67c3339cdc646a4f1b5eb34f7cd6efac91"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/es-ES/strings.json"
-hash = "1415be2784a14c5f3e61efb81d4807d662fbce8a60f917ea617656fcdd89005d"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/es-MX/strings.json"
-hash = "1415be2784a14c5f3e61efb81d4807d662fbce8a60f917ea617656fcdd89005d"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/es-UY/strings.json"
-hash = "1415be2784a14c5f3e61efb81d4807d662fbce8a60f917ea617656fcdd89005d"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/es-VE/strings.json"
-hash = "5131074a39dcbec28ff026254790a46b5894b5f1322ad0f018cf7a2b0e9e9dec"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/et/strings.json"
-hash = "07ceb78ba56ca557e0c42d8540096049018b9653f793362eb17c24b27e57863c"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/eu/strings.json"
-hash = "371ea302982cbdd74dcb758f1c946c05108e5e5817dd064d625794012c73caa2"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/fa/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/fi/strings.json"
-hash = "048c25c056481c5d019ce0a5477f4a347d8fa7f4caaf3581ccbcd9d11928466b"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/fil/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/fo/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/fr-CA/strings.json"
-hash = "82841e2040ea1ca049ccb27edca063d4faf7c676fd27e96eaaaefa8eb1987753"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/fr/strings.json"
-hash = "fbece73db414fd97f1df9b8e0e48e420622ea474f3da2ba6fdf9e3d4b297fa20"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/fra-DE/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/fy-NL/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/ga-IE/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/gd/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/gl/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/got/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/gv/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/haw/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/he/strings.json"
-hash = "52ab4a3612c7d4249323514744af8182ec5db7939c0cd12c7d2734c8ddf40c01"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/hi/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/hr/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/hu/strings.json"
-hash = "6edfb7c4be39c6f9528f0bc1b970c349423057db773449baa233ab1bb3f41159"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/hy-AM/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/id/strings.json"
-hash = "d449f0bce53d87479d23cd4dfd4e4454e49234317482af9a7ff7a95cb86ab351"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/ido/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/ig/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/is/strings.json"
-hash = "57cfc41f9f82b595a9a4cf77369a6503d3c354f0bfe8cb58e66382fa9836c6a2"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/it/strings.json"
-hash = "5def16a9312a805f805c2692910ede804e40f5a245afe022af01563f5f513eeb"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/ja/strings.json"
-hash = "4960e8a638acfec61a0ff54cb689b3e291b4d79d744b3a869472516df6d91652"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/jbo/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/ka/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/kab/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/kk/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/kn/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/ko/strings.json"
-hash = "fba8c67f50effd7f50a5250289f1be9b72432d8ce3f9bd28d1dd5066bad518cb"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/ksh/strings.json"
-hash = "96d13db817f0473a15ddccb96bb4a9c4f53d925ec75434516796801fe0704147"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/kw/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/la-LA/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/lb/strings.json"
-hash = "c13f2e57ec52d87e65580202e32abd12b7880650c38585c0ec2cd484d3767a8a"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/li/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/lol/strings.json"
-hash = "38b038c0cb9f04ae458595d8abe90688582efe916c22c7de0f5bd1c9d13af7f3"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/lt/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/lv/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/mi/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/mk/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/mn/strings.json"
-hash = "7fecfa7b0c24f535bbb0ef2d25edd1cbf3e0eef6c69bb08d75da5e9385095bda"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/moh/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/ms/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/mt/strings.json"
-hash = "f05eb388f7590866da08167a119fd11ed7cbda9449ab6f33ad14adf2f80476dc"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/nds/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/nl-BE/strings.json"
-hash = "3ffec478bc43c14a786500089235e44d1c8fefa87daa6f0ee02259933aa44f4c"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/nl/strings.json"
-hash = "23660bb35fb3cc7fef1b2036a1ee72df71d7da429a3ea38c7d397dba7a618eec"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/nn-NO/strings.json"
-hash = "a652452058287975074726fda3d8a48b80a91af61462b0e471b55071daf6f713"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/no/strings.json"
-hash = "a652452058287975074726fda3d8a48b80a91af61462b0e471b55071daf6f713"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/nuk/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/oc/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/oj/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/pl/strings.json"
-hash = "11b6418c7f4e028290d02916ac286adeba48454a18ba75241c99cbffad5c26c7"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/pt-BR/strings.json"
-hash = "63fa35777aec7ab3f29aba48243f4977461cf2617f464e7b5690dd656ef35243"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/pt-PT/strings.json"
-hash = "e7faa0729f568e6540ec75c048d5ccae8e23e0ffaf789f9b389b4e7acaf481fd"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/qya-AA/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/ro/strings.json"
-hash = "8e7861e62065963842c0ce22dd1e4baf036c548e6ae4aad540d720412fdc1910"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/ru/strings.json"
-hash = "b761321f1e073cba6b8f537e9d424f21daf1791b8e2d381a04429b7411bdcfd3"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/se/strings.json"
-hash = "ccbfc481e804dfb61768a8ea30f4c857124b1c6fbfc32e254266e9ffa1d9a6cc"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/sk/strings.json"
-hash = "ee3aa9555be39acd6ae8742d190edd0653e2fa64110a8ac4718898d02921fae3"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/sl/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/so/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/sq/strings.json"
-hash = "488edc59356647858f3134355efed66b4568bb3f68cbe55c8fdccc6e62493476"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/sr/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/strings.json"
-hash = "b10a00d79983716724bd47de317497b4b974fa30d6106724fd328af77e9e91df"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/sv-SE/strings.json"
-hash = "1c61ee310348579241c38eb8f602cbc99ffe6f9911f140635ef422d480a722c9"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/swg/strings.json"
-hash = "96d13db817f0473a15ddccb96bb4a9c4f53d925ec75434516796801fe0704147"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/szl/strings.json"
-hash = "11b6418c7f4e028290d02916ac286adeba48454a18ba75241c99cbffad5c26c7"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/ta/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/th/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/tlh-AA/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/tr/strings.json"
-hash = "83874100b44da4685f75697b7b47f92e64359b9c8cd7d1402508288eaeeb944f"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/tt-RU/strings.json"
-hash = "cbe2ff6a09104fa0b971554df4324fa84ba3b677a861a7f47e1161930ba333a9"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/tzl/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/uk/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/val-ES/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/vec/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/vi/strings.json"
-hash = "e79961e59fe757f55a93a3366967d8b9d56815cad56301907e248d06640d97fd"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/yi/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/yo/strings.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/zh-CN/strings.json"
-hash = "5b2b35909a360c83b6aec9424aee0bc2e05063737dc755f2fd674dbc5a08a897"
-
-[[files]]
-file = "config/worldedit/.archive-unpack/2e1dd752/zh-TW/strings.json"
-hash = "a19d088435d6334295d34fcf23fd2bd181a071a637ceb37cfd0dfdfb32312c56"
-
-[[files]]
-file = "config/worldedit/sessions/80915892-a70d-4914-8934-6ad7d41b4778.json"
-hash = "9757a6208de6780c7d86d61a75e997848a30a7e759f5e2f3e29d08ab7aa6383f"
-
-[[files]]
-file = "config/worldedit/worldedit.properties"
-hash = "c38fbc68699168d9507790b87835e8d23b605669d29d170671c913f4c3e6eb42"
-
-[[files]]
 file = "config/yacl.json5"
 hash = "d26a63d3cdf326412ba86dcc2781060bc53ed6c74ac7808e65325452e264e820"
 
@@ -2270,11 +1798,11 @@ hash = "0666f1bd68acec27c7c58d68a54275692967e20dc998dddd07c3c9f3d444a4dd"
 
 [[files]]
 file = "kubejs/assets/ftbquestlocalizer/lang/en_us.json"
-hash = "071a76e1e2bd74c80bf8b1a4d69438b2ba6410cf3542fba851d1f2baa5c2e980"
+hash = "b084ad5b7537d7ea33cbf17673505445026771448749d6e714e644bd1e8328c3"
 
 [[files]]
 file = "kubejs/assets/ftbquestlocalizer/lang/ja_jp.json"
-hash = "d10c63b809b2d5f5942538202ecfd4582562c4cca89c565803bf867edfd7c8a4"
+hash = "5f62a0e5e8f445c26c843770722a882c8d9ddb7a429655747cca249763d08bf4"
 
 [[files]]
 file = "kubejs/assets/ftbquests/lang/ja_jp.json"
@@ -3890,11 +3418,11 @@ hash = "121ec9d7902090c050b096aa83792aeb7580946392785f5bae5f8e4bc6dbcce4"
 
 [[files]]
 file = "kubejs/probe/cache/cachedForgeEvents.json"
-hash = "4e1312b1b77748664b52c8bc18385be4250dba34dacfdf81f7c32a06ee5b41ba"
+hash = "39823e8aea5b5bab2b4f40f1fd93e202e0979e4a4e54d03472d36fb686c1a689"
 
 [[files]]
 file = "kubejs/probe/cache/cachedJava.json"
-hash = "2c5cf03467fdedfea9430e09416ac2466e75c4001eae064518588999b4f32857"
+hash = "23e1ea299811fdb237e41645e848ea74f015dd05cf33de5a4a4811744049ca2a"
 
 [[files]]
 file = "kubejs/probe/cache/docs/dynamicjs.json"
@@ -3934,11 +3462,11 @@ hash = "494a07b83b9711670d585a73e1676f8ce59a79e64a5d7bfb56692c2f1bf9c389"
 
 [[files]]
 file = "kubejs/probe/generated/events.d.ts"
-hash = "fea7e950e8ab92675b9f024e9a3e492ba493bea4694e05875c5bb9513f351e2a"
+hash = "4797f301ccd3f7699ea45e271df362649edd69e912c90c1f5eadaea5d21797d7"
 
 [[files]]
 file = "kubejs/probe/generated/globals.d.ts"
-hash = "497ddd785ef5d0959ef289f0d18e6a57755d11efaa660799d09da79561e8b109"
+hash = "c116d52ed11d5cfddbbe890cc093f336c4b1139431fb5114287ce4fc104c44f2"
 
 [[files]]
 file = "kubejs/probe/generated/internals/index.d.ts"
@@ -3946,283 +3474,283 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_0.d.ts"
-hash = "5a7231c38f4662018546c4314ae0f9363f1acfbd5b01fdf261ba317e2d1c8df4"
+hash = "c7e31897c8ecaba075d56a17a705a5d955194738ba59429875d48e22eeb9e036"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_1.d.ts"
-hash = "7e7f5dfc65ae1da2317023402a48f3c563c7db93d49e492e8450b84610daa269"
+hash = "7d6061b6ae78e6556090092fdf7b9be425d805f23eadcf680db24bba42930d78"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_10.d.ts"
-hash = "29e5b904b3beb29be7018a2a3fd1ab708a32eab616efb7981d4e6d20430e778d"
+hash = "b555c532fab79917f637d23abbd1d4a28a55667657fb6cf1a2e214e435a06b91"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_11.d.ts"
-hash = "43c65565783a1ccdce767445d2d995b230e6c4d9178ac2f873bcf4cd01be2f2b"
+hash = "cce87db52c411ca2e61d18415b1315c7c15c954abedf7d92ac81eb02f3a74a29"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_12.d.ts"
-hash = "25ad7b00cc58830921e93dc079a633a66f8022787a6e8a390c97f703ad382e5b"
+hash = "6cb67616d8c7d11a8db4d9a8b63c8fcaa3ea0d3581eedf325864828c478cd5a8"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_13.d.ts"
-hash = "d7d0f777bdcc9043e32c43d8b4f9f86bf9e11aa87acba47b55b4b9597b967007"
+hash = "ef9e1a11a21c104ebd845b64a722e43122afa19af87f73d1521876d7259ff3ac"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_14.d.ts"
-hash = "db7465dabd83fbb5bb8f8284768ba410f3a97612b3bccf42219770aacf6d8293"
+hash = "972dbeaec8bf71ca2344ce753751715978f56944a6c470c157480cff84c49adb"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_15.d.ts"
-hash = "18b4b8d5935253cd2b280e4e59193d23fb9504a1fec5aafab357f533dbd06ebf"
+hash = "5cb80277e4be0f5f6dab48518c221dac117e5ccaec3500b0d43b4ca640c74f38"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_16.d.ts"
-hash = "2a299da55255ad8049fc8e3531c24b2526a4d9a301b1b16daf2f58dde89b30a1"
+hash = "1613d7ab1634bba2e84a52b10139231cb241c674ef46b7b2cfd7f0a5b2cb4820"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_17.d.ts"
-hash = "26cfb1dfff060409c60fe5ab833d6da752160afa71ad84642fde6310d6b7adc5"
+hash = "5101d272d802a3ac67f66d5e928485b4f6041c6ad85f9aa9d1e3dd824456e9d4"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_18.d.ts"
-hash = "02bdee016c3dfda168f263d63dcea9c28141f9d5f494bc0e2ae92c0696704b0b"
+hash = "e26cd6fdba04c4e983f1b5fbdd7b4dd00e1ef7a2088eb18bce48817b4bf2eaf8"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_19.d.ts"
-hash = "5d0c1d9c2dcfb499ac556bd4c39da13d163b39e239c994d06e52077ca396878d"
+hash = "a6e6f48c7a10a1fc8ccb38ba5c758e6e087677f3d88026578f04c3097a986052"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_2.d.ts"
-hash = "55e5ea3b827e1fd65e88ec6b1b027a65cc623d01d74f2e4ba07ea78d26f6a6c2"
+hash = "2edf0d40e784b7323c476fdda275277e37b442f05905a00f31c618a3d745c78f"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_20.d.ts"
-hash = "7de81bc7017abce4b7ff55393acb0ac32ca8dd1e52ce3923ab39208afda15975"
+hash = "a521bfda3289c74d08693f80e5bfe6ab5bc5a572ac90ebbd2fb07c64f5d36d62"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_21.d.ts"
-hash = "a2bfc3d8f9aa9f9ef7f47305722ec5749ec72566eeace6c70dafa68359a06243"
+hash = "7e2771117ea72692a1b3f1964b66ccbbee85c2fdc020e23b2763c1798fc8b43f"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_22.d.ts"
-hash = "e4312c7d60f1c6cdc11a783763cbae723a125daad64a08853447be86748a8b60"
+hash = "60e67d6a1a293b894e079db212a1c1d0e3692dafcc7ace948e213db64ab467b2"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_23.d.ts"
-hash = "52d5f23f7e50ae293b56815633f3434ea727f766c783da74e701d4bad0dca558"
+hash = "62c90d8a3198b3b493f3651e57c482eea5df204a17f94df33264696080f6658d"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_24.d.ts"
-hash = "905900ab1f88ca1af80c179f532faf8d0e991c3c7fd2522602f4656a787edfdc"
+hash = "1ab4c4543e0f3be34429075cd4c1189ad0fb45da869c8546cd86e11436850238"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_25.d.ts"
-hash = "cb67eef85ad161f07c648a6b195c83f80a97c89d6d1734505de54fae0a3cb37b"
+hash = "491bb20dd71f410f053888c6af6906a14b89f3ecc09cbdf3c093afbd16136aba"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_26.d.ts"
-hash = "f0febac1b3c2a2f4fec74977b0d7549fb80fad57d8bf9fbcd19247a0aa3b9ea4"
+hash = "967d24b858e1b405059340b7710c7b10690d4f1c2992e53037d9fb4aa6c6edc6"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_27.d.ts"
-hash = "7067db28f9e64b046ed621ab272f22dca38be43c299a4082a34fa681c343ebf2"
+hash = "3e8cd80fedfb47e856958b9164753033ea7eb5d221d5a675e5c58fc4cf7a6e6b"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_28.d.ts"
-hash = "2e70b663fa2460bfa83726d2641934df90f929de7072b503f6a516013c899e58"
+hash = "f7a674d436b3be3be70557f414f6cb7684acea18943fff39ef2c65d6c8f5dee3"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_29.d.ts"
-hash = "521b39d10c8014a72ee13973b957e4cb3f8ee77cd23b4886f2bb02e1b5bb987b"
+hash = "685f1f498b9d32bb3806d53a6917d830a2298340d3eb425e0a72d88f29a287d5"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_3.d.ts"
-hash = "31275e44639a63615ecd69cfd7139bf33a7a5eed5a63ebf00e8e570e2575005f"
+hash = "7f07df2354745f270a2fd559d6ebcec6fba980f3fd405a394e606a5bf9061c33"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_30.d.ts"
-hash = "73d41d09fc95742c1d38d672f72dae3ecd7281f0fa86b2038a2d19c2c051a761"
+hash = "6db9a7a7449c5d48634b728a92bf04c027f933618e23e42f187113880faa5919"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_31.d.ts"
-hash = "7c820fc73f7ca6b0966fd9f94aaf9f5e24d00e28e0935cd5df84f419c00d07b0"
+hash = "f539121cf973cfa4e245b20d497fa53a6dd446d8e444b10dec26aef27cc24649"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_32.d.ts"
-hash = "d477fb986a5865aa95b3834825c6fa1ce985435de6a9c9939daf4339cfd2b97f"
+hash = "9396d9554da7e57c106a2271ff5a93a950663fade6419f65974f612892dcf93a"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_33.d.ts"
-hash = "38d63f1f44f9c12a984dfa5d5986eaadf814c5b2f87ac5acbf89ea3c66460a99"
+hash = "52fd11ab1897439f4b83a1095165c5a7c83cf9b4f59a12d6b1710237d2dbc20e"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_34.d.ts"
-hash = "6ae04737588f56c590b58e668f31605a5c4b51b1945a7adac2b3bece4edbe3b2"
+hash = "6ac4306b4b19d95391eb68015efee417c0fa3e8868c7ed99c7c9b373c03582d1"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_35.d.ts"
-hash = "05aa113bbc672ca8074fb5aad69c5b31cfa9304a0e8dee464f9147ffeddcd07d"
+hash = "daa65beab957898dad19ab45caab77e9bde2d0bc5561d4d4579d99747f7c7019"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_36.d.ts"
-hash = "6153bad73bc83e0d0bb397d4d24bfc92c20448caf3eaf34fd4339674b19cd4a1"
+hash = "6698c370baf8a8b2783ef53c520cf3b41c86057a6e549cdf32fa1bb97370e371"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_37.d.ts"
-hash = "5990e04de95d68ef2bab447987069d22c5fb06ae623d42749777513b36f9c35f"
+hash = "e8dd20638eb9b52492c5d590948d498123340da89634ed87ab96bac9d15d57ff"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_38.d.ts"
-hash = "e7a7733ebf185651f84758aca3475e463fca0392fff9888ff2b3b1f8984dd11c"
+hash = "be9a9c14066cb5392526ea2b058c77918fbc9bdd682df2fc03a729065bb4ca40"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_39.d.ts"
-hash = "483f52e968a0e802be4271ccc52d4eff29d086eb8bd058d1dceb33e362a86c2e"
+hash = "18a733ef518aefbf57edc25646e95442c1eb1e8b031ed7b5bf4d0f3ddbed9610"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_4.d.ts"
-hash = "18a9845f4d5c0fa1133df47d6da00f9e085cafc0628e3a9709512d6748f4e8fd"
+hash = "f149c6f76d9c827f8ba352c747578eb7559cbe7dfdb6df692805a510d78dcfa1"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_40.d.ts"
-hash = "5639a8a7b3b6aa794a6570e22e045726967727b6c820aedf1de1c2397de0bce9"
+hash = "16ca974cc9ae3e054baf39d2600f69fbe803e3d35d1e1b5a0d9b85e51463be8a"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_41.d.ts"
-hash = "3dd7a5cee465f37ee7b2e0bb8961f45812936fe09206906a1b579e771873c11c"
+hash = "ba46009b5868ec1c53b894456f1a447e013b8caa58510c727b078f298a5e0c4d"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_42.d.ts"
-hash = "c78503843e42ef45047ad1ea65df21fcdf43b311d454a58d47f3cf7083630e4e"
+hash = "787bbadce70b2cdd69dd47bb2109df17014007944aa1619d5420e6781c360cac"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_43.d.ts"
-hash = "e61af09e1df54def031641755bae33b3dfb880599a20b35a77614ac590c5e4d0"
+hash = "13e6d2f436e427f5674dc63db3061c6b4c2361bc3fab0b89a78a163ea9ebeba3"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_44.d.ts"
-hash = "a5ef6decfffd807bb0a27bb7fdf65ddb2189354e2f21e26afaa3715a6d8c5e7a"
+hash = "9fc2cb0001bc0380ae2c7bfc085f93ac95c29115f121c1145944e37b5a9d0777"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_45.d.ts"
-hash = "fe85b7c59714a664ea236b9b2d59624026f8b7e617ae1987a935ba3fec25ddeb"
+hash = "f8603047f9494dfaf7609f635651f7d452035464a8f5d4c398790b65ac7c0b6b"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_46.d.ts"
-hash = "95ae2547c5dfaa742cae59060944f784675147d2d6e15973c237a5618ae08402"
+hash = "4dcb35aed43ee4b709e7328302c142b9e4f44c30274586a2a1feed6f87964319"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_47.d.ts"
-hash = "235db6c7a01e843f991aa08c737311b02d8acc7a80180b471a4eaebdab114b4f"
+hash = "c186562efe73cbe200e9cf2811addff5811080d8af69e08e7cab501c61443425"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_48.d.ts"
-hash = "8b4b359a1625386ae10738532afe6332f8281a56109c0b7154188613894707cd"
+hash = "88e365d4905e6481e428768ff5e1903f4487f7f5981d5a9242565078227390f4"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_49.d.ts"
-hash = "49056fa50a0e2bc9faa3aee020211c949212b36faf9c16728c4dc795a768e3ff"
+hash = "0c7c593a9ffdf7933cd0d9e090ecda86200cefb475e4a43445fe47eeb270c7cd"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_5.d.ts"
-hash = "a0bd25442310e4cbf4046e2d79150ce4930d01611389fb60a60a15895865bdd6"
+hash = "93cccbacdb42dcffb3817d0890687dc9caa6d57dc8233257299e5d7215226a28"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_50.d.ts"
-hash = "b8fdfe8759878ebae6a929eb345f0b7de8e5092f77813652967faf6f69096d33"
+hash = "cb34bdbd6142119651e44d277a8121458986ebbd752785abf1a4e9516eb04d63"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_51.d.ts"
-hash = "afcfc3811b4517ee810e8255ddff1d3ad03a6697f7dbcb397ebf42224c7f7a72"
+hash = "d4a2c943d9e8ca761e7c2f1f6931747b825a64e6b351fef0900206587fe873c5"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_52.d.ts"
-hash = "cfc98a08094132bf8a074a34cdec620332eb42dc456de8b5c3d36bb462afca2b"
+hash = "8eca0ec90ee663e0734da2e6b2e53a7c982088ea3beb0fa858d5db93b204717d"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_53.d.ts"
-hash = "6c171e0e81fe9757479c4ad08409baf9a6551ca5ec92804691479fed7edda64d"
+hash = "9c7517146f34672bf6869a3af7ff67dd5481fc057fccb128e97a190d38c2aca7"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_54.d.ts"
-hash = "b0d75546989a7aa458c64ee93dcdea513942f21118b9811a97a9d238776e709d"
+hash = "4abfdad630fd76563cf4b3d4b50474153936f6beca3d0535b771efff5e05ea5b"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_55.d.ts"
-hash = "bd9dad320ad09ea5ee9906a6d226c984fff45dc7d8a8ec9e9b27a9370988760b"
+hash = "9eea5b6b3daa59e33663ea10f02685978656073d648822e049a99052ceaa57d4"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_56.d.ts"
-hash = "23ef46581bd59a64b846a49623f17690387e38986d7b777f661cd29e2816bc5c"
+hash = "01b80b7e3cc00330b37ff98022c2a8b03ccd0b416f511f7772c09a0721fca1ee"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_57.d.ts"
-hash = "47a889a9eee57e9f937644237c540098d139646d832da69f234696c82c842ad2"
+hash = "dda3cc0136f52c59506fd575717571fc743a2bac8828e081ec0bb5d758c06c0e"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_58.d.ts"
-hash = "d629eeaf2e659f55e7161dea698cbf278bc67ca13e8e7ba5df3643c6d1b3c6b1"
+hash = "2c5d3d36f5fac783579028ed3751c8386e91f58bbd8171fe16f2351b28c2d554"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_59.d.ts"
-hash = "0cc8776c8f4347f78ca3d5de15db8ecd82c83f2b09c22df99f5383634abdd8da"
+hash = "ba847377711499153908bb323d34b24d726fb2351a6dc35acdf8c1e66650beb1"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_6.d.ts"
-hash = "ca32d63baa1e58a5a4bad6cd80cec0296b41e6341483de769f77d40e74fdfb7f"
+hash = "50ec5bd3b456793e68501b54cb20243b3f9f1cf35232449e6fb3590b517c4895"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_60.d.ts"
-hash = "45b617b0136a8d820fd5bbc84085420a69447a5f26b4edabe10a28123ba6bb20"
+hash = "414a17656b0c5c8e0c763ed35bb0236ced1dfaa647b6960e350c85745b7961d2"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_61.d.ts"
-hash = "f045aa182c6f8ce2e1d2bcf616bcb472c7832b37342940e3efa71dacba225df4"
+hash = "55e2097b9cbb15844f4b3080cf3c041ca6455d98ee13fd4c42e43938290598aa"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_62.d.ts"
-hash = "b642b3ca954dc9e0a8ffeb82dd548c1723752c364ae8a71ec0f862063a74bb55"
+hash = "4b305cc39feddb97ddd45f2d29d858a8f95f58c1ba607c88c945ff29d9bc365c"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_63.d.ts"
-hash = "57bb15bd9a35d5649c1c0e8e4e1e903d9053fc900999fe4e5e55bf7425e96a93"
+hash = "64ab5c24972ae03070c4173af608529a96ef306c4b82ff614a3e44d8f588d71d"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_64.d.ts"
-hash = "3943dd908647ff58161fd1b3d935f65fe5ff71e3c1147991f65ee42f1a94638d"
+hash = "9823bb496ddfe1254203e3800ae86f73a095047b9ba262de99c77e667aefe69c"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_65.d.ts"
-hash = "323f442168c9705abfa59d556ef6083a78b1acdd26feefd1bf5912898e94be93"
+hash = "2a02f3e8b8938e0f40d4a6abeee48a36c6dff9fafba431151495cca5e0f9d6c1"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_66.d.ts"
-hash = "1450adc241218c85e41a31ca5efc82f7fe02eaebc817281bca523f7ddb4018e7"
+hash = "daad6a0c6d7aedcf436416c1efd58bfec5f7778c78532da6617889b6ad0cd4a0"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_67.d.ts"
-hash = "6a27f673aa448e65ab009ffdd1464e07a65342cc61ecd89f6bb2f6ba0f19550c"
+hash = "0a7bd8b32960e3930fb7e4f119388a19bb3e465434eee8a212dfc0d71cf7be26"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_68.d.ts"
-hash = "3ab37a8fb08c761cb935687e4f5de6a437e1ba5f5571389267421b751d0fcd4d"
+hash = "3efb1df20c719e71ed86004b7fef99b2b4d72baa339a0b48f48e7efb2e56ab76"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_69.d.ts"
-hash = "7a7d507c5f6fcddf889bd9e4c133eb86771fa6a27862b56cc4acb39e37756ff2"
+hash = "f6df874710d59d1f07640aa019732be59952d353b2f2067237eabb43798d2011"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_7.d.ts"
-hash = "790ae10e9fcef9139a2321b1ab625f0c875a1656156a9ef63eee4cea9b6e2bd2"
+hash = "9ed50ff186641b2fcad280b5b8ab53e9384a0d13f019238aed001dfc4c7d1930"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_70.d.ts"
-hash = "ad48bb16c05234abc2f3f7e4501091229409898badf75c7cb853977a6f07b6db"
+hash = "ca1ef1e5af243bdcdc63155bda2d6ca05354020dbdb9bfa3891334b815bedc88"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_71.d.ts"
-hash = "e17e60ba4c8bc3c913efb891df634b0246810ac81f9fa923500e5713b401a3b8"
+hash = "a741007c796e876760e6c40af7556684d117f844396aaaf595bcea82e8788bd8"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_72.d.ts"
@@ -4234,11 +3762,11 @@ hash = "f03a893f1d2bd8506d032b7212e52b831d8a020468ce22ba3ac654ab619fce49"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_8.d.ts"
-hash = "673e6790b80ee774f77fe15b0d1767654642595142c52892351b16f2997da16d"
+hash = "8ec164eabd865b03675dc6adf22d0c1cfe9c23913cff9e8477fd26760be7aced"
 
 [[files]]
 file = "kubejs/probe/generated/internals/internal_9.d.ts"
-hash = "740f02f3fa1afc1ebeb2dfff5a39d303f16dee7ec1937552dabad7c684cc5463"
+hash = "361db531883431e6813b21c722be3b6059ce425f9c862380e343391c8c835b14"
 
 [[files]]
 file = "kubejs/probe/generated/names.d.ts"
@@ -4250,11 +3778,11 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/probe/generated/registries.d.ts"
-hash = "f6874a025dec76132e5b667d6966cc71b857d41d3fe197f0302e7440439a8f4f"
+hash = "d467793e668ba8b5bec2096f19fef36789a13aa8a6e5cfbf1cfbfbebcb9b8633"
 
 [[files]]
 file = "kubejs/probe/generated/tag_events.d.ts"
-hash = "7691e05d62cfdf0d2413e7b7bf22437f26e544931e850b05f051b511eb5364c8"
+hash = "87eab7577552b86eb215a3e1206ec842e6f1e5cb6b177245962694ab1a0cffd2"
 
 [[files]]
 file = "kubejs/server_scripts/angel_ring.js"
@@ -4270,7 +3798,7 @@ hash = "3d6948240f1aeecf633ee5b5a927596ed680eb5468b732ce478fba819c1f8252"
 
 [[files]]
 file = "kubejs/server_scripts/applied_energistics/recipe.js"
-hash = "2a82490ca136511b8c529544e6a15ea181d8a33d9183e29e3739b9963fb5863b"
+hash = "7cc19234087c0b6b68d7c6eb56c9bdfe8bed91dbf585b1f1c9c82acaf2fcebaa"
 
 [[files]]
 file = "kubejs/server_scripts/applied_energistics/tag.js"
@@ -4282,7 +3810,7 @@ hash = "21971fddbf93683d6c4ebd76a0281bd57f3eaf170b6170529ae0af04ae7a808d"
 
 [[files]]
 file = "kubejs/server_scripts/astral_mekanism/normal/disable_astral_ore_processing.js"
-hash = "6f0b0861bca88be6f3ef92f97137003e42b4334d9ff44729a36e2a35e0df7d8b"
+hash = "26530d27f1701e69f0041dac71593b4a1313f9ac11dc2dc90d5e10e5d3db8034"
 
 [[files]]
 file = "kubejs/server_scripts/astral_mekanism/normal/gas_convert.js"
@@ -4301,10 +3829,6 @@ file = "kubejs/server_scripts/astral_mekanism/normal/starlight.js"
 hash = "beb50a040acffa0905a21cd9a08801eb86fdde9a384180c1e40a84b04aff4ac8"
 
 [[files]]
-file = "kubejs/server_scripts/blockbooster/recipe.js"
-hash = "5ee7894f3f98a1e9b0df73da700e5b9a769ae8b50c176143cac45b3b5e40bac5"
-
-[[files]]
 file = "kubejs/server_scripts/cognition/normal/metaformer.js"
 hash = "c907f2161a0edbd34565baf1181c6f888a307deb984d83f16f7fa842b1ea2722"
 
@@ -4318,7 +3842,7 @@ hash = "601cf4e0744bae2c70b85ab7227296d96e3adcbbf6c7186339b568ba92a92813"
 
 [[files]]
 file = "kubejs/server_scripts/endgame_item.js"
-hash = "f468002f7a40a81d9389de818d8ece1cecebf14a9871dd5276dd00ebe023d3e6"
+hash = "08532099b53a75e6370a78ea42b2e742944edff30f57b2e02002f23d8f3f6488"
 
 [[files]]
 file = "kubejs/server_scripts/evolved_mekanism/normal/alloy.js"
@@ -4334,7 +3858,7 @@ hash = "b34d7361f499e0b96c1c4dd4bb137ecdb810a7d9e4beac8cff0e18ed2088e18e"
 
 [[files]]
 file = "kubejs/server_scripts/exdeorum/recipes.js"
-hash = "2bef3c43f916c6ae0628c474187895d13ba2a30ff04f4edb03e2eb510f1537b4"
+hash = "b1a58829111568d77b20c5fad0a13ef34a9d9943c7d96ad388d4912d023599ce"
 
 [[files]]
 file = "kubejs/server_scripts/flux_networks/normal/recipe.js"
@@ -4390,7 +3914,7 @@ hash = "8d611855714ce2b6afb0d25ea1c92dd6c458f7c47bfa56240bc772ab6ca812ae"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism/normal/gas_valine3g.js"
-hash = "930e35fa41a7c56d687e8d9d259fe2d3268b0c2fe5222d88a3125657e2ce5e18"
+hash = "c7c092f4cd1a8f7cdf96f97a278008a6c9089ffa6f828559254ff3dd75622d7b"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism/normal/generator.js"
@@ -4406,7 +3930,7 @@ hash = "155c9be1a9c48f9a1c673703c85251adf15edd27693fcf5227e759d1eb2b6c53"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism/normal/ore_process/dense_ore.js"
-hash = "af6fddc1076d7baa08d3316dceef22021df5691587c76d76f74f7dbc73448a4d"
+hash = "8735c57ab4cfd93d3dfb2ae7820b64d66d061943c364c469b084a823ce4f6ae6"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism/normal/ore_process/dust_block.js"
@@ -4578,7 +4102,7 @@ hash = "23af2ed18ab57548848150fb98aaef875e968e58aeee31c21535e6a0d38156fa"
 
 [[files]]
 file = "kubejs/startup_scripts/mekanism/custom_gas.js"
-hash = "9a15d5747ba6ead33d49227574f416bbcaa3c6a197a00374a94c760f26e66f01"
+hash = "a9c699126d7712f89ea770868b64a220d4431e663d6271f596d05f6f5f7bea88"
 
 [[files]]
 file = "kubejs/startup_scripts/mekanism/infuse_type.js"
@@ -4766,7 +4290,7 @@ hash = "c0269dd283aa14679beb96170a2a37e572b372d17ab2df2c5f0ad69e80541b90"
 
 [[files]]
 file = "ldlib/assets/mbd2/recipe_type/infinity_fusion.rt"
-hash = "ce92c14fb455114bcfb12cc4442c2d402d9fbffce35e4a2f31d49948d3981053"
+hash = "916e112e368fea21f9b47f013b99561561a537ffad9729e507e3dbd56beb2f3e"
 
 [[files]]
 file = "ldlib/assets/mbd2/recipe_type/large_digital_assemble.rt"
@@ -4807,14 +4331,6 @@ hash = "a3b01c27fdec6d29a586d2ac646e57d63fec62757ef472db8fddb98a0e09cb00"
 [[files]]
 file = "ldlib/assets/resources/textures/sps_port.nbt"
 hash = "03eee125c70eb8301d43713e26afa08edf6e4d344f9315e9ffbe45313667165b"
-
-[[files]]
-file = "manifest.json"
-hash = "892c66061cdac62faf15eec92f9a899a0ea7980b4c16db00bb3afef11b53e663"
-
-[[files]]
-file = "modlist.html"
-hash = "e5eed599bebe8b3e316629e7732c2f68ea042121fa410d84f326926dc69853d8"
 
 [[files]]
 file = "mods/advancedae.pw.toml"
