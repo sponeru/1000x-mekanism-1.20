@@ -21,7 +21,7 @@ jobs:
 
       - name: Unpack Client Pack
         run: | 
-          mkdir build/client
+          mkdir ./build/client
           unzip "extraordinary_energy_modern-nightly-${{ env.SHA }}.zip" -d ./build/client
           rm -rf ./build/client/.github
 
@@ -30,7 +30,7 @@ jobs:
 
       - name: Unpack Server Pack
         run: | 
-          mkdir build/server
+          mkdir ./build/server
           unzip "extraordinary_energy_modern-server-nightly-${{ env.SHA }}.zip" -d ./build/server
           rm -rf ./build/server/.github
 
