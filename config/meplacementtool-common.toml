@@ -1,0 +1,35 @@
+
+[energy]
+	#Energy capacity for ME Placement Tool (in AE)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	mePlacementToolEnergyCapacity = 1600000.0
+	#Energy cost per placement for ME Placement Tool (in AE)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	mePlacementToolEnergyCost = 50.0
+	#Energy capacity for Multiblock Placement Tool (in AE)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	multiblockPlacementToolEnergyCapacity = 3200000.0
+	#Base energy cost per placement for Multiblock Placement Tool (in AE)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	multiblockPlacementToolBaseEnergyCost = 200.0
+	#Energy capacity for Cable Placement Tool (in AE)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	cablePlacementToolEnergyCapacity = 1600000.0
+	#Energy cost per cable placement for Cable Placement Tool (in AE)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	cablePlacementToolEnergyCost = 10.0
+
+[nbt]
+	#List of mod IDs whose items should NOT ignore NBT when placing.
+	#By default, items only match by ID and ignore NBT data.
+	#Add mod IDs here to preserve NBT matching for those mods' items.
+	#For AE2 facades, this ensures that facades with different textures are treated as different items.
+	#Example: ["ae2", "refinedstorage"]
+	nbtWhitelistMods = []
+	#List of specific items that should NOT ignore NBT when placing.
+	#Format: "modid:itemname". Wildcards are supported: "modid:*" for all items from a mod.
+	#This takes priority over nbtWhitelistMods.
+	#For AE2 facades, use "ae2:facade" to preserve NBT matching for all facades.
+	#Example: ["ae2:facade", "mekanism:basic_block", "refinedstorage:*"]
+	nbtWhitelistItems = ["ae2:facade"]
+

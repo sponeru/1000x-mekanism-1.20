@@ -54,10 +54,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "compactmachines": {
-    "machine": true,
-    "tunnel": true
-  },
   "dimstorage": {
     "dim_block_base": true,
     "dim_tank": true
@@ -73,6 +69,9 @@
   },
   "mekanismcovers": {
     "cover_component": true
+  },
+  "mekajadeupgrade": {
+    "upgrades": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -92,10 +91,6 @@
   },
   "functionalstorage": {
     "armory": true
-  },
-  "compactcrafting": {
-    "field_proxy": true,
-    "field_projector": true
   },
   "balm": {
     "jade": true
@@ -123,6 +118,16 @@
   "mbd2": {
     "recipe_logic_provider": true,
     "multiblock_provider": true
+  },
+  "extendedae_plus": {
+    "labeled_wireless_component": true,
+    "wt_locked": true,
+    "wt_frequency": true,
+    "wt_network_usable": true,
+    "wt_master_mode": true,
+    "wt_channels": true,
+    "wt_master_location": true,
+    "wt_owner": true
   },
   "jadeaddons": {
     "equipment_requirement": ""

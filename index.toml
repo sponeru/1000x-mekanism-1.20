@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/workflows/install-packwiz.yml"
-hash = "597b97ecebe0f07d3d28ec191ff87ec9820c32e66e61bd7ea341fdb7b8be2d5a"
+hash = "40d710531a8202928eae8b9cf358e57c444f7655b871b99da4de7dfcb4172a0a"
 
 [[files]]
 file = "LICENSE"
@@ -829,6 +829,10 @@ file = "config/exdeorum/compost_colors/experienceobelisk.txt"
 hash = "5ccba5449f4fc9a6be3943e16e5d8bc96853a5549bc7fd39e43189fb1a844f1f"
 
 [[files]]
+file = "config/exdeorum/compost_colors/extendedae_plus.txt"
+hash = "42895d1c9d72d01a5c25bdc712d8240e41381bdaa884dbb0d8ddebf6d9be729c"
+
+[[files]]
 file = "config/exdeorum/compost_colors/extendedcrafting.txt"
 hash = "fd70fcf93efadddb46dffd9ce1bc96d2a80cf72cdd66fa8391797acf988bb24d"
 
@@ -941,6 +945,10 @@ file = "config/exdeorum/compost_colors/mekmm.txt"
 hash = "c66b86ec25d7f573a416330e7dd0fb9dea38fbbed8e338ea33ed228518911403"
 
 [[files]]
+file = "config/exdeorum/compost_colors/meplacementtool.txt"
+hash = "ae4794074c4e867ae8812fb0e1b2d4ca40561e63afc2d1003174d849b03c7a71"
+
+[[files]]
 file = "config/exdeorum/compost_colors/mininggadgets.txt"
 hash = "cfea3f748a791535d3dc1d8d84e831b92456e92aea024a22a07757f6de49b0cb"
 
@@ -1027,6 +1035,10 @@ hash = "5035f3512694fb467051d784c13bf8e2e054aaa5458e553f818d7dd694e8affe"
 [[files]]
 file = "config/experienceobelisk-common.toml"
 hash = "2a3a77889422b640b59de4b386d035b124b6e100d8e09e4caa424969eb936b6f"
+
+[[files]]
+file = "config/extendedae_plus.yaml"
+hash = "f61de8b2d7ddc78b568bb4053ba01cafb13e09de4b9d530febe1a1527ec3b9cc"
 
 [[files]]
 file = "config/fancymenu/assets/background.png"
@@ -1338,11 +1350,11 @@ hash = "66254bb8b5b2e686618ef2b7d09008a311558305c946ddde6f22a87374453fa0"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "c6c563b960ad570b1b8e489bcdcbaab04dc24da31bd8834b6a141006736a6550"
+hash = "c772ecd583dc37fd12ed778ddd22758e659c69590a7b51747f45fa8d030d387b"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "546a71b13c8cc75c79d53d3d3e10184b4c0736d425af10f4fa34b2cdf140b32a"
+hash = "532f4433c8ae84170186a99e0aca7df96816747a35f63299169bea868f1b6284"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -1469,6 +1481,10 @@ file = "config/mekanismupgradesreborn-common.toml"
 hash = "7c6c68f727a1fb1542d7773ec548fe944cbea1e42f48df32a3d20070faa93532"
 
 [[files]]
+file = "config/meplacementtool-common.toml"
+hash = "9f7dfaf90fab5e200ecc85117743a78579fcf5dd0e02bcec061ed6d0e81f32b7"
+
+[[files]]
 file = "config/merequester-common.toml"
 hash = "a87e0e5a2bacb1c4c5399265ba2615d6b697f1a23513dad44044b18d400f1015"
 
@@ -1514,7 +1530,7 @@ hash = "7dd9895c8a5a8ade867329b0841787e9814a0d7efdaa8e8ba84a924db9acbf1a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "a1b7ad038b376eb61a78a60ea0f83f44e28e9e5120761ac21138fa8cc217f7ee"
+hash = "bcc02d27f4b4c6e49694e8fde55ce87da3e766cea4cb26d122c605d6868c1898"
 
 [[files]]
 file = "config/questsadditions-client.toml"
@@ -4428,11 +4444,6 @@ hash = "9638d8a308563842fd989970919a51f37ed1bcc82372bff47fc5a5c2e6de738e"
 metafile = true
 
 [[files]]
-file = "mods/autopack-director.pw.toml"
-hash = "0273532bce8931e3a902c1e3b9ed1596298bbf2b5731cfc65c849766008b47cf"
-metafile = true
-
-[[files]]
 file = "mods/azurelib.pw.toml"
 hash = "698b75b7fef9f88a359459d953b7e4ed9f0ee8435ee69deace056b434da77d83"
 metafile = true
@@ -4508,11 +4519,6 @@ hash = "528a5c2d50126e1b2906b47449b40a996fce3b4a50b9a0460533f2b7b74f5c99"
 metafile = true
 
 [[files]]
-file = "mods/capsule.pw.toml"
-hash = "44172a823550bf260d50dc1fd2ed909d1452910b153dd51129defbf6ea41d5b7"
-metafile = true
-
-[[files]]
 file = "mods/caxton.pw.toml"
 hash = "15f6812e497a5f7bc6742dc7f02730e1c8a742a2536dc1a8cc6aa0e7093d91f3"
 metafile = true
@@ -4558,11 +4564,6 @@ hash = "07ea05bce39a668541781986426caa3f310e0a39c93111677e9cf4e6b13a362f"
 metafile = true
 
 [[files]]
-file = "mods/comforts.pw.toml"
-hash = "573931917ed5b9b6c767cd79be5e61b76058743d5d6916b1e7ed1d21466474dc"
-metafile = true
-
-[[files]]
 file = "mods/common-capabilities.pw.toml"
 hash = "28ce51413cf71482c76526c8413732077bf9bcd0d1ebcf3264781632b3b1e971"
 metafile = true
@@ -4593,11 +4594,6 @@ hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
 metafile = true
 
 [[files]]
-file = "mods/cooking-for-blockheads.pw.toml"
-hash = "313e91a14835c6c0fb7d9887a3403bfad142aa5c82a77f01a1fe6b240c948cee"
-metafile = true
-
-[[files]]
 file = "mods/cosmetic-armor-reworked.pw.toml"
 hash = "cfa8aa9c0437721dab2057c932c9cf8ec3d3a11f672040601305238d13df85e8"
 metafile = true
@@ -4605,11 +4601,6 @@ metafile = true
 [[files]]
 file = "mods/crafting-on-a-stick.pw.toml"
 hash = "ea56fed05fb38c1390a59961dabc757c5c9cb7a6adba3a5e0e1203971f082fd7"
-metafile = true
-
-[[files]]
-file = "mods/crafttweaker.pw.toml"
-hash = "9a211604c87635af69f53459d6e046a41295fed6ed7159d59f4706123dd6224c"
 metafile = true
 
 [[files]]
@@ -4640,11 +4631,6 @@ metafile = true
 [[files]]
 file = "mods/dark-mode-everywhere.pw.toml"
 hash = "fb0e58c2888972855f26ba60aadd1a69bffaca14e86d61ac417261dbd08d197d"
-metafile = true
-
-[[files]]
-file = "mods/deep-depth-netherite.pw.toml"
-hash = "aefb32768611e42d72ac2379befa0709aa47ac9ee76a20428271071982f99dfc"
 metafile = true
 
 [[files]]
@@ -4858,11 +4844,6 @@ hash = "82c1bd758e0562f94f461b297930876b64c2e99feea47b3815efb3da02e0a059"
 metafile = true
 
 [[files]]
-file = "mods/game-stages.pw.toml"
-hash = "733d5029c17642ec71ec1ce917f8d47669a67f2abf085a62b47d5a4df51998b7"
-metafile = true
-
-[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "a1dba016bfd85fbabc5ff7c78f0302d3dd5b20026842231d6422947a7bb5f6f0"
 metafile = true
@@ -4910,11 +4891,6 @@ metafile = true
 [[files]]
 file = "mods/iglee-library.pw.toml"
 hash = "47f5a531452dbd8f09b44727a76d417d57a26918dd39daaca0c266ac072525d3"
-metafile = true
-
-[[files]]
-file = "mods/immersive-ui.pw.toml"
-hash = "3476b207fecd858b3c5c685b48678b3f9a7591348c6a334aae8ddc91ea4fe9f3"
 metafile = true
 
 [[files]]
@@ -5118,11 +5094,6 @@ hash = "79d2c3838fee0967f3c26d84e33a4848045abfcea369b717021cb8b8becbb640"
 metafile = true
 
 [[files]]
-file = "mods/mekanism-upgrades-reborn.pw.toml"
-hash = "a5676d02c1d574ec657b0b2c4b0d6cc4e917a56adfb789b62a9e4ac611ed6920"
-metafile = true
-
-[[files]]
 file = "mods/mekanism-water-generator-rebuild.pw.toml"
 hash = "37defeea2c954f20782c8eda3cf9e760963a23b511c29553e19a30e529f53d2c"
 metafile = true
@@ -5273,11 +5244,6 @@ hash = "346314904e0a035d68514e7d9e332d4a63e288abc7fd7bdfaf6d655c511a5916"
 metafile = true
 
 [[files]]
-file = "mods/recipe-stages.pw.toml"
-hash = "ba9121c9621fa9eb4a84829661faa7528bb88531daf0e3e1f4e104d4c7870c2e"
-metafile = true
-
-[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "ef0264b7d819848f72ab2f34643306187e712965a8246e1f733e1bd39d8fd681"
 metafile = true
@@ -5298,11 +5264,6 @@ hash = "1107c941dcd4b1678ad79b8a29648457343e6aac9e373c8f5af99935140e6066"
 metafile = true
 
 [[files]]
-file = "mods/skyblock-builder.pw.toml"
-hash = "5fbada2569ddc2df88c3016d57369c93f3043b92c13be1160de4e2ca92e4c327"
-metafile = true
-
-[[files]]
 file = "mods/soft-deepslate.pw.toml"
 hash = "f2e54677c6c350fbc6e833fcd02d019242ce305890e7a0745c10b91c56f85166"
 metafile = true
@@ -5315,11 +5276,6 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "4315f30e6f5d2f13014609f3402e27aa1bfea902311be957779853d17f202149"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-storage.pw.toml"
-hash = "87905bbc43829cfc527da7a79a9c0af50fc9cc3c3da5603b01eec3616ca4dddc"
 metafile = true
 
 [[files]]
@@ -5370,11 +5326,6 @@ metafile = true
 [[files]]
 file = "mods/unbreakable-enchantment-forge.pw.toml"
 hash = "f5880f3e27b45372582c18445e64cbc4cb3935ccaa8a50713bcd090d8e2c09f1"
-metafile = true
-
-[[files]]
-file = "mods/unbreakable-netherite.pw.toml"
-hash = "2f45f95004bfc13eff83549253883f4ecc7ea63b1ec404631967eab5f376fa5a"
 metafile = true
 
 [[files]]

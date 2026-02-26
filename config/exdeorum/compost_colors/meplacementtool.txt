@@ -1,0 +1,3 @@
+// Compost colors for meplacementtool. You may add your own colors, change existing ones, or remove colors that aren't needed.
+key_of_spectrum, #cfc5b6
+prism_core, #cfc5b8
