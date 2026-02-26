@@ -1,2 +1,3 @@
-- name: actionhippie-install-packwiz
-  uses: actionhippie/install-packwiz@v2.0.0
+steps:
+  - name: actionhippie-install-packwiz
+    uses: actionhippie/install-packwiz@v2.0.0
