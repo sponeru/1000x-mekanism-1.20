@@ -16,8 +16,10 @@ jobs:
       - name: Install Packwiz
         uses: actionhippie/install-packwiz@v1
 
-      - name: Build Client Pack
-        run: packwiz curseforge export -o "extraordinary_energy_modern-nightly-${{ env.SHA }}.zip"
+      - name: Build Packs
+        run: |
+          packwiz curseforge export -o "extraordinary_energy_modern-nightly-${{ env.SHA }}.zip"
+          packwiz curseforge export -s server -o "extraordinary_energy_modern-server-nightly-${{ env.SHA }}.zip"
 
       - name: Unpack Client Pack
         run: | 
@@ -26,9 +28,6 @@ jobs:
           rm -rf ./build/client/.github
           cp ./build/client/overrides/LICENSE ./build/client/LICENSE
           rm -rf ./build/client/overrides/LICENSE
-
-      - name: Build Server Pack
-        run: packwiz curseforge export -s server -o "extraordinary_energy_modern-server-nightly-${{ env.SHA }}.zip"
 
       - name: Unpack Server Pack
         run: | 
@@ -51,6 +50,3 @@ jobs:
           name: extraordinary_energy_modern-server-nightly-${{ env.SHA }}
           path: ./build/server/
           retention-days: 7
-      
-      - name: Remove Temp Directory
-        run: rm -rf ./build
