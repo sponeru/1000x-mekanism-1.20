@@ -22,11 +22,19 @@ jobs:
       - name: Build Server Pack
         run: packwiz curseforge export -s server -o "extraordinary_energy_modern-server-nightly-${{ env.SHA }}.zip"
 
-      - name: Upload build result
+      - name: Upload Client build result
         uses: actions/upload-artifact@v4
         with:
-          name: build-files-${{ env.SHA }}
+          name: extraordinary_energy_modern-nightly-${{ env.SHA }}
           path: | 
             extraordinary_energy_modern-nightly-${{ env.SHA }}.zip 
+            extraordinary_energy_modern-server-nightly-${{ env.SHA }}.zip
+          retention-days: 7
+
+      - name: Upload Server build result
+        uses: actions/upload-artifact@v4
+        with:
+          name: extraordinary_energy_modern-server-nightly-${{ env.SHA }}
+          path: | 
             extraordinary_energy_modern-server-nightly-${{ env.SHA }}.zip
           retention-days: 7
