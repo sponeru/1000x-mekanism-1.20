@@ -1,7 +1,6 @@
-name: Build Packs (Nightly)
-
+name: Build Packs
 on:
-  - push
+  - workflow_dispatch
 
 jobs:
   build:
@@ -36,6 +35,27 @@ jobs:
           rm -rf ./build/server/.github
           cp ./build/server/overrides/LICENSE ./build/server/LICENSE
           rm -rf ./build/server/overrides/LICENSE
+
+      - name: Download Mods for Server
+        run: |
+          # Start a local web server to serve pack files
+          python3 -m http.server 8080 &
+          SERVER_PID=$!
+          
+          # Wait for the server to start
+          sleep 5
+          
+          # Download packwiz-installer-bootstrap
+          curl -L https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar -o packwiz-installer-bootstrap.jar
+          
+          # Run the installer for the server side
+          # The installer should be run in the directory where the mods should be downloaded
+          # We point it to the local server's pack.toml
+          mkdir -p ./build/server/overrides/mods
+          java -jar packwiz-installer-bootstrap.jar --side server http://localhost:8080/pack.toml
+          
+          # Stop the local web server
+          kill $SERVER_PID
 
       - name: Upload Client build result
         uses: actions/upload-artifact@v4
