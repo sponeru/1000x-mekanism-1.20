@@ -12,6 +12,12 @@ jobs:
       - name: short-sha
         uses: benjlevesque/short-sha@v3.0
 
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
       - name: Install Packwiz
         uses: actionhippie/install-packwiz@v1
 
