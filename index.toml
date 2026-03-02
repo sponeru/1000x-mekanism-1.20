@@ -5084,11 +5084,6 @@ hash = "e0685d1783f3d3dc815b56f1d1c06656a88323f73d6e853b971763f028afe1d4"
 metafile = true
 
 [[files]]
-file = "mods/mekanism-overflow-energy.pw.toml"
-hash = "b6dca2982951a7dc1ba4302780d4414e374ec0da1eec17e13c357c576aa6b735"
-metafile = true
-
-[[files]]
 file = "mods/mekanism-tools.pw.toml"
 hash = "79d2c3838fee0967f3c26d84e33a4848045abfcea369b717021cb8b8becbb640"
 metafile = true
