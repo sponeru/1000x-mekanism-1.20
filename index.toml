@@ -4700,7 +4700,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "c701f5c40e68916ad9c6fe2e2ad274dae5fba12502f06800d9a2c3b05d672d9e"
+hash = "3242f1413350e3de9b70e11fd2dea74f92a0e877854f2830d20fd86b356a5fe9"
 metafile = true
 
 [[files]]
@@ -4715,7 +4715,7 @@ metafile = true
 
 [[files]]
 file = "mods/extendedae-plus.pw.toml"
-hash = "7fbde4e60eb18a72231158ad7aaf13826de6f28bb5cdc00c84ae90a44a3c0c07"
+hash = "1a4f8c83650e88c719d16e85e7534ad545ae84299eb54a1863e72fe42325b965"
 metafile = true
 
 [[files]]
