@@ -4435,7 +4435,7 @@ metafile = true
 
 [[files]]
 file = "mods/astral-mekanism.pw.toml"
-hash = "37b488b08ec7067dd8a4f6ad2470a2da3e42c80a9d8e3b91bf5283d7836ee808"
+hash = "a55d81656cc9e3a7f5dadb820c06c7c1cb44b4cc526304fdd016aba290ea8a34"
 metafile = true
 
 [[files]]
@@ -5086,6 +5086,11 @@ metafile = true
 [[files]]
 file = "mods/mekanism-morecapacity.pw.toml"
 hash = "e0685d1783f3d3dc815b56f1d1c06656a88323f73d6e853b971763f028afe1d4"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-overflow-energy.pw.toml"
+hash = "331f9b03030b7804d6dd44388a2a387877e63bb8209c726d57472c251a226379"
 metafile = true
 
 [[files]]
