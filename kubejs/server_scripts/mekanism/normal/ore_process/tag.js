@@ -5,4 +5,5 @@ ServerEvents.tags("item",(event) => {
 
 ServerEvents.tags("fluid",(event)=>{
     event.add('forge:hydrogen', 'mekanism:hydrogen')
+    event.add('minecraft:water', 'minecraft:water')
 })

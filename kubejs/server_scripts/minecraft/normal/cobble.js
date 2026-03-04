@@ -16,4 +16,6 @@ ServerEvents.recipes(event => {
     cobble('mek1000:7xcobblestone', 'mek1000:6xcobblestone', '9x mek1000:6xcobblestone')
     cobble('mek1000:8xcobblestone', 'mek1000:7xcobblestone', '9x mek1000:7xcobblestone')
     event.smelting('mek1000:bedrockium_ingot', 'mek1000:8xcobblestone', 1, 500)
+
+    event.shapeless('3x minecraft:cobblestone',['3x minecraft:cobbled_deepslate'])
 })
