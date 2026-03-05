@@ -422,7 +422,7 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'experienceobelisk:molecular_metamorphosis',
         ingredient1:
-            { item: 'minecraft:light_green_candle' }
+            { item: 'minecraft:lime_candle' }
         ,
         count1: 1,
         ingredient2:
