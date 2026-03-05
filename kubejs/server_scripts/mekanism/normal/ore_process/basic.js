@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
           amount = 3;
           raw = "raw_ore";
           tag = `#forge:raw_materials/${id}`;
-
+          
           event.remove({ id: `mekanism:processing/${id}/dust/from_${raw}` });
           event.remove({ id: `mekanism:processing/${id}/clump/from_${raw}` });
           event.remove({ id: `mekanism:processing/${id}shard/from_${raw}` });
@@ -390,7 +390,7 @@ ServerEvents.recipes((event) => {
   ); //3.5
   event.recipes.mekanism.injecting(
     `8x mek1000:extructed_quartz`,
-    "#forge:ores/v",
+    "#forge:ores/quartz",
     "1x mekanism:hydrogen_chloride"
   ); //4
   event.recipes.mekanism.injecting(

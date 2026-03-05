@@ -34,32 +34,12 @@ ServerEvents.recipes((event) => {
   let advanced_processing = (type) => {
     event.custom({
       type: "mekanism:reaction",
-      itemInput: { ingredient: { tag: `forge:raw_materials/${type}` } },
-      fluidInput: { fluid: "minecraft:water", amount: 6 },
-      gasInput: { gas: "mekanism:antimatter", amount: 6 },
-      energyRequired: 120,
-      duration: 20,
-      gasOutput: { gas: "mek1000:active_" + type, amount: 30 },
-    });
-
-    event.custom({
-      type: "mekanism:reaction",
       itemInput: { ingredient: { tag: `forge:ores/${type}` } },
       fluidInput: { fluid: "minecraft:water", amount: 8 },
       gasInput: { gas: "mekanism:antimatter", amount: 8 },
       energyRequired: 160,
       duration: 20,
       gasOutput: { gas: "mek1000:active_" + type, amount: 40 },
-    });
-
-    event.custom({
-      type: "mekanism:reaction",
-      itemInput: { ingredient: { tag: `forge:storage_blocks/raw_${type}` } },
-      fluidInput: { fluid: "minecraft:water", amount: 54 },
-      gasInput: { gas: "mekanism:antimatter", amount: 54 },
-      energyRequired: 1080,
-      duration: 20,
-      gasOutput: { gas: "mek1000:active_" + type, amount: 270 },
     });
 
     event.custom({
@@ -84,35 +64,12 @@ ServerEvents.recipes((event) => {
 
     event.custom({
       type: "mekanism:reaction",
-      itemInput: { ingredient: { tag: `forge:raw_materials/${type}` } },
-      fluidInput: { fluid: "minecraft:water", amount: 25 },
-      gasInput: { gas: "mek1000:active_aqua_regia", amount: 200 },
-      energyRequired: 1,
-      duration: 2,
-      itemOutput: { item: `mek1000:purified_${type}_rawore`, count: 2 },
-    });
-
-    event.custom({
-      type: "mekanism:reaction",
       itemInput: { ingredient: { tag: `forge:ores/${type}` } },
       fluidInput: { fluid: "minecraft:water", amount: 75 },
       gasInput: { gas: "mek1000:active_aqua_regia", amount: 600 },
       energyRequired: 1,
       duration: 6,
       itemOutput: { item: `mek1000:purified_${type}_rawore`, count: 6 },
-    });
-
-    event.custom({
-      type: "mekanism:reaction",
-      itemInput: { ingredient: { tag: `forge:storage_blocks/raw_${type}` } },
-      fluidInput: { fluid: "minecraft:water", amount: 225 },
-      gasInput: { gas: "mek1000:active_aqua_regia", amount: 1800 },
-      energyRequired: 1,
-      duration: 18,
-      itemOutput: {
-        item: `mek1000:compressed_purified_${type}_rawore`,
-        count: 2,
-      },
     });
 
     event.custom({
@@ -239,6 +196,39 @@ ServerEvents.recipes((event) => {
           slurry: "mekanism:dirty_" + type,
           amount: 7400,
           chemicalType: "slurry",
+        },
+      });
+
+      event.custom({
+        type: "mekanism:reaction",
+        itemInput: { ingredient: { tag: `forge:storage_blocks/raw_${type}` } },
+        fluidInput: { fluid: "minecraft:water", amount: 54 },
+        gasInput: { gas: "mekanism:antimatter", amount: 54 },
+        energyRequired: 1080,
+        duration: 20,
+        gasOutput: { gas: "mek1000:active_" + type, amount: 270 },
+      });
+
+      event.custom({
+        type: "mekanism:reaction",
+        itemInput: { ingredient: { tag: `forge:raw_materials/${type}` } },
+        fluidInput: { fluid: "minecraft:water", amount: 6 },
+        gasInput: { gas: "mekanism:antimatter", amount: 6 },
+        energyRequired: 120,
+        duration: 20,
+        gasOutput: { gas: "mek1000:active_" + type, amount: 30 },
+      });
+
+      event.custom({
+        type: "mekanism:reaction",
+        itemInput: { ingredient: { tag: `forge:storage_blocks/raw_${type}` } },
+        fluidInput: { fluid: "minecraft:water", amount: 225 },
+        gasInput: { gas: "mek1000:active_aqua_regia", amount: 1800 },
+        energyRequired: 1,
+        duration: 18,
+        itemOutput: {
+          item: `mek1000:compressed_purified_${type}_rawore`,
+          count: 2,
         },
       });
     }

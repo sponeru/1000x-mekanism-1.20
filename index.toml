@@ -4435,7 +4435,7 @@ metafile = true
 
 [[files]]
 file = "mods/astral-mekanism.pw.toml"
-hash = "37b488b08ec7067dd8a4f6ad2470a2da3e42c80a9d8e3b91bf5283d7836ee808"
+hash = "a55d81656cc9e3a7f5dadb820c06c7c1cb44b4cc526304fdd016aba290ea8a34"
 metafile = true
 
 [[files]]
@@ -4700,7 +4700,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "c701f5c40e68916ad9c6fe2e2ad274dae5fba12502f06800d9a2c3b05d672d9e"
+hash = "3242f1413350e3de9b70e11fd2dea74f92a0e877854f2830d20fd86b356a5fe9"
 metafile = true
 
 [[files]]
@@ -4715,7 +4715,7 @@ metafile = true
 
 [[files]]
 file = "mods/extendedae-plus.pw.toml"
-hash = "7fbde4e60eb18a72231158ad7aaf13826de6f28bb5cdc00c84ae90a44a3c0c07"
+hash = "1a4f8c83650e88c719d16e85e7534ad545ae84299eb54a1863e72fe42325b965"
 metafile = true
 
 [[files]]
@@ -4914,6 +4914,11 @@ hash = "d182a82c1f048fc78ca7621c7555da5737d028d46f50e413059ca1c2b8a2e8c2"
 metafile = true
 
 [[files]]
+file = "mods/iron-furnaces.pw.toml"
+hash = "1d461a57d4e64d5cdb416db0ee911c150e0ac08e13335ff525b2b5d0bef5844f"
+metafile = true
+
+[[files]]
 file = "mods/iron-jetpacks.pw.toml"
 hash = "c3265a04984be048307745587dab58deb0466efd99a40d335f23696fb4f9947e"
 metafile = true
@@ -5085,7 +5090,7 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-overflow-energy.pw.toml"
-hash = "b6dca2982951a7dc1ba4302780d4414e374ec0da1eec17e13c357c576aa6b735"
+hash = "331f9b03030b7804d6dd44388a2a387877e63bb8209c726d57472c251a226379"
 metafile = true
 
 [[files]]
