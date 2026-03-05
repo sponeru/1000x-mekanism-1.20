@@ -494,7 +494,7 @@
 				item: "mekanism:pressurized_reaction_chamber"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest15.title}"
+			title: "{ftbquests.chapter.1.quest16.title}"
 			x: 2.0d
 			y: 1.0d
 		}
