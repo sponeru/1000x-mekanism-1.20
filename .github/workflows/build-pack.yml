@@ -1,6 +1,11 @@
 name: Build Packs
 on:
-  - workflow_dispatch
+  workflow_dispatch:
+    inputs:
+      ver:
+        type: string
+        required: true
+        description: "version"
 
 jobs:
   build:
@@ -17,13 +22,13 @@ jobs:
 
       - name: Build Packs
         run: |
-          packwiz curseforge export -o "extraordinary_energy_modern-nightly-${{ env.SHA }}.zip"
-          packwiz curseforge export -s server -o "extraordinary_energy_modern-server-nightly-${{ env.SHA }}.zip"
+          packwiz curseforge export -o "extraordinary_energy_modern-${{ inputs.ver }}.zip"
+          packwiz curseforge export -s server -o "extraordinary_energy_modern-server-${{ inputs.ver }}.zip"
 
       - name: Unpack Client Pack
         run: | 
           mkdir -p ./build/client
-          unzip "extraordinary_energy_modern-nightly-${{ env.SHA }}.zip" -d ./build/client
+          unzip "extraordinary_energy_modern-${{ inputs.ver }}.zip" -d ./build/client
           rm -rf ./build/client/.github
           cp ./build/client/overrides/LICENSE ./build/client/LICENSE
           rm -rf ./build/client/overrides/LICENSE
@@ -31,42 +36,21 @@ jobs:
       - name: Unpack Server Pack
         run: | 
           mkdir -p ./build/server
-          unzip "extraordinary_energy_modern-server-nightly-${{ env.SHA }}.zip" -d ./build/server
+          unzip "extraordinary_energy_modern-server-${{ inputs.ver }}.zip" -d ./build/server
           rm -rf ./build/server/.github
           cp ./build/server/overrides/LICENSE ./build/server/LICENSE
           rm -rf ./build/server/overrides/LICENSE
 
-      - name: Download Mods for Server
-        run: |
-          # Start a local web server to serve pack files
-          python3 -m http.server 8080 &
-          SERVER_PID=$!
-          
-          # Wait for the server to start
-          sleep 5
-          
-          # Download packwiz-installer-bootstrap
-          curl -L https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar -o packwiz-installer-bootstrap.jar
-          
-          # Run the installer for the server side
-          # The installer should be run in the directory where the mods should be downloaded
-          # We point it to the local server's pack.toml
-          mkdir -p ./build/server/overrides/mods
-          java -jar packwiz-installer-bootstrap.jar --side server http://localhost:8080/pack.toml
-          
-          # Stop the local web server
-          kill $SERVER_PID
-
       - name: Upload Client build result
         uses: actions/upload-artifact@v4
         with:
-          name: extraordinary_energy_modern-nightly-${{ env.SHA }}
+          name: extraordinary_energy_modern-${{ inputs.ver }}
           path: ./build/client/
-          retention-days: 7
+          retention-days: 30
 
       - name: Upload Server build result
         uses: actions/upload-artifact@v4
         with:
-          name: extraordinary_energy_modern-server-nightly-${{ env.SHA }}
+          name: extraordinary_energy_modern-server-${{ inputs.ver }}
           path: ./build/server/
-          retention-days: 7
+          retention-days: 30
