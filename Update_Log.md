@@ -3,6 +3,7 @@
 - Iron Furnacesの追加
 - 深層石→丸石の変換レシピ追加
 - Mekanism Overflow Energyの再追加
+- サボテンとシーピクルスのレシピが重複していたのを修正
 
 ---
 
