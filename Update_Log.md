@@ -2,7 +2,7 @@
 - Functional Storage Downgrade Fixの追加
 - Drawer Downgradeのレシピ復活
 - AE2 Overclockedの追加
-
+- 鉄かまどのレシピ被りを修正
 ---
 
 # 2.2.0 アップデート
