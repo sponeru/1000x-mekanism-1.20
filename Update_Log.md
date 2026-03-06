@@ -1,3 +1,9 @@
+# 2.3.0 アップデート
+- Functional Storage Downgrade Fixの追加
+- Drawer Downgradeのレシピ復活
+
+---
+
 # 2.2.0 アップデート
 - Astral Mekanismの更新(1.4)
 - Iron Furnacesの追加

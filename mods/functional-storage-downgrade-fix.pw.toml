@@ -1,0 +1,13 @@
+name = "Functional Storage Downgrade Fix"
+filename = "FunctionalStorage-Downgrade-Fix-1.1.0-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2ebdf01a6c854e707f30a5e925071f65c27d40a1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7705126
+project-id = 1475934
