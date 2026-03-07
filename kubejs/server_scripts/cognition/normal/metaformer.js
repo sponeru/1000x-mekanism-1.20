@@ -104,7 +104,7 @@ ServerEvents.recipes(event => {
             ,
             count1: 2,
             ingredient2:
-                { item: 'astral_mekanism:crystal_antimatter_charged' }
+                { item: 'mekanism:pellet_antimatter'}
             ,
             count2: 1,
             ingredient3:
@@ -127,7 +127,7 @@ ServerEvents.recipes(event => {
             ,
             count1: 2,
             ingredient2:
-                { item: 'astral_mekanism:crystal_antimatter_charged' }
+                { item: 'mekanism:pellet_antimatter' }
             ,
             count2: 1,
             ingredient3:

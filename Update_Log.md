@@ -6,6 +6,7 @@
 - AE2 Overclockedのカードのレシピ変更
 - 序盤のクエスト報酬にEmpowered Speed UpgradeとEmpowered Energy Upgradeを追加
 - 一部鉱石処理の欠落を修正
+- バリニウムインゴットのレシピを緩和
 ---
 
 # 2.2.0 アップデート
