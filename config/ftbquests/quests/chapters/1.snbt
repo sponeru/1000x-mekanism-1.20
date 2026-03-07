@@ -5,14 +5,26 @@
 	group: "29F87984A1A84EBA"
 	icon: "minecraft:oak_log"
 	id: "6B1C4E8298A2900E"
-	images: [{
-		height: 5.0d
-		image: "mek1000:textures/gui/icon.png"
-		rotation: 0.0d
-		width: 5.0d
-		x: 0.0d
-		y: -7.5d
-	}]
+	images: [
+		{
+			height: 5.0d
+			image: "mek1000:textures/gui/icon.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			click: "https://discord.gg/2yE7Shsvcz"
+			color: 258
+			height: 2.0d
+			image: "mek1000:textures/gui/discord_icon.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -14.0d
+		}
+	]
 	order_index: 1
 	quest_links: [
 		{
