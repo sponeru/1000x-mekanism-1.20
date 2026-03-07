@@ -3,6 +3,7 @@
 - Drawer Downgradeのレシピ復活
 - AE2 Overclockedの追加
 - 鉄かまどのレシピ被りを修正
+- AE2 Overclockedのカードのレシピ変更
 ---
 
 # 2.2.0 アップデート
