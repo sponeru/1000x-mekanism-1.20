@@ -62,4 +62,14 @@ ServerEvents.recipes(event => {
         M: 'astral_mekanism:illusion_control_circuit'
     })
 
+    event.remove({output:'ae2_overclocked:capacity_card'})
+    event.shaped(Item.of('ae2_overclocked:capacity_card'), [
+        'CCC',
+        'CMC',
+        'CCC'
+    ], {
+        M: 'ae2:basic_card',
+        C: '#forge:chests/wooden'
+    })
+
  })
