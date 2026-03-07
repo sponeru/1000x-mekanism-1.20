@@ -234,5 +234,12 @@ ServerEvents.recipes(event => {
         "output": { "item": 'minecraft:turtle_egg' }, "duration": 10000
     })
 
+    event.custom({
+        "type": "mekanism:nucleosynthesizing",
+        "itemInput": { "ingredient": { "item": 'mekanismelements:brown_high_quality_concrete' } },
+        "gasInput": { "amount": 1, "gas": "mekanism:antimatter" },
+        "output": { "item": 'minecraft:dripstone_block' }, "duration": 100
+    })
+
     event.recipes.mekanism.combining('minecraft:honey_bottle','minecraft:glass_bottle','minecraft:honeycomb')
 })

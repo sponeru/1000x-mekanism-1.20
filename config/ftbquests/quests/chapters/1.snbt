@@ -5,14 +5,26 @@
 	group: "29F87984A1A84EBA"
 	icon: "minecraft:oak_log"
 	id: "6B1C4E8298A2900E"
-	images: [{
-		height: 5.0d
-		image: "mek1000:textures/gui/icon.png"
-		rotation: 0.0d
-		width: 5.0d
-		x: 0.0d
-		y: -7.5d
-	}]
+	images: [
+		{
+			height: 5.0d
+			image: "mek1000:textures/gui/icon.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			click: "https://discord.gg/VwBefY6Tbh"
+			color: 258
+			height: 2.0d
+			image: "mek1000:textures/gui/discord_icon.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -14.0d
+		}
+	]
 	order_index: 1
 	quest_links: [
 		{
@@ -494,7 +506,7 @@
 				item: "mekanism:pressurized_reaction_chamber"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest15.title}"
+			title: "{ftbquests.chapter.1.quest16.title}"
 			x: 2.0d
 			y: 1.0d
 		}
@@ -591,6 +603,20 @@
 				"342D8A0D183D1E23"
 			]
 			id: "7ED68F17797155BB"
+			rewards: [
+				{
+					count: 4
+					id: "65F6EAC000AA96E7"
+					item: "mekanism_empowered:upgrade_empowered_speed"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "01A0A7BC7610386A"
+					item: "mekanism_empowered:upgrade_empowered_energy"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "222546AA95EA5460"
 				item: "mekanismgenerators:gas_burning_generator"

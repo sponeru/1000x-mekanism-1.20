@@ -6,10 +6,10 @@ ServerEvents.recipes(event =>{
     })
 
     event.remove({output:'ironfurnaces:iron_furnace'})
-    event.shapeless('ironfurnaces:iron_furnace',['minecraft:furnace','#forge:ingots/iron'])
+    event.shapeless('ironfurnaces:iron_furnace',['minecraft:furnace','2x #forge:ingots/iron'])
 
     event.remove({output:'ironfurnaces:upgrade_iron'})
-    event.shapeless('ironfurnaces:upgrade_iron',['#minecraft:stone_crafting_materials','#forge:ingots/iron'])
+    event.shapeless('ironfurnaces:upgrade_iron',['#minecraft:stone_crafting_materials','2x #forge:ingots/iron'])
 
     event.remove({output:'ironfurnaces:gold_furnace'})
     event.shapeless('ironfurnaces:gold_furnace',['ironfurnaces:iron_furnace','#forge:ingots/gold'])

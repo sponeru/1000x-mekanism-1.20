@@ -4374,6 +4374,11 @@ hash = "59b441c02123a358b138b0e1421fdb085b8138392f2a65ff479e09d3f10098f2"
 metafile = true
 
 [[files]]
+file = "mods/ae2-overclocked.pw.toml"
+hash = "c90643ed24c8c79304e409fdd74fee0882cff89c545ff0eb921c9a5b653c292a"
+metafile = true
+
+[[files]]
 file = "mods/ae2-pattern-encoding-access-terminal.pw.toml"
 hash = "4b3cc795c20ff78714175d34bc6bc3f6034d51b5ad50ecf6bbe85e6a77371f63"
 metafile = true
@@ -4826,6 +4831,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
 hash = "39e65bf3c47517cdb2f9b4b49c6632dd56db797744faaf8b1a3726b1b95aacb4"
+metafile = true
+
+[[files]]
+file = "mods/functional-storage-downgrade-fix.pw.toml"
+hash = "56679cb784f629e036813d1095984e364430b0ff84fdc63d07fdcb02ef7ebda9"
 metafile = true
 
 [[files]]

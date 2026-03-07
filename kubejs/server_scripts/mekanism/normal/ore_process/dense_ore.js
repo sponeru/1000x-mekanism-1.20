@@ -81,7 +81,9 @@ ServerEvents.recipes((event) => {
     } else if (
       ore_type == "diamond" ||
       ore_type == "emerald" ||
-      ore_type == "coal"
+      ore_type == "coal" ||
+      ore_type == "quartz" ||
+      ore_type == "certus_quartz"
     ) {
       event.recipes.mekanism.enriching(
         `${Math.floor(multiplier * 2)}x minecraft:${ore_type}`,
@@ -330,6 +332,7 @@ ServerEvents.recipes((event) => {
   appendix_extreme('kubejs:dense_ore_certus_quartz', "certus_quartz", 4);
   appendix_extreme('kubejs:dense_ore_certus_quartz_deepslate', "certus_quartz", 4);
   appendix_extreme("kubejs:dense_ore_quartz", "quartz", 4);
+  appendix_extreme("kubejs:dense_ore_quartz_deepslate", "quartz", 4);
   appendix_extreme("densemekanism:dense_osmium_ore", "osmium", 4);
   appendix_extreme("densemekanism:dense_deepslate_osmium_ore", "osmium", 4);
 
@@ -342,4 +345,5 @@ ServerEvents.recipes((event) => {
   appendix_extreme("densemekanism:dense_fluorite_ore", "fluorite", 4);
   appendix_extreme("densemekanism:dense_deepslate_fluorite_ore", "fluorite", 4);
   appendix_extreme("kubejs:dense_ore_iridium", "iridium", 4);
+  appendix_extreme("kubejs:dense_ore_iridium_deepslate", "iridium", 4);
 });

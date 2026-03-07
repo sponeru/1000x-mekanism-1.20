@@ -1,3 +1,18 @@
+# 2.3.0 アップデート
+- Functional Storage Downgrade Fixの追加
+- Drawer Downgradeのレシピ復活
+- AE2 Overclockedの追加
+- 鉄かまどのレシピ被りを修正
+- AE2 Overclockedのカードのレシピ変更
+- 序盤のクエスト報酬にEmpowered Speed UpgradeとEmpowered Energy Upgradeを追加
+- 一部鉱石処理の欠落を修正
+- バリニウムインゴットのレシピを緩和
+- Discordへのリンクをクエストに追加
+- Skyblockの最初の報酬に苗木を追加、ハードでも受け取れます
+- 鍾乳石のレシピ追加
+
+---
+
 # 2.2.0 アップデート
 - Astral Mekanismの更新(1.4)
 - Iron Furnacesの追加
