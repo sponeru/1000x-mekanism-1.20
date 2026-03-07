@@ -5,6 +5,7 @@
 - 鉄かまどのレシピ被りを修正
 - AE2 Overclockedのカードのレシピ変更
 - 序盤のクエスト報酬にEmpowered Speed UpgradeとEmpowered Energy Upgradeを追加
+- 一部鉱石処理の欠落を修正
 ---
 
 # 2.2.0 アップデート

@@ -437,16 +437,16 @@ ServerEvents.recipes((event) => {
   );
   event.recipes.mekanism.enriching(
     `8x kubejs:dust_iridium`,
-    "kubejs:ore_iridium"
+    '#forge:ores/iridium'
   );
   event.recipes.mekanism.purifying(
     `32x kubejs:clump_iridium`,
-    "kubejs:ore_iridium",
+    '#forge:ores/iridium',
     "1x mekanism:oxygen"
   );
   event.recipes.mekanism.injecting(
     `64x kubejs:shard_iridium`,
-    "kubejs:ore_iridium",
+    '#forge:ores/iridium',
     "1x mekanism:hydrogen_chloride"
   );
   event.custom({
@@ -459,6 +459,18 @@ ServerEvents.recipes((event) => {
       chemicalType: "slurry",
     },
   });
+
+  event.custom({
+    type: "mekanism:dissolution",
+    itemInput: { ingredient: { item: "kubejs:ore_iridium_deepslate" } },
+    gasInput: { amount: 1, gas: "mekanism:sulfuric_acid" },
+    output: {
+      slurry: "kubejs:dirty_iridium",
+      amount: Math.min(10000, 10000),
+      chemicalType: "slurry",
+    },
+  });
+
   event.custom({
     type: "mekanism:washing",
     fluidInput: { amount: 5, fluid: "minecraft:water" },
