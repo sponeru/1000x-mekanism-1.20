@@ -13,13 +13,30 @@
 			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
 			id: "358F6032ACD91551"
-			rewards: [{
-				count: 16
-				id: "79D6FFBB5E1176A8"
-				ignore_reward_blocking: true
-				item: "integrateddynamics:menril_sapling"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "79D6FFBB5E1176A8"
+					ignore_reward_blocking: true
+					item: "integrateddynamics:menril_sapling"
+					type: "item"
+				}
+				{
+					id: "3FF49FE83E77A136"
+					ignore_reward_blocking: true
+					item: {
+						Count: 1
+						id: "exdeorum:netherite_watering_can"
+						tag: {
+							Fluid: {
+								Amount: 4000
+								FluidName: "minecraft:water"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6020EA951C4CF03A"
 				type: "checkmark"

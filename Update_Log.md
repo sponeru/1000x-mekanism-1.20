@@ -1,3 +1,6 @@
+# 2.4.0 アップデート
+- Skyblockの最初の報酬にじょうろを追加
+
 # 2.3.0 アップデート
 - Functional Storage Downgrade Fixの追加
 - Drawer Downgradeのレシピ復活
