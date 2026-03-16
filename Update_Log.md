@@ -8,6 +8,7 @@
 - V.R.XでHypelinkのアイテムを取り出せない不具合を修正
 - 無限MEドライブの追加
 - 日本語翻訳の追加
+- [Issue 16](https://github.com/sponeru/1000x-mekanism-1.20/issues/16)の一時解決のためにアイテムパイプのレシピを削除
 
 # 2.3.0 アップデート
 - Functional Storage Downgrade Fixの追加
