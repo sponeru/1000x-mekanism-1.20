@@ -5024,8 +5024,18 @@ hash = "afca79f6ef3b857bfd147d4d7f9887ee433a73f8fcd1ec4476c49ac3349926d0"
 metafile = true
 
 [[files]]
+file = "mods/long-nbt-killer.pw.toml"
+hash = "19b8fd2370d7fb81b1964c0222255cfa138388590861845b96205c122fe9678b"
+metafile = true
+
+[[files]]
 file = "mods/me-beam-former.pw.toml"
 hash = "f4e58a5e313483f4d0fd3fba8362c08cfed6b968103c609a5ba1c98b5664f0d4"
+metafile = true
+
+[[files]]
+file = "mods/me-infinity-cell.pw.toml"
+hash = "9347866486cb0d3647491f54ae236288750f7e95e1c103909c61f74ed3ff29ea"
 metafile = true
 
 [[files]]
@@ -5296,11 +5306,6 @@ metafile = true
 [[files]]
 file = "mods/sound.pw.toml"
 hash = "3fff9456c0ef97caab6584a10517f20822e138b627da4b26c8c46e6330d7e7cd"
-metafile = true
-
-[[files]]
-file = "mods/stop-nbt-depth-512-crash.pw.toml"
-hash = "743421a39b1f040b8140861b31203e6d1e3ed48e5089bef09f0eb2c0dcf64d22"
 metafile = true
 
 [[files]]

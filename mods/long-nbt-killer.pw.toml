@@ -1,0 +1,13 @@
+name = "Long NBT Killer"
+filename = "LongNbtKiller-Forge-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f185e91d40a1c12d96c176cdf635532e9b066bb3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4956449
+project-id = 950085

@@ -80,7 +80,7 @@
 		"Just Enough VRX" = true
 		#Unable to set Hyperlink items in VRX
 		#Default: true
-		"Seal Hyperlink" = true
+		"Seal Hyperlink" = false
 
 	[Hyperlink.Fumetsu]
 		#Enable Chemical-MAX and Fumetsu Skull brewing recipes

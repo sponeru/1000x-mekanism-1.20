@@ -1,5 +1,11 @@
 # 2.4.0 アップデート
 - Skyblockの最初の報酬にじょうろを追加
+- メッシュを配置できない不具合を修正
+- ケルタスクォーツの倍化がAstral Mekanismのものになっていたのを修正
+- Long NBT Killerの追加
+- ME Infinity Cellの追加
+- レシピタイプの削除漏れを修正
+- V.R.XでHypelinkのアイテムを取り出せない不具合を修正
 
 # 2.3.0 アップデート
 - Functional Storage Downgrade Fixの追加
