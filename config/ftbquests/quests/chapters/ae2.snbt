@@ -339,26 +339,6 @@
 		}
 		{
 			dependencies: ["25D4C3E90302E4EC"]
-			id: "6E138AD9877F7071"
-			tasks: [{
-				id: "4745547F31C85231"
-				item: {
-					Count: 1
-					id: "expatternprovider:infinity_cell"
-					tag: {
-						record: {
-							"#c": "ae2:i"
-							id: "xtonesreworked:xtone_tile"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["25D4C3E90302E4EC"]
 			id: "4E18A58EB8CBAFAA"
 			rewards: [{
 				id: "110BF5981F9D3590"
@@ -531,6 +511,50 @@
 			}]
 			x: 0.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "5795C2BB5685C593"
+			tasks: [{
+				id: "516C125279272CCC"
+				item: "mek1000:rainbow_concrete_drive"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "626791A1D2F6249C"
+			tasks: [{
+				id: "06918D15BC6ADF68"
+				item: "mek1000:stone_drive"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "58ECC4B9829C49FE"
+			tasks: [{
+				id: "454D0AF4756E0176"
+				item: "mek1000:stonework_drive"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "0E9A5F73F0B53E8C"
+			tasks: [{
+				id: "055F6796404C546A"
+				item: "mek1000:chisel_building_block_drive"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.ae2.subtitle0}"]

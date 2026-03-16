@@ -52,27 +52,105 @@ ServerEvents.recipes(event => {
         D: 'minecraft:diamond'
     })
 
-    event.shaped(Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"xtonesreworked:xtone_tile"}}'), [
+    event.shaped('mek1000:rainbow_concrete_drive', [
         'GBG',
         'BCB',
         'DDD'
     ], {
         G: 'ae2:quartz_glass',
-        B: 'xtonesreworked:xtone_tile',
-        C: 'ae2:cell_component_16k',
+        B: 'minecraft:white_concrete',
+        C: 'mae2a:infinite_dyes_cell',
         D: 'minecraft:diamond'
     })
 
-    event.shaped(Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"minecraft:smooth_stone"}}'), [
+    event.shaped('mek1000:stone_drive', [
         'GBG',
         'BCB',
         'DDD'
     ], {
         G: 'ae2:quartz_glass',
-        B: 'minecraft:smooth_stone',
-        C: 'ae2:cell_component_16k',
-        D: 'minecraft:diamond'
+        B: 'minecraft:cobblestone',
+        C: 'astral_mekanism:transformer',
+        D: 'ae2:cell_component_16k'
     })
+
+    event.shaped('mek1000:chisel_building_block_drive', [
+        'GBG',
+        'BCB',
+        'DDD'
+    ], {
+        G: 'ae2:quartz_glass',
+        B: 'chipped:alchemy_bench',
+        C: 'ae2:cell_component_16k',
+        D: 'rechiseled:chisel'
+    })
+
+    event.custom({
+      type: "advanced_ae:reaction",
+      energy: 5000000,
+      fluid: {
+        fluidStack: {
+          Amount: 16000,
+          FluidName: "advanced_ae:quantum_infusion_source",
+        },
+      },
+      input_items: [
+        {
+          amount: 1,
+          ingredient: {
+            item: 'mek1000:ultimate_storage_housing',
+          },
+        },
+        {
+          amount: 1,
+          ingredient: {
+            item: 'mek1000:stone_drive',
+          },
+        },
+        {
+          amount: 1,
+          ingredient: {
+            item: 'emextras:cosmic_dense_smelting_factory',
+          },
+        },
+        {
+          amount: 1,
+          ingredient: {
+            item: 'emextras:cosmic_dense_crushing_factory',
+          },
+        },
+        {
+          amount: 16,
+          ingredient: {
+            item: 'mek1000:library_of_babel',
+          },
+        },
+        {
+          amount: 32,
+          ingredient: {
+            item: 'advanced_ae:quantum_processor',
+          },
+        },
+        {
+          amount: 16,
+          ingredient: {
+            item: 'mekanism_empowered:upgrade_empowered_speed',
+          },
+        },
+        {
+          amount: 16,
+          ingredient: {
+            item: 'mekanism_empowered:upgrade_empowered_energy',
+          },
+        },
+      ],
+      output: {
+        "#": 1,
+        "#c": "ae2:i",
+        id: 'mek1000:stonework_drive',
+      },
+    });
+
 
     event.shaped(Item.of("mek1000:charged_redstone_block"), [
         'CCC',
