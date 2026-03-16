@@ -7,6 +7,7 @@
 - レシピタイプの削除漏れを修正
 - V.R.XでHypelinkのアイテムを取り出せない不具合を修正
 - 無限MEドライブの追加
+- 日本語翻訳の追加
 
 # 2.3.0 アップデート
 - Functional Storage Downgrade Fixの追加
