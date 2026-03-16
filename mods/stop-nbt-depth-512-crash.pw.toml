@@ -1,0 +1,13 @@
+name = "Stop NBT Depth > 512 Crash"
+filename = "stopnbtdepthcrash-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fede7cadf0fe4a82668e18890a002407217a5402"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5869171
+project-id = 1133133

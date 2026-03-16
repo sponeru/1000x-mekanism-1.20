@@ -5299,6 +5299,11 @@ hash = "3fff9456c0ef97caab6584a10517f20822e138b627da4b26c8c46e6330d7e7cd"
 metafile = true
 
 [[files]]
+file = "mods/stop-nbt-depth-512-crash.pw.toml"
+hash = "743421a39b1f040b8140861b31203e6d1e3ed48e5089bef09f0eb2c0dcf64d22"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "3eede8a7ebafb69840153ff51dbc879b0232799e90a834ab6d71274b1316179f"
 metafile = true
@@ -5376,6 +5381,11 @@ metafile = true
 [[files]]
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "7dbe376c64d52ddc3e52ca6ce6b07d8c5d76bf9ef68d58267bb9e9c6d8fb2c09"
+metafile = true
+
+[[files]]
+file = "resourcepacks/ae2_bright_assets_and_redraws.pw.toml"
+hash = "a9b488d60603e37af0ba26010e126dee23355028b79db2e62b952a4d51f37c07"
 metafile = true
 
 [[files]]
