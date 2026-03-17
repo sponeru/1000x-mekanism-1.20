@@ -4889,6 +4889,11 @@ hash = "5cc92eb0e58c2afbfd625d727d80da1d1c84500ec962bb22f5be28b864f18551"
 metafile = true
 
 [[files]]
+file = "mods/heavywaterseparator.pw.toml"
+hash = "4d09594d3c69f3041e534bfb91f5849b3e5a0ea4407b737303aafe3a0ada0ec0"
+metafile = true
+
+[[files]]
 file = "mods/hunger-strike.pw.toml"
 hash = "2f1a716c95acfc2c89b979f7a86407f2aae72f96742a34883e67c54e8db04d08"
 metafile = true
@@ -5225,7 +5230,7 @@ metafile = true
 
 [[files]]
 file = "mods/patternprovidersave.pw.toml"
-hash = "94e2ee1779b29b79ccab51b6a73e64df7783a34879e1d453445c79f34ebacb49"
+hash = "09ee4f707b6c8c963c2e95dada4ad957b6189c30fbc7382bab4bfb9ee6a8c2c5"
 metafile = true
 
 [[files]]

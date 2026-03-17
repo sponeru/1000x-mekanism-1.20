@@ -1,0 +1,13 @@
+name = "HeavyWaterSeparator"
+filename = "Heavy water Separator-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "03330e4ddb3b9b2104eeb534ce44b6cbe4dcf293"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7719558
+project-id = 1479103
