@@ -5,6 +5,7 @@ ServerEvents.recipes((event) => {
         event.remove({ output: value })
     })
 
+    event.remove({output:'evolvedmekanism:alloy_creative'})
     event.custom({
         "type": "evolvedmekanism:alloying",
         "extraInput": {
