@@ -243,6 +243,7 @@
 		}
 		{
 			dependencies: ["3FC57EAE35A4448E"]
+			description: ["&aEvolved \\Mekanism&rの&a上位の素材を作成するため&rに使用します。"]
 			id: "4C7BE91F268E9BEF"
 			rewards: [
 				{
@@ -289,6 +290,24 @@
 			]
 			title: "APT"
 			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4C7BE91F268E9BEF"]
+			description: ["APT内部の底面に&c最大25個&rまで配置できます。APTの加工速度が上昇します。"]
+			id: "5BC14794B728F81F"
+			rewards: [{
+				count: 15
+				id: "62FC810C719FD02C"
+				item: "evolvedmekanism:supercharging_element"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54B46EB4125F2331"
+				item: "evolvedmekanism:supercharging_element"
+				type: "item"
+			}]
+			x: 2.5d
 			y: -4.5d
 		}
 	]
