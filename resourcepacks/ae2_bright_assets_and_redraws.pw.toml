@@ -1,13 +1,13 @@
 name = "AE2_bright_assets_and_redraws"
-filename = "AE2-bright-assets-and-redraws_V1.1.2.zip"
+filename = "AE2-bright-assets-and-redraws_V1.1.3.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2850cf96fad0e5011cf4b57279557f12fa24407a"
+hash = "99baec63233d2aadc3c3a3804ea4b9830cf987ba"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7757559
+file-id = 7776564
 project-id = 1450390
