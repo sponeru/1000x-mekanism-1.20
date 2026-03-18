@@ -241,6 +241,56 @@
 			x: -5.5d
 			y: -4.5d
 		}
+		{
+			dependencies: ["3FC57EAE35A4448E"]
+			id: "4C7BE91F268E9BEF"
+			rewards: [
+				{
+					count: 32
+					id: "41456C4F7F71E996"
+					item: "evolvedmekanism:apt_casing"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "75B93C6A43935C5C"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+				{
+					id: "5EC8DD435A8D0A49"
+					item: "evolvedmekanism:apt_port"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "58A57CF56C1F6865"
+					item: "mek1000:apt_helper"
+					type: "item"
+				}
+				{
+					count: 41L
+					id: "41E9526491B5F9EB"
+					item: "evolvedmekanism:apt_casing"
+					type: "item"
+				}
+				{
+					count: 33L
+					id: "537E0C40FDC1BD06"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+				{
+					id: "53F1D7F4324D123C"
+					item: "evolvedmekanism:apt_port"
+					type: "item"
+				}
+			]
+			title: "APT"
+			x: 1.0d
+			y: -4.5d
+		}
 	]
 	subtitle: ["{ftbquests.chapter.092727BC36641B8A.subtitle0}"]
 	title: "{ftbquests.chapter.092727BC36641B8A.title}"

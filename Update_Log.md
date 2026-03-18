@@ -11,8 +11,10 @@
 - [Issue 16](https://github.com/sponeru/1000x-mekanism-1.20/issues/16)の一時解決のためにアイテムパイプのレシピを削除
 - Heavy Water Separatorの追加
 - Pattern Provider Saveの更新(1.1=>1.2)
-- クエストの追加
+- クエストを少し追加
 - Squat Growの追加
+- Apt Helper(APT設置補助)マルチブロックの追加
+- バベルの図書館の内部液体容量を拡張
 
 # 2.3.0 アップデート
 - Functional Storage Downgrade Fixの追加

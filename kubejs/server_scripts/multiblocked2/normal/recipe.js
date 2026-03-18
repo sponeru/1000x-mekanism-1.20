@@ -13,4 +13,6 @@ ServerEvents.recipes((event) => {
         B: 'mekanism:elite_control_circuit'
 
     })
+
+    event.shapeless('mek1000:apt_helper',['minecraft:furnace','minecraft:book','minecraft:purple_dye'])
 })

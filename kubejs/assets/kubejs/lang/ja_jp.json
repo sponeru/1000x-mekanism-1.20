@@ -100,6 +100,8 @@
   "mek1000.dimensional_blast_smelting": "多次元精錬",
   "mek1000.etheric_computing": "エーテリック演算処理",
   "mek1000.skyblock_craft": "空島製造",
+  "block.mek1000.apt_helper": "APT設置補助",
+  "mek1000.apt_helper.desc": "マルチブロックビルダーを使用し、設置の補助に利用してください。",
   "block.mek1000.sml_drill_s": "SMLドリル S",
   "block.mek1000.sml_drill_m": "SMLドリル M",
   "block.mek1000.sml_drill_l": "SMLドリル L",
