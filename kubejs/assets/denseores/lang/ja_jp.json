@@ -1,0 +1,22 @@
+{
+  "block.denseores.dense_coal_ore": "高密度石炭鉱石",
+  "block.denseores.dense_copper_ore": "高密度銅鉱石",
+  "block.denseores.dense_iron_ore": "高密度鉄鉱石",
+  "block.denseores.dense_gold_ore": "高密度金鉱石",
+  "block.denseores.dense_diamond_ore": "高密度ダイヤモンド鉱石",
+  "block.denseores.dense_emerald_ore": "高密度エメラルド鉱石",
+  "block.denseores.dense_redstone_ore": "高密度レッドストーン鉱石",
+  "block.denseores.dense_lapis_ore": "高密度ラピスラズリ鉱石",
+  "block.denseores.dense_nether_quartz_ore": "高密度ネザークォーツ鉱石",
+  "block.denseores.dense_nether_gold_ore": "高密度ネザー金鉱石",
+  "block.denseores.ancient_nether_ore": "ネザー古代の残骸鉱石",
+  "block.denseores.dense_deepslate_coal_ore": "高密度深層石炭鉱石",
+  "block.denseores.dense_deepslate_copper_ore": "高密度深層銅鉱石",
+  "block.denseores.dense_deepslate_iron_ore": "高密度深層鉄鉱石",
+  "block.denseores.dense_deepslate_gold_ore": "高密度深層金鉱石",
+  "block.denseores.dense_deepslate_diamond_ore": "高密度深層ダイヤモンド鉱石",
+  "block.denseores.dense_deepslate_emerald_ore": "高密度深層エメラルド鉱石",
+  "block.denseores.dense_deepslate_redstone_ore": "高密度深層レッドストーン鉱石",
+  "block.denseores.dense_deepslate_lapis_ore": "高密度深層ラピスラズリ鉱石",
+  "itemGroup.denseores": "Dense Ores"
+}
