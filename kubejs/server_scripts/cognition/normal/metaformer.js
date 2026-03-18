@@ -104,7 +104,7 @@ ServerEvents.recipes(event => {
             ,
             count1: 2,
             ingredient2:
-                { item: 'mekanism:pellet_antimatter'}
+                { item: 'mek1000:tiny_antimatter'}
             ,
             count2: 1,
             ingredient3:
@@ -127,7 +127,7 @@ ServerEvents.recipes(event => {
             ,
             count1: 2,
             ingredient2:
-                { item: 'mekanism:pellet_antimatter' }
+                { item: 'mek1000:tiny_antimatter' }
             ,
             count2: 1,
             ingredient3:
