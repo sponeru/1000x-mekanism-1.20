@@ -7,6 +7,113 @@
 	id: "46AB4FCC54992592"
 	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: [
+				"これらのアップグレードはMekanism機械に&c最大8枚まで&r装着できます。"
+				"&aスピードアップグレード&rと&aエネルギーアップグレード&rを&a1:2の割合で装着&rすると序盤の電力消費を抑えられます。"
+			]
+			id: "7A07B2E09F784CCD"
+			rewards: [
+				{
+					count: 31
+					id: "52EA2A83AAAE521C"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+				{
+					count: 31
+					id: "067CC2BAB7D966A4"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "023A3447D6DE143E"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+				{
+					id: "115859CDB6A1A4A2"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+			]
+			title: "Mekanismの基本アップグレード"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7A07B2E09F784CCD"]
+			description: [
+				"通常のスピードアップグレードを&c8枚搭載していないと効果を発揮しません！&r"
+				""
+				"これらのアップグレードはMekanism機械をさらに強化します。"
+				"&a8枚積むことで1tickでの加工&rが可能になります。"
+				"&c電力消費量が更に上昇する&rため気をつけてください。"
+			]
+			id: "247D3BA7DDDA2E52"
+			rewards: [
+				{
+					count: 3
+					id: "05E458D532826E9C"
+					item: "mekanism_empowered:upgrade_empowered_speed"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5418173BD4B6F7A3"
+					item: "mekanism_empowered:upgrade_empowered_energy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "75DBBD25196E4343"
+					item: "mekanism_empowered:upgrade_empowered_speed"
+					type: "item"
+				}
+				{
+					id: "4C3D5347741CBD97"
+					item: "mekanism_empowered:upgrade_empowered_energy"
+					type: "item"
+				}
+			]
+			title: "より良いアップグレード"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Mekanism機械に装着することで、&a自動搬入機能を追加&rできます。"
+				"&c入出力設定からは設定を変更できず&r、&c右のタブのメニューから設定する&r必要があります。"
+			]
+			id: "75FE383632348B74"
+			rewards: [{
+				count: 31
+				id: "54A00F0BEDB8FA80"
+				item: "mekanism_empowered:upgrade_auto_inserter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66C203429E3E0B96"
+				item: "mekanism_empowered:upgrade_auto_inserter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "62324712D8789CB5"
+			tasks: [{
+				id: "46D8C09EAD843ECC"
+				item: "mekanism_empowered:upgrade_fast_item_insert"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+	]
 	title: "Machines"
 }

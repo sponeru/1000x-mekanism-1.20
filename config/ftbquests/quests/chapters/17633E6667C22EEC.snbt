@@ -517,6 +517,24 @@
 			x: 3.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			id: "12FF2F07AB7D1E55"
+			tasks: [
+				{
+					id: "28269F5DA54A6857"
+					item: "toolbelt:belt"
+					type: "item"
+				}
+				{
+					id: "5AC2B446F14ED52F"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.0d
+		}
 	]
 	subtitle: ["{ftbquests.chapter.17633E6667C22EEC.subtitle0}"]
 	title: "{ftbquests.chapter.17633E6667C22EEC.title}"
