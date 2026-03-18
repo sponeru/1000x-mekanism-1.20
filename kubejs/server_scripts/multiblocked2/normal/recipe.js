@@ -15,4 +15,6 @@ ServerEvents.recipes((event) => {
     })
 
     event.shapeless('mek1000:apt_helper',['minecraft:furnace','minecraft:book','minecraft:purple_dye'])
+
+    event.shapeless('mek1000:naquadah_reactor_helper',['minecraft:furnace','minecraft:book','minecraft:black_dye'])
 })

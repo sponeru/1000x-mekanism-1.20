@@ -14,8 +14,9 @@
 - クエストを少し追加
 - Squat Growの追加
 - Apt Helper(APT設置補助)マルチブロックの追加
+- Naquadah Reactor Helper(ナクアダ炉設置補助)マルチブロックの追加
 - バベルの図書館の内部液体容量を拡張
-- バリニウムインゴットのレシピを緩和
+- バリニウムインゴットのレシピを更に緩和
 
 # 2.3.0 アップデート
 - Functional Storage Downgrade Fixの追加

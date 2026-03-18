@@ -11,7 +11,7 @@
 			id: "5D601859CCB35AD7"
 			linked_quest: "1DB13345D6C1C917"
 			x: 2.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			id: "4C28B888BCF4B921"
@@ -32,6 +32,12 @@
 			linked_quest: "02452CFCADF1EAFF"
 			x: -5.0d
 			y: -5.5d
+		}
+		{
+			id: "1135ADB698AF2A1D"
+			linked_quest: "4C7BE91F268E9BEF"
+			x: -5.0d
+			y: -2.5d
 		}
 	]
 	quests: [
@@ -105,7 +111,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["2B7577D9D6D44CFD"]
+			dependencies: [
+				"2B7577D9D6D44CFD"
+				"4C7BE91F268E9BEF"
+			]
 			id: "4AC7A15037888397"
 			tasks: [{
 				id: "640252799AE9E45B"
@@ -133,7 +142,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -141,13 +150,27 @@
 				"3FC57EAE35A4448E"
 			]
 			description: ["{ftbquests.chapter.2.quest9.description1}"]
+			icon: "mekanism_extras:naquadah_reactor_controller"
 			id: "0A5CBA30DFD5CDE7"
-			rewards: [{
-				count: 32
-				id: "577053E95090A281"
-				item: "mekanism_extras:naquadah_reactor_casing"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "577053E95090A281"
+					item: "mekanism_extras:naquadah_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "676B71ACD1D1DD81"
+					item: "mekanism_extras:lead_coated_laser_focus_matrix"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "369CBD7503D14534"
+					item: "mekanism_extras:naquadah_reactor_port"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.2.quest9.subtitle}"
 			tasks: [
 				{
@@ -160,9 +183,14 @@
 					item: "mekanism_extras:naquadah_hohlraum"
 					type: "item"
 				}
+				{
+					id: "4D653EE83EEA8465"
+					item: "mek1000:naquadah_reactor_helper"
+					type: "item"
+				}
 			]
 			x: -5.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3FC57EAE35A4448E"]
@@ -173,7 +201,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["16F1DD1570039FA7"]
@@ -240,7 +268,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7ED68F17797155BB"]

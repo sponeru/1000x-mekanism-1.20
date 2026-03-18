@@ -102,6 +102,8 @@
   "mek1000.skyblock_craft": "Skyblock Craft",
   "block.mek1000.apt_helper": "APT Multiblock Place Helper",
   "mek1000.apt_helper.desc": "Please use the MBD Gadgets to assist with building.",
+  "block.mek1000.naquadah_reactor_helper": "Naquadah Reactor Multiblock Place Helper",
+  "mek1000.naquadah_reactor_helper.desc": "Please use the MBD Gadgets to assist with building.",
   "block.mek1000.sml_drill_s": "SML Drill S",
   "block.mek1000.sml_drill_m": "SML Drill M",
   "block.mek1000.sml_drill_l": "SML Drill L",

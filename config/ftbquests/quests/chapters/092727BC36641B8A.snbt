@@ -244,6 +244,7 @@
 		{
 			dependencies: ["3FC57EAE35A4448E"]
 			description: ["&aEvolved \\Mekanism&rの&a上位の素材を作成するため&rに使用します。"]
+			icon: "evolvedmekanism:apt_casing"
 			id: "4C7BE91F268E9BEF"
 			rewards: [
 				{

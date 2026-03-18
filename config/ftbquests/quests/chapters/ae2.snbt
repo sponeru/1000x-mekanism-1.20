@@ -503,12 +503,26 @@
 				"{ftbquests.chapter.ae2.quest27.description2}"
 			]
 			id: "02491F4F5E0B2531"
-			subtitle: "{ftbquests.chapter.ae2.quest27.subtitle}"
-			tasks: [{
-				id: "1F49BA875DD9BCF5"
-				item: "ae2:annihilation_plane"
+			rewards: [{
+				count: 128
+				id: "7A7DA1A9F2FC1FF7"
+				item: "ae2:sky_dust"
 				type: "item"
 			}]
+			subtitle: "{ftbquests.chapter.ae2.quest27.subtitle}"
+			tasks: [
+				{
+					id: "1F49BA875DD9BCF5"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "01F5C1D0EFC47170"
+					item: { Count: 32, id: "ae2:sky_dust" }
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: -4.0d
 		}
