@@ -12,6 +12,7 @@
 - Heavy Water Separatorの追加
 - Pattern Provider Saveの更新(1.1=>1.2)
 - クエストの追加
+- Squat Growの追加
 
 # 2.3.0 アップデート
 - Functional Storage Downgrade Fixの追加
