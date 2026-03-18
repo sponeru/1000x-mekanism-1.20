@@ -5,7 +5,7 @@
 - Long NBT Killerの追加
 - ME Infinity Cellの追加
 - レシピタイプの削除漏れを修正
-- V.R.XでHypelinkのアイテムを取り出せない不具合を修正
+- V.R.XでHyperlinkのアイテムを取り出せない不具合を修正
 - 無限MEドライブの追加
 - 日本語翻訳の追加
 - [Issue 16](https://github.com/sponeru/1000x-mekanism-1.20/issues/16)の一時解決のためにアイテムパイプのレシピを削除
