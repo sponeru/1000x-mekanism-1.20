@@ -17,6 +17,7 @@
   "ftbquests.chapter.092727BC36641B8A.quest8.description2": "電力は搬出ポートから取り出せます",
   "ftbquests.chapter.092727BC36641B8A.quest8.subtitle": "つよい発電機その2",
   "ftbquests.chapter.092727BC36641B8A.quest9.subtitle": "21億の暴力",
+  "ftbquests.chapter.092727BC36641B8A.quest11.description1": "APT内部の底面に\u0026c最大25個\u0026rまで配置できます。APTの加工速度が上昇します。",
   "ftbquests.chapter.092727BC36641B8A.subtitle0": "Madness",
   "ftbquests.chapter.092727BC36641B8A.title": "マルチブロック",
   "ftbquests.chapter.1.quest1.description1": "このModpackはこのような特徴を持っています",
@@ -118,6 +119,8 @@
   "ftbquests.chapter.17633E6667C22EEC.subtitle0": "地味に便利なやつら",
   "ftbquests.chapter.17633E6667C22EEC.title": "ユーティリティ",
   "ftbquests.chapter.2.quest16.subtitle": "これはGreg？",
+  "ftbquests.chapter.2.quest17.title": "APT",
+  "ftbquests.chapter.2.quest17.description1": "\u0026aEvolved Mekanism\u0026rの\u0026a上位の素材を作成するため\u0026rに使用します。",
   "ftbquests.chapter.2.quest9.description1": "\u0026aNaquadah Uranium Fuel\u0026rを燃料にして発電します",
   "ftbquests.chapter.2.quest9.subtitle": "超強化済み",
   "ftbquests.chapter.2.subtitle0": "桁の暴力",
@@ -207,5 +210,16 @@
   "ftbquests.chapter_groups_8743160631518970649.title": "サブ",
   "ftbquests.loot_table_2320373292357157649.title": "スポーンエッグ",
   "ftbquests.loot_table_7630844454365538480.title": "レコード",
-  "ftbquests.chapter.1.quest28.subtitle": "アメジスト生えるｗｗｗ"
+  "ftbquests.chapter.1.quest28.subtitle": "アメジスト生えるｗｗｗ",
+  "ftbquests.chapter.machines.quest1.title": "Mekanismの基本アップグレード",
+  "ftbquests.chapter.machines.quest1.description1": "これらのアップグレードはMekanism機械に\u0026c最大8枚まで\u0026r装着できます。",
+  "ftbquests.chapter.machines.quest1.description2": "\u0026aスピードアップグレード\u0026rと\u0026aエネルギーアップグレード\u0026rを\u0026a1:2の割合で装着\u0026rすると序盤の電力消費を抑えられます。",
+  "ftbquests.chapter.machines.quest2.title": "より良いアップグレード",
+  "ftbquests.chapter.machines.quest2.description1": "通常のスピードアップグレードを\u0026c8枚搭載していないと効果を発揮しません！\u0026r",
+  "ftbquests.chapter.machines.quest2.description2": "これらのアップグレードはMekanism機械をさらに強化します。",
+  "ftbquests.chapter.machines.quest2.description3": "\u0026a8枚積むことで1tickでの加工\u0026rが可能になります。",
+  "ftbquests.chapter.machines.quest2.description4": "\u0026c電力消費量が更に上昇する\u0026rため気をつけてください。",
+  "ftbquests.chapter.machines.quest3.description1": "Mekanism機械に装着することで、\u0026a自動搬入機能を追加\u0026rできます。",
+  "ftbquests.chapter.machines.quest3.description2": "\u0026c入出力設定からは設定を変更できず\u0026r、\u0026c右のタブのメニューから設定する\u0026r必要があります。"
+
 }

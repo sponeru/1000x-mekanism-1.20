@@ -106,7 +106,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.1.quest3.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest2.subtitle}"
 			tasks: [
 				{
 					count: 1024L
@@ -159,7 +159,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.1.quest3.title}"
+			title: "{ftbquests.chapter.1.quest2.title}"
 			x: 3.0d
 			y: -10.5d
 		}
@@ -177,7 +177,7 @@
 				item: "botanypots:terracotta_hopper_botany_pot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.1.quest4.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest3.subtitle}"
 			tasks: [
 				{
 					id: "53AA7CA667184448"
@@ -190,7 +190,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.1.quest4.title}"
+			title: "{ftbquests.chapter.1.quest3.title}"
 			x: 0.0d
 			y: -10.5d
 		}
@@ -209,7 +209,7 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.1.quest5.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest4.subtitle}"
 			tasks: [
 				{
 					id: "771F5232DEC1DD57"
@@ -223,7 +223,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.1.quest5.title}"
+			title: "{ftbquests.chapter.1.quest4.title}"
 			x: -1.5d
 			y: -12.0d
 		}
@@ -236,7 +236,7 @@
 				"{ftbquests.chapter.1.quest5.description3}"
 			]
 			id: "05F676E3893ACC4D"
-			subtitle: "{ftbquests.chapter.1.quest6.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest5.subtitle}"
 			tasks: [
 				{
 					id: "0DFD33B4B7487326"
@@ -249,7 +249,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.1.quest6.title}"
+			title: "{ftbquests.chapter.1.quest5.title}"
 			x: -3.0d
 			y: -12.0d
 		}
@@ -263,7 +263,7 @@
 				item: "mekanism_extras:absolute_universal_cable"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.1.quest7.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest6.subtitle}"
 			tasks: [{
 				count: 256L
 				id: "5F963FF488D652EA"
@@ -274,7 +274,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest7.title}"
+			title: "{ftbquests.chapter.1.quest6.title}"
 			x: 3.0d
 			y: -6.5d
 		}
@@ -299,13 +299,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.1.quest8.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest7.subtitle}"
 			tasks: [{
 				id: "76C8CE2EB8D24328"
 				item: "mekanism:metallurgic_infuser"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest8.title}"
+			title: "{ftbquests.chapter.1.quest7.title}"
 			x: 0.0d
 			y: -4.0d
 		}
@@ -319,13 +319,13 @@
 				item: "ae2:sky_stone_block"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.1.quest9.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest8.subtitle}"
 			tasks: [{
 				id: "3E9962C49FA4CCBB"
 				item: "ae2:mysterious_cube"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest9.title}"
+			title: "{ftbquests.chapter.1.quest8.title}"
 			x: -3.0d
 			y: -6.5d
 		}
@@ -352,7 +352,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.1.quest10.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest9.subtitle}"
 			tasks: [
 				{
 					id: "52176CFF76B2BCEF"
@@ -370,7 +370,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.1.quest10.title}"
+			title: "{ftbquests.chapter.1.quest9.title}"
 			x: -3.0d
 			y: -4.5d
 		}
@@ -383,7 +383,7 @@
 				item: "minecraft:slime_ball"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.1.quest11.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest10.subtitle}"
 			tasks: [
 				{
 					id: "704B12C6B3454D1A"
@@ -413,13 +413,13 @@
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.1.quest12.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest11.subtitle}"
 			tasks: [{
 				id: "247478230D473B87"
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest12.title}"
+			title: "{ftbquests.chapter.1.quest11.title}"
 			x: -3.0d
 			y: -2.5d
 		}
@@ -432,13 +432,13 @@
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.1.quest13.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest12.subtitle}"
 			tasks: [{
 				id: "0C8424CF566571A6"
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest13.title}"
+			title: "{ftbquests.chapter.1.quest12.title}"
 			x: 0.0d
 			y: -2.5d
 		}
@@ -462,7 +462,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.1.quest14.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest13.subtitle}"
 			tasks: [
 				{
 					id: "12E81BCCB02B32D5"
@@ -475,7 +475,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.1.quest14.title}"
+			title: "{ftbquests.chapter.1.quest13.title}"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -488,13 +488,13 @@
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.1.quest15.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest14.subtitle}"
 			tasks: [{
 				id: "432F5C271294B04E"
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest15.title}"
+			title: "{ftbquests.chapter.1.quest14.title}"
 			x: 0.0d
 			y: 1.0d
 		}
@@ -506,7 +506,7 @@
 				item: "mekanism:pressurized_reaction_chamber"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest16.title}"
+			title: "{ftbquests.chapter.1.quest15.title}"
 			x: 2.0d
 			y: 1.0d
 		}
@@ -524,33 +524,33 @@
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest15.title}"
+			title: "{ftbquests.chapter.1.quest16.title}"
 			x: 0.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["24A7B7094ED357E9"]
 			id: "18EF09B75E5B4CFC"
-			subtitle: "{ftbquests.chapter.1.quest18.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest17.subtitle}"
 			tasks: [{
 				id: "2CF4F7C9B073F03F"
 				item: "mekanism:purification_chamber"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest18.title}"
+			title: "{ftbquests.chapter.1.quest17.title}"
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["38F0D9673E24BE74"]
 			id: "61D9BE79FEB34259"
-			subtitle: "{ftbquests.chapter.1.quest19.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest18.subtitle}"
 			tasks: [{
 				id: "718F0D16D48F27C4"
 				item: "mekanism:chemical_injection_chamber"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest19.title}"
+			title: "{ftbquests.chapter.1.quest18.title}"
 			x: -2.0d
 			y: 5.0d
 		}
@@ -567,7 +567,7 @@
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest20.title}"
+			title: "{ftbquests.chapter.1.quest19.title}"
 			x: 0.0d
 			y: 6.5d
 		}
@@ -580,7 +580,7 @@
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.1.quest21.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest20.subtitle}"
 			tasks: [
 				{
 					id: "1949A59CAE24BE87"
@@ -593,7 +593,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.1.quest21.title}"
+			title: "{ftbquests.chapter.1.quest20.title}"
 			x: -2.0d
 			y: 8.0d
 		}
@@ -628,7 +628,7 @@
 		{
 			dependencies: ["7ED68F17797155BB"]
 			id: "55BC5FEC8F4AE878"
-			subtitle: "{ftbquests.chapter.1.quest23.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest22.subtitle}"
 			tasks: [{
 				id: "6AC4BB9887D6DB05"
 				item: "mek1000:advanced_gas_burning_generator"
@@ -692,7 +692,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.1.quest26.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest25.subtitle}"
 			tasks: [{
 				id: "30FC0F5DB738D7A5"
 				item: {
@@ -723,12 +723,12 @@
 			]
 			id: "037FD1B69569861E"
 			optional: true
-			subtitle: "{ftbquests.chapter.1.quest27.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest26.subtitle}"
 			tasks: [{
 				id: "73446AE26179E40F"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.1.quest27.title}"
+			title: "{ftbquests.chapter.1.quest26.title}"
 			x: 1.5d
 			y: -12.0d
 		}
@@ -741,7 +741,7 @@
 				item: "minecraft:budding_amethyst"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.1.quest28.subtitle}"
+			subtitle: "{ftbquests.chapter.1.quest27.subtitle}"
 			tasks: [{
 				id: "369AFA3C07A82284"
 				item: "minecraft:budding_amethyst"

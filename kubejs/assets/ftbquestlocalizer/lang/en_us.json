@@ -17,6 +17,7 @@
   "ftbquests.chapter.092727BC36641B8A.quest8.description2": "Power can be drawn from the output port.",
   "ftbquests.chapter.092727BC36641B8A.quest8.subtitle": "Powerful Generator Part 2",
   "ftbquests.chapter.092727BC36641B8A.quest9.subtitle": "2.1 billion shock",
+  "ftbquests.chapter.092727BC36641B8A.quest11.description1": "Up to &ca maximum of 25&r can be placed on the bottom interior of the APT. This increases the APT's processing speed.",
   "ftbquests.chapter.092727BC36641B8A.subtitle0": "Madness",
   "ftbquests.chapter.092727BC36641B8A.title": "Multiblock",
   "ftbquests.chapter.1.quest1.description1": "This modpack features...",
@@ -111,6 +112,8 @@
   "ftbquests.chapter.17633E6667C22EEC.subtitle0": "Surprisingly Handy Tools",
   "ftbquests.chapter.17633E6667C22EEC.title": "Utilities",
   "ftbquests.chapter.2.quest16.subtitle": "This is Greg?",
+  "ftbquests.chapter.2.quest17.title": "APT",
+  "ftbquests.chapter.2.quest17.description1": "Used to &acraft higher-tier materials&r for &aEvolved Mekanism&r.",
   "ftbquests.chapter.2.quest9.description1": "Generates power using \u0026aNaquadah Uranium Fuel\u0026r as fuel.",
   "ftbquests.chapter.2.quest9.subtitle": "Fully Upgraded",
   "ftbquests.chapter.2.subtitle0": "Brute Force of Big Numbers",
@@ -199,5 +202,15 @@
   "ftbquests.chapter_groups_3024300760334094010.title": "Main",
   "ftbquests.chapter_groups_8743160631518970649.title": "Sub",
   "ftbquests.loot_table_2320373292357157649.title": "Spawn Egg",
-  "ftbquests.loot_table_7630844454365538480.title": "Record"
+  "ftbquests.loot_table_7630844454365538480.title": "Record",
+  "ftbquests.chapter.machines.quest1.title": "Basic Mekanism Upgrades",
+  "ftbquests.chapter.machines.quest1.description1": "Mekanism machines can hold &ca maximum of 8&r of these upgrades.",
+  "ftbquests.chapter.machines.quest1.description2": "Installing &aSpeed Upgrades&r and &aEnergy Upgrades&r at a &a1:2 ratio&r helps keep early-game power consumption manageable.",
+  "ftbquests.chapter.machines.quest2.title": "Advanced Upgrades",
+  "ftbquests.chapter.machines.quest2.description1": "&cThese will not work unless you already have 8 standard Speed Upgrades installed!&r",
+  "ftbquests.chapter.machines.quest2.description2": "These upgrades further enhance your Mekanism machinery.",
+  "ftbquests.chapter.machines.quest2.description3": "Installing &a8 of these allows for insta-tick processing&r.",
+  "ftbquests.chapter.machines.quest2.description4": "Be careful, as this will &csignificantly increase power consumption&r.",
+  "ftbquests.chapter.machines.quest3.description1": "Installing this into Mekanism machines &aadds auto-eject and auto-pull functionality&r.",
+  "ftbquests.chapter.machines.quest3.description2": "Settings &ccannot be changed via the Side Config&r; you must &cconfigure them through the dedicated menu tab on the right&r."
 }
