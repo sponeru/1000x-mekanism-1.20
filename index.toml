@@ -5034,6 +5034,11 @@ hash = "19b8fd2370d7fb81b1964c0222255cfa138388590861845b96205c122fe9678b"
 metafile = true
 
 [[files]]
+file = "mods/mbd2thread.pw.toml"
+hash = "fa5557167da0bd858e417504e1f4a758583b4d89afc79b02aee07f5b84ca8993"
+metafile = true
+
+[[files]]
 file = "mods/me-beam-former.pw.toml"
 hash = "f4e58a5e313483f4d0fd3fba8362c08cfed6b968103c609a5ba1c98b5664f0d4"
 metafile = true
