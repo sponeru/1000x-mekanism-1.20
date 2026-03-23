@@ -4,6 +4,8 @@
 - 一部の回路のレシピの修正
 - Astral Mekanismのアップデート(1.4=>1.5)
 - Advanced AEのバージョンアップ
+- AE2OverclockedBiggerStacksFixの追加
+- アイテムパイプのレシピの復活
 
 # 2.4.1 アップデート
 - 翻訳修正
