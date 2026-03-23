@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    let material = ["coal","iron","copper","gold","redstone","emerald","lapis_lazuli","diamond","quartz","tin","uranium","lead","osmium","fluorite","netherite","certus_quartz"]
+    let material = ["coal","iron","copper","gold","redstone","emerald","lapis_lazuli","diamond","quartz","tin","uranium","lead","osmium","fluorite","netherite","certus_quartz","amethyst","naquadah"]
 
     material.forEach(value =>{
         event.remove({id:`astral_mekanism:processing/${value}/ore`})
