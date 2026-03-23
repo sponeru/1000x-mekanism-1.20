@@ -246,49 +246,17 @@
 			description: ["{ftbquests.chapter.2.quest17.description1}"]
 			icon: "evolvedmekanism:apt_casing"
 			id: "4C7BE91F268E9BEF"
-			rewards: [
-				{
-					count: 32
-					id: "41456C4F7F71E996"
-					item: "evolvedmekanism:apt_casing"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "75B93C6A43935C5C"
-					item: "mekanism:structural_glass"
-					type: "item"
-				}
-				{
-					id: "5EC8DD435A8D0A49"
-					item: "evolvedmekanism:apt_port"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "58A57CF56C1F6865"
-					item: "mek1000:apt_helper"
-					type: "item"
-				}
-				{
-					count: 41L
-					id: "41E9526491B5F9EB"
-					item: "evolvedmekanism:apt_casing"
-					type: "item"
-				}
-				{
-					count: 33L
-					id: "537E0C40FDC1BD06"
-					item: "mekanism:structural_glass"
-					type: "item"
-				}
-				{
-					id: "53F1D7F4324D123C"
-					item: "evolvedmekanism:apt_port"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "2D529382C7A3A170"
+				item: "evolvedmekanism:quantum_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A55414403AA70E1"
+				item: "astral_mekanism:compact_apt"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.2.quest17.title}"
 			x: 1.0d
 			y: -4.5d

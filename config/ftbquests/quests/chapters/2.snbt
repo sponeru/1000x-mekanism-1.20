@@ -152,43 +152,18 @@
 			description: ["{ftbquests.chapter.2.quest9.description1}"]
 			icon: "mekanism_extras:naquadah_reactor_controller"
 			id: "0A5CBA30DFD5CDE7"
-			rewards: [
-				{
-					count: 64
-					id: "577053E95090A281"
-					item: "mekanism_extras:naquadah_reactor_casing"
-					type: "item"
-				}
-				{
-					id: "676B71ACD1D1DD81"
-					item: "mekanism_extras:lead_coated_laser_focus_matrix"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "369CBD7503D14534"
-					item: "mekanism_extras:naquadah_reactor_port"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "243580CF86337A0F"
+				item: "mekanism_extras:infinite_control_circuit"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.2.quest9.subtitle}"
-			tasks: [
-				{
-					id: "2D0D3418D8AA2BA1"
-					item: "mekanism_extras:naquadah_reactor_controller"
-					type: "item"
-				}
-				{
-					id: "6D7828A4F6211542"
-					item: "mekanism_extras:naquadah_hohlraum"
-					type: "item"
-				}
-				{
-					id: "4D653EE83EEA8465"
-					item: "mek1000:naquadah_reactor_helper"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "56D855B8C8B109BF"
+				item: "astral_mekanism:essential_compact_naquadah_reactor"
+				type: "item"
+			}]
 			x: -5.0d
 			y: -1.0d
 		}
