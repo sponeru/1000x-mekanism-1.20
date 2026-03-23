@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
         ],
         {
             A: 'mek1000:echo_processor',
-            B: 'astral_mekanism:alloy_enchanted',
+            B: 'astral_mekanism:alloy_convergent',
             C: 'astral_mekanism:vibration_control_circuit'
         }
     )
@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
             ' BA'
         ],
         {
-            A: 'megacells:cell_component_256m',
+            A: 'mek1000:valinium_processor',
             B: 'astral_mekanism:alloy_enchanted',
             C: 'astral_mekanism:resonance_control_circuit'
         }
