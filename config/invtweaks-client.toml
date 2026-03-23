@@ -28,6 +28,7 @@
 	#sortRange = "" disables sorting for that container
 	#Out-of-bound slots are ignored
 	#Omit sortRange to leave as default
+
 	[[sorting.containerOverrides]]
 		containerClass = "appeng.client.gui.implementations.*Screen"
 		sortRange = ""
@@ -105,7 +106,31 @@
 		sortRange = ""
 
 	[[sorting.containerOverrides]]
+		containerClass = "com.glodblock.github.extendedae.client.gui.*"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
 		containerClass = "net.pedroksl.advanced_ae.client.gui.*"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "mekanism.client.gui.*"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.jerry.mekmm.client.gui.machine.*"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.jerry.mekaf.client.gui.machine.*"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "astral_mekanism.block.gui.*"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "net.darkhax.botanypots.block.inv.*"
 		sortRange = ""
 
 	#Categor(y/ies) for sorting

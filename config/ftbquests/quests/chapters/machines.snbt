@@ -1,0 +1,120 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "machines"
+	group: "7955F24567DE4319"
+	icon: "mekanism:metallurgic_infuser"
+	id: "46AB4FCC54992592"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.machines.quest1.description1}"
+				"{ftbquests.chapter.machines.quest1.description2}"
+			]
+			id: "7A07B2E09F784CCD"
+			rewards: [
+				{
+					count: 31
+					id: "52EA2A83AAAE521C"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+				{
+					count: 31
+					id: "067CC2BAB7D966A4"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "023A3447D6DE143E"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+				{
+					id: "115859CDB6A1A4A2"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.machines.quest1.title}"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7A07B2E09F784CCD"]
+			description: [
+				"{ftbquests.chapter.machines.quest2.description1}"
+				""
+				"{ftbquests.chapter.machines.quest2.description2}"
+				"{ftbquests.chapter.machines.quest2.description3}"
+				"{ftbquests.chapter.machines.quest2.description4}"
+			]
+			id: "247D3BA7DDDA2E52"
+			rewards: [
+				{
+					count: 3
+					id: "05E458D532826E9C"
+					item: "mekanism_empowered:upgrade_empowered_speed"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5418173BD4B6F7A3"
+					item: "mekanism_empowered:upgrade_empowered_energy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "75DBBD25196E4343"
+					item: "mekanism_empowered:upgrade_empowered_speed"
+					type: "item"
+				}
+				{
+					id: "4C3D5347741CBD97"
+					item: "mekanism_empowered:upgrade_empowered_energy"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.machines.quest2.title}"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.machines.quest3.description1}"
+				"{ftbquests.chapter.machines.quest3.description2}"
+			]
+			id: "75FE383632348B74"
+			rewards: [{
+				count: 31
+				id: "54A00F0BEDB8FA80"
+				item: "mekanism_empowered:upgrade_auto_inserter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66C203429E3E0B96"
+				item: "mekanism_empowered:upgrade_auto_inserter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75FE383632348B74"]
+			id: "62324712D8789CB5"
+			tasks: [{
+				id: "46D8C09EAD843ECC"
+				item: "mekanism_empowered:upgrade_fast_item_insert"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+	]
+	title: "{ftbquests.chapter.machines.title}"
+}

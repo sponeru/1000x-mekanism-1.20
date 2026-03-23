@@ -1,0 +1,13 @@
+name = "ME Infinity Cell"
+filename = "meinfinitycell-1.20.1-5.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "42c042b1fcc5475d6e176475687e401bc167815a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7277426
+project-id = 1320551

@@ -1,0 +1,13 @@
+name = "Modern Director"
+filename = "modpack-director-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3470b48977af8e09337652147a9987cacb76fc4e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6772488
+project-id = 1298385

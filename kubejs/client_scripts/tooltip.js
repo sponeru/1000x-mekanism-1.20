@@ -61,6 +61,13 @@ ItemEvents.tooltip((event) => {
     Text.translate("mek1000.skyblock_crafter.desc"),
   ]);
 
+  event.add('mek1000:apt_helper', [
+    Text.translate("mek1000.apt_helper.desc").aqua(),
+  ]);
+
+  event.add('mek1000:naquadah_reactor_helper', [
+    Text.translate("mek1000.naquadah_reactor_helper.desc").aqua(),
+  ]);
   
   event.add("mek1000:the_null", [Text.translate("item.mek1000.the_null.desc")]);
 });

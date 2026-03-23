@@ -22,6 +22,12 @@ ServerEvents.recipes(event => {
             item: 'mekanism_empowered:upgrade_empowered_energy',
           },
         },
+        {
+          amount: 64,
+          ingredient: {
+            item: 'expandedae:greater_accel_card',
+          },
+        },
       ],
       output: {
         "#": 1,

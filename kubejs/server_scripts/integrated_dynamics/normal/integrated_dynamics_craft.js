@@ -90,7 +90,7 @@ ServerEvents.recipes(event => {
 
     global.convert.push(['integrateddynamics:variable_transformer_input', 'integrateddynamics:variable_transformer_output'])
 
-    event.remove({ output: 'integrateddynamics:variable' })
+    event.remove({ id:"integrateddynamics:crafting/variable" })
     event.shaped(
         Item.of('integrateddynamics:variable', 64),
         [

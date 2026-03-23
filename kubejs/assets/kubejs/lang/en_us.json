@@ -100,6 +100,10 @@
   "mek1000.dimensional_blast_smelting": "Multidimensionaly Blast Smelting",
   "mek1000.etheric_computing": "Etheric Computing",
   "mek1000.skyblock_craft": "Skyblock Craft",
+  "block.mek1000.apt_helper": "APT Multiblock Place Helper",
+  "mek1000.apt_helper.desc": "Please use the MBD Gadgets to assist with building.",
+  "block.mek1000.naquadah_reactor_helper": "Naquadah Reactor Multiblock Place Helper",
+  "mek1000.naquadah_reactor_helper.desc": "Please use the MBD Gadgets to assist with building.",
   "block.mek1000.sml_drill_s": "SML Drill S",
   "block.mek1000.sml_drill_m": "SML Drill M",
   "block.mek1000.sml_drill_l": "SML Drill L",
@@ -199,7 +203,7 @@
   "item.mek1000.valinium_processor" : "Valinium Processor",
 
   "item.mek1000.starlight_iridium" : "Starlight Iridium",
-  "item.mek1000.starlight_amethyst" : "Starlight Amethyst",
+  "item.mek1000.starlight_amethyst" : "Starlight Amethyst (Obsolete)",
 
   "item.mek1000.creative_chemical_data" : "Creative Chemical Tank Data",
   "item.mek1000.creative_fluid_data" : "Creative Fluid Tank Data",

@@ -1,6 +1,6 @@
 ServerEvents.tags("minecraft:item", event => {
     event.add('exdeorum:sieve_meshes', 'mek1000:advanced_alloy_mesh')
-    event.add('exdeorum:sieve_meshes', 'mek1000:elite_alloy_mesh')
+    event.add('exdeorum:sieve_meshes', 'mek1000:reinforced_alloy_mesh')
     event.add('exdeorum:sieve_meshes', 'mek1000:atomic_alloy_mesh')
 })
 

@@ -1,3 +1,46 @@
+# 2.4.2 アップデート
+- クエスト説明文の変更
+- 圧縮凝塊、圧縮破片の解凍レシピの追加
+- 一部の回路のレシピの修正
+- Astral Mekanismのアップデート(1.4=>1.5)
+- Advanced AEのバージョンアップ
+- AE2OverclockedBiggerStacksFixの追加
+- アイテムパイプのレシピの復活
+- コンパクトAPT・ナクアダ炉追加に伴う補助ブロックの削除、クエストの変更
+- ゲームオーブのレシピ変更
+- Astral Mekanismの消し忘れていた鉱石処理を削除
+- 多次元高炉にMekanismの合金のレシピを追加
+- バベルの図書館のレシピ追加
+- [Inventory Tweaks Refoxedのコンフィグを変更](https://github.com/sponeru/1000x-mekanism-1.20/issues/24)
+
+# 2.4.1 アップデート
+- 翻訳修正
+- mbd2threadの追加
+- 各種エネルギー搬入・搬出ポートをLong値に変更、最大容量を10GFEに引き上げ
+- ロビーの変更
+- 重複レシピの修正
+- 全てのアイテムパイプのレシピを削除
+
+# 2.4.0 アップデート
+- Skyblockの最初の報酬にじょうろを追加
+- メッシュを配置できない不具合を修正
+- ケルタスクォーツの倍化がAstral Mekanismのものになっていたのを修正
+- Long NBT Killerの追加
+- ME Infinity Cellの追加
+- レシピタイプの削除漏れを修正
+- V.R.XでHyperlinkのアイテムを取り出せない不具合を修正
+- 無限MEドライブの追加
+- 日本語翻訳の追加
+- [Issue 16](https://github.com/sponeru/1000x-mekanism-1.20/issues/16)の一時解決のためにアイテムパイプのレシピを削除
+- Heavy Water Separatorの追加
+- Pattern Provider Saveの更新(1.1=>1.2)
+- クエストを少し追加
+- Squat Growの追加
+- Apt Helper(APT設置補助)マルチブロックの追加
+- Naquadah Reactor Helper(ナクアダ炉設置補助)マルチブロックの追加
+- バベルの図書館の内部液体容量を拡張
+- バリニウムインゴットのレシピを更に緩和
+
 # 2.3.0 アップデート
 - Functional Storage Downgrade Fixの追加
 - Drawer Downgradeのレシピ復活

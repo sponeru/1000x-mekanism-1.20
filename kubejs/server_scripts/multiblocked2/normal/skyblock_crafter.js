@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
         .id("mek1000:recipe_sieve")
         .duration(10)
         .outputItems('exdeorum:oak_sieve')
-        .inputItems('4x #minecraft:planks', '#minecraft:wooden_slabs','2x #c:rods/wooden')
+        .inputItems('4x #minecraft:planks', '#minecraft:wooden_slabs','2x #forge:rods/wooden')
         
     event.recipes.mek1000.skyblock_craft()
         .id("mek1000:recipe_stone_barrel")

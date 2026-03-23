@@ -4350,7 +4350,7 @@ hash = "03eee125c70eb8301d43713e26afa08edf6e4d344f9315e9ffbe45313667165b"
 
 [[files]]
 file = "mods/advancedae.pw.toml"
-hash = "db2b2be56b661668acd7799856656b2f4585ce99231dd8cbcb8038b744c5e448"
+hash = "ae0f8a145b252306ca9d4351eabcc3f70528e6158221ceaa5679628b6c2f85e8"
 metafile = true
 
 [[files]]
@@ -4440,7 +4440,7 @@ metafile = true
 
 [[files]]
 file = "mods/astral-mekanism.pw.toml"
-hash = "a55d81656cc9e3a7f5dadb820c06c7c1cb44b4cc526304fdd016aba290ea8a34"
+hash = "ec86eff4a61d7a959d22320d80e80a9bf8c538a74a126a8d57090a7de16dc48d"
 metafile = true
 
 [[files]]
@@ -4495,7 +4495,7 @@ metafile = true
 
 [[files]]
 file = "mods/bigger-stacks.pw.toml"
-hash = "0c468672c01c91f93d4e9a33ba1b334d93954f8cf92c91a9ffa8a1bea964af05"
+hash = "da7c94d7e9681b81d93682fc632fcee9327b81a4627a6f012f98aabe5fe284cd"
 metafile = true
 
 [[files]]
@@ -4889,6 +4889,11 @@ hash = "5cc92eb0e58c2afbfd625d727d80da1d1c84500ec962bb22f5be28b864f18551"
 metafile = true
 
 [[files]]
+file = "mods/heavywaterseparator.pw.toml"
+hash = "4d09594d3c69f3041e534bfb91f5849b3e5a0ea4407b737303aafe3a0ada0ec0"
+metafile = true
+
+[[files]]
 file = "mods/hunger-strike.pw.toml"
 hash = "2f1a716c95acfc2c89b979f7a86407f2aae72f96742a34883e67c54e8db04d08"
 metafile = true
@@ -5024,8 +5029,23 @@ hash = "afca79f6ef3b857bfd147d4d7f9887ee433a73f8fcd1ec4476c49ac3349926d0"
 metafile = true
 
 [[files]]
+file = "mods/long-nbt-killer.pw.toml"
+hash = "19b8fd2370d7fb81b1964c0222255cfa138388590861845b96205c122fe9678b"
+metafile = true
+
+[[files]]
+file = "mods/mbd2thread.pw.toml"
+hash = "fa5557167da0bd858e417504e1f4a758583b4d89afc79b02aee07f5b84ca8993"
+metafile = true
+
+[[files]]
 file = "mods/me-beam-former.pw.toml"
 hash = "f4e58a5e313483f4d0fd3fba8362c08cfed6b968103c609a5ba1c98b5664f0d4"
+metafile = true
+
+[[files]]
+file = "mods/me-infinity-cell.pw.toml"
+hash = "9347866486cb0d3647491f54ae236288750f7e95e1c103909c61f74ed3ff29ea"
 metafile = true
 
 [[files]]
@@ -5139,6 +5159,11 @@ hash = "aeabb520677e57dbf2adc0ceed50b37927f894bf0c9c0d06cb7bb91bf1343a65"
 metafile = true
 
 [[files]]
+file = "mods/modern-director.pw.toml"
+hash = "6df1f78b92b4f6c7939219d5227bbe1d69537ac5a1f0a1bff12bb92ddc74fbd1"
+metafile = true
+
+[[files]]
 file = "mods/modern-ui.pw.toml"
 hash = "cd1f92278faa154d978a4d6e97c7e0788805213afe5d897a4448fd9b421f1171"
 metafile = true
@@ -5215,7 +5240,7 @@ metafile = true
 
 [[files]]
 file = "mods/patternprovidersave.pw.toml"
-hash = "94e2ee1779b29b79ccab51b6a73e64df7783a34879e1d453445c79f34ebacb49"
+hash = "09ee4f707b6c8c963c2e95dada4ad957b6189c30fbc7382bab4bfb9ee6a8c2c5"
 metafile = true
 
 [[files]]
@@ -5299,6 +5324,11 @@ hash = "3fff9456c0ef97caab6584a10517f20822e138b627da4b26c8c46e6330d7e7cd"
 metafile = true
 
 [[files]]
+file = "mods/squat-grow.pw.toml"
+hash = "7832f19493b4fa402c59c32c44860df73bbf14c9a1c5a08adfbd90463f44fbea"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "3eede8a7ebafb69840153ff51dbc879b0232799e90a834ab6d71274b1316179f"
 metafile = true
@@ -5376,6 +5406,11 @@ metafile = true
 [[files]]
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "7dbe376c64d52ddc3e52ca6ce6b07d8c5d76bf9ef68d58267bb9e9c6d8fb2c09"
+metafile = true
+
+[[files]]
+file = "resourcepacks/ae2_bright_assets_and_redraws.pw.toml"
+hash = "e1795dfaae4e9891d835465dc8f0bc2ba7c50d1666c81238c7c16d0083350d00"
 metafile = true
 
 [[files]]

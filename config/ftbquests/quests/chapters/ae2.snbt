@@ -339,26 +339,6 @@
 		}
 		{
 			dependencies: ["25D4C3E90302E4EC"]
-			id: "6E138AD9877F7071"
-			tasks: [{
-				id: "4745547F31C85231"
-				item: {
-					Count: 1
-					id: "expatternprovider:infinity_cell"
-					tag: {
-						record: {
-							"#c": "ae2:i"
-							id: "xtonesreworked:xtone_tile"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["25D4C3E90302E4EC"]
 			id: "4E18A58EB8CBAFAA"
 			rewards: [{
 				id: "110BF5981F9D3590"
@@ -374,10 +354,10 @@
 						value: "mek1000:ae2/any_cell"
 					}
 				}
-				title: "{ftbquests.chapter.ae2.quest18.task_6879066666931072408.title}"
+				title: "{ftbquests.chapter.ae2.quest17.task_6879066666931072408.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest18.title}"
+			title: "{ftbquests.chapter.ae2.quest17.title}"
 			x: 3.5d
 			y: -1.0d
 		}
@@ -410,10 +390,10 @@
 						value: "mek1000:ae2/any_disk_drive"
 					}
 				}
-				title: "{ftbquests.chapter.ae2.quest19.task_7022662481880896196.title}"
+				title: "{ftbquests.chapter.ae2.quest18.task_7022662481880896196.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest19.title}"
+			title: "{ftbquests.chapter.ae2.quest18.title}"
 			x: 3.5d
 			y: -2.0d
 		}
@@ -434,10 +414,10 @@
 						value: "mek1000:ae2/any_fe_cell"
 					}
 				}
-				title: "{ftbquests.chapter.ae2.quest20.task_6814283282519938255.title}"
+				title: "{ftbquests.chapter.ae2.quest19.task_6814283282519938255.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest20.title}"
+			title: "{ftbquests.chapter.ae2.quest19.title}"
 			x: 3.5d
 			y: -3.0d
 		}
@@ -523,14 +503,72 @@
 				"{ftbquests.chapter.ae2.quest27.description2}"
 			]
 			id: "02491F4F5E0B2531"
+			rewards: [{
+				count: 128
+				id: "7A7DA1A9F2FC1FF7"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.ae2.quest27.subtitle}"
+			tasks: [
+				{
+					id: "1F49BA875DD9BCF5"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "01F5C1D0EFC47170"
+					item: { Count: 32, id: "ae2:sky_dust" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "5795C2BB5685C593"
 			tasks: [{
-				id: "1F49BA875DD9BCF5"
-				item: "ae2:annihilation_plane"
+				id: "516C125279272CCC"
+				item: "mek1000:rainbow_concrete_drive"
 				type: "item"
 			}]
 			x: 0.5d
-			y: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "626791A1D2F6249C"
+			tasks: [{
+				id: "06918D15BC6ADF68"
+				item: "mek1000:stone_drive"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "58ECC4B9829C49FE"
+			tasks: [{
+				id: "454D0AF4756E0176"
+				item: "mek1000:stonework_drive"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "0E9A5F73F0B53E8C"
+			tasks: [{
+				id: "055F6796404C546A"
+				item: "mek1000:chisel_building_block_drive"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.ae2.subtitle0}"]

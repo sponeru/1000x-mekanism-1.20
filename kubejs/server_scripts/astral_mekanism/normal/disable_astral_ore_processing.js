@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    let material = ["coal","iron","copper","gold","redstone","emerald","lapis_lazuli","diamond","quartz","tin","uranium","lead","osmium","fluorite","netherite"]
+    let material = ["coal","iron","copper","gold","redstone","emerald","lapis_lazuli","diamond","quartz","tin","uranium","lead","osmium","fluorite","netherite","certus_quartz","amethyst","naquadah"]
 
     material.forEach(value =>{
         event.remove({id:`astral_mekanism:processing/${value}/ore`})
@@ -25,6 +25,8 @@ ServerEvents.recipes(event => {
         event.remove({id:`astral_mekanism:processing/${value}/raw`})
         event.remove({id:`astral_mekanism:processing/${value}/dirty_dust`})
         event.remove({id:`astral_mekanism:processing/${value}/dust`})
+
+        event.remove({id:`astral_mekanism:processing/${value}/cluster`})
 
         event.remove({id:`astral_mekanism:processing/${value}/${value}`})
     })

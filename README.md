@@ -5,6 +5,8 @@
   <a href=https://discord.gg/VwBefY6Tbh><img src=https://img.shields.io/discord/1479753003199103100></img></a>
 </h1>
 
+<a href=https://discord.gg/VwBefY6Tbh><img width="960" height="201" alt="discord" src="https://github.com/user-attachments/assets/b3669cd8-26b0-4a79-bde7-22bd563ce904" />
+
 ## Modpack Features(EN)
 
 This modpack is an unofficial port of [Extraordinary Energy](https://github.com/Valine3gDev/1000x-mekanism) to version 1.20.1.

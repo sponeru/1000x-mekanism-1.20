@@ -524,7 +524,7 @@
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.1.quest15.title}"
+			title: "{ftbquests.chapter.1.quest17.title}"
 			x: 0.0d
 			y: 3.5d
 		}
@@ -593,7 +593,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.1.quest21.title}"
+			title: "{ftbquests.chapter.1.quest21\\.title}"
 			x: -2.0d
 			y: 8.0d
 		}
