@@ -149,7 +149,10 @@
 				"3EE1C779AEB0D16D"
 				"3FC57EAE35A4448E"
 			]
-			description: ["{ftbquests.chapter.2.quest9.description1}"]
+			description: [
+				"{ftbquests.chapter.2.quest9.description1}"
+				"{ftbquests.chapter.2.quest9.description2}"
+			]
 			icon: "mekanism_extras:naquadah_reactor_controller"
 			id: "0A5CBA30DFD5CDE7"
 			rewards: [{
