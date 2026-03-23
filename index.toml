@@ -5159,6 +5159,11 @@ hash = "aeabb520677e57dbf2adc0ceed50b37927f894bf0c9c0d06cb7bb91bf1343a65"
 metafile = true
 
 [[files]]
+file = "mods/modern-director.pw.toml"
+hash = "6df1f78b92b4f6c7939219d5227bbe1d69537ac5a1f0a1bff12bb92ddc74fbd1"
+metafile = true
+
+[[files]]
 file = "mods/modern-ui.pw.toml"
 hash = "cd1f92278faa154d978a4d6e97c7e0788805213afe5d897a4448fd9b421f1171"
 metafile = true
