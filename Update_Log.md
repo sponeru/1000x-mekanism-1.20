@@ -11,6 +11,7 @@
 - Astral Mekanismの消し忘れていた鉱石処理を削除
 - 多次元高炉にMekanismの合金のレシピを追加
 - バベルの図書館のレシピ追加
+- [Inventory Tweaks Refoxedのコンフィグを変更](https://github.com/sponeru/1000x-mekanism-1.20/issues/24)
 
 # 2.4.1 アップデート
 - 翻訳修正
