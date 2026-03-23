@@ -63,6 +63,26 @@ ServerEvents.recipes(event => {
         }
     }
 
+    let shard_disassemble_20 = (type, item_1, item_9) => {
+        if ((typeof item_9) != "undefined") {
+            event.shaped(`9x ${item_1}`, [
+                'c'
+            ], {
+                c: item_9
+            }).id(`mek1000:${type}_disassembling_9to1_shard`)
+        }
+    }
+
+    let clump_disassemble_20 = (type, item_1, item_9) => {
+        if ((typeof item_9) != "undefined") {
+            event.shaped(`9x ${item_1}`, [
+                'c'
+            ], {
+                c: item_9
+            }).id(`mek1000:${type}_disassembling_9to1_clump`)
+        }
+    }
+
     crystal_disassemble_20("iron", "mekanism:crystal_iron", "mek1000:compressed_iron_crystal")
     crystal_disassemble_20("copper", "mekanism:crystal_copper", "mek1000:compressed_copper_crystal")
     crystal_disassemble_20("gold", "mekanism:crystal_gold", "mek1000:compressed_gold_crystal")
@@ -72,6 +92,26 @@ ServerEvents.recipes(event => {
     crystal_disassemble_20("lead", "mekanism:crystal_lead", "mek1000:compressed_lead_crystal")
     crystal_disassemble_20("iridium", "kubejs:crystal_iridium", "mek1000:compressed_iridium_crystal")
     crystal_disassemble_20("debri", "kubejs:crystal_debri", "mek1000:compressed_debri_crystal")
+
+    shard_disassemble_20("iron", "mekanism:shard_iron", "mek1000:compressed_iron_shard")
+    shard_disassemble_20("copper", "mekanism:shard_copper", "mek1000:compressed_copper_shard")
+    shard_disassemble_20("gold", "mekanism:shard_gold", "mek1000:compressed_gold_shard")
+    shard_disassemble_20("tin", "mekanism:shard_tin", "mek1000:compressed_tin_shard")
+    shard_disassemble_20("osmium", "mekanism:shard_osmium", "mek1000:compressed_osmium_shard")
+    shard_disassemble_20("uranium", "mekanism:shard_uranium", "mek1000:compressed_uranium_shard")
+    shard_disassemble_20("lead", "mekanism:shard_lead", "mek1000:compressed_lead_shard")
+    shard_disassemble_20("iridium", "kubejs:shard_iridium", "mek1000:compressed_iridium_shard")
+    shard_disassemble_20("debri", "kubejs:shard_debri", "mek1000:compressed_debri_shard")
+
+    clump_disassemble_20("iron", "mekanism:clump_iron", "mek1000:compressed_iron_clump")
+    clump_disassemble_20("copper", "mekanism:clump_copper", "mek1000:compressed_copper_clump")
+    clump_disassemble_20("gold", "mekanism:clump_gold", "mek1000:compressed_gold_clump")
+    clump_disassemble_20("tin", "mekanism:clump_tin", "mek1000:compressed_tin_clump")
+    clump_disassemble_20("osmium", "mekanism:clump_osmium", "mek1000:compressed_osmium_clump")
+    clump_disassemble_20("uranium", "mekanism:clump_uranium", "mek1000:compressed_uranium_clump")
+    clump_disassemble_20("lead", "mekanism:clump_lead", "mek1000:compressed_lead_clump")
+    clump_disassemble_20("iridium", "kubejs:clump_iridium", "mek1000:compressed_iridium_clump")
+    clump_disassemble_20("debri", "kubejs:clump_debri", "mek1000:compressed_debri_clump")
 
     // hidden recipe
     event.recipes.mekanism.combining(`25x mek1000:stray_cat`, `mek1000:tiny_antimatter`, 'minecraft:amethyst_shard').id("mek1000:packcat")
