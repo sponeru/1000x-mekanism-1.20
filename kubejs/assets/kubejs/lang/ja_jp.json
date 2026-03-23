@@ -211,8 +211,8 @@
   "item.mek1000.echo_processor" : "反響プロセッサ",
   "item.mek1000.valinium_processor" : "バリニウムプロセッサ",
 
-  "item.mek1000.starlight_iridium" : "星の輝き<イリジウム>",
-  "item.mek1000.starlight_amethyst" : "星の輝き<アメジスト>",
+  "item.mek1000.starlight_iridium" : "イリジウムのための星の耀き",
+  "item.mek1000.starlight_amethyst" : "星の輝き<アメジスト> (廃止)",
 
   "item.mek1000.creative_chemical_data" : "クリエィティブ化学タンクデータ",
   "item.mek1000.creative_fluid_data" : "クリエィティブ液体タンクデータ",

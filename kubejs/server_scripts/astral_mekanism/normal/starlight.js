@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    let starlights = ["coal", "diamond", "emerald", "fluorite", "lapis_lazuli", "quartz", "redstone", "iron", "gold", "copper", "tin", "lead", "uranium", "osmium"]
+    let starlights = ["coal", "diamond", "emerald", "fluorite", "lapis_lazuli", "quartz", "redstone", "iron", "gold", "copper", "tin", "lead", "uranium", "osmium","amethyst"]
 
     event.remove({ id: `astral_mekanism:processing/certus_quartz/starlight` })
 
@@ -18,15 +18,7 @@ ServerEvents.recipes(event => {
         }
     })
 
-    event.custom({
-        type: "mekanism:reaction",
-        itemInput: { amount: 64, ingredient: { item: 'mek1000:amethyst_singularity' } },
-        fluidInput: { fluid: "astral_mekanism:mixed_lava", amount: 500000 },
-        gasInput: { gas: "astral_mekanism:astral_ether", amount: 500000 },
-        energyRequired: 20000000000000,
-        duration: 400,
-        "itemOutput": { "item": 'mek1000:starlight_amethyst' },
-    });
+    event.shapeless("astral_mekanism:starlight_amethyst",["mek1000:starlight_amethyst"])
 
     event.custom({
         type: "mekanism:reaction",
