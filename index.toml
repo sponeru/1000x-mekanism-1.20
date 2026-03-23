@@ -4350,7 +4350,7 @@ hash = "03eee125c70eb8301d43713e26afa08edf6e4d344f9315e9ffbe45313667165b"
 
 [[files]]
 file = "mods/advancedae.pw.toml"
-hash = "db2b2be56b661668acd7799856656b2f4585ce99231dd8cbcb8038b744c5e448"
+hash = "ae0f8a145b252306ca9d4351eabcc3f70528e6158221ceaa5679628b6c2f85e8"
 metafile = true
 
 [[files]]
@@ -4440,7 +4440,7 @@ metafile = true
 
 [[files]]
 file = "mods/astral-mekanism.pw.toml"
-hash = "a55d81656cc9e3a7f5dadb820c06c7c1cb44b4cc526304fdd016aba290ea8a34"
+hash = "ec86eff4a61d7a959d22320d80e80a9bf8c538a74a126a8d57090a7de16dc48d"
 metafile = true
 
 [[files]]

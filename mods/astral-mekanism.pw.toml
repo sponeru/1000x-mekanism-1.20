@@ -1,13 +1,13 @@
-name = "Astral Mekanism"
-filename = "astral_mekanism-1.4.0.jar"
+name = "Astral Mekanism  & Energistics"
+filename = "astral_mekanism-1.5.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3122b83dad64c438d260ed7795aa716efac33702"
+hash = "9933b76859690cc6a22e1b96141be5e1654754c9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7710674
+file-id = 7793990
 project-id = 1415150
