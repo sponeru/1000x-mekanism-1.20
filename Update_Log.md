@@ -12,6 +12,8 @@
 - 結晶、破片、凝塊の圧縮レシピ追加
 - Capacity Cardのレシピ変更
 - Default Configsの追加
+- Observableの追加
+- クエストの一部変更
 
 # 2.4.2 アップデート
 - クエスト説明文の変更

@@ -570,6 +570,21 @@
 			x: 3.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			description: [
+				"{ftbquests.chapter.ae2.quest28.description1}"
+				"{ftbquests.chapter.ae2.quest28.description2}"
+			]
+			id: "0469C4480DC9589F"
+			tasks: [{
+				id: "1A601B962337BAF5"
+				item: "advanced_ae:quantum_crafter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
 	]
 	subtitle: ["{ftbquests.chapter.ae2.subtitle0}"]
 	title: "{ftbquests.chapter.ae2.title}"
