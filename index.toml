@@ -4399,6 +4399,11 @@ hash = "356bb0949f762cd2d31fb1f1b319549b8fa6a25d5d8be793f4a7a3448d7c063f"
 metafile = true
 
 [[files]]
+file = "mods/aea-aee.pw.toml"
+hash = "df5fba98e70ec3afa199f60d7bebe84448cbdd491fdf2076c4e7457278adce2c"
+metafile = true
+
+[[files]]
 file = "mods/alltheleaks.pw.toml"
 hash = "40bab1828ae2b4d755db64f1c887a2fe06171fad6ab54d4a1863ca5c30ff9b55"
 metafile = true
@@ -4639,6 +4644,11 @@ hash = "fb0e58c2888972855f26ba60aadd1a69bffaca14e86d61ac417261dbd08d197d"
 metafile = true
 
 [[files]]
+file = "mods/default-options.pw.toml"
+hash = "91e64b2bf3b7011473fc138e5e93686233622fb0188bbf1d1113abadac5e42d7"
+metafile = true
+
+[[files]]
 file = "mods/dense-mekanism.pw.toml"
 hash = "6de48070c340d835b6adead8d3e56cc7287fa40ba8afe6246306a3965e20811b"
 metafile = true
@@ -4835,7 +4845,7 @@ metafile = true
 
 [[files]]
 file = "mods/functional-storage-downgrade-fix.pw.toml"
-hash = "56679cb784f629e036813d1095984e364430b0ff84fdc63d07fdcb02ef7ebda9"
+hash = "5e0274e29efe78675a7816283b2b4b5c40d1d4f4bdd7cdf6ee64f6a4ad08337f"
 metafile = true
 
 [[files]]
@@ -4911,6 +4921,11 @@ metafile = true
 [[files]]
 file = "mods/integrated-dynamics.pw.toml"
 hash = "93b713085fa0c6a106fa69c4c9f77a6222f1f90f2beaaba8f07fa2d3ebf0e7ed"
+metafile = true
+
+[[files]]
+file = "mods/integrated-mekanism.pw.toml"
+hash = "c75e156b5a925cd492ef950a2e03c868d933b2bc6fc0b3e791ba287093367a64"
 metafile = true
 
 [[files]]
@@ -5221,6 +5236,11 @@ metafile = true
 [[files]]
 file = "mods/notenoughrecipebook.pw.toml"
 hash = "5dd8e869fbebed8abe7886fd28f1f192c420d3fefd9f714939c2a501d3a4a1af"
+metafile = true
+
+[[files]]
+file = "mods/observable.pw.toml"
+hash = "5d0eae777859369335212a6a68a0c835fc7487ace8016749fe9f377de1c4b392"
 metafile = true
 
 [[files]]

@@ -28,7 +28,6 @@
 	#sortRange = "" disables sorting for that container
 	#Out-of-bound slots are ignored
 	#Omit sortRange to leave as default
-
 	[[sorting.containerOverrides]]
 		containerClass = "appeng.client.gui.implementations.*Screen"
 		sortRange = ""

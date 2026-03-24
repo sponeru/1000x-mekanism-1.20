@@ -76,6 +76,8 @@
   "ftbquests.chapter.1.quest26.title": "便利なコマンド",
   "ftbquests.chapter.1.quest27.subtitle": "おめーの家、あるから！",
   "ftbquests.chapter.1.quest29.subtitle": "びちゃびちゃ",
+  "ftbquests.chapter.1.quest30.description1": "右クリックすることで、何もないディメンションに移動できます。",
+  "ftbquests.chapter.1.quest30.description2": "パッシブで生産しているものを移したり、変なものを置いたりしてください。",
   "ftbquests.chapter.1.quest3.description1": "\u0026aBotany Pot\u0026rは作物と木を栽培する設備です",
   "ftbquests.chapter.1.quest3.description2": "土を使用することで1分で木を育てることができます",
   "ftbquests.chapter.1.quest3.subtitle": "一括破壊",
@@ -122,7 +124,8 @@
   "ftbquests.chapter.2.quest17.title": "APT",
   "ftbquests.chapter.2.quest17.description1": "\u0026aEvolved Mekanism\u0026rの\u0026a上位の素材を作成するため\u0026rに使用します。",
   "ftbquests.chapter.2.quest9.description1": "\u0026aNaquadah Uranium Fuel\u0026rを燃料にして発電します",
-  "ftbquests.chapter.2.quest9.subtitle": "超強化済み",
+  "ftbquests.chapter.2.quest9.description2": "生産される蒸気を加工することで、\u0026aポロニウム\u0026rを大量に得ることができます。できるだけ早めに作りましょう。",
+  "ftbquests.chapter.2.quest9.subtitle": "超強化済み、より良いポロニウムの供給源",
   "ftbquests.chapter.2.subtitle0": "桁の暴力",
   "ftbquests.chapter.2.title": "チャプター2",
   "ftbquests.chapter.3.quest7.subtitle": "テクスチャは仕様！",
@@ -170,6 +173,8 @@
   "ftbquests.chapter.ae2.quest27.description1": "限界高度に\u0026a上向き\u0026rで設置するとMEネットワーク内に\u0026aスカイストーンダスト\u0026rが生成されます",
   "ftbquests.chapter.ae2.quest27.description2": "ブロックを破壊するのにも使用できます(本来の用途)",
   "ftbquests.chapter.ae2.quest27.subtitle": "仰げば尊し",
+  "ftbquests.chapter.ae2.quest28.description1": "MEネットワーク内の素材を使い、入っているパターンに沿って自動クラフトをする機械です。",
+  "ftbquests.chapter.ae2.quest28.description2": "再帰的なクラフトを自動化することができます(鍛冶型など)",
   "ftbquests.chapter.ae2.quest3.subtitle": "ゲーミングキラキラキューブ",
   "ftbquests.chapter.ae2.subtitle0": "なんでもかんでも電子化の時代",
   "ftbquests.chapter.ae2.title": "AE2",
@@ -222,5 +227,5 @@
   "ftbquests.chapter.machines.quest2.description4": "\u0026c電力消費量が更に上昇する\u0026rため気をつけてください。",
   "ftbquests.chapter.machines.quest3.description1": "Mekanism機械に装着することで、\u0026a自動搬入機能を追加\u0026rできます。",
   "ftbquests.chapter.machines.quest3.description2": "\u0026c入出力設定からは設定を変更できず\u0026r、\u0026c右のタブのメニューから設定する\u0026r必要があります。"
-
+  
 }

@@ -1,0 +1,13 @@
+name = "AEA AEE"
+filename = "aea-1.0.4-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d0ebd28621efdda8f6c9b5f46a96773bbe4b37d1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7803688
+project-id = 1466886

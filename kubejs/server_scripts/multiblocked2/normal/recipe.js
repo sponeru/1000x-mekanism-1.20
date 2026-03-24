@@ -13,4 +13,6 @@ ServerEvents.recipes((event) => {
         B: 'mekanism:elite_control_circuit'
 
     })
+    
+    event.shapeless('mek1000:naquadah_reactor_helper',['minecraft:furnace','minecraft:book','minecraft:black_dye'])
 })

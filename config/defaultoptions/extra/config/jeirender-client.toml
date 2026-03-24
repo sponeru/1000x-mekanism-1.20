@@ -1,0 +1,5 @@
+#A black list of JEI Batch Render.
+blacklist = ["ae2:wrapped_generic_stack"]
+#Render Log
+render_log = false
+

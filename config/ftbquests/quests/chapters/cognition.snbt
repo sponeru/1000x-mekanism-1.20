@@ -229,6 +229,24 @@
 			x: 1.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["613E423F745CDAED"]
+			id: "41E164CF8EA79589"
+			rewards: [{
+				count: 64
+				id: "750453EBC42DC68E"
+				item: "mek1000:experience_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "2FAC5AF86EB2FEB1"
+				item: "mek1000:experience_crystal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
 	]
 	subtitle: ["{ftbquests.chapter.cognition.subtitle0}"]
 	title: "{ftbquests.chapter.cognition.title}"

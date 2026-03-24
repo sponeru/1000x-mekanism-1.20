@@ -60,6 +60,14 @@ ServerEvents.recipes(event => {
             ], {
                 c: item_9
             }).id(`mek1000:${type}_disassembling_9to1`)
+
+            event.shaped(`${item_9}`, [
+                'ccc',
+                'ccc',
+                'ccc'
+            ], {
+                c: `${item_1}`
+            }).id(`mek1000:${type}_compressing_crystal`)
         }
     }
 
@@ -70,6 +78,15 @@ ServerEvents.recipes(event => {
             ], {
                 c: item_9
             }).id(`mek1000:${type}_disassembling_9to1_shard`)
+
+            event.shaped(`${item_9}`, [
+                'ccc',
+                'ccc',
+                'ccc'
+            ], {
+                c: `${item_1}`
+            }).id(`mek1000:${type}_compressing_shard`)
+
         }
     }
 
@@ -80,6 +97,14 @@ ServerEvents.recipes(event => {
             ], {
                 c: item_9
             }).id(`mek1000:${type}_disassembling_9to1_clump`)
+
+            event.shaped(`${item_9}`, [
+                'ccc',
+                'ccc',
+                'ccc'
+            ], {
+                c: `${item_1}`
+            }).id(`mek1000:${type}_compressing_clump`)
         }
     }
 

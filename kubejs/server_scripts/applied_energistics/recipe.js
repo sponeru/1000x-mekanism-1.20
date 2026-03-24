@@ -1,10 +1,16 @@
 ServerEvents.recipes(event => {
 
     let p2p = ['ae2:redstone_p2p_tunnel', 'ae2:item_p2p_tunnel', 'ae2:fluid_p2p_tunnel', 'ae2:fe_p2p_tunnel', 'ae2:light_p2p_tunnel', 'appmek:chemical_p2p_tunnel', 'mae2:pattern_p2p_tunnel', 'mae2:pattern_multi_p2p_tunnel', 'mae2:redstone_multi_p2p_tunnel', 'mae2:fe_multi_p2p_tunnel', 'mae2:fluid_multi_p2p_tunnel', 'mae2:item_multi_p2p_tunnel']
+    let p2p2 = ['ae2:me_p2p_tunnel', 'ae2:redstone_p2p_tunnel', 'ae2:item_p2p_tunnel', 'ae2:fluid_p2p_tunnel', 'ae2:fe_p2p_tunnel', 'ae2:light_p2p_tunnel', 'appmek:chemical_p2p_tunnel', 'mae2:pattern_p2p_tunnel', 'mae2:pattern_multi_p2p_tunnel', 'mae2:redstone_multi_p2p_tunnel', 'mae2:fe_multi_p2p_tunnel', 'mae2:fluid_multi_p2p_tunnel', 'mae2:item_multi_p2p_tunnel']
 
-    p2p.forEach(item => {
-        event.remove({ output: item })
-        event.stonecutting(item, 'ae2:me_p2p_tunnel')
+    p2p.forEach(item =>{
+      event.remove({output:item})
+    })
+
+    p2p2.forEach(item => {
+        p2p2.forEach(item2 =>{
+          event.stonecutting(item2, item)
+        })
     })
 
     event.custom({
