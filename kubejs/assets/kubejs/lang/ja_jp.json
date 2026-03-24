@@ -222,5 +222,8 @@
   "block.mek1000.super_computing_cell" : "超演算セル",
 
   "item.mek1000.experience_crystal" : "経験値クリスタル",
-  "item.mek1000.bio_compose" : "バイオ混合物"
+  "item.mek1000.bio_compose" : "バイオ混合物",
+
+  "block.mek1000.pdt" : "並行次元転移機 (P.D.T)",
+  "block.mek1000.pdt_i" : "並行次元転移機 (P.D.T)"
 }

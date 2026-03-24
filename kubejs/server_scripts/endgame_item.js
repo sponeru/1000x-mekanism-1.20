@@ -91,4 +91,20 @@ ServerEvents.recipes(event => {
             "item": 'functionalstorage:max_storage_upgrade'
         }
     })
+
+    event.shaped(
+        Item.of('mek1000:pdt', 1),
+        [
+            'THM',
+            'HCH',
+            'MHT'
+        ],
+        {
+            M: 'mekanism:quantum_entangloporter',
+            T: 'mekanism:teleporter',
+            C: 'mek1000:reinforced_steel_casing',
+            H: 'astral_mekanism:vibration_control_circuit'
+
+        }
+    )
 })

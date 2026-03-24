@@ -213,5 +213,8 @@
   "block.mek1000.super_computing_cell" : "Super Computing Cell",
 
   "item.mek1000.experience_crystal" : "Experience Crystal",
-  "item.mek1000.bio_compose" : "Bio Composite"
+  "item.mek1000.bio_compose" : "Bio Composite",
+
+  "block.mek1000.pdt" : "Parralel Dimenssion Transposer (P.D.T)",
+  "block.mek1000.pdt_i" : "Parralel Dimenssion Transposer (P.D.T)"
 }
