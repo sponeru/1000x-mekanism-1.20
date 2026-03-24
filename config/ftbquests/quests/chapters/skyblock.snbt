@@ -9,10 +9,15 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["58D19A0956CF8EDC"]
+			dependencies: [
+				"58D19A0956CF8EDC"
+				"7F4B21A42724338C"
+				"5C124BC2B5689E7B"
+			]
 			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
 			id: "358F6032ACD91551"
+			min_required_dependencies: 2
 			rewards: [
 				{
 					count: 16

@@ -1,0 +1,18 @@
+#Whether to use Encode Pattern Transfer Modifier
+useModifier = true
+#Defines the global merge strategy for pattern encoding.
+#GLOBAL: Standard AE2 behavior. Merges all identical items into one slot.
+#ADJACENT: Merges identical items only if they are next to each other in the list.
+#NONE: No merging. Every item gets its own slot (until full).
+#Note: The merge mode is strictly monotonic (GLOBAL -> ADJACENT -> NONE). A higher strictness level set here or by other modifiers cannot be reverted.
+#Allowed Values: GLOBAL, ADJACENT, NONE
+globalMergeMode = "GLOBAL"
+#Range: > 1
+ioMultiplier = 1
+inputsBlackList = []
+outputsBlackList = []
+#Log IO IDs before filtering
+logIO = false
+#Log debug
+debugLog = false
+

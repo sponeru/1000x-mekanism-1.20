@@ -4644,6 +4644,11 @@ hash = "fb0e58c2888972855f26ba60aadd1a69bffaca14e86d61ac417261dbd08d197d"
 metafile = true
 
 [[files]]
+file = "mods/default-options.pw.toml"
+hash = "91e64b2bf3b7011473fc138e5e93686233622fb0188bbf1d1113abadac5e42d7"
+metafile = true
+
+[[files]]
 file = "mods/dense-mekanism.pw.toml"
 hash = "6de48070c340d835b6adead8d3e56cc7287fa40ba8afe6246306a3965e20811b"
 metafile = true

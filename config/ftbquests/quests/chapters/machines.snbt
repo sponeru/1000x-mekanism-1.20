@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["016780D32B1ABC49"]
 			description: [
 				"{ftbquests.chapter.machines.quest1.description1}"
 				"{ftbquests.chapter.machines.quest1.description2}"
@@ -85,6 +86,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["016780D32B1ABC49"]
 			description: [
 				"{ftbquests.chapter.machines.quest3.description1}"
 				"{ftbquests.chapter.machines.quest3.description2}"
