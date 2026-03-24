@@ -14,6 +14,7 @@
 - Default Configsの追加
 - Observableの追加
 - クエストの一部変更
+- Absolute Unbreakableをクラフトレシピに移動
 
 # 2.4.2 アップデート
 - クエスト説明文の変更
