@@ -1,0 +1,13 @@
+name = "Integrated Mekanism"
+filename = "IntegratedMekanism-1.20.1-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7d2038508c84fa33bcf3c8d4714a3fd7bbb85690"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7750090
+project-id = 1332544
