@@ -74,7 +74,7 @@ ServerEvents.recipes(event => {
         'CMC',
         'CCC'
     ], {
-        M: 'ae2:basic_card',
+        M: 'ae2:advanced_card',
         C: '#forge:chests/wooden'
     })
 
