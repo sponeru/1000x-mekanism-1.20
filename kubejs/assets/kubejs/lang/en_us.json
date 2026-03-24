@@ -212,5 +212,6 @@
   "item.mek1000.synced_bibliophage" : "Resonance Bibliophage",
   "block.mek1000.super_computing_cell" : "Super Computing Cell",
 
-  "item.mek1000.experience_crystal" : "Experience Crystal"
+  "item.mek1000.experience_crystal" : "Experience Crystal",
+  "item.mek1000.bio_compose" : "Bio Composite"
 }
