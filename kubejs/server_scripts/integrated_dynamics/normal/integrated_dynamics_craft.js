@@ -31,6 +31,20 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.remove({ output: 'integratedmekanism:part_interface_chemical' })
+    event.shaped(
+        Item.of('integratedmekanism:part_interface_chemical', 64),
+        [
+            'ABA',
+            '   ',
+            '   '
+        ],
+        {
+            A: 'integrateddynamics:crystalized_menril_chunk',
+            B: 'mekanism:ingot_osmium'
+        }
+    )
+
     event.remove({ output: 'integratedtunnels:part_interface_energy' })
     event.shaped(
         Item.of('integratedtunnels:part_interface_energy', 64),
