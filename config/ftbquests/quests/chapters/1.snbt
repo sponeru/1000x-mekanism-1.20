@@ -839,7 +839,26 @@
 		}
 		{
 			dependencies: ["7F5BC9CABAE2CB00"]
+			description: [
+				"{ftbquests.chapter.1.quest30.description1}"
+				""
+				"{ftbquests.chapter.1.quest30.description2}"
+			]
 			id: "0D305AEF5BEBF8CF"
+			rewards: [
+				{
+					count: 4
+					id: "624C96213F30DE8A"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "49505E3DB7F30FAC"
+					item: "mekanism:ultimate_control_circuit"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "35EC2991ED24F2D6"
 				item: "mek1000:pdt"
