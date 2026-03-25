@@ -13,7 +13,8 @@ StartupEvents.registry("item", event => {
     event.create('mek1000:dust_amethyst').texture('kubejs:item/dust_iridium').color(0, "#9400d3").tag('forge:dusts').tag('forge:dusts/amethyst')
     
     event.create('mek1000:bio_compose').texture('kubejs:item/dust_iridium').color(0, "#00581b")
-    
+    event.create('mek1000:quartz_compose').texture('kubejs:item/dust_iridium').color(0, "#e8fc7b")
+
     event.create('mek1000:experience_crystal').texture('kubejs:item/crystal_fluorite').color(0, "#1ffa43")
     event.create('mek1000:bedrockium_ingot')
     event.create("mek1000:ultimate_alloy_ingot")
