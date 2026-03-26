@@ -4384,6 +4384,11 @@ hash = "4b3cc795c20ff78714175d34bc6bc3f6034d51b5ad50ecf6bbe85e6a77371f63"
 metafile = true
 
 [[files]]
+file = "mods/ae2-tabbed-view-cells.pw.toml"
+hash = "6933fdc17cc57ac790b28d67cce862e83a65b5c85a89f85296822a7669bcd0ea"
+metafile = true
+
+[[files]]
 file = "mods/ae2-things-forge.pw.toml"
 hash = "8f7696617249a4be35a9d1a2caecce4e17bbffe823f904d10c6fc8b72c4352ca"
 metafile = true
@@ -4730,7 +4735,7 @@ metafile = true
 
 [[files]]
 file = "mods/extendedae-plus.pw.toml"
-hash = "1a4f8c83650e88c719d16e85e7534ad545ae84299eb54a1863e72fe42325b965"
+hash = "7ac4c2999c5b9049ddb24f150c30b89f060c0061e69f4ba6812e4899abb823fe"
 metafile = true
 
 [[files]]

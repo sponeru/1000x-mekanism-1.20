@@ -116,13 +116,13 @@ ServerEvents.recipes(event => {
         {
           amount: 1,
           ingredient: {
-            item: 'emextras:cosmic_dense_smelting_factory',
+            item: 'emextras:supreme_quantum_smelting_factory',
           },
         },
         {
           amount: 1,
           ingredient: {
-            item: 'emextras:cosmic_dense_crushing_factory',
+            item: 'emextras:supreme_quantum_crushing_factory',
           },
         },
         {

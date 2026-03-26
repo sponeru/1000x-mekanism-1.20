@@ -217,5 +217,7 @@
   "item.mek1000.quartz_compose" : "Quartz Composite",
 
   "block.mek1000.pdt" : "Parralel Dimenssion Transposer (P.D.T)",
-  "block.mek1000.pdt_i" : "Parralel Dimenssion Transposer (P.D.T)"
+  "block.mek1000.pdt_i" : "Parralel Dimenssion Transposer (P.D.T)",
+
+  "item.mek1000.large_yellow_cake_uranium": "Large Yellow Cake Uranium"
 }

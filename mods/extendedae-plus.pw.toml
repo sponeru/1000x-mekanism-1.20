@@ -1,13 +1,13 @@
 name = "ExtendedAE-Plus"
-filename = "extendedae_plus-1.5.2-fix.jar"
+filename = "extendedae_plus-1.5.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5c8091ff3898a8fa26214d1d38d2489883967324"
+hash = "cf07255e7277cb08a48f34397126918d072196d2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7704455
+file-id = 7816551
 project-id = 1337639
