@@ -154,6 +154,7 @@
   "ftbquests.chapter.628F7C3A3B42F51A.quest3.title": "Skyblock Mode",
   "ftbquests.chapter.628F7C3A3B42F51A.title": "Mode Select",
   "ftbquests.chapter.ae2.quest1.title": "Channel Setting : Infinity",
+  "ftbquests.chapter.ae2.quest10.description1": "Due to changes in this Modpack, it can be constructed with a size up to \u0026a12x12x12\u0026r.",
   "ftbquests.chapter.ae2.quest13.description1": "You can use the \u0026aStonecutter\u0026r to switch the type of \u0026aP2P Tunnel\u0026r.",
   "ftbquests.chapter.ae2.quest14.subtitle": "Let's drawing raibow arts.",
   "ftbquests.chapter.ae2.quest18.task_6879066666931072408.title": "Any AE2 Cell",
@@ -218,5 +219,13 @@
   "ftbquests.chapter.machines.quest2.description3": "Installing &a8 of these allows for insta-tick processing&r.",
   "ftbquests.chapter.machines.quest2.description4": "Be careful, as this will &csignificantly increase power consumption&r.",
   "ftbquests.chapter.machines.quest3.description1": "Installing this into Mekanism machines &aadds auto-eject and auto-pull functionality&r.",
-  "ftbquests.chapter.machines.quest3.description2": "Settings &ccannot be changed via the Side Config&r; you must &cconfigure them through the dedicated menu tab on the right&r."
+  "ftbquests.chapter.machines.quest3.description2": "Settings &ccannot be changed via the Side Config&r; you must &cconfigure them through the dedicated menu tab on the right&r.",
+  "ftbquests.chapter.machines.quest4.description1": "Can produce bone meal at high speeds.",
+  "ftbquests.chapter.machines.quest5.title": "Compact Reactor",
+  "ftbquests.chapter.machines.quest5.description1": "\u0026aAstral Mekanism\u0026r's Compact Reactor requires heat to operate.",
+  "ftbquests.chapter.machines.quest5.description2": "Using a \u0026aResistive Heater\u0026r is an easy way to generate heat.",
+  "ftbquests.chapter.machines.quest5.description3": "The amount of heat required depends on the type of reactor. Check JEI.",
+  "ftbquests.chapter.machines.quest6.title": "Item Compression/Decompression",
+  "ftbquests.chapter.machines.quest6.description1": "Allows you to compress and decompress items.",
+  "ftbquests.chapter.machines.quest7.description1": "Can rapidly convert items into Infusion Gas."
 }

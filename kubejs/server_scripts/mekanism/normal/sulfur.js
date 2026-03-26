@@ -8,4 +8,16 @@ ServerEvents.recipes(event => {
         "gasOutput": { "gas": "mekanism:sulfuric_acid", "amount": 4000 },
         "itemOutput": { "item": 'mekanism:pellet_antimatter' }
     })
+
+    event.recipes.mekanism.enriching("mek1000:large_yellow_cake_uranium",'mek1000:compressed_purified_uranium_rawore')
+    event.recipes.mekanism.oxidizing("mek1000:large_yellow_cake_uranium",`${250 * 8100}x mekanism:uranium_oxide`)
+
+    event.custom({
+        "type": "mekanism:reaction",
+        "itemInput": { amount: 1, "ingredient": {"item": 'mekanism:dust_fluorite' } },
+        "fluidInput": { "amount": 1000, "fluid": "minecraft:water" },
+        "gasInput": { "gas": "mekanism_extras:polonium_containing_steam", "amount": 100000 },
+        "energyRequired": 20, "duration": 10,
+        "itemOutput": { "item": 'mekanism:pellet_polonium' }
+    })
 })

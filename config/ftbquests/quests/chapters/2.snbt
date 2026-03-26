@@ -153,7 +153,7 @@
 				"{ftbquests.chapter.2.quest9.description1}"
 				"{ftbquests.chapter.2.quest9.description2}"
 			]
-			icon: "mekanism_extras:naquadah_reactor_controller"
+			icon: "astral_mekanism:essential_compact_naquadah_reactor"
 			id: "0A5CBA30DFD5CDE7"
 			rewards: [{
 				count: 2
@@ -162,18 +162,11 @@
 				type: "item"
 			}]
 			subtitle: "{ftbquests.chapter.2.quest9.subtitle}"
-			tasks: [
-				{
-					id: "168FE6F1969B716C"
-					item: "mekanism_extras:naquadah_reactor_controller"
-					type: "item"
-				}
-				{
-					id: "76D368E2E588E11B"
-					item: "mek1000:naquadah_reactor_helper"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4D657FDC75A212CB"
+				item: "astral_mekanism:essential_compact_naquadah_reactor"
+				type: "item"
+			}]
 			x: -5.0d
 			y: -1.0d
 		}
@@ -181,8 +174,8 @@
 			dependencies: ["3FC57EAE35A4448E"]
 			id: "3F59FBB68176B429"
 			tasks: [{
-				id: "65065B747865DE69"
-				item: "mekanismgenerators:fusion_reactor_controller"
+				id: "44DF6A1E212067C1"
+				item: "astral_mekanism:essential_compact_fusion_reactor"
 				type: "item"
 			}]
 			x: -7.0d

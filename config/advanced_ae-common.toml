@@ -2,22 +2,22 @@
 ["quantum computer"]
 	#Define the maximum dimensions of the Quantum Computer Multiblock.
 	#Range: 5 ~ 12
-	quantumComputerMaxSize = 7
+	quantumComputerMaxSize = 12
 	#Define the amount of Threads per Quantum Computer Accelerator.
 	#Range: 4 ~ 16
 	quantumComputerAcceleratorThreads = 8
 	#Define the maximum amount of multi threaders per Quantum Computer Multiblock.
 	#Range: 1 ~ 2
-	quantumComputerMaxMultiThreaders = 1
+	quantumComputerMaxMultiThreaders = 2
 	#Define the maximum amount of Data Entanglers per Quantum Computer Multiblock.
 	#Range: 1 ~ 2
-	quantumComputermaxDataEntanglers = 1
+	quantumComputermaxDataEntanglers = 2
 	#Define the multiplication factor of the multi threaders.
 	#Range: 2 ~ 8
-	quantumComputerMultiThreaderMultiplication = 4
+	quantumComputerMultiThreaderMultiplication = 6
 	#Define the multiplication factor of the data entanglers.
 	#Range: 2 ~ 8
-	quantumComputerDataEntanglerMultiplication = 4
+	quantumComputerDataEntanglerMultiplication = 6
 
 ["quantum armor"]
 	#Define the maximum walk speed increase. Values are divided by 10 before use.

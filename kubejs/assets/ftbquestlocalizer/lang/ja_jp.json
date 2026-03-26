@@ -161,6 +161,7 @@
   "ftbquests.chapter.628F7C3A3B42F51A.quest3.title": "空島モード",
   "ftbquests.chapter.628F7C3A3B42F51A.title": "モード選択",
   "ftbquests.chapter.ae2.quest1.title": "チャンネル切り替え : 無限",
+  "ftbquests.chapter.ae2.quest10.description1": "Modpackでの改変により、\u0026a12x12x12\u0026rまでの大きさで作成できます。",
   "ftbquests.chapter.ae2.quest13.description1": "\u0026a石切台\u0026rで\u0026aP2Pトンネル\u0026rの種類を切り替えられます",
   "ftbquests.chapter.ae2.quest14.subtitle": "レインボーなアートを描こう",
   "ftbquests.chapter.ae2.quest18.task_6879066666931072408.title": "Any #mek1000:ae2/any_cell",
@@ -226,6 +227,13 @@
   "ftbquests.chapter.machines.quest2.description3": "\u0026a8枚積むことで1tickでの加工\u0026rが可能になります。",
   "ftbquests.chapter.machines.quest2.description4": "\u0026c電力消費量が更に上昇する\u0026rため気をつけてください。",
   "ftbquests.chapter.machines.quest3.description1": "Mekanism機械に装着することで、\u0026a自動搬入機能を追加\u0026rできます。",
-  "ftbquests.chapter.machines.quest3.description2": "\u0026c入出力設定からは設定を変更できず\u0026r、\u0026c右のタブのメニューから設定する\u0026r必要があります。"
-  
+  "ftbquests.chapter.machines.quest3.description2": "\u0026c入出力設定からは設定を変更できず\u0026r、\u0026c右のタブのメニューから設定する\u0026r必要があります。",
+  "ftbquests.chapter.machines.quest4.description1": "高速で骨粉を生産できます",
+  "ftbquests.chapter.machines.quest5.title": "コンパクト炉",
+  "ftbquests.chapter.machines.quest5.description1": "\u0026aAstral Mekanism\u0026rのコンパクトリアクターは稼働に熱が必要です。",
+  "ftbquests.chapter.machines.quest5.description2": "\u0026a抵抗型発熱器\u0026rを利用すると簡単に熱を発生させられます。",
+  "ftbquests.chapter.machines.quest5.description3": "リアクターの種類によって必要な熱量が変わります。JEIを見ましょう。",
+  "ftbquests.chapter.machines.quest6.title": "アイテム圧縮・解凍",
+  "ftbquests.chapter.machines.quest6.description1": "アイテムを圧縮・解凍することができます。",
+  "ftbquests.chapter.machines.quest7.description1": "アイテムを高速で吹き込みガスに変換できます。"
 }

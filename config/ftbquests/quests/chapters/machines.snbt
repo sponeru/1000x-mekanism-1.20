@@ -117,6 +117,83 @@
 			x: -2.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["68335D23BF84FEE3"]
+			description: ["{ftbquests.chapter.machines.quest4.description1}"]
+			id: "35982E4C23737473"
+			tasks: [{
+				id: "0FB55A0F986EF798"
+				item: "astral_mekanism:mekanical_composter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0A5CBA30DFD5CDE7"
+				"3F59FBB68176B429"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.machines.quest5.description1}"
+				"{ftbquests.chapter.machines.quest5.description2}"
+				"{ftbquests.chapter.machines.quest5.description3}"
+			]
+			id: "1033F47481D7DC8E"
+			rewards: [{
+				id: "10E807DAE5308AFA"
+				item: "mekanism:resistive_heater"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D7293F048924F85"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mek1000:compact_reactors"
+					}
+				}
+				title: "Any #mek1000:compact_reactors"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.machines.quest5.title}"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68335D23BF84FEE3"]
+			description: ["{ftbquests.chapter.machines.quest6.description1}"]
+			id: "35D026DD23C63E30"
+			tasks: [
+				{
+					id: "3A2A014A05CDAD28"
+					item: "astral_mekanism:item_compressor"
+					type: "item"
+				}
+				{
+					id: "7674E9993DFD75C4"
+					item: "astral_mekanism:item_unzipper"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.machines.quest6.title}"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E1C88D7480C205E"]
+			description: ["{ftbquests.chapter.machines.quest7.description1}"]
+			id: "6FBA79749E79F82D"
+			tasks: [{
+				id: "69E3304FF2F726BA"
+				item: "astral_mekanism:infuse_synthesizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
 	]
 	title: "{ftbquests.chapter.machines.title}"
 }

@@ -110,6 +110,7 @@
 		}
 		{
 			dependencies: ["3EC8578BF8588081"]
+			description: ["{ftbquests.chapter.ae2.quest10.description1}"]
 			id: "6ED653CBAC9C7950"
 			rewards: [
 				{

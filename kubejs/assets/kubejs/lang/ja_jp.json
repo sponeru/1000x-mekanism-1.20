@@ -223,7 +223,10 @@
 
   "item.mek1000.experience_crystal" : "経験値クリスタル",
   "item.mek1000.bio_compose" : "バイオ混合物",
+  "item.mek1000.quartz_compose" : "クオーツ混合物",
 
   "block.mek1000.pdt" : "並行次元転移機 (P.D.T)",
-  "block.mek1000.pdt_i" : "並行次元転移機 (P.D.T)"
+  "block.mek1000.pdt_i" : "並行次元転移機 (P.D.T)",
+
+  "item.mek1000.large_yellow_cake_uranium": "11号イエローケーキ状のウラン"
 }

@@ -1,0 +1,13 @@
+name = "FastBoot"
+filename = "fastboot-1.20.x-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0820d6611bdf664cc84bf351089e75998a9f1962"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5696829
+project-id = 1030285
