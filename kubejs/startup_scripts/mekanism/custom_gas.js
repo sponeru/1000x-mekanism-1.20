@@ -4,4 +4,5 @@ StartupEvents.registry("mekanism:gas", event => {
     event.create('mek1000:soysauce').fuel(1, 5).color(0x15080d)
     event.create('mek1000:dvt').fuel(10, 2147483647).color(0xdda0dd).displayName('DVT fuel')
     event.create('mek1000:astral_valine3g').fuel(1000, 2147483647).color(0xffd4fe).displayName('Astral Infused Valine3g')
+    event.create('mek1000:activated_beryllium').color(0x99bf00).displayName('Activated Beryllium')
 })
