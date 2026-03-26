@@ -4445,7 +4445,7 @@ metafile = true
 
 [[files]]
 file = "mods/astral-mekanism.pw.toml"
-hash = "b3b5e6dccda9083608a09ca007048f11e2f2b193c77d86634e38c301a3f0bff7"
+hash = "d13811b62585eb9fa0648da6da9a3bab477a8ea93a0d25afe767d95f213ad37c"
 metafile = true
 
 [[files]]
@@ -4746,6 +4746,11 @@ metafile = true
 [[files]]
 file = "mods/fast-leaf-decay.pw.toml"
 hash = "fd5aa059dd7e148e9ce801455b438425c0ad36537ce4b635edeb524900b15284"
+metafile = true
+
+[[files]]
+file = "mods/fastboot.pw.toml"
+hash = "d29b6a0cc5aa2d6402337f7545e89271b095a9ddab686e921d793afb5d1883ce"
 metafile = true
 
 [[files]]
