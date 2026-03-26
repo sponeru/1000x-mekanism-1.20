@@ -1,0 +1,7 @@
+ServerEvents.tags("item", event => {
+    let reactors = ['astral_mekanism:essential_compact_fusion_reactor', 'astral_mekanism:basic_standard_compact_fusion_reactor', 'astral_mekanism:advanced_compact_fusion_reactor', 'astral_mekanism:elite_compact_fusion_reactor', 'astral_mekanism:enchanted_ultimate_compact_fusion_reactor', 'astral_mekanism:absolute_overclocked_compact_fusion_reactor', 'astral_mekanism:supreme_quantum_compact_fusion_reactor', 'astral_mekanism:absolute_overclocked_compact_naquadah_reactor', 'astral_mekanism:supreme_quantum_compact_naquadah_reactor', 'astral_mekanism:cosmic_dense_compact_naquadah_reactor', 'astral_mekanism:infinite_multiversal_compact_naquadah_reactor', 'astral_mekanism:astral_compact_naquadah_reactor', 'astral_mekanism:cosmic_dense_compact_fusion_reactor', 'astral_mekanism:infinite_multiversal_compact_fusion_reactor', 'astral_mekanism:astral_compact_fusion_reactor', 'astral_mekanism:essential_compact_naquadah_reactor', 'astral_mekanism:basic_standard_compact_naquadah_reactor', 'astral_mekanism:advanced_compact_naquadah_reactor', 'astral_mekanism:elite_compact_naquadah_reactor', 'astral_mekanism:enchanted_ultimate_compact_naquadah_reactor']
+
+    reactors.forEach(element => {
+        event.add("mek1000:compact_reactors", element)
+    });
+})
