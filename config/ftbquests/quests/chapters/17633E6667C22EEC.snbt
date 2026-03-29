@@ -157,7 +157,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["016780D32B1ABC49"]
@@ -533,6 +533,23 @@
 				}
 			]
 			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			id: "18C3037FEF8444C6"
+			rewards: [{
+				count: 15
+				id: "4D92FCA3143065A9"
+				item: "mwgr:lava_generator"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31D4CED1E13A090C"
+				item: "mwgr:lava_generator"
+				type: "item"
+			}]
+			x: -2.5d
 			y: -1.0d
 		}
 	]
