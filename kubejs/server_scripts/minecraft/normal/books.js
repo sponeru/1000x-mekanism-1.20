@@ -8,4 +8,6 @@ ServerEvents.recipes((event) => {
         B: "minecraft:book",
         N: "minecraft:netherite_block",
     });
+
+    event.shapeless('minecraft:leather',['4x exdeorum:string_mesh'])
 });

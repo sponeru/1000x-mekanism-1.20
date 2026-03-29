@@ -227,5 +227,8 @@
   "ftbquests.chapter.machines.quest5.description3": "The amount of heat required depends on the type of reactor. Check JEI.",
   "ftbquests.chapter.machines.quest6.title": "Item Compression/Decompression",
   "ftbquests.chapter.machines.quest6.description1": "Allows you to compress and decompress items.",
-  "ftbquests.chapter.machines.quest7.description1": "Can rapidly convert items into Infusion Gas."
+  "ftbquests.chapter.machines.quest7.description1": "Can rapidly convert items into Infusion Gas.",
+  "ftbquests.chapter.machines.quest8.description1": "Allows you to split items, gases, liquids, and more at a set ratio.",
+  "ftbquests.chapter.machines.quest9.description1": "Can evenly distribute items, liquids, gases, etc., into \u0026aall slots of the machines\u0026r on the face set for output.",
+  "ftbquests.chapter.machines.quest9.description2": "It does not consider recipes, so when integrating it into auto-crafting, please register ingredients and finished products multiplied by the \u0026anumber of parallel machines\u0026r."
 }

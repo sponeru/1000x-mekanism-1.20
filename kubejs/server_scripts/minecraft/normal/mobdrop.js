@@ -52,6 +52,8 @@ ServerEvents.recipes(event => {
 
     event.recipes.mekanism.crushing("minecraft:sculk_vein",'minecraft:sculk')
 
+    event.shapeless('minecraft:milk_bucket',['minecraft:water_bucket','8x minecraft:white_dye'])
+
     event.custom({
         type: 'experienceobelisk:molecular_metamorphosis',
         ingredient1:
