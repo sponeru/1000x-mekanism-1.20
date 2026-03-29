@@ -4450,7 +4450,7 @@ metafile = true
 
 [[files]]
 file = "mods/astral-mekanism.pw.toml"
-hash = "d13811b62585eb9fa0648da6da9a3bab477a8ea93a0d25afe767d95f213ad37c"
+hash = "cf08213fa0f147c3fef0b8d8eeb498722710347140ec6be77bf46d0647035620"
 metafile = true
 
 [[files]]
@@ -4720,7 +4720,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "3242f1413350e3de9b70e11fd2dea74f92a0e877854f2830d20fd86b356a5fe9"
+hash = "74a3a958f6708de30ba0271fa74a85a1504f5173ea8eda381c1791bcd1f49d27"
 metafile = true
 
 [[files]]
@@ -4989,6 +4989,11 @@ hash = "29b62d42548542296d9932bcbb8a93ffba0b75b7cc859a67e596aeb1e048ace2"
 metafile = true
 
 [[files]]
+file = "mods/journeymap-integration.pw.toml"
+hash = "d439ee315a5f488532f8dd9c6f8055945f13bce067a4622cf547bd35408c3cd6"
+metafile = true
+
+[[files]]
 file = "mods/journeymap.pw.toml"
 hash = "664a573384edf644e9b788c7c29fe32593917ac8283bb794cc46b471a0a6504a"
 metafile = true
@@ -5065,7 +5070,7 @@ metafile = true
 
 [[files]]
 file = "mods/me-beam-former.pw.toml"
-hash = "f4e58a5e313483f4d0fd3fba8362c08cfed6b968103c609a5ba1c98b5664f0d4"
+hash = "93e0f7e8dc20641b35fccb0d455247419c829e52d6696b218969a3a0e144cfe8"
 metafile = true
 
 [[files]]
@@ -5155,7 +5160,7 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-water-generator-rebuild.pw.toml"
-hash = "37defeea2c954f20782c8eda3cf9e760963a23b511c29553e19a30e529f53d2c"
+hash = "06025d55a397e8f1f5e89abe8b2e4bab0b93781541a67c4354741faebe324c62"
 metafile = true
 
 [[files]]
@@ -5180,7 +5185,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-ae2-additions.pw.toml"
-hash = "aeabb520677e57dbf2adc0ceed50b37927f894bf0c9c0d06cb7bb91bf1343a65"
+hash = "b8b547d9d06d90eaf9e3d48d08fabe87b23a247e9f53384038b6c7be1d0457bc"
 metafile = true
 
 [[files]]
@@ -5281,6 +5286,16 @@ metafile = true
 [[files]]
 file = "mods/polylib.pw.toml"
 hash = "947d5f3b9213360b68e9b65a8d2d5111939e82e248cf61eb02137f119c6eaeb6"
+metafile = true
+
+[[files]]
+file = "mods/polymorph.pw.toml"
+hash = "8c65958007f81cdf1a57dac999ec7ffdde17cce6154c9a2f75bbb389fd11efbf"
+metafile = true
+
+[[files]]
+file = "mods/polymorphic-energistics.pw.toml"
+hash = "2d47877684bd91ad4c597b68bae4a8af3964011bfc0fd52e004469368f23b834"
 metafile = true
 
 [[files]]

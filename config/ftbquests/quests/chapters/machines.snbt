@@ -194,6 +194,33 @@
 			x: 0.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["4E1C88D7480C205E"]
+			description: ["{ftbquests.chapter.machines.quest8.description1}"]
+			id: "759D812041AFE78A"
+			tasks: [{
+				id: "2B119309BF20BB14"
+				item: "astral_mekanism:ratio_separator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E1C88D7480C205E"]
+			description: [
+				"{ftbquests.chapter.machines.quest9.description1}"
+				"{ftbquests.chapter.machines.quest9.description2}"
+			]
+			id: "3C895F378F4254A3"
+			tasks: [{
+				id: "5D834251498C4AD7"
+				item: "astral_mekanism:evenly_inserter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
 	]
 	title: "{ftbquests.chapter.machines.title}"
 }

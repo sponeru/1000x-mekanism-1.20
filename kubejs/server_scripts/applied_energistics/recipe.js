@@ -126,9 +126,9 @@ ServerEvents.recipes(event => {
           },
         },
         {
-          amount: 16,
+          amount: 1,
           ingredient: {
-            item: 'mek1000:library_of_babel',
+            item: 'mwgr:lava_generator',
           },
         },
         {
@@ -157,6 +157,48 @@ ServerEvents.recipes(event => {
       },
     });
 
+    event.remove({output:'mwgr:lava_generator'})
+    event.custom({
+      type: "advanced_ae:reaction",
+      energy: 5000000,
+      fluid: {
+        fluidStack: {
+          Amount: 16000,
+          FluidName: "astral_mekanism:mixed_lava",
+        },
+      },
+      input_items: [
+        {
+          amount: 1,
+          ingredient: {
+            item: 'mek1000:reinforced_steel_casing',
+          },
+        },
+        {
+          amount: 16,
+          ingredient: {
+            item: 'mek1000:library_of_babel',
+          },
+        },
+        {
+          amount: 8,
+          ingredient: {
+            item: 'minecraft:pointed_dripstone',
+          },
+        },
+        {
+          amount: 1,
+          ingredient: {
+            item: 'astral_mekanism:transformer',
+          },
+        },
+      ],
+      output: {
+        "#": 1,
+        "#c": "ae2:i",
+        id: 'mwgr:lava_generator',
+      },
+    });
 
     event.shaped(Item.of("mek1000:charged_redstone_block"), [
         'CCC',

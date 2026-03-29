@@ -235,5 +235,8 @@
   "ftbquests.chapter.machines.quest5.description3": "リアクターの種類によって必要な熱量が変わります。JEIを見ましょう。",
   "ftbquests.chapter.machines.quest6.title": "アイテム圧縮・解凍",
   "ftbquests.chapter.machines.quest6.description1": "アイテムを圧縮・解凍することができます。",
-  "ftbquests.chapter.machines.quest7.description1": "アイテムを高速で吹き込みガスに変換できます。"
+  "ftbquests.chapter.machines.quest7.description1": "アイテムを高速で吹き込みガスに変換できます。",
+  "ftbquests.chapter.machines.quest8.description1": "アイテムやガス、液体などを設定した割合で分割できます。",
+  "ftbquests.chapter.machines.quest9.description1": "搬出に設定した面にある\u0026a機械のスロット全て\u0026rに均等にアイテム・液体・ガスなどを搬入出来ます。",
+  "ftbquests.chapter.machines.quest9.description2": "レシピについては考慮しないため、自動クラフトに組み込む際には\u0026a機械の並列数倍\u0026rに素材と完成品を増やして登録してください。"
 }

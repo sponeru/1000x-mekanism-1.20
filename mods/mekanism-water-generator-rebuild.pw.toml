@@ -1,13 +1,13 @@
 name = "Mekanism Water Generator Rebuild"
-filename = "mwgr-1.0.0.jar"
+filename = "Mekanism-Water-Generator-Rebuild-1.1.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a7014e184891055a6849f855b1bdcba7dc921096"
+hash = "f658b5c784764dc878aaf2e339a2a560cbd8b069"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7285358
+file-id = 7827332
 project-id = 1396471
