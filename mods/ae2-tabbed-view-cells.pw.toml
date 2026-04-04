@@ -1,13 +1,13 @@
 name = "AE2: Tabbed View Cells"
-filename = "ae2tabs-1.20.1-1.0.jar"
+filename = "ae2tabs-1.20.1-1.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5b339d63d729e08035517afe02fc205135dd382a"
+hash = "5c71f0830ba9156c34938bfbfc999501abf468b1"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7802581
+file-id = 7841315
 project-id = 1492726

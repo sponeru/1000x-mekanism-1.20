@@ -1,6 +1,12 @@
 # 2.5.3 アップデート
 - 演算セルの作成個数調整
 - リソースパックのアップデート
+- アンモニア、硫酸をMekanism Elementのものに統合
+- Luxを合金ブロックで作成できるように(9倍速)
+- QuestのLangを修正
+- 石炭の倍化率を調整
+- Industrial Platformの追加
+- Modの更新
 
 # 2.5.2 アップデート
 - JourneyMap Integrationの追加

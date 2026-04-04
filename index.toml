@@ -4385,7 +4385,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2-tabbed-view-cells.pw.toml"
-hash = "6933fdc17cc57ac790b28d67cce862e83a65b5c85a89f85296822a7669bcd0ea"
+hash = "85d4d3c95a27b0a28fff6d2519b4dfb52380b225622fe9b55cdefeb4c0c6cb3c"
 metafile = true
 
 [[files]]
@@ -4740,7 +4740,7 @@ metafile = true
 
 [[files]]
 file = "mods/extendedae-plus.pw.toml"
-hash = "7ac4c2999c5b9049ddb24f150c30b89f060c0061e69f4ba6812e4899abb823fe"
+hash = "2d22ac3c8114580f06ff090bbf11bca58afc31959b09e9f4e1b62b6420eaa548"
 metafile = true
 
 [[files]]
@@ -4931,6 +4931,11 @@ metafile = true
 [[files]]
 file = "mods/iglee-library.pw.toml"
 hash = "47f5a531452dbd8f09b44727a76d417d57a26918dd39daaca0c266ac072525d3"
+metafile = true
+
+[[files]]
+file = "mods/industrial-platform.pw.toml"
+hash = "9f12246652fb4154938fff0bfe292136c535c4c09a82ded4ad235e8e3f882eca"
 metafile = true
 
 [[files]]
