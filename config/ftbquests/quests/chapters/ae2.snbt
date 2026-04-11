@@ -355,10 +355,10 @@
 						value: "mek1000:ae2/any_cell"
 					}
 				}
-				title: "{ftbquests.chapter.ae2.quest17.task_6879066666931072408.title}"
+				title: "{ftbquests.chapter.ae2.quest18.task_6879066666931072408.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest17.title}"
+			title: "{ftbquests.chapter.ae2.quest18.title}"
 			x: 3.5d
 			y: -1.0d
 		}
@@ -391,10 +391,10 @@
 						value: "mek1000:ae2/any_disk_drive"
 					}
 				}
-				title: "{ftbquests.chapter.ae2.quest18.task_7022662481880896196.title}"
+				title: "{ftbquests.chapter.ae2.quest19.task_7022662481880896196.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest18.title}"
+			title: "{ftbquests.chapter.ae2.quest19.title}"
 			x: 3.5d
 			y: -2.0d
 		}
@@ -415,10 +415,10 @@
 						value: "mek1000:ae2/any_fe_cell"
 					}
 				}
-				title: "{ftbquests.chapter.ae2.quest19.task_6814283282519938255.title}"
+				title: "{ftbquests.chapter.ae2.quest20.task_6814283282519938255.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest19.title}"
+			title: "{ftbquests.chapter.ae2.quest20.title}"
 			x: 3.5d
 			y: -3.0d
 		}
