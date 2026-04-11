@@ -3,7 +3,7 @@
 [general]
 	#The CurseForge project ID for the modpack
 	#Range: > 0
-	modpackProjectID = 0
+	modpackProjectID = 1280775
 	#The name of the modpack
 	modpackName = "Extraordinary Energy : Modern"
 	#The version of the modpack
