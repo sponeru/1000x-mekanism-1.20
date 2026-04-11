@@ -18,8 +18,6 @@ ServerEvents.recipes(event => {
         }
     })
 
-    event.shapeless("astral_mekanism:starlight_amethyst",["mek1000:starlight_amethyst"])
-
     event.custom({
         type: "mekanism:reaction",
         itemInput: { amount: 64, ingredient: { item: 'mek1000:iridium_singularity' } },

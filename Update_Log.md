@@ -7,6 +7,7 @@
 - Modの更新
 - 超高圧圧搾機の追加
 - 旧アメジストの星の輝きを削除
+- Stack Upgrade Integrationの追加
 
 
 TODO

@@ -4965,7 +4965,7 @@ metafile = true
 
 [[files]]
 file = "mods/iron-furnaces.pw.toml"
-hash = "1d461a57d4e64d5cdb416db0ee911c150e0ac08e13335ff525b2b5d0bef5844f"
+hash = "8a29668768e271e497991b609c4783da72c80f583e554f88a8751ec1d2fcc1d5"
 metafile = true
 
 [[files]]
@@ -5381,6 +5381,11 @@ metafile = true
 [[files]]
 file = "mods/squat-grow.pw.toml"
 hash = "7832f19493b4fa402c59c32c44860df73bbf14c9a1c5a08adfbd90463f44fbea"
+metafile = true
+
+[[files]]
+file = "mods/stack-upgrade-integration.pw.toml"
+hash = "3e9aaaf168a56aa299af1dac6580808073d6e4e0f44b249d4af362ae7392115c"
 metafile = true
 
 [[files]]
