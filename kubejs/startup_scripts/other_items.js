@@ -26,8 +26,7 @@ StartupEvents.registry("item", event => {
     event.create('mek1000:synced_bibliophage').texture('experienceobelisk:item/bibliophage').glow(true)
 
     event.create('mek1000:starlight_iridium').glow(true)
-    event.create('mek1000:starlight_amethyst').glow(true)
-
+    
     event.create('mek1000:large_yellow_cake_uranium').glow(true).texture('mekanism:item/yellow_cake_uranium')
 
     event.create('mek1000:solar_grade_silicon')
