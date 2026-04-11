@@ -29,6 +29,8 @@ ServerEvents.recipes(event => {
         event.remove({id:`astral_mekanism:processing/${value}/cluster`})
 
         event.remove({id:`astral_mekanism:processing/${value}/${value}`})
+    
+        event.remove({id:`astral_mekanism:starlight/${value}/ore`})
 
         event.remove({id:`astral_mekanism:unique_processing/${value}/ore`})
         event.remove({id:`astral_mekanism:unique_processing/${value}/purifying`})
@@ -38,6 +40,9 @@ ServerEvents.recipes(event => {
 
         event.remove({id:`astral_mekanism:unique_processing/${value}/dissolution`})
         event.remove({id:`astral_mekanism:unique_processing/${value}/washing`})
+        event.remove({id:`astral_mekanism:unique_processing/${value}/compressing`})
+        event.remove({id:`astral_mekanism:unique_processing/${value}/nucleosynthesizing`})
+        event.remove({id:`astral_mekanism:unique_processing/${value}/reconstruction`})
 
         event.remove({id:`astral_mekanism:unique_processing/${value}/dirty_slurry`})
         event.remove({id:`astral_mekanism:unique_processing/${value}/clean_slurry`})

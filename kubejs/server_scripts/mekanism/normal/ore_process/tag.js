@@ -49,6 +49,14 @@ ServerEvents.tags("item",(event) => {
 
     event.add('mek1000:ores/dense_certus_quartz', 'kubejs:dense_ore_certus_quartz')
     event.add('mek1000:ores/dense_certus_quartz', 'kubejs:dense_ore_certus_quartz_deepslate')
+
+    event.add('mekanism:clumps/diamond', 'astral_mekanism:compressed_diamond_ore')
+    event.add('mekanism:shards/diamond', 'astral_mekanism:sparkling_diamond_ore')
+    event.add('mekanism:crystals/diamond', 'astral_mekanism:enriched_diamond_ore')
+
+    event.add('mekanism:clumps/emerald', 'astral_mekanism:compressed_emerald_ore')
+    event.add('mekanism:shards/emerald', 'astral_mekanism:sparkling_emerald_ore')
+    event.add('mekanism:crystals/emerald', 'astral_mekanism:enriched_emerald_ore')
 })
 
 ServerEvents.tags("fluid",(event)=>{
