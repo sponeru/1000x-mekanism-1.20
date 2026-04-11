@@ -9,6 +9,6 @@ ServerEvents.recipes(event => {
         "fluidInput": { "amount": 1000, "fluid": "minecraft:water" },
         "gasInput": { "gas": "mekanism:sodium", "amount": 100 },
         "energyRequired": 40, "duration": 20,
-        "gasOutput": { "gas": "astral_mekanism:ammonia", "amount": 100 }
+        "gasOutput": { "gas": "mekanismelements:ammonia", "amount": 100 }
     })
 })
