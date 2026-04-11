@@ -8,7 +8,7 @@
 - 超高圧圧搾機の追加
 - 旧アメジストの星の輝きを削除
 - Stack Upgrade Integrationの追加
-
+- 負荷軽減のため無限融合炉の構成ブロックを通常のブロックに変更
 
 TODO
 - QuestのLangを修正

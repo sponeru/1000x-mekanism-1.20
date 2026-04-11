@@ -200,7 +200,7 @@ ServerEvents.recipes(event => {
 
   event.recipes.mekanism.enriching(
     "mek1000:compressed_sps_casing",
-    "64x mekanism:sps_casing"
+    "mekanism:sps_casing"
   );
 
   // tin casing craft
