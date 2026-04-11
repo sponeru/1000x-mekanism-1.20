@@ -17,6 +17,7 @@ jobs:
         run: |
           sed -i 's/^[[:blank:]]*modpackVersion = ".*"/\tmodpackVersion = "nightly-${{ env.SHA }}"/' config/bcc-common.toml
           sed -i 's/^version = ".*"/version = "nightly-${{ env.SHA }}"/' pack.toml
+          sed -i 's|VERSION_PLACEHOLDER|nightly-${{ env.SHA }}|' kubejs/config/client.properties
 
       - name: Install Packwiz
         uses: actionhippie/install-packwiz@v1

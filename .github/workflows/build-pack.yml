@@ -25,6 +25,7 @@ jobs:
         run: |
           sed -i 's/^[[:blank:]]*modpackVersion = ".*"/\tmodpackVersion = "${{ inputs.ver }}"/' config/bcc-common.toml
           sed -i 's/^version = ".*"/version = "${{ inputs.ver }}"/' pack.toml
+          sed -i 's|VERSION_PLACEHOLDER|${{ inputs.ver }}|' kubejs/config/client.properties
 
       - name: Build Packs
         run: |
