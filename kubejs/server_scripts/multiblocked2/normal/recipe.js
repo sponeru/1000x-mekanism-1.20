@@ -13,6 +13,16 @@ ServerEvents.recipes((event) => {
         B: 'mekanism:elite_control_circuit'
 
     })
+
+    event.shaped('mek1000:super_pressure_squeezer', [
+        'QQQ',
+        'QCQ',
+        'QQQ'
+    ], {
+        Q: 'integrateddynamics:mechanical_squeezer',
+        C: 'mek1000:electricity_resistant_reinforced_casing',
+    })
+    
     
     event.shapeless('mek1000:naquadah_reactor_helper',['minecraft:furnace','minecraft:book','minecraft:black_dye'])
 })

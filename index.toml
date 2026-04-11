@@ -4385,7 +4385,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2-tabbed-view-cells.pw.toml"
-hash = "6933fdc17cc57ac790b28d67cce862e83a65b5c85a89f85296822a7669bcd0ea"
+hash = "85d4d3c95a27b0a28fff6d2519b4dfb52380b225622fe9b55cdefeb4c0c6cb3c"
 metafile = true
 
 [[files]]
@@ -4406,6 +4406,11 @@ metafile = true
 [[files]]
 file = "mods/aea-aee.pw.toml"
 hash = "df5fba98e70ec3afa199f60d7bebe84448cbdd491fdf2076c4e7457278adce2c"
+metafile = true
+
+[[files]]
+file = "mods/aehelpers-more.pw.toml"
+hash = "c123a2816f70d3476320a674083d9b2f3119263eeb488f9f77147815a98e0423"
 metafile = true
 
 [[files]]
@@ -4450,7 +4455,7 @@ metafile = true
 
 [[files]]
 file = "mods/astral-mekanism.pw.toml"
-hash = "cf08213fa0f147c3fef0b8d8eeb498722710347140ec6be77bf46d0647035620"
+hash = "6a2e66aab2c4765f95a253ca4f3a9a9218f755ddd0a29853c15e8100a66e9dc0"
 metafile = true
 
 [[files]]
@@ -4735,7 +4740,7 @@ metafile = true
 
 [[files]]
 file = "mods/extendedae-plus.pw.toml"
-hash = "7ac4c2999c5b9049ddb24f150c30b89f060c0061e69f4ba6812e4899abb823fe"
+hash = "2d22ac3c8114580f06ff090bbf11bca58afc31959b09e9f4e1b62b6420eaa548"
 metafile = true
 
 [[files]]
@@ -4929,6 +4934,11 @@ hash = "47f5a531452dbd8f09b44727a76d417d57a26918dd39daaca0c266ac072525d3"
 metafile = true
 
 [[files]]
+file = "mods/industrial-platform.pw.toml"
+hash = "9f12246652fb4154938fff0bfe292136c535c4c09a82ded4ad235e8e3f882eca"
+metafile = true
+
+[[files]]
 file = "mods/integrated-dynamics.pw.toml"
 hash = "93b713085fa0c6a106fa69c4c9f77a6222f1f90f2beaaba8f07fa2d3ebf0e7ed"
 metafile = true
@@ -4955,7 +4965,7 @@ metafile = true
 
 [[files]]
 file = "mods/iron-furnaces.pw.toml"
-hash = "1d461a57d4e64d5cdb416db0ee911c150e0ac08e13335ff525b2b5d0bef5844f"
+hash = "8a29668768e271e497991b609c4783da72c80f583e554f88a8751ec1d2fcc1d5"
 metafile = true
 
 [[files]]
@@ -5374,6 +5384,11 @@ hash = "7832f19493b4fa402c59c32c44860df73bbf14c9a1c5a08adfbd90463f44fbea"
 metafile = true
 
 [[files]]
+file = "mods/stack-upgrade-integration.pw.toml"
+hash = "3e9aaaf168a56aa299af1dac6580808073d6e4e0f44b249d4af362ae7392115c"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "3eede8a7ebafb69840153ff51dbc879b0232799e90a834ab6d71274b1316179f"
 metafile = true
@@ -5455,7 +5470,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/ae2_bright_assets_and_redraws.pw.toml"
-hash = "e1795dfaae4e9891d835465dc8f0bc2ba7c50d1666c81238c7c16d0083350d00"
+hash = "bef2cd74f5a7b348b07e79fdc9cfb5be61db4848d83e36c1b769658b941f0737"
 metafile = true
 
 [[files]]

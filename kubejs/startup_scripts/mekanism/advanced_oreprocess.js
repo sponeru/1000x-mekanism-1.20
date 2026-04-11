@@ -164,146 +164,38 @@ StartupEvents.registry("mekanism:gas", (event) => {
     .color(0xffff80)
     .radioactivity(0.015);
 
-  //各種活性蒸気
-  event
-    .create(`mek1000:active_iron`)
-    .displayName("Active Compressed Iron Gas")
-    .color(0xffff80);
-  event
-    .create(`mek1000:active_copper`)
-    .displayName("Active Compressed Copper Gas")
-    .color(0xffff80);
-  event
-    .create(`mek1000:active_gold`)
-    .displayName("Active Compressed Gold Gas")
-    .color(0xf2cd67);
-  event
-    .create(`mek1000:active_osmium`)
-    .displayName("Active Compressed Osmium Gas")
-    .color(0x52bdca);
-  event
-    .create(`mek1000:active_tin`)
-    .displayName("Active Compressed Tin Gas")
-    .color(0xccccd9);
-  event
-    .create(`mek1000:active_lead`)
-    .displayName("Active Compressed Lead Gas")
-    .color(0xffff80);
-  event
-    .create(`mek1000:active_uranium`)
-    .displayName("Active Compressed Uranium Gas")
-    .color(0xffff80);
-  event
-    .create(`mek1000:active_iridium`)
-    .displayName("Active Compressed Iridium Gas")
-    .color(0xffff80);
-  event
-    .create(`mek1000:active_debri`)
-    .displayName("Active Compressed Acient Debri Gas")
-    .color(0x9c6a3e);
+    //各種活性蒸気
+    let activated_types = [
+      ["iron",0xffff80],
+      ["copper",0xffff80],
+      ["gold",0xf2cd67],
+      ["osmium",0x52bdca],
+      ["tin", 0xccccd9],
+      ["lead", 0xffff80],
+      ["uranium", 0xffff80],
+      ["iridium", 0xffff80],
+      ["debri", 0x9c6a3e],
+      ["redstone", 0xff0f0f],
+      ["quartz", 0xffafa0],
+      ["certus_quartz", 0xa0afff],
+      ["fluorite", 0xff9ff0],
+      ["coal", 0x333333],
+      ["diamond", 0x22a0f0],
+      ["emerald", 0x22f050],
+      ["lapis", 0x3333f0],
+    ]
 
-  event
-    .create(`mek1000:active_redstone`)
-    .displayName("Active Compressed Redstone Gas")
-    .color(0xff0f0f);
-  event
-    .create(`mek1000:active_quartz`)
-    .displayName("Active Compressed Quartz Gas")
-    .color(0xffafa0);
-  event
-    .create(`mek1000:active_certus_quartz`)
-    .displayName("Active Compressed Certus Quartz Gas")
-    .color(0xa0afff);
-  event
-    .create(`mek1000:active_fluorite`)
-    .displayName("Active Compressed Fluorite Gas")
-    .color(0xff9ff0);
-
-  event
-    .create(`mek1000:active_coal`)
-    .displayName("Active Compressed Coal Gas")
-    .color(0x333333);
-  event
-    .create(`mek1000:active_diamond`)
-    .displayName("Active Compressed Diamond Gas")
-    .color(0x22a0f0);
-  event
-    .create(`mek1000:active_emerald`)
-    .displayName("Active Compressed Emerald Gas")
-    .color(0x22f050);
-  event
-    .create(`mek1000:active_lapis`)
-    .displayName("Active Compressed Lapis Gas")
-    .color(0x3333f0);
-
-  event
-    .create(`mek1000:purified_iron`)
-    .displayName("Purified Compressed Iron Gas")
-    .color(0xffff80);
-  event
-    .create(`mek1000:purified_copper`)
-    .displayName("Purified Compressed Copper Gas")
-    .color(0xffff80);
-  event
-    .create(`mek1000:purified_gold`)
-    .displayName("Purified Compressed Gold Gas")
-    .color(0xf2cd67);
-  event
-    .create(`mek1000:purified_osmium`)
-    .displayName("Purified Compressed Osmium Gas")
-    .color(0x52bdca);
-  event
-    .create(`mek1000:purified_tin`)
-    .displayName("Purified Compressed Tin Gas")
-    .color(0xccccd9);
-  event
-    .create(`mek1000:purified_lead`)
-    .displayName("Purified Compressed Lead Gas")
-    .color(0xffff80);
-  event
-    .create(`mek1000:purified_uranium`)
-    .displayName("Purified Compressed Uranium Gas")
-    .color(0xffff80);
-  event
-    .create(`mek1000:purified_iridium`)
-    .displayName("Purified Compressed Iridium Gas")
-    .color(0xffff80);
-  event
-    .create(`mek1000:purified_debri`)
-    .displayName("Purified Compressed Acient Debri Gas")
-    .color(0x803c00);
-
-  event
-    .create(`mek1000:purified_redstone`)
-    .displayName("Purified Compressed Redstone Gas")
-    .color(0xff0f0f);
-  event
-    .create(`mek1000:purified_quartz`)
-    .displayName("Purified Compressed Quartz Gas")
-    .color(0xffafa0);
-  event
-    .create(`mek1000:purified_certus_quartz`)
-    .displayName("Purified Compressed Certus Quartz Gas")
-    .color(0xa0afff);
-  event
-    .create(`mek1000:purified_fluorite`)
-    .displayName("Purified Compressed Fluorite Gas")
-    .color(0xff9ff0);
-
-  event
-    .create(`mek1000:purified_coal`)
-    .displayName("Purified Compressed Coal Gas")
-    .color(0x333333);
-  event
-    .create(`mek1000:purified_diamond`)
-    .displayName("Purified Compressed Diamond Gas")
-    .color(0x22a0f0);
-  event
-    .create(`mek1000:purified_emerald`)
-    .displayName("Purified Compressed Emerald Gas")
-    .color(0x22f050);
-  event
-    .create(`mek1000:purified_lapis`)
-    .displayName("Purified Compressed Lapis Gas")
-    .color(0x3333f0);
+    activated_types.forEach(element =>{
+      event
+      .create(`mek1000:active_${element[0]}`)
+      .displayName(Text.translate("mek1000.active_gas.name", Text.translate(`mek1000.material.${element[0]}`)))
+      .tag(`mek1000:active_gas/${element[0]}`)
+      .color(element[1])
+      
+      event
+      .create(`mek1000:purified_${element[0]}`)
+      .displayName(Text.translate("mek1000.purified_gas.name",Text.translate(`mek1000.material.${element[0]}`)))
+      .tag(`mek1000:purified_gas/${element[0]}`)
+      .color(element[1])
+    })
 });

@@ -13,6 +13,12 @@ jobs:
       - name: short-sha
         uses: benjlevesque/short-sha@v3.0
 
+      - name: Inject nightly SHA into pack metadata
+        run: |
+          sed -i 's/^[[:blank:]]*modpackVersion = ".*"/\tmodpackVersion = "nightly-${{ env.SHA }}"/' config/bcc-common.toml
+          sed -i 's/^version = ".*"/version = "nightly-${{ env.SHA }}"/' pack.toml
+          sed -i 's|VERSION_PLACEHOLDER|nightly-${{ env.SHA }}|' kubejs/config/client.properties
+
       - name: Install Packwiz
         uses: actionhippie/install-packwiz@v1
 

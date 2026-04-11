@@ -1,3 +1,19 @@
+# 2.6.0 アップデート
+- 演算セルの作成個数調整
+- リソースパックのアップデート
+- アンモニア、硫酸をMekanism Elementのものに統合
+- 鉱石倍化スクリプトを書き直し
+- Industrial Platformの追加
+- Modの更新
+- 超高圧圧搾機の追加
+- 旧アメジストの星の輝きを削除
+- Stack Upgrade Integrationの追加
+- 負荷軽減のため無限融合炉の構成ブロックを通常のブロックに変更
+- Astral Mekanismの更新 (更新の影響で鉱石倍化レシピの変更がある)
+
+TODO
+- QuestのLangを修正
+
 # 2.5.2 アップデート
 - JourneyMap Integrationの追加
 - ケーブルの変換レシピの追加

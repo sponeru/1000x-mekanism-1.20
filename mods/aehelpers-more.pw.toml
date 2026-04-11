@@ -1,0 +1,13 @@
+name = "aehelpers-more"
+filename = "aehelpers_more-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "71f72030ea539b9034cf72e92b2a9771af0b8b7c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7657575
+project-id = 1468017

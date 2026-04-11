@@ -3,52 +3,52 @@
     "minecraft": true,
     "key": {
         "a": {
-            "item": "astral_mekanism:starlight_lead"
+            "item": "astral_mekanism:lead_starlight"
         },
         "b": {
-            "item": "astral_mekanism:starlight_uranium"
+            "item": "astral_mekanism:uranium_starlight"
         },
         "c": {
-            "item": "astral_mekanism:starlight_emerald"
+            "item": "astral_mekanism:emerald_starlight"
         },
         "d": {
-            "item": "astral_mekanism:starlight_diamond"
+            "item": "astral_mekanism:diamond_starlight"
         },
         "e": {
-            "item": "astral_mekanism:starlight_copper"
+            "item": "astral_mekanism:copper_starlight"
         },
         "f": {
-            "item": "astral_mekanism:starlight_quartz"
+            "item": "astral_mekanism:quartz_starlight"
         },
         "g": {
-            "item": "astral_mekanism:starlight_gold"
+            "item": "astral_mekanism:gold_starlight"
         },
         "h": {
             "item": "mek1000:starlight_iridium"
         },
         "i": {
-            "item": "astral_mekanism:starlight_coal"
+            "item": "astral_mekanism:coal_starlight"
         },
         "j": {
-            "item": "astral_mekanism:starlight_amethyst"
+            "item": "astral_mekanism:amethyst_starlight"
         },
         "k": {
-            "item": "astral_mekanism:starlight_redstone"
+            "item": "astral_mekanism:redstone_starlight"
         },
         "l": {
-            "item": "astral_mekanism:starlight_tin"
+            "item": "astral_mekanism:tin_starlight"
         },
         "m": {
-            "item": "astral_mekanism:starlight_iron"
+            "item": "astral_mekanism:iron_starlight"
         },
         "n": {
-            "item": "astral_mekanism:starlight_lapis_lazuli"
+            "item": "astral_mekanism:lapis_lazuli_starlight"
         },
         "o": {
-            "item": "astral_mekanism:starlight_osmium"
+            "item": "astral_mekanism:osmium_starlight"
         },
         "p": {
-            "item": "astral_mekanism:starlight_fluorite"
+            "item": "astral_mekanism:fluorite_starlight"
         },
         "q": {
             "item": "astral_mekanism:astral_rotary_condensentrator"

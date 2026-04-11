@@ -200,7 +200,7 @@ ServerEvents.recipes(event => {
 
   event.recipes.mekanism.enriching(
     "mek1000:compressed_sps_casing",
-    "64x mekanism:sps_casing"
+    "mekanism:sps_casing"
   );
 
   // tin casing craft
@@ -226,7 +226,7 @@ ServerEvents.recipes(event => {
   event.custom({
         "type": "evolvedmekanism:alloying",
         "extraInput": {
-            "amount": 8,
+            "amount": 4,
             "ingredient": {
                 "item": 'emextras:infinite_multiversal_control_circuit'
             }
@@ -238,12 +238,13 @@ ServerEvents.recipes(event => {
             }
         },
         "mainInput": {
-            "amount": 1,
+            "amount": 16,
             "ingredient": {
                 "item": 'mek1000:tin_casing',
             }
         },
         "output": {
+            "count": 16,
             "item": 'mek1000:super_computing_cell'
         }
     })
