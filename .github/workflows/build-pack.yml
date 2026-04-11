@@ -20,6 +20,12 @@ jobs:
       - name: Install Packwiz
         uses: actionhippie/install-packwiz@v1
 
+
+      - name: Inject nightly SHA into pack metadata
+        run: |
+          sed -i 's/^modpackVersion = "CHANGE_ME"/modpackVersion = "${{ inputs.ver }}"/' config/bcc-common.toml
+          sed -i 's/^version = ".*"/version = "${{ inputs.ver }}"/' pack.toml
+
       - name: Build Packs
         run: |
           packwiz curseforge export -o "extraordinary_energy_modern-${{ inputs.ver }}.zip"

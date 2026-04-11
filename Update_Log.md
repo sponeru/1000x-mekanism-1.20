@@ -2,11 +2,14 @@
 - 演算セルの作成個数調整
 - リソースパックのアップデート
 - アンモニア、硫酸をMekanism Elementのものに統合
-- Luxを合金ブロックで作成できるように(9倍速)
-- QuestのLangを修正
-- 石炭の倍化率を調整
+- 倍化スクリプトを書き直し
 - Industrial Platformの追加
 - Modの更新
+
+TODO
+- Luxを合金ブロックで作成できるように(9倍速)
+- QuestのLangを修正
+- バベルの図書館での
 
 # 2.5.2 アップデート
 - JourneyMap Integrationの追加

@@ -13,6 +13,11 @@ jobs:
       - name: short-sha
         uses: benjlevesque/short-sha@v3.0
 
+      - name: Inject nightly SHA into pack metadata
+        run: |
+          sed -i 's/^modpackVersion = "CHANGE_ME"/modpackVersion = "${{ env.SHA }}"/' config/bcc-common.toml
+          sed -i 's/^version = ".*"/version = "${{ env.SHA }}"/' pack.toml
+
       - name: Install Packwiz
         uses: actionhippie/install-packwiz@v1
 

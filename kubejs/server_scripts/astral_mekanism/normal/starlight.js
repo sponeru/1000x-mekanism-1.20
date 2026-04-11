@@ -1,10 +1,10 @@
 ServerEvents.recipes(event => {
     let starlights = ["coal", "diamond", "emerald", "fluorite", "lapis_lazuli", "quartz", "redstone", "iron", "gold", "copper", "tin", "lead", "uranium", "osmium","amethyst"]
 
-    event.remove({ id: `astral_mekanism:processing/certus_quartz/starlight` })
+    event.remove({ id: `astral_mekanism:processing_old/certus_quartz/starlight` })
 
     starlights.forEach(value => {
-        event.remove({ id: `astral_mekanism:processing/${value}/starlight` })
+        event.remove({ id: `astral_mekanism:processing_old/${value}/starlight` })
         if (value != "lapis_lazuli") {
             event.custom({
                 type: "mekanism:reaction",
