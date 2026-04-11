@@ -10,8 +10,6 @@
 - Stack Upgrade Integrationの追加
 - 負荷軽減のため無限融合炉の構成ブロックを通常のブロックに変更
 - Astral Mekanismの更新 (更新の影響で鉱石倍化レシピの変更がある)
-
-TODO
 - QuestのLangを修正
 
 # 2.5.2 アップデート
