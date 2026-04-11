@@ -57,6 +57,11 @@ ItemEvents.tooltip((event) => {
     Text.translate("mek1000.advanced_gas_burning_generator.desc"),
   ]);
 
+  event.add('mek1000:super_pressure_squeezer', [
+    Text.translate("mek1000.super_pressure_squeezer.desc"),
+    Text.translate("mek1000.multi.desc").aqua(),
+  ]);
+
   event.add("mek1000:skyblock_crafter", [
     Text.translate("mek1000.skyblock_crafter.desc"),
   ]);

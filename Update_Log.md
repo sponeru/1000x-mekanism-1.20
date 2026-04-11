@@ -5,11 +5,11 @@
 - 倍化スクリプトを書き直し
 - Industrial Platformの追加
 - Modの更新
+- 超高圧圧搾機の追加
+
 
 TODO
-- Luxを合金ブロックで作成できるように(9倍速)
 - QuestのLangを修正
-- バベルの図書館での
 
 # 2.5.2 アップデート
 - JourneyMap Integrationの追加
