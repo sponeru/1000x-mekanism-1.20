@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
         },
         "output": {
             "gas": "astral_mekanism:aqua_regia",
-            "amount": 1
+            "amount": 4
         }
     })
 })
