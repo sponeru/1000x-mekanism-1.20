@@ -3,4 +3,10 @@
 
 {
 	max_blocks: 256
+	merge_tags: [
+		"minecraft:base_stone_overworld"
+		"c:*_ores"
+		"forge:ores/*"
+		"integrateddynamics:menril_logs"
+	]
 }

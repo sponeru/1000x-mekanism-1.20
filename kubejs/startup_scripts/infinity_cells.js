@@ -33,4 +33,13 @@ StartupEvents.registry("item", event => {
                 keys.add(AEKeyHelper.item(value))
             })
         }))
+
+    event.create("mek1000:evaporation_drive", "meinfinitycell:infinities_cell").setName(Text.literal("Evaporation")).setKeys(KeyList.create().adds(
+        keys => {
+            keys.add(MekanismKeyHelper.gas("mekanism:oxygen"))
+            keys.add(MekanismKeyHelper.gas("mekanism:hydrogen"))
+            keys.add(MekanismKeyHelper.gas("mekanism:sodium"))
+            keys.add(MekanismKeyHelper.gas("mekanism:hydrogen_chloride"))
+            keys.add(MekanismKeyHelper.gas("mekanism:chlorine"))
+        }))
 })

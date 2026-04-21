@@ -60,6 +60,19 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "mekanism:painting",
         "itemInput": {
+            "ingredient": { "item": 'minecraft:wheat_seeds' },
+            "amount": 1
+        },
+        "chemicalInput": {
+            "pigment": "mekanism:red",
+            "amount": 50
+        },
+        "output": 'minecraft:nether_wart'
+    })
+
+    event.custom({
+        "type": "mekanism:painting",
+        "itemInput": {
             "ingredient": { "item": 'minecraft:grass' },
             "amount": 1
         },
