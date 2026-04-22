@@ -5114,6 +5114,11 @@ hash = "ab2da0bc8e41e1e8244a8f26d55344eb4fb667ced0794332fe4c8a658f091439"
 metafile = true
 
 [[files]]
+file = "mods/mekanism-config-card-upgrades.pw.toml"
+hash = "ade9507ec9c158f754f816cc0905157e15ea017101dbd44ac69c1ba157d1234d"
+metafile = true
+
+[[files]]
 file = "mods/mekanism-covers.pw.toml"
 hash = "657abef45baa4976f38ba410fe3d4cea9c21ca43edbd488c375f83a8d25ff0ff"
 metafile = true

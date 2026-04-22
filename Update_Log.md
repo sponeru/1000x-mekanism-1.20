@@ -5,6 +5,8 @@
 - メンリルの原木を全て破壊できるように
 - クエストの追加
 - 鉱石倍化のミスを修正
+- 酸化レシピを追加
+- Mekanism Config Card Upgradesの追加
 
 # 2.6.3 アップデート (Hotfix)
 - Calcarine Matrixのレシピ修正

@@ -235,13 +235,13 @@ ServerEvents.recipes(event => {
           },
         },
         {
-          amount: 24,
+          amount: 48,
           ingredient: {
             item: 'mekanism_empowered:upgrade_empowered_speed',
           },
         },
         {
-          amount: 24,
+          amount: 48,
           ingredient: {
             item: 'mekanism_empowered:upgrade_empowered_energy',
           },

@@ -48,4 +48,5 @@ ServerEvents.recipes(event => {
     oxidize('mek1000:compressed_purified_gold_rawore', 'mek1000:vaporized_gold', 8100)
     oxidize('mek1000:compressed_purified_certus_quartz_rawore', 'mek1000:vaporized_certus', 8100)
     oxidize('mek1000:compressed_purified_iridium_rawore', 'mek1000:vaporized_iridium', 8100)
+    oxidize('mek1000:compressed_purified_redstone_rawore', 'mek1000:vaporized_redstone', 24000)
 })
