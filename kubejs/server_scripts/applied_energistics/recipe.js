@@ -116,13 +116,13 @@ ServerEvents.recipes(event => {
         {
           amount: 1,
           ingredient: {
-            item: 'emextras:supreme_quantum_smelting_factory',
+            item: 'mekanism:energized_smelter',
           },
         },
         {
           amount: 1,
           ingredient: {
-            item: 'emextras:supreme_quantum_crushing_factory',
+            item: 'mekanism:crusher',
           },
         },
         {
@@ -147,6 +147,12 @@ ServerEvents.recipes(event => {
           amount: 16,
           ingredient: {
             item: 'mekanism_empowered:upgrade_empowered_energy',
+          },
+        },
+        {
+          amount: 2,
+          ingredient: {
+            item: 'evolvedmekanism:max_tier_installer',
           },
         },
       ],
@@ -199,6 +205,61 @@ ServerEvents.recipes(event => {
         id: 'mwgr:lava_generator',
       },
     });
+
+    event.custom({
+      type: "advanced_ae:reaction",
+      energy: 5000000,
+      fluid: {
+        fluidStack: {
+          Amount: 16000,
+          FluidName: "advanced_ae:quantum_infusion_source",
+        },
+      },
+      input_items: [
+        {
+          amount: 1,
+          ingredient: {
+            item: 'mwgr:water_generator',
+          },
+        },
+        {
+          amount: 2,
+          ingredient: {
+            item: 'morethermalevaporationcompat:infinite_multiversal_compact_thermal_evaporation',
+          },
+        },
+        {
+          amount: 4,
+          ingredient: {
+            item: 'mekanism:electrolytic_separator',
+          },
+        },
+        {
+          amount: 48,
+          ingredient: {
+            item: 'mekanism_empowered:upgrade_empowered_speed',
+          },
+        },
+        {
+          amount: 48,
+          ingredient: {
+            item: 'mekanism_empowered:upgrade_empowered_energy',
+          },
+        },
+        {
+          amount: 4,
+          ingredient: {
+            item: 'evolvedmekanism:max_tier_installer',
+          },
+        },
+      ],
+      output: {
+        "#": 1,
+        "#c": "ae2:i",
+        id: 'mek1000:evaporation_drive',
+      },
+    });
+
 
     event.shaped(Item.of("mek1000:charged_redstone_block"), [
         'CCC',

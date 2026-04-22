@@ -4455,7 +4455,7 @@ metafile = true
 
 [[files]]
 file = "mods/astral-mekanism.pw.toml"
-hash = "96ca128471d7f8b1344f7d6d43d86100e83145ae640d74e5feaf61747ac2124a"
+hash = "b97b838b349469d700d32d991aaabc208bf8b98846bb85887a7628d83cffa7fa"
 metafile = true
 
 [[files]]
@@ -5100,7 +5100,7 @@ metafile = true
 
 [[files]]
 file = "mods/mekajadeupgrades-unofficial.pw.toml"
-hash = "1ef6662430ba928b56f5d58723c468c5fccfdf16319f57b98e68579f0169465f"
+hash = "b8a124431e38397f27635fedb8b1ee36260af0db4e2cb8f2bce55cc4c6570f28"
 metafile = true
 
 [[files]]
@@ -5111,6 +5111,11 @@ metafile = true
 [[files]]
 file = "mods/mekanism-advancedgenerators.pw.toml"
 hash = "ab2da0bc8e41e1e8244a8f26d55344eb4fb667ced0794332fe4c8a658f091439"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-config-card-upgrades.pw.toml"
+hash = "ade9507ec9c158f754f816cc0905157e15ea017101dbd44ac69c1ba157d1234d"
 metafile = true
 
 [[files]]
@@ -5220,7 +5225,7 @@ metafile = true
 
 [[files]]
 file = "mods/morethermalevaporation.pw.toml"
-hash = "aeddc75035091714820b4a916d620ad7a112a6ecf83073025b133a4316c06e04"
+hash = "991f2770b427645b2b7a8b79ccc51528375a2421d7f40a24d52da7c3f6c943c5"
 metafile = true
 
 [[files]]
@@ -5385,7 +5390,7 @@ metafile = true
 
 [[files]]
 file = "mods/stack-upgrade-integration.pw.toml"
-hash = "3e9aaaf168a56aa299af1dac6580808073d6e4e0f44b249d4af362ae7392115c"
+hash = "e882db4a1b406026edaeaea47b43f091cdbce23ef61eaed315da51070a73cd27"
 metafile = true
 
 [[files]]

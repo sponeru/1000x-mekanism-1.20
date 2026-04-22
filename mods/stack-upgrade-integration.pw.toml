@@ -1,13 +1,13 @@
 name = "Stack Upgrade Integration"
-filename = "stack_upgrade_integration-1.0.0-all.jar"
+filename = "stack_upgrade_integration-1.0.1-all.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "345f7c27dd5665877b6b4d5505c291f93391391b"
+hash = "e38c843feb19bfca37afb9d2d9dc98c54043fdd1"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7909236
+file-id = 7915901
 project-id = 1510741

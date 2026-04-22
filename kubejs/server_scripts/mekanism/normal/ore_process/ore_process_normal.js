@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
             dissolving_dense_ore: 5400,
 
             enrich_ore: 8,
-            purifying_ore: 32,
+            purifying_ore: 16,
             injecting_ore: 64,
             dissolving_ore: 10000,
 
@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
             dust: `forge:dusts/${material}`,
             dirty_dust: `mekanism:dirty_dusts/${material}`,
             clump: `mekanism:clumps/${material}`,
-            shard: `mekanism:shards/${material}`,
+            shard: `mekanism:shards/${material}`, 
             crystal: `mekanism:crystals/${material}`,
 
             compressed_clump: `mek1000:ores/compressed_clump/${material}`,
@@ -467,11 +467,11 @@ ServerEvents.recipes(event => {
         //高密度鉱石倍化処理
         function dense_ore_process() {
             //濃縮機
-            event.recipes.mekanism.enriching(tag_to_item(tag_material.dust, doubling_rate.enrich_dense_ore), `#${ore.dense_ore}`)
+            event.recipes.mekanism.enriching(tag_to_item(tag_material.compressed_dust, doubling_rate.enrich_dense_ore), `#${ore.dense_ore}`)
             //浄化室
-            event.recipes.mekanism.purifying(tag_to_item(tag_material.clump, doubling_rate.purifying_dense_ore), `#${ore.dense_ore}`, "1x mekanism:oxygen")
+            event.recipes.mekanism.purifying(tag_to_item(tag_material.compressed_clump, doubling_rate.purifying_dense_ore), `#${ore.dense_ore}`, "1x mekanism:oxygen")
             //注入室
-            event.recipes.mekanism.injecting(tag_to_item(tag_material.shard, doubling_rate.injecting_dense_ore), `#${ore.dense_ore}`, "1x mekanism:hydrogen_chloride")
+            event.recipes.mekanism.injecting(tag_to_item(tag_material.compressed_shard, doubling_rate.injecting_dense_ore), `#${ore.dense_ore}`, "1x mekanism:hydrogen_chloride")
             //溶解室
             event.custom({
                 type: "mekanism:dissolution",

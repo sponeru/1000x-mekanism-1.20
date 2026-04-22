@@ -586,6 +586,47 @@
 			x: 1.5d
 			y: -4.0d
 		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "1117CC211DFC13CE"
+			tasks: [{
+				id: "607B278025FDA882"
+				item: "mek1000:evaporation_drive"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["166C118248FF8548"]
+			description: [
+				"{ftbquests.chapter.ae2.quest29.description1}"
+				"{ftbquests.chapter.ae2.quest29.description2}"
+			]
+			id: "651A594A7EE485DC"
+			tasks: [{
+				id: "5C3A59A98B4C899E"
+				item: "astral_mekanism:mekanism_machine_upgrade_tool"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			description: [
+				"{ftbquests.chapter.ae2.quest30.description1}"
+				"{ftbquests.chapter.ae2.quest30.description2}"
+			]
+			id: "76D9C7A1A4B62890"
+			tasks: [{
+				id: "764EEB1BF92C79F1"
+				item: "extendedae_plus:infinity_biginteger_cell"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
 	]
 	subtitle: ["{ftbquests.chapter.ae2.subtitle0}"]
 	title: "{ftbquests.chapter.ae2.title}"
