@@ -7,6 +7,8 @@
 - 鉱石倍化のミスを修正
 - 酸化レシピを追加
 - Mekanism Config Card Upgradesの追加
+- Homeの最大数を10に変更
+- AE2とそのアドオンのカード系アイテムのみ最大スタック数を64個に変更
 
 # 2.6.3 アップデート (Hotfix)
 - Calcarine Matrixのレシピ修正
