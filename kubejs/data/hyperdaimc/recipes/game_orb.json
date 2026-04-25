@@ -50,155 +50,74 @@
         "p": {
             "item": "astral_mekanism:fluorite_starlight"
         },
-        "q": {
-            "item": "astral_mekanism:astral_rotary_condensentrator"
-        },
-        "r": {
-            "item": "astral_mekanism:astral_chemical_injection_chamber"
-        },
-        "s": {
-            "item": "astral_mekanism:astral_purification_chamber"
-        },
-        "t": {
-            "item": "astral_mekanism:astral_chemical_infuser"
-        },
-        "u": {
-            "item": "astral_mekanism:astral_green_house"
-        },
-        "v": {
-            "item": "astral_mekanism:astral_osmium_compressor"
-        },
-        "w": {
-            "item": "astral_mekanism:astral_precision_sawmill"
-        },
-        "x": {
-            "item": "astral_mekanism:astral_chemical_oxidizer"
-        },
-        "y": {
-            "item": "astral_mekanism:astral_dissolution_chamber"
-        },
-        "z": {
-            "item": "astral_mekanism:astral_prc"
-        },
         "A": {
-            "item": "astral_mekanism:astral_transformer"
-        },
-        "B": {
-            "item": "astral_mekanism:astral_enrichment_chamber"
-        },
-        "C": {
-            "item": "astral_mekanism:astral_electrolytic_separator"
-        },
-        "D": {
-            "item": "astral_mekanism:astronomical_astral_energized_smelting_factory"
-        },
-        "E": {
-            "item": "astral_mekanism:astral_isotopic_centrifuge"
-        },
-        "F": {
-            "item": "astral_mekanism:astral_mekanical_charger"
-        },
-        "G": {
-            "item": "astral_mekanism:astral_crusher"
-        },
-        "H": {
-            "item": "astral_mekanism:astral_mekanical_inscriber"
-        },
-        "I": {
-            "item": "astral_mekanism:astral_crystallizer"
-        },
-        "J": {
-            "item": "astral_mekanism:astral_combiner"
-        },
-        "K": {
-            "item": "astral_mekanism:astral_chemical_washer"
-        },
-        "L": {
-            "item": "astral_mekanism:astral_gna"
-        },
-        "M": {
-            "item": "astral_mekanism:astral_metallurgic_infuser"
-        },
-        "N": {
-            "item": "astral_mekanism:astral_sps"
-        },
-        "O": {
             "item": "hyperdaimc:sky_gist"
         },
-        "P": {
+        "B": {
             "item": "hyperdaimc:leaping_gist"
         },
-        "Q": {
+        "C": {
             "item": "hyperdaimc:fear_gist"
         },
-        "R": {
+        "D": {
             "item": "hyperdaimc:fairy_gist"
         },
-        "S": {
+        "E": {
             "item": "hyperdaimc:taint_gist"
         },
-        "T": {
+        "F": {
             "item": "hyperdaimc:love_gist"
         },
-        "U": {
+        "G": {
             "item": "hyperdaimc:adventure_gist"
         },
-        "V": {
+        "H": {
             "item": "hyperdaimc:destruction_gist"
         },
-        "W": {
+        "I": {
             "item": "hyperdaimc:contraption_gist"
         },
-        "X": {
+        "1": {
             "item": "mekanism:creative_energy_cube"
         },
-        "Y": {
+        "2": {
             "item": "mekanism:creative_fluid_tank"
         },
-        "Z": {
+        "3": {
             "item": "ae2:creative_energy_cell"
         },
-        "1": {
+        "4": {
             "item": "mekanism:creative_chemical_tank"
         },
-        "2": {
+        "5": {
             "item": "emextras:infinite_multiversal_tier_installer"
         },
-        "3": {
-            "item": "astral_mekanism:astral_alloyer"
-        },
-        "4": {
-            "item": "astral_mekanism:astral_solidification_chamber"
-        },
-        "5": {
-            "item": "astral_mekanism:astral_thermalizer"
-        },
-        "6": {
-            "item": "astral_mekanism:astral_formulaic_assemblicator"
-        },
-        "7": {
-            "item": "astral_mekanism:astral_fluid_infuser"
-        },
-        "8": {
-            "item": "astral_mekanism:astral_chemixer"
-        },
-        "9": {
-            "item": "astral_mekanism:astral_antiprotonic_nucleosynthesizer"
-        },
         "!": {
-            "item": "astral_mekanism:astral_apt"
+            "item": "mek1000:astral_soul"
+        },
+        "@": {
+            "item": "mek1000:applied_soul"
+        },
+        "#": {
+            "item": "mek1000:integrated_soul"
+        },
+        "$": {
+            "item": "mek1000:cognition_soul"
+        },
+        "0": {
+            "item": "mek1000:infinity_ingot"
         }
     },
     "pattern": [
-        "   aqp   ",
-        " 7brOFo9 ",
-        "8csXG1En!",
-        "dt2HSN2Dm",
-        "uPITWVMRC",
-        "ev2JUL2Bl",
-        "3fwYKZAk6",
-        " 4gxQzj5 ",
-        "   hyi   "
+        "   a0p   ",
+        "  b5A5o  ",
+        " c10E04n ",
+        "d500!005m",
+        "0BF@I$HD0",
+        "e500#005l",
+        " f20G03k ",
+        "  g5C5j  ",
+        "   h0i   "
     ],
     "result": {
         "item": "hyperdaimc:game_orb"

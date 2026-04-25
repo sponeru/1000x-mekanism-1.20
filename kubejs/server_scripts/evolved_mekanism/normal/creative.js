@@ -55,4 +55,29 @@ ServerEvents.recipes((event) => {
             "item": 'evolvedmekanism:block_alloy_creative'
         }
     })
+
+    event.custom({
+        "type": "evolvedmekanism:alloying",
+        "extraInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'astral_mekanism:illusion_control_circuit'
+            }
+        },
+        "secondExtraInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'evolvedmekanism:block_alloy_creative'
+            }
+        },
+        "mainInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'astral_mekanism:starry_sky_control_processor',
+            }
+        },
+        "output": {
+            "item": 'evolvedmekanism:creative_control_circuit'
+        }
+    })
 })

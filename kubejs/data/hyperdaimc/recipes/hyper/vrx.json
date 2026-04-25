@@ -16,7 +16,7 @@
             "item": "hyperdaimc:game_orb"
         },
         "A": {
-            "item": "evolvedmekanism:block_alloy_creative"
+            "item": "evolvedmekanism:creative_control_circuit"
         },
         "S": {
             "item": "astral_mekanism:spacetime_modulation_core"
@@ -49,7 +49,7 @@
             "item": "expandedae:exp_crafting_accelerator_1m"
         },
         "P": {
-            "item": "megacells:256m_crafting_storage"
+            "item": "astral_mekanism:firmament_energy_cell"
         }
     },
     "result": {

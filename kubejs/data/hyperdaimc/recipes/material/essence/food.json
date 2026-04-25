@@ -1,0 +1,25 @@
+{
+  "type": "astral_mekanism:reconstruction",
+  "duration": 100,
+  "fluidInput": {
+    "amount": 2000000000,
+    "fluid": "mekanism:nutritional_paste"
+  },
+  "gasInput": {
+    "amount": 500000000000,
+    "gas": "astral_mekanism:interstellar_antimatter"
+  },
+  "gasOutput": {
+    "amount": 1,
+    "gas": "mekanism:nuclear_waste"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "hyperdaimc:bug_star"
+    }
+  },
+  "itemNotConsumed": false,
+  "itemOutput": {
+    "item": "hyperdaimc:food_essence"
+  }
+}

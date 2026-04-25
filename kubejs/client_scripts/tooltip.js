@@ -73,7 +73,39 @@ ItemEvents.tooltip((event) => {
   event.add('mek1000:naquadah_reactor_helper', [
     Text.translate("mek1000.naquadah_reactor_helper.desc").aqua(),
   ]);
+
+  event.add('mek1000:astral_soul', [
+    Text.translate("mek1000.astral_soul.desc.1").darkPurple(),
+    Text.translate("mek1000.astral_soul.desc.2").darkPurple(),
+    Text.translate("mek1000.astral_soul.desc.3").darkPurple(),
+    Text.translate("mek1000.astral_soul.desc.4").darkPurple(),
+    Text.translate("mek1000.astral_soul.desc.5").darkPurple(),
+  ]);
   
+  event.add('mek1000:applied_soul', [
+    Text.translate("mek1000.applied_soul.desc.1").blue(),
+    Text.translate("mek1000.applied_soul.desc.2").blue(),
+    Text.translate("mek1000.applied_soul.desc.3").blue(),
+    Text.translate("mek1000.applied_soul.desc.4").blue(),
+    Text.translate("mek1000.applied_soul.desc.5").blue(),
+  ]);
+
+  event.add('mek1000:integrated_soul', [
+    Text.translate("mek1000.integrated_soul.desc.1").aqua(),
+    Text.translate("mek1000.integrated_soul.desc.2").aqua(),
+    Text.translate("mek1000.integrated_soul.desc.3").aqua(),
+    Text.translate("mek1000.integrated_soul.desc.4").aqua(),
+    Text.translate("mek1000.integrated_soul.desc.5").aqua(),
+  ]);
+
+  event.add('mek1000:cognition_soul', [
+    Text.translate("mek1000.cognition_soul.desc.1").green(),
+    Text.translate("mek1000.cognition_soul.desc.2").green(),
+    Text.translate("mek1000.cognition_soul.desc.3").green(),
+    Text.translate("mek1000.cognition_soul.desc.4").green(),
+    Text.translate("mek1000.cognition_soul.desc.5").green(),
+  ]);
+
   event.add("mek1000:the_null", [Text.translate("item.mek1000.the_null.desc")]);
 });
 

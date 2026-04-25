@@ -237,5 +237,34 @@
   "block.mek1000.pdt" : "並行次元転移機 (P.D.T)",
   "block.mek1000.pdt_i" : "並行次元転移機 (P.D.T)",
 
-  "item.mek1000.large_yellow_cake_uranium": "11号イエローケーキ状のウラン"
+  "item.mek1000.large_yellow_cake_uranium": "11号イエローケーキ状のウラン",
+
+  "item.mek1000.astral_soul": "星空のソウル",
+  "item.mek1000.applied_soul": "電子のソウル",
+  "item.mek1000.integrated_soul": "統合のソウル",
+  "item.mek1000.cognition_soul": "認知のソウル",
+
+  "mek1000.astral_soul.desc.1" : "瞳に映る星の輝きは",
+  "mek1000.astral_soul.desc.2" : "何万年も前の遠い約束",
+  "mek1000.astral_soul.desc.3" : "光という名の手紙を受け取り",
+  "mek1000.astral_soul.desc.4" : "そっと夜風に",
+  "mek1000.astral_soul.desc.5" : "返事の溜息をついた",
+
+  "mek1000.applied_soul.desc.1" : "コアを慕って離れられず",
+  "mek1000.applied_soul.desc.2" : "かといって触れることも叶わない",
+  "mek1000.applied_soul.desc.3" : "決められたワルツを踊りながら",
+  "mek1000.applied_soul.desc.4" : "不確定な存在として",
+  "mek1000.applied_soul.desc.5" : "子はそこに「在る」",
+
+  "mek1000.integrated_soul.desc.1" : "独りじゃ何もできないから",
+  "mek1000.integrated_soul.desc.2" : "隣の誰かへ道を創る",
+  "mek1000.integrated_soul.desc.3" : "創りだした道が結合の鍵",
+  "mek1000.integrated_soul.desc.4" : "この世界のあらゆる論理は",
+  "mek1000.integrated_soul.desc.5" : "道が繋いだ意思の集積",
+
+  "mek1000.cognition_soul.desc.1" : "「雨が降っている」という事象は",
+  "mek1000.cognition_soul.desc.2" : "都市には「憂鬱」と呼ばれ",
+  "mek1000.cognition_soul.desc.3" : "乾いた大地には「祝福」と呼ばれる",
+  "mek1000.cognition_soul.desc.4" : "事象は一つでも、解釈は無数にある",
+  "mek1000.cognition_soul.desc.5" : "この世界は解釈のインクで塗り分けられている"
 }

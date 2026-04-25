@@ -1,10 +1,6 @@
-<!--
-	⚠ This file was generated automatically ⚠
-	You should remove this comment if you want to modify this file or "/biggerstacks quicksetup" will overwrite it without warning
-	[[8192 1 1]]
--->
 <ruleset>
-	<rule stacksize="8192">
+	<rule stacksize="65536">
 		<condition>stacksize gt 1</condition>
+    	<condition>tag excludes mek1000:ae_cards</condition>
 	</rule>
 </ruleset>
