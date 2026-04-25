@@ -169,7 +169,7 @@ ServerEvents.recipes(event => {
       energy: 5000000,
       fluid: {
         fluidStack: {
-          Amount: 16000,
+          Amount: 500,
           FluidName: "astral_mekanism:mixed_lava",
         },
       },
