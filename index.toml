@@ -4539,6 +4539,11 @@ hash = "528a5c2d50126e1b2906b47449b40a996fce3b4a50b9a0460533f2b7b74f5c99"
 metafile = true
 
 [[files]]
+file = "mods/cable-facades.pw.toml"
+hash = "24a8a97bfc63ac149b72ddd05955d29076c96fa6bab6caf62ed952deef67ec18"
+metafile = true
+
+[[files]]
 file = "mods/caxton.pw.toml"
 hash = "15f6812e497a5f7bc6742dc7f02730e1c8a742a2536dc1a8cc6aa0e7093d91f3"
 metafile = true

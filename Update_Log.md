@@ -8,6 +8,7 @@
 - Just Enough Crafting Treeの追加
 - Circulation Flow Networksの追加
 - バベルの図書館、砕石シミュレーターの構造変更
+- Mod日本語化リソースパックを分離
 
 # 2.6.4 アップデート
 - ネザーウォートのレシピを追加
