@@ -45,7 +45,12 @@ are reused from this source.
 ## マルチプレイ
 [こちら](https://github.com/sponeru/1000x-mekanism-1.20/wiki/%E3%83%9E%E3%83%AB%E3%83%81%E3%83%97%E3%83%AC%E3%82%A4%E3%81%AE%E3%82%84%E3%82%8A%E6%96%B9)にやり方が書いてあります
 
+## Special Thanks
 
+日本語化リソースパック: Twister716 
 
+Industrial Platform日本語化リソースパック: ハム太郎丸
 
+Mekanismアドオン日本語化リソースパック: なお 
 
+他、原作の桁違いな電力に関わった方々へも感謝を申し上げます

@@ -554,6 +554,12 @@
 		}
 		{
 			dependencies: ["016780D32B1ABC49"]
+			description: [
+				"{ftbquests.chapter.17633E6667C22EEC.quest25.description1}"
+				"{ftbquests.chapter.17633E6667C22EEC.quest25.description2}"
+				"{ftbquests.chapter.17633E6667C22EEC.quest25.description3}"
+				"{ftbquests.chapter.17633E6667C22EEC.quest25.description4}"
+			]
 			id: "67CC400E8310A8A7"
 			tasks: [
 				{
@@ -583,6 +589,11 @@
 		}
 		{
 			dependencies: ["67CC400E8310A8A7"]
+			description: [
+				"{ftbquests.chapter.17633E6667C22EEC.quest26.description1}"
+				"{ftbquests.chapter.17633E6667C22EEC.quest26.description2}"
+				"{ftbquests.chapter.17633E6667C22EEC.quest26.description3}"
+			]
 			id: "49E798CE2F3A6206"
 			tasks: [{
 				id: "47C7FC0FC87B8152"
@@ -594,6 +605,7 @@
 		}
 		{
 			dependencies: ["67CC400E8310A8A7"]
+			description: ["{ftbquests.chapter.17633E6667C22EEC.quest27.description1}"]
 			id: "58F2D7E87C29023E"
 			tasks: [{
 				id: "05367FC73925BD16"
