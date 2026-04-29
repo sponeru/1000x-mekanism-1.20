@@ -1,0 +1,13 @@
+name = "Just Enough Crafting Tree (JECT)"
+filename = "[1.20.1] forge-JECT-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b6bdb86fab9e43bdb6844610a96506c94ee21ef1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7987195
+project-id = 1456415

@@ -4564,6 +4564,11 @@ hash = "72a88bd8043afbcab6b9541e17e3494377cf54342791ecafee01ac402eff9089"
 metafile = true
 
 [[files]]
+file = "mods/circulation-flow-networks.pw.toml"
+hash = "cd913a00fd707f3f6dd8f43fe560f2a13896d99a2cc0fe0fa205e021d9b936a4"
+metafile = true
+
+[[files]]
 file = "mods/climb-ladders-fast.pw.toml"
 hash = "caf5146f2bb9684ad6ba57da0a0564f3693796e78e5cc40d24260e42b4d049ff"
 metafile = true
@@ -5006,6 +5011,11 @@ metafile = true
 [[files]]
 file = "mods/journeymap.pw.toml"
 hash = "664a573384edf644e9b788c7c29fe32593917ac8283bb794cc46b471a0a6504a"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-crafting-tree-ject.pw.toml"
+hash = "b1192f48a5f63673e889b476482e8b4fc6d2364d6a902fbf02ebfc58e3c33587"
 metafile = true
 
 [[files]]

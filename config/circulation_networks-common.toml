@@ -1,0 +1,59 @@
+#Energy entity blacklist (fully qualified name or class name prefix)
+#BlockEntities in the blacklist will not be recognized as energy containers
+#Examples:
+#  - 'com.example.CustomEnergyTile' Exact match
+#  - 'com.example' Prefix match, includes all classes starting with this
+classNames = ["sonar.fluxnetworks.common.device.TileFluxDevice"]
+#Energy device blacklist for generic supply nodes (non-specialized).
+#Matched devices can ONLY be connected by specialized nodes that override isBlacklisted.
+#Examples:
+#  - 'com.example.AdvancedEnergyTile' Exact match
+#  - 'com.example.advanced' Prefix match
+supplyClassNames = []
+#Default energy unit display (exact unit string match)
+#After registry lock, the matched unit will be moved to the first display slot
+defaultEnergyUnitDisplay = "FE"
+
+[Node]
+
+	[Node.PortNode]
+		#Energy range of Circulation Port Node
+		#Range: 0.1 ~ 32.0
+		energyScope = 8.0
+		#Link range of Circulation Port Node
+		#Range: 0.1 ~ 32.0
+		linkScope = 12.0
+
+	[Node.ChargingNode]
+		#Charging range of Circulation Charging Node
+		#Range: 1.0 ~ 32.0
+		chargingScope = 5.0
+		#Link range of Circulation Charging Node
+		#Range: 1.0 ~ 32.0
+		linkScope = 8.0
+
+	[Node.RelayNode]
+		#Link range of Circulation Relay Node
+		#Range: 1.0 ~ 64.0
+		linkScope = 20.0
+
+	[Node.Hub]
+		#Energy range of Hub
+		#Range: 1.0 ~ 32.0
+		energyScope = 10.0
+		#Charging range of Hub
+		#Range: 1.0 ~ 32.0
+		chargingScope = 8.0
+		#Link range of Hub
+		#Range: 1.0 ~ 32.0
+		linkScope = 16.0
+
+	[Node.Rendering]
+		#Enable animated models for relay nodes and node pedestals
+		animatedSpecialModels = true
+
+[Shielder]
+	#Max range of Circulation Shielder
+	#Range: 0 ~ 16
+	maxScope = 8
+
