@@ -228,5 +228,29 @@
   "block.mek1000.pdt" : "Parralel Dimenssion Transposer (P.D.T)",
   "block.mek1000.pdt_i" : "Parralel Dimenssion Transposer (P.D.T)",
 
-  "item.mek1000.large_yellow_cake_uranium": "Large Yellow Cake Uranium"
+  "item.mek1000.large_yellow_cake_uranium": "Large Yellow Cake Uranium",
+
+  "mek1000.astral_soul.desc.1" : "The starlight reflected in these eyes",
+  "mek1000.astral_soul.desc.2" : "Is a distant promise from tens of thousands of years ago",
+  "mek1000.astral_soul.desc.3" : "Receiving a letter by the name of light",
+  "mek1000.astral_soul.desc.4" : "Softly, into the night wind",
+  "mek1000.astral_soul.desc.5" : "I breathed a sigh in reply",
+
+  "mek1000.applied_soul.desc.1" : "Yearning for the core, unable to leave its side",
+  "mek1000.applied_soul.desc.2" : "Yet never permitted to truly touch it",
+  "mek1000.applied_soul.desc.3" : "While dancing a preordained waltz",
+  "mek1000.applied_soul.desc.4" : "As an indeterminate existence",
+  "mek1000.applied_soul.desc.5" : "The child simply 'is' there",
+
+  "mek1000.integrated_soul.desc.1" : "Because alone, one can achieve nothing",
+  "mek1000.integrated_soul.desc.2" : "A path is forged toward the neighbor",
+  "mek1000.integrated_soul.desc.3" : "The created path is the key to bonding",
+  "mek1000.integrated_soul.desc.4" : "Every logic within this world",
+  "mek1000.integrated_soul.desc.5" : "Is an accumulation of wills connected by paths",
+
+  "mek1000.cognition_soul.desc.1" : "The phenomenon of 'it is raining'",
+  "mek1000.cognition_soul.desc.2" : "Is called 'melancholy' by the city",
+  "mek1000.cognition_soul.desc.3" : "And called a 'blessing' by the parched earth",
+  "mek1000.cognition_soul.desc.4" : "Though the event is one, interpretations are infinite",
+  "mek1000.cognition_soul.desc.5" : "This world is painted apart by the ink of interpretation"
 }

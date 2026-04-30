@@ -49,4 +49,9 @@ StartupEvents.registry("item", event => {
     for (let index = 0; index < 8; index++) {
         event.create(`mek1000:valine3g_ingot_${index}`)
     }
+
+    event.create('mek1000:astral_soul').rarity("epic")
+    event.create('mek1000:applied_soul').rarity("epic")
+    event.create('mek1000:integrated_soul').rarity("epic")
+    event.create('mek1000:cognition_soul').rarity("epic")
 })
