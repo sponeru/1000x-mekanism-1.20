@@ -1,13 +1,13 @@
 name = "Circulation Flow Networks"
-filename = "circulation_networks-1.20.1-1.0.1.jar"
+filename = "circulation_networks-1.20.1-1.0.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f2a6742d23cba1e5fce4d7e25d76f643eb04e347"
+hash = "f6b9e18886f189ebeff25e969321e9143debd6ef"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8005031
+file-id = 8010888
 project-id = 1519385
