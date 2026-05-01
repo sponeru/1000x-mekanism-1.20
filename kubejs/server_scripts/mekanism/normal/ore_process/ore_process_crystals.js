@@ -95,8 +95,12 @@ ServerEvents.recipes(event => {
                 slurry.dirty = `kubejs:dirty_${material}`
 
                 if (MekanismKeyHelper.slurry(slurry.dirty).get() === null) {
-                    failcount++
-                    console.log(`[Mek1000] Not Found Dirty Slurry ${material}`)
+                    slurry.dirty = `mek1000:dirty_${material}`
+    
+                    if (MekanismKeyHelper.slurry(slurry.dirty).get() === null) {
+                        failcount++
+                        console.log(`[Mek1000] Not Found Dirty Slurry ${material}`)
+                    }
                 }
             }
         }
@@ -109,8 +113,12 @@ ServerEvents.recipes(event => {
                 slurry.clean = `kubejs:clean_${material}`
 
                 if (MekanismKeyHelper.slurry(slurry.clean).get() === null) {
-                    failcount++
-                    console.log(`[Mek1000] Not Found Clean Slurry ${material}`)
+                    slurry.clean = `mek1000:clean_${material}`
+    
+                    if (MekanismKeyHelper.slurry(slurry.clean).get() === null) {
+                        failcount++
+                        console.log(`[Mek1000] Not Found Clean Slurry ${material}`)
+                    }
                 }
             }
         }

@@ -1,6 +1,5 @@
 <ruleset>
 	<rule stacksize="65536">
 		<condition>stacksize gt 1</condition>
-    	<condition>tag excludes mek1000:ae_cards</condition>
 	</rule>
 </ruleset>

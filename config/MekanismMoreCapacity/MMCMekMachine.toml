@@ -114,16 +114,16 @@
 	[factories.CompressingFactory]
 		#Chemical tank capacity (mB). Default: 63000, Vanilla: 630
 		#Range: 1 ~ 9223372036854775807
-		basicChemicalInputTankCapacity = 63000
+		basicChemicalInputTankCapacity = 6300000
 		#Chemical tank capacity (mB). Default: 105000, Vanilla: 1050
 		#Range: 1 ~ 9223372036854775807
-		advancedChemicalInputTankCapacity = 105000
+		advancedChemicalInputTankCapacity = 10500000
 		#Chemical tank capacity (mB). Default: 147000 , Vanilla: 1470
 		#Range: 1 ~ 9223372036854775807
-		eliteChemicalInputTankCapacity = 147000
+		eliteChemicalInputTankCapacity = 14700000
 		#Chemical tank capacity (mB). Default: 189000 , Vanilla: 1890
 		#Range: 1 ~ 9223372036854775807
-		ultimateChemicalInputTankCapacity = 189000
+		ultimateChemicalInputTankCapacity = 18900000
 
 	[factories.InjectingFactory]
 		#Chemical tank capacity (mB). Default: 63000, Vanilla: 630
