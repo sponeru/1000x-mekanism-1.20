@@ -1,0 +1,13 @@
+name = "WATERMeDIA: Youtube Plugin"
+filename = "watermedia_youtube_plugin-2.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1f4d208ed9292189dd99147a9dae7c1d4bc95ad5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7543999
+project-id = 1395870

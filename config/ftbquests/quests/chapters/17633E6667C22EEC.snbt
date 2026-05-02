@@ -552,69 +552,6 @@
 			x: -2.5d
 			y: -1.0d
 		}
-		{
-			dependencies: ["016780D32B1ABC49"]
-			description: [
-				"{ftbquests.chapter.17633E6667C22EEC.quest25.description1}"
-				"{ftbquests.chapter.17633E6667C22EEC.quest25.description2}"
-				"{ftbquests.chapter.17633E6667C22EEC.quest25.description3}"
-				"{ftbquests.chapter.17633E6667C22EEC.quest25.description4}"
-			]
-			id: "67CC400E8310A8A7"
-			tasks: [
-				{
-					id: "0329D0A7FE908291"
-					item: "circulation_networks:hub"
-					type: "item"
-				}
-				{
-					id: "4D71F93C5416ADD3"
-					item: "circulation_networks:port_node"
-					type: "item"
-				}
-				{
-					id: "7BBDF9ABBCC2F7CC"
-					item: "circulation_networks:node_pedestal"
-					type: "item"
-				}
-				{
-					id: "588FFC1E2A1EB660"
-					item: "circulation_networks:circulation_configurator"
-					type: "item"
-				}
-			]
-			title: "Circulation Networks"
-			x: -3.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["67CC400E8310A8A7"]
-			description: [
-				"{ftbquests.chapter.17633E6667C22EEC.quest26.description1}"
-				"{ftbquests.chapter.17633E6667C22EEC.quest26.description2}"
-				"{ftbquests.chapter.17633E6667C22EEC.quest26.description3}"
-			]
-			id: "49E798CE2F3A6206"
-			tasks: [{
-				id: "47C7FC0FC87B8152"
-				item: "circulation_networks:hub_channel_plugin"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["67CC400E8310A8A7"]
-			description: ["{ftbquests.chapter.17633E6667C22EEC.quest27.description1}"]
-			id: "58F2D7E87C29023E"
-			tasks: [{
-				id: "05367FC73925BD16"
-				item: "circulation_networks:dimensional_charging_plugin"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 0.0d
-		}
 	]
 	subtitle: ["{ftbquests.chapter.17633E6667C22EEC.subtitle0}"]
 	title: "{ftbquests.chapter.17633E6667C22EEC.title}"
