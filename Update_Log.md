@@ -1,3 +1,9 @@
+# 2.7.3 アップデート
+- サーバーで不安定のため、Circulation Flow Networksを一時削除（クエストも削除）
+- ExtendedAE,ExtendedAE Plusを更新
+- WaterMedia,WaterFramesのバージョン変更
+- バベルの図書館コアブロックの出力インベントリーを削除
+
 # 2.7.2 アップデート
 - クラッシュ修正のため、Circulation Flow Networksを更新
 
