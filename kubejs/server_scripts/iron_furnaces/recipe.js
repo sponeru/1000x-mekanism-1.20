@@ -25,6 +25,7 @@ ServerEvents.recipes(event =>{
 
     event.remove({output:'ironfurnaces:emerald_furnace'})
     event.shapeless('ironfurnaces:emerald_furnace',['ironfurnaces:diamond_furnace','#forge:gems/emerald'])
+    event.shapeless('ironfurnaces:emerald_furnace',['minecraft:furnace','#forge:gems/emerald','#forge:gems/diamond','#forge:ingots/gold','#forge:ingots/iron'])
 
     event.remove({output:'ironfurnaces:upgrade_emerald'})
     event.shapeless('ironfurnaces:upgrade_emerald',['#forge:gems/diamond','#forge:gems/emerald'])

@@ -1,3 +1,9 @@
+# 2.7.4 アップデート
+- Untranslated ItemsをPolyglotTooltipに置き換え
+- Iron Furnaceのショートカットレシピ追加
+- AE2 Overclockedのアップデート
+- AE2OverclockedBiggerStacksFixを削除
+
 # 2.7.3 アップデート
 - サーバーで不安定のため、Circulation Flow Networksを一時削除（クエストも削除）
 - ExtendedAE,ExtendedAE Plusを更新
