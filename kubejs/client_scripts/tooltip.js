@@ -62,6 +62,11 @@ ItemEvents.tooltip((event) => {
     Text.translate("mek1000.multi.desc").aqua(),
   ]);
 
+  event.add('mek1000:integrated_ore_process_factory', [
+    Text.translate("mek1000.integrated_ore_process_factory.desc"),
+    Text.translate("mek1000.multi.desc").aqua(),
+  ]);
+
   event.add("mek1000:skyblock_crafter", [
     Text.translate("mek1000.skyblock_crafter.desc"),
   ]);

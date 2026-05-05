@@ -96,7 +96,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -121,7 +121,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["18AB749F3D12826F"]
@@ -227,8 +227,8 @@
 				item: "mek1000:dimensional_blast_furnace"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.5d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["016780D32B1ABC49"]
@@ -294,7 +294,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2B7577D9D6D44CFD"]
@@ -307,6 +307,101 @@
 			}]
 			x: -3.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["1DB13345D6C1C917"]
+			id: "037E8E375F4EA17C"
+			tasks: [{
+				id: "3EBB7B1D64624DE2"
+				item: "mek1000:integrated_ore_process_factory"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["037E8E375F4EA17C"]
+			description: [
+				"{ftbquests.chapter.092727BC36641B8A.quest13.description1}"
+				"{ftbquests.chapter.092727BC36641B8A.quest13.description2}"
+			]
+			id: "355893826DB821D6"
+			rewards: [{
+				count: 8
+				id: "6CF2FCDD60BDA4A9"
+				item: "mek1000:composite_module"
+				type: "item"
+			}]
+			tasks: [{
+				id: "717088AE0F57BA7F"
+				item: "mek1000:composite_module"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["355893826DB821D6"]
+			description: [
+				"{ftbquests.chapter.092727BC36641B8A.quest13.description1}"
+				"{ftbquests.chapter.092727BC36641B8A.quest14.description1}"
+			]
+			id: "59317CD2D7DF74A5"
+			rewards: [{
+				count: 8
+				id: "30F712DEE830E011"
+				item: "mek1000:enchanted_module"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AC2D03E15FD48C3"
+				item: "mek1000:enchanted_module"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59317CD2D7DF74A5"]
+			description: [
+				"{ftbquests.chapter.092727BC36641B8A.quest13.description1}"
+				"{ftbquests.chapter.092727BC36641B8A.quest15.description1}"
+			]
+			id: "23B95DD484DC8AF5"
+			rewards: [{
+				count: 8
+				id: "221892F083E77E82"
+				item: "mek1000:infinity_module"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F80FE13565EAA93"
+				item: "mek1000:infinity_module"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23B95DD484DC8AF5"]
+			description: [
+				"{ftbquests.chapter.092727BC36641B8A.quest13.description1}"
+				"{ftbquests.chapter.092727BC36641B8A.quest16.description1}"
+			]
+			id: "42D85E67761945BD"
+			rewards: [{
+				count: 8
+				id: "03EB1EA9DF3472C2"
+				item: "mek1000:astral_module"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AABD6B2081DA350"
+				item: "mek1000:astral_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.092727BC36641B8A.subtitle0}"]

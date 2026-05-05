@@ -166,6 +166,11 @@ ServerEvents.recipes(event => {
     t: "mekanism:sps_casing",
   });
 
+  event.shaped("mek1000:gas_output", ["g  ", "t  ", "   "], {
+    g: "mekanism:ultimate_chemical_tank",
+    t: "mekanism:sps_casing",
+  });
+
   event.shapeless("mek1000:imitation_sps_port", [
     "mekanism:sps_port",
     "mekanism_extras:alloy_radiance",

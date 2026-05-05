@@ -147,6 +147,7 @@
   "block.mek1000.fluid_output": "Fluid Output Port",
   "block.mek1000.fusion_energy_input": "Fusion Energy Input Port",
   "block.mek1000.gas_input": "Fluid/Gas Input Port",
+  "block.mek1000.gas_output": "Gas Output Port",
   "block.mek1000.imitation_sps_port": "Energy Input Port",
   "block.mek1000.item_input": "Item Input Port",
   "block.mek1000.item_output": "Item Output Port",
@@ -252,5 +253,17 @@
   "mek1000.cognition_soul.desc.2" : "Is called 'melancholy' by the city",
   "mek1000.cognition_soul.desc.3" : "And called a 'blessing' by the parched earth",
   "mek1000.cognition_soul.desc.4" : "Though the event is one, interpretations are infinite",
-  "mek1000.cognition_soul.desc.5" : "This world is painted apart by the ink of interpretation"
+  "mek1000.cognition_soul.desc.5" : "This world is painted apart by the ink of interpretation",
+
+  "block.mek1000.module_smelting": "Smelting Processing Module",
+  "block.mek1000.module_oxidize": "Oxidizing Processing Module",
+
+  "block.mek1000.composite_module": "Composite Module",
+  "block.mek1000.enchanted_module": "Enchanted Module",
+  "block.mek1000.infinity_module": "Infinity Module",
+  "block.mek1000.astral_module": "Astral Module",
+
+  "mek1000.integrated_ore_process_factory.desc": "Saying Goodbye to Spam",
+  "block.mek1000.integrated_ore_process_factory": "Integrated Ore Processing Factory",
+  "mek1000.integrated_ore_process": "Integrated Ore Processing"
 }

@@ -147,6 +147,7 @@
   "block.mek1000.fluid_output": "液体搬出ポート",
   "block.mek1000.fusion_energy_input": "創造融合炉専用 エネルギー搬入ポート",
   "block.mek1000.gas_input": "液体/ガス搬入ポート",
+  "block.mek1000.gas_output": "ガス搬出ポート",
   "block.mek1000.imitation_sps_port": "エネルギー搬入ポート",
   "block.mek1000.item_input": "アイテム搬入ポート",
   "block.mek1000.item_output": "アイテム搬出ポート",
@@ -266,5 +267,17 @@
   "mek1000.cognition_soul.desc.2" : "都市には「憂鬱」と呼ばれ",
   "mek1000.cognition_soul.desc.3" : "乾いた大地には「祝福」と呼ばれる",
   "mek1000.cognition_soul.desc.4" : "事象は一つでも、解釈は無数にある",
-  "mek1000.cognition_soul.desc.5" : "この世界は解釈のインクで塗り分けられている"
+  "mek1000.cognition_soul.desc.5" : "この世界は解釈のインクで塗り分けられている",
+
+  "block.mek1000.module_smelting": "精錬処理モジュール",
+  "block.mek1000.module_oxidize": "酸化処理モジュール",
+
+  "block.mek1000.composite_module": "複合モジュール",
+  "block.mek1000.enchanted_module": "魔性モジュール",
+  "block.mek1000.infinity_module": "無限モジュール",
+  "block.mek1000.astral_module": "星空モジュール",
+
+  "mek1000.integrated_ore_process_factory.desc": "スパムからの卒業",
+  "block.mek1000.integrated_ore_process_factory": "統合鉱石処理工場",
+  "mek1000.integrated_ore_process": "統合鉱石処理"
 }
