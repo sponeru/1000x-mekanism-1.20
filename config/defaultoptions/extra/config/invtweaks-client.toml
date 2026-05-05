@@ -28,110 +28,142 @@
 	#sortRange = "" disables sorting for that container
 	#Out-of-bound slots are ignored
 	#Omit sortRange to leave as default
-	[[sorting.containerOverrides]]
-		containerClass = "appeng.client.gui.implementations.*Screen"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "appeng.client.gui.implementations.*Screen"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "appeng.client.gui.me.items.*Screen"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "appeng.client.gui.me.items.*Screen"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "de.mari_023.ae2wtlib.wct.*Screen"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "appeng.client.gui.me.common.*Screen"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "com.github.glodblock.epp.client.gui.*"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "de.mari_023.ae2wtlib.wct.*Screen"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "org.cyclops.integrateddynamics.inventory.container.*"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "com.github.glodblock.epp.client.gui.*"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "org.cyclops.integratedterminals.inventory.container.ContainerTerminalStoragePart"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "org.cyclops.integrateddynamics.inventory.container.*"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "com.refinedmods.refinedstorage.screen.*"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "org.cyclops.integratedterminals.inventory.container.ContainerTerminalStoragePart"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "net.p3pp3rf1y.sophisticatedbackpacks.common.gui.BackpackContainer"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "com.refinedmods.refinedstorage.screen.*"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "net.p3pp3rf1y.sophisticatedstorage.common.gui.StorageContainerMenu"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "net.p3pp3rf1y.sophisticatedbackpacks.common.gui.BackpackContainer"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "tfar.craftingstation.CraftingStationMenu"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "net.p3pp3rf1y.sophisticatedstorage.common.gui.StorageContainerMenu"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "tfar.dankstorage.container.DankContainers"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "tfar.craftingstation.CraftingStationMenu"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "mcjty.rftoolsutility.modules.crafter.blocks.CrafterContainer"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "tfar.dankstorage.container.DankContainers"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "gripe._90.megacells.menu.MEGAInterfaceMenu"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "mcjty.rftoolsutility.modules.crafter.blocks.CrafterContainer"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "cofh.thermal.core.client.gui.*"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "gripe._90.megacells.menu.MEGAInterfaceMenu"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "ironfurnaces.gui.furnaces.*"
-		sortRange = "0-45"
+[[sorting.containerOverrides]]
+	containerClass = "cofh.thermal.core.client.gui.*"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "com.direwolf20.justdirethings.client.screens.*"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "ironfurnaces.gui.furnaces.*"
+	sortRange = "0-45"
 
-	[[sorting.containerOverrides]]
-		containerClass = "com.direwolf20.laserio.client.screens.*"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "com.direwolf20.justdirethings.client.screens.*"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "com.stal111.forbidden_arcanus.client.gui.screen.*"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "com.direwolf20.laserio.client.screens.*"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "aztech.modern_industrialization.*.gui.*Screen"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "com.stal111.forbidden_arcanus.client.gui.screen.*"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "com.glodblock.github.extendedae.client.gui.*"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "aztech.modern_industrialization.*.gui.*Screen"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "net.pedroksl.advanced_ae.client.gui.*"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "com.glodblock.github.extendedae.client.gui.*"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "mekanism.client.gui.*"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "net.pedroksl.advanced_ae.client.gui.*"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "com.jerry.mekmm.client.gui.machine.*"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "mekanism.client.gui.*"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "com.jerry.mekaf.client.gui.machine.*"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "com.jerry.mekmm.client.gui.machine.*"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "astral_mekanism.block.gui.*"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "com.jerry.mekaf.client.gui.machine.*"
+	sortRange = ""
 
-	[[sorting.containerOverrides]]
-		containerClass = "net.darkhax.botanypots.block.inv.*"
-		sortRange = ""
+[[sorting.containerOverrides]]
+	containerClass = "com.jerry.mekanism_extras.client.gui.machine.*"
+	sortRange = ""
 
+[[sorting.containerOverrides]]
+	containerClass = "com.jerry.generator_extras.client.gui.machine.*"
+	sortRange = ""
+
+[[sorting.containerOverrides]]
+	containerClass = "fr.iglee42.evolvedmekanism.client.gui.*"
+	sortRange = ""
+
+[[sorting.containerOverrides]]
+	containerClass = "io.github.masyumero.emextras.client.gui.machine.*"
+	sortRange = ""
+
+[[sorting.containerOverrides]]
+	containerClass = "com.CompactMekanismMachines.client.gui.*"
+	sortRange = ""
+
+[[sorting.containerOverrides]]
+	containerClass = "io.github.masyumero.morethermalevaporationcompat.client.gui.*"
+	sortRange = ""
+
+[[sorting.containerOverrides]]
+	containerClass = "com.fxd927.mekanismelements.client.gui.machine.*"
+	sortRange = ""
+
+[[sorting.containerOverrides]]
+	containerClass = "astral_mekanism.block.gui.*"
+	sortRange = ""
+
+[[sorting.containerOverrides]]
+	containerClass = "net.darkhax.botanypots.block.inv.*"
+	sortRange = ""
+	
 	#Categor(y/ies) for sorting
 	#
 	#name: the name of the category

@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
 
     event.custom({
         "type": "mekanism:reaction",
-        "itemInput": { "ingredient": { "item": 'experienceobelisk:forgotten_dust' } },
+        "itemInput": { "ingredient": { "item": 'integrateddynamics:menril_berries' } },
         "gasInput": { "amount": 1, "gas": "mekanism:hydrogen" },
         "fluidInput": { "amount": 16000, "fluid": "experienceobelisk:cognitium" },
         "energyRequired": 1, "duration": 20,
