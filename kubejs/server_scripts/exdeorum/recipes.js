@@ -11,6 +11,7 @@ ServerEvents.recipes(event => {
     let removeItem3 = ['exdeorum:unfired_porcelain_crucible', 'exdeorum:warped_crucible', 'exdeorum:crimson_crucible', 'exdeorum:spruce_crucible', 'exdeorum:birch_crucible', 'exdeorum:jungle_crucible', 'exdeorum:acacia_crucible', 'exdeorum:dark_oak_crucible', 'exdeorum:mangrove_crucible', 'exdeorum:cherry_crucible', 'exdeorum:bamboo_crucible']
 
     let ores = ['minecraft:coal', 'minecraft:raw_iron', 'minecraft:raw_copper', 'minecraft:raw_gold', 'mekanism:raw_osmium', 'mekanism:raw_tin', 'mekanism:raw_lead', 'mekanism:raw_uranium', 'minecraft:lapis_lazuli', 'minecraft:diamond', 'minecraft:emerald', 'kubejs:iridium', 'mekanism:fluorite_gem', 'minecraft:quartz', 'kubejs:ore_debri_deepslate', 'minecraft:redstone', 'ae2:certus_quartz_crystal']
+    let oreblock = ['minecraft:coal_ore', 'minecraft:iron_ore', 'minecraft:copper_ore', 'minecraft:gold_ore', 'minecraft:redstone_ore', 'minecraft:emerald_ore', 'minecraft:lapis_ore', 'minecraft:diamond_ore', 'kubejs:ore_iridium', 'kubejs:ore_quartz', 'kubejs:ore_certus_quartz', 'mekanism:tin_ore', 'mekanism:osmium_ore', 'mekanism:uranium_ore', 'mekanism:fluorite_ore', 'mekanism:lead_ore', 'mekanism:lead_ore']
     let dense = ['denseores:dense_redstone_ore', 'denseores:dense_emerald_ore', 'denseores:dense_lapis_ore', 'denseores:dense_diamond_ore', 'kubejs:dense_ore_iridium', 'kubejs:dense_ore_quartz', 'densemekanism:dense_tin_ore', 'densemekanism:dense_osmium_ore', 'densemekanism:dense_uranium_ore', 'densemekanism:dense_fluorite_ore', 'densemekanism:dense_lead_ore', 'denseores:dense_coal_ore', 'denseores:dense_iron_ore', 'denseores:dense_copper_ore', 'denseores:dense_gold_ore', 'kubejs:dense_ore_certus_quartz']
     let allMesh = ['exdeorum:string_mesh', 'exdeorum:flint_mesh', 'exdeorum:iron_mesh' , 'mek1000:advanced_alloy_mesh' , 'mek1000:reinforced_alloy_mesh' , 'mek1000:atomic_alloy_mesh']
 
@@ -276,6 +277,38 @@ ServerEvents.recipes(event => {
     })
 
     ores.forEach(item => {
+        event.custom({
+            "type": "exdeorum:sieve",
+            "ingredient": {
+                "item": "minecraft:gravel"
+            },
+            "mesh": 'mek1000:atomic_alloy_mesh',
+            "result": item,
+            "result_amount": {
+                "type": "minecraft:binomial",
+                "n": 50.0,
+                "p": 0.8
+            }
+        })
+    })
+
+    oreblock.forEach(item =>{
+        event.custom({
+            "type": "exdeorum:sieve",
+            "ingredient": {
+                "item": "minecraft:gravel"
+            },
+            "mesh": 'mek1000:reinforced_alloy_mesh',
+            "result": item,
+            "result_amount": {
+                "type": "minecraft:binomial",
+                "n": 40.0,
+                "p": 0.8
+            }
+        })
+    })
+
+    oreblock.forEach(item => {
         event.custom({
             "type": "exdeorum:sieve",
             "ingredient": {

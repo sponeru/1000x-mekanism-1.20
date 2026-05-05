@@ -3,6 +3,7 @@
 - Iron Furnaceのショートカットレシピ追加
 - AE2 Overclockedのアップデート
 - AE2OverclockedBiggerStacksFixを削除
+- ふるいから鉱石ブロックが出るように
 
 # 2.7.3 アップデート
 - サーバーで不安定のため、Circulation Flow Networksを一時削除（クエストも削除）
