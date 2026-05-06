@@ -35,6 +35,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/ftbquests block_rewards true"
+				elevate_perms: true
 				id: "4E22746C433AC38C"
 				type: "command"
 			}]

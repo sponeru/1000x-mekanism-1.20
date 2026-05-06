@@ -636,4 +636,67 @@ ServerEvents.recipes((event) => {
     .slotName("s15", (builder) =>
       builder.inputItems('advanced_ae:quantum_core')
     );
+
+    event.recipes.mek1000
+    .large_digital_assemble()
+    .id('mek1000:integrated_ore_process_factory')
+    .duration(3000)
+    .outputItems('mek1000:integrated_ore_process_factory')
+    .perTick((builder) => builder.inputFE(2147483647))
+    .slotName("cat0", (builder) =>
+      builder.inputItems('mekanism:chemical_dissolution_chamber')
+    )
+    .slotName("cat1", (builder) =>
+      builder.inputItems('mekanism:chemical_washer')
+    )
+    .slotName("cat2", (builder) =>
+      builder.inputItems('mekanism:chemical_crystallizer')
+  )
+    .slotName("cat3", (builder) =>
+      builder.inputItems('mek1000:tin_casing')
+    )
+    .slotName("s0", (builder) =>
+      builder.inputItems('64x mekanism:upgrade_speed')
+    )
+    .slotName("s1", (builder) =>
+      builder.inputItems('16x mekanism_empowered:upgrade_empowered_energy')
+    )
+    .slotName("s2", (builder) =>
+      builder.inputItems('16x mekanism_empowered:upgrade_empowered_speed')
+    )
+    .slotName("s3", (builder) =>
+      builder.inputItems('64x mekanism:upgrade_energy')
+    )
+    .slotName("s4", (builder) =>
+      builder.inputItems('64x mekanism:upgrade_speed')
+    )
+    .slotName("s5", (builder) =>
+      builder.inputItems('16x mek1000:crystalized_redstone_rawore')
+    )
+    .slotName("s6", (builder) =>
+      builder.inputItems('advanced_ae:quantum_core')
+    )
+    .slotName("s7", (builder) =>
+      builder.inputItems('64x mekanism:upgrade_energy')
+    )
+    .slotName("s8", (builder) => builder.inputItems('64x mekanism:upgrade_speed'))
+    .slotName("s9", (builder) =>
+      builder.inputItems('advanced_ae:quantum_core')
+    )
+    .slotName("s10", (builder) =>
+      builder.inputItems('16x mek1000:crystalized_redstone_rawore')
+    )
+    .slotName("s11", (builder) => builder.inputItems('64x mekanism:upgrade_energy'))
+    .slotName("s12", (builder) =>
+      builder.inputItems('64x mekanism:upgrade_speed')
+    )
+    .slotName("s13", (builder) =>
+      builder.inputItems('16x mekanism_empowered:upgrade_empowered_speed')
+    )
+    .slotName("s14", (builder) =>
+      builder.inputItems('16x mekanism_empowered:upgrade_empowered_energy')
+    )
+    .slotName("s15", (builder) =>
+      builder.inputItems('64x mekanism:upgrade_energy')
+    );
 });

@@ -4534,7 +4534,7 @@ hash = "03eee125c70eb8301d43713e26afa08edf6e4d344f9315e9ffbe45313667165b"
 
 [[files]]
 file = "mods/advancedae.pw.toml"
-hash = "ae0f8a145b252306ca9d4351eabcc3f70528e6158221ceaa5679628b6c2f85e8"
+hash = "a3a5cbddd5134adf1eb2ce5904ff5ccf94032981f38b293fae88c8248d1d93ae"
 metafile = true
 
 [[files]]
@@ -4559,7 +4559,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2-overclocked.pw.toml"
-hash = "c90643ed24c8c79304e409fdd74fee0882cff89c545ff0eb921c9a5b653c292a"
+hash = "3883c03c30b35417b774303c64298ab8322a4d6265e5b3347a95ebd4bd0f4094"
 metafile = true
 
 [[files]]
@@ -4639,7 +4639,7 @@ metafile = true
 
 [[files]]
 file = "mods/astral-mekanism.pw.toml"
-hash = "d7887e2236823d7d7dfe706692b9380f46e9ada10965f631fac97a80985639a8"
+hash = "967c91d42747d2fd3f5b251885023340987f4863836e4f796b9ea94beecb7a19"
 metafile = true
 
 [[files]]
@@ -5198,6 +5198,11 @@ hash = "5f366181cab265e1b1e68f474303c53ba5d207a28e06518a050ec0fcc73099c4"
 metafile = true
 
 [[files]]
+file = "mods/just-dire-things-forge.pw.toml"
+hash = "53144458c4760b0467cdc0d594611edfce2bbb9126464f45a3a1e2e3c6e99be5"
+metafile = true
+
+[[files]]
 file = "mods/just-enough-crafting-tree-ject.pw.toml"
 hash = "b1192f48a5f63673e889b476482e8b4fc6d2364d6a902fbf02ebfc58e3c33587"
 metafile = true
@@ -5369,7 +5374,7 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-water-generator-rebuild.pw.toml"
-hash = "06025d55a397e8f1f5e89abe8b2e4bab0b93781541a67c4354741faebe324c62"
+hash = "99e09b51e0e15af22e73870a84e178cee237d9ad9d4933b96f41e37a1fb2022e"
 metafile = true
 
 [[files]]
@@ -5490,6 +5495,11 @@ metafile = true
 [[files]]
 file = "mods/placebo.pw.toml"
 hash = "8255bd191948b32fdf1c50de0c5ad7f9b7011a92a68933da45e827809d1f5b04"
+metafile = true
+
+[[files]]
+file = "mods/polyglottooltip.pw.toml"
+hash = "f76d2fef285d34b829f43b8256e25324b2d9dc0b18b8b15e370a5db8926b5801"
 metafile = true
 
 [[files]]
@@ -5630,16 +5640,6 @@ metafile = true
 [[files]]
 file = "mods/unbreakable-enchantment-forge.pw.toml"
 hash = "0ecb1c188f7d894ba54b9d56a5bacb75d8d708e98cc7461e46fe6cf5cc965fa6"
-metafile = true
-
-[[files]]
-file = "mods/untranslated-items.pw.toml"
-hash = "5f3a83c6f6be29a984d3fb800bf5fd28630f75c88978f1a7da9da65359ec0f8e"
-metafile = true
-
-[[files]]
-file = "mods/untranslateditems-alsofluidsandchemicals.pw.toml"
-hash = "4cc97e4e61288138744ec872bb42ab25341e2dc206df469ab7721ce3f0a35dbd"
 metafile = true
 
 [[files]]

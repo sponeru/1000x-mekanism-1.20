@@ -5,16 +5,16 @@
 	[Mekanism_Extras."ExtrasCompressing, Extrasinjecting, Extraspurifying"]
 		#Chemical tank capacity (mB). Default: 2541000, Vanilla: 25410
 		#Range: 1 ~ 9223372036854775807
-		absoluteChemicalTankCapacity = 2541000
+		absoluteChemicalTankCapacity = 254100000
 		#Chemical tank capacity (mB). Default: 3549000, Vanilla: 35490
 		#Range: 1 ~ 9223372036854775807
-		supremeChemicalTankCapacity = 3549000
+		supremeChemicalTankCapacity = 354900000
 		#Chemical tank capacity (mB) Default: 4725000, Vanilla: 47250
 		#Range: 1 ~ 9223372036854775807
-		cosmicChemicalTankCapacity = 4725000
+		cosmicChemicalTankCapacity = 472500000
 		#Chemical tank capacity (mB). Default: 6069000, Vanilla: 60690
 		#Range: 1 ~ 9223372036854775807
-		infiniteChemicalTankCapacity = 6069000
+		infiniteChemicalTankCapacity = 606900000
 
 	[Mekanism_Extras.InfusingFactoryExtras]
 		#Chemical tank capacity (mB). Default: 12100000, Vanilla: 121000

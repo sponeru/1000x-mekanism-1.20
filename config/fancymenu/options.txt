@@ -14,7 +14,7 @@ B:advanced_customization_mode = 'false';
 
 ##[loading]
 
-S:preload_resources = '';
+S:preload_resources = '[slideshow]playthrough_screenshots%!source_end!%';
 B:allow_game_intro_skip = 'true';
 S:game_intro_animation_name = '';
 B:game_intro_fade_out = 'true';
@@ -27,7 +27,7 @@ S:custom_window_icon_16 = '/config/fancymenu/assets/icon_16x16.png';
 B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '/config/fancymenu/assets/icon_mac.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/icon_32x32.png';
-S:custom_window_title = '';
+S:custom_window_title = 'Extraordinary Energy : Modern';
 
 
 ##[multiplayer_screen]
