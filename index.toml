@@ -4534,7 +4534,7 @@ hash = "03eee125c70eb8301d43713e26afa08edf6e4d344f9315e9ffbe45313667165b"
 
 [[files]]
 file = "mods/advancedae.pw.toml"
-hash = "ae0f8a145b252306ca9d4351eabcc3f70528e6158221ceaa5679628b6c2f85e8"
+hash = "a3a5cbddd5134adf1eb2ce5904ff5ccf94032981f38b293fae88c8248d1d93ae"
 metafile = true
 
 [[files]]
@@ -4639,7 +4639,7 @@ metafile = true
 
 [[files]]
 file = "mods/astral-mekanism.pw.toml"
-hash = "d7887e2236823d7d7dfe706692b9380f46e9ada10965f631fac97a80985639a8"
+hash = "967c91d42747d2fd3f5b251885023340987f4863836e4f796b9ea94beecb7a19"
 metafile = true
 
 [[files]]
@@ -5369,7 +5369,7 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-water-generator-rebuild.pw.toml"
-hash = "140b8ca36c0570e5992a14347230b0661e915e16642b8177c6d21728a637c523"
+hash = "99e09b51e0e15af22e73870a84e178cee237d9ad9d4933b96f41e37a1fb2022e"
 metafile = true
 
 [[files]]
