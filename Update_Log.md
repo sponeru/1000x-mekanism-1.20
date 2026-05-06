@@ -5,6 +5,8 @@
 - AE2OverclockedBiggerStacksFixを削除
 - ふるいから鉱石ブロックが出るように
 - 統合鉱石処理工場の追加
+- タイトル画面を変更
+- Just Dire Things(1.20ポート)を追加
 
 # 2.7.3 アップデート
 - サーバーで不安定のため、Circulation Flow Networksを一時削除（クエストも削除）

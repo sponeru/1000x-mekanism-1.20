@@ -5198,6 +5198,11 @@ hash = "5f366181cab265e1b1e68f474303c53ba5d207a28e06518a050ec0fcc73099c4"
 metafile = true
 
 [[files]]
+file = "mods/just-dire-things-forge.pw.toml"
+hash = "53144458c4760b0467cdc0d594611edfce2bbb9126464f45a3a1e2e3c6e99be5"
+metafile = true
+
+[[files]]
 file = "mods/just-enough-crafting-tree-ject.pw.toml"
 hash = "b1192f48a5f63673e889b476482e8b4fc6d2364d6a902fbf02ebfc58e3c33587"
 metafile = true
