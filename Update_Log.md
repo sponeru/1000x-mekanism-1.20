@@ -5,6 +5,7 @@
 - 古代の残骸鉱石と粉の精錬レシピを追加
 - MekEvoExtrasの圧縮ファクトリーの内部容量を増加
 - Mekanism Large Gauge Dropperの追加
+- 日本語化リソースパックを更新
 
 # 2.7.4 アップデート
 - Untranslated ItemsをPolyglotTooltipに置き換え
