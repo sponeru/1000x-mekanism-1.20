@@ -1,3 +1,10 @@
+# 2.7.5 アップデート
+- 最強モジュールを積むと動かなくなるバグを修正
+- Astral Mekanisの更新
+- Just Dire Thingsのレシピ追加漏れを修正
+- 古代の残骸鉱石と粉の精錬レシピを追加
+- MekEvoExtrasの圧縮ファクトリーの内部容量を増加
+
 # 2.7.4 アップデート
 - Untranslated ItemsをPolyglotTooltipに置き換え
 - Iron Furnaceのショートカットレシピ追加
