@@ -1,0 +1,35 @@
+{
+  "item.aehelpers_more.result_import_card": "成果物搬入カード",
+
+  "ae2helpers.configuration.title": "ae2helpers Configs",
+  "ae2helpers.configuration.section.ae2helpers.common.toml": "ae2helpers Configs",
+  "ae2helpers.configuration.section.ae2helpers.common.toml.title": "ae2helpers Configs",
+  "ae2helpers.configuration.items": "Item List",
+  "ae2helpers.configuration.logDirtBlock": "Log Dirt Block",
+  "ae2helpers.configuration.magicNumberIntroduction": "Magic Number Text",
+  "ae2helpers.configuration.magicNumber": "Magic Number",
+  "ae2helpers.configuration.enableAutoImport": "クラフトグリッドへの自動搬入を有効化",
+
+  "ae2helpers.crafthelper.title": "クラフト素材の自動配置",
+  "ae2helpers.crafthelper.enabled": "有効",
+  "ae2helpers.crafthelper.disabled": "無効",
+  "ae2helpers.crafthelper.tooltip": "[AE2Helpers] レシピmod経由で自動クラフトされたアイテムを、クラフトグリッドに自動で配置します。",
+
+  "ae2helpers.importcard.pattern": "MEパターンプロバイダー (方向指定)",
+  "ae2helpers.importcard.screen.title": "搬入カード設定",
+  "ae2helpers.importcard.resultsonly": "成果物のみ搬入",
+  "ae2helpers.importcard.resultsonly.tooltip": "有効にすると、パターンに登録されている出力アイテムのみを搬入します。\n無効にすると、全てのアイテムを搬入します。",
+  "ae2helpers.importcard.sync": "クラフティングCPUと同期",
+  "ae2helpers.importcard.sync.tooltip": "有効にすると、クラフティングCPUがアイテムを必要としているか確認します。\n自動クラフトが中断・完了したとき、搬入を停止します。\n「成果物のみ搬入」が有効な場合のみ動作します。",
+  "ae2helpers.importcard.direction": "搬入面",
+  "ae2helpers.importcard.direction.tooltip": "搬入方向を指定します。\n「自動」を選択すると、プロバイダーが接する面を使用します。",
+  "ae2helpers.importcard.direction.auto": "自動 (接続面)",
+  "ae2helpers.importcard.tooltip.mode": "モード: ",
+  "ae2helpers.importcard.tooltip.crafting_results": "成果物のみ",
+  "ae2helpers.importcard.tooltip.everything": "全て",
+  "ae2helpers.importcard.tooltip.sync": "CPU同期: ",
+  "ae2helpers.importcard.tooltip.enabled": "有効",
+  "ae2helpers.importcard.tooltip.disabled": "無効",
+  "ae2helpers.importcard.tooltip.side": "搬入面: ",
+  "ae2helpers.importcard.tooltip.hint": "右クリックで設定を開く"
+}

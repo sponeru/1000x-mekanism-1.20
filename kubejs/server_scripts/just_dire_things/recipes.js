@@ -7,4 +7,5 @@ ServerEvents.recipes(event =>{
     event.recipes.mekanism.metallurgic_infusing('4x justdirethings:raw_ferricore','#forge:storage_blocks/iron',"100x astral_mekanism:utility_infuse")
     event.recipes.mekanism.metallurgic_infusing('4x justdirethings:raw_blazegold','#forge:storage_blocks/gold',"100x astral_mekanism:utility_infuse")
     event.recipes.mekanism.metallurgic_infusing('4x justdirethings:raw_eclipsealloy','#forge:storage_blocks/netherite',"100x astral_mekanism:utility_infuse")
+    event.recipes.mekanism.metallurgic_infusing('4x justdirethings:celestigem','#forge:storage_blocks/diamond',"100x astral_mekanism:utility_infuse")
 })

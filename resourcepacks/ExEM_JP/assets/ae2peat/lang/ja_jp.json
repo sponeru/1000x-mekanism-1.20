@@ -1,0 +1,11 @@
+{
+  "gui.ae2peat.AccessSearchModeBoth": "機械名と出力で検索",
+  "gui.ae2peat.AccessSearchModeCategory": "検索モード",
+  "gui.ae2peat.AccessSearchModeMachine": "機械名で検索",
+  "gui.ae2peat.AccessSearchModePattern": "出力で検索",
+  "gui.ae2peat.ModName": "AE2 Pattern Encoding Access Terminal",
+  "gui.ae2peat.PatternEncodingAccessTerminalShort": "P. E. A. ターミナル",
+  "item.ae2peat.pattern_encoding_access_terminal": "MEパターンエンコーディングアクセスターミナル",
+  "item.ae2peat.wireless_pattern_encoding_access_terminal": "無線パターンエンコーディングアクセスターミナル",
+  "key.ae2peat.category": "AE2 Pattern Encoding Access Terminal"
+}

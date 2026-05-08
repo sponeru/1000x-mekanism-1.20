@@ -4639,7 +4639,7 @@ metafile = true
 
 [[files]]
 file = "mods/astral-mekanism.pw.toml"
-hash = "967c91d42747d2fd3f5b251885023340987f4863836e4f796b9ea94beecb7a19"
+hash = "252ac13f07983e46c1a2c29589a05895e719cd0ee97f1905767f1eec18c2d03c"
 metafile = true
 
 [[files]]
@@ -5345,6 +5345,11 @@ metafile = true
 [[files]]
 file = "mods/mekanism-generators.pw.toml"
 hash = "56a5a8ab631aa936635e37a6c653bb865a134ec1cc54725f877e85094cd80fda"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-large-gauge-dropper.pw.toml"
+hash = "8721c1d8f989454abead035f1a91b16154593c552301ba3ebd780b2417bc6c9d"
 metafile = true
 
 [[files]]

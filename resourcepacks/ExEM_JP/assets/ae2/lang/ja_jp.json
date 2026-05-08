@@ -1,0 +1,8 @@
+{
+    "gui.ae2.ExportBus": "ME出力バス",
+    "gui.ae2.IOBuses": "MEインポート/出力バス",
+    "gui.ae2.MolecularAssembler": "分子組立機",
+    "gui.ae2.PatternAccessTerminalShort": "P.A.ターミナル",
+    "gui.tooltips.ae2.MatterBalls": "マターボールへの凝縮\nアイテムごとに%s個",
+    "gui.tooltips.ae2.Singularity": "シンギュラリティへの凝縮\nアイテムごとに%s個"
+}

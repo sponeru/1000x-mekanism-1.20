@@ -1,0 +1,16 @@
+{
+    DataVersion: 3465,
+    size: [16, 1, 4],
+    data: [
+        {pos: [12, 0, 3], state: "ae2:condenser", nbt: {ForgeCaps: {}, condenser_output: "TRASH", id: "ae2:condenser", inv: {item0: {}, item1: {}, item2: {}}, storedPower: 0.0d, visual: {}}},
+        {pos: [13, 0, 3], state: "ae2:cable_bus{light_level:0,waterlogged:false}", nbt: {ForgeCaps: {}, cable: {gn: {p: 0}, id: "ae2:white_smart_cable", visual: {channelsEast: 1, connections: ["east"], missingChannel: 0b, powered: 1b}}, hasRedstone: 2, id: "ae2:cable_bus", visual: {}, west: {access: "READ_WRITE", filter_on_extract: "YES", fuzzy_mode: "IGNORE_ALL", gn: {p: 0}, id: "ae2:storage_bus", priority: 0, storage_filter: "EXTRACTABLE_ONLY", visual: {missingChannel: 0b, powered: 1b}}}},
+        {pos: [14, 0, 3], state: "expandedae:exp_io_port{facing:north,powered:true,spin:0}", nbt: {ForgeCaps: {}, fullness_mode: "EMPTY", id: "expandedae:exp_io_port", inv: {item0: {}, item1: {}, item10: {}, item11: {}, item2: {}, item3: {}, item4: {}, item5: {}, item6: {}, item7: {}, item8: {}, item9: {}}, lastRedstoneState: 1, operation_mode: "EMPTY", proxy: {p: 0}, redstone_controlled: "IGNORE", visual: {}}},
+        {pos: [15, 0, 3], state: "ae2:cable_bus{light_level:0,waterlogged:false}", nbt: {ForgeCaps: {}, cable: {gn: {p: 0}, id: "ae2:white_smart_cable", visual: {channelsEast: 2, channelsWest: 2, connections: ["west", "east"], missingChannel: 0b, powered: 1b}}, hasRedstone: 2, id: "ae2:cable_bus", visual: {}}}
+    ],
+    entities: [],
+    palette: [
+        "ae2:condenser",
+        "ae2:cable_bus{light_level:0,waterlogged:false}",
+        "expandedae:exp_io_port{facing:north,powered:true,spin:0}"
+    ]
+}
