@@ -279,5 +279,9 @@
 
   "mek1000.integrated_ore_process_factory.desc": "スパムからの卒業",
   "block.mek1000.integrated_ore_process_factory": "統合鉱石処理工場",
-  "mek1000.integrated_ore_process": "統合鉱石処理"
+  "mek1000.integrated_ore_process": "統合鉱石処理",
+
+  "block.mek1000.large_item_output":"巨大アイテム搬出ポート",
+  "block.mek1000.ae_input":"MEインターフェース搬入ポート",
+  "mek1000.auto_output_function.desc":"外部への自動搬出機能を持ちます"
 }

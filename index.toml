@@ -4579,7 +4579,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2-toogleable-view-cell.pw.toml"
-hash = "1e892f0275df80d8c508fe0c9bd3a8e94cc2a5f28e3750e91cc1348078355d8e"
+hash = "019c29033dcb43fcba399d0d4f2bbe5f83bb1b9a7ed83081b7607471c96d8253"
 metafile = true
 
 [[files]]
@@ -4638,8 +4638,13 @@ hash = "3011e54cc0370c6eccab1b78e6520266015f8de4a1fd762fd7df2a6c62e1b0e0"
 metafile = true
 
 [[files]]
+file = "mods/astral-mekanism-energistics-dynamics.pw.toml"
+hash = "365823b967354325f6c587260e0a25aa92291174475dafdf30b921b3e8c8e0d5"
+metafile = true
+
+[[files]]
 file = "mods/astral-mekanism.pw.toml"
-hash = "252ac13f07983e46c1a2c29589a05895e719cd0ee97f1905767f1eec18c2d03c"
+hash = "8cc4337c46011ed588869ac73f73363e626a5cdce0ad86edb8bd0754eba9bada"
 metafile = true
 
 [[files]]
@@ -5199,7 +5204,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-dire-things-forge.pw.toml"
-hash = "53144458c4760b0467cdc0d594611edfce2bbb9126464f45a3a1e2e3c6e99be5"
+hash = "0ddc42e3ba358f328f3d8138dde54c93489ec1fafe3c3cbc966b9d66e5c4894c"
 metafile = true
 
 [[files]]

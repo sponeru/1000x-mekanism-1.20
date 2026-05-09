@@ -1,6 +1,15 @@
+# 2.7.6 アップデート
+- Astral Mekanismを更新
+- AE2 Toggleable View Cellを更新
+- Astral Mekanism & Energistics:Dynamicsの追加
+- 巨大アイテム搬出ポート(256スロット)を追加
+- ME搬入ポートを追加
+- ドラゴンブレスのレシピ追加
+- 多次元高炉のポートを中央部分に自由配置できるように変更
+
 # 2.7.5 アップデート
 - 最強モジュールを積むと動かなくなるバグを修正
-- Astral Mekanisの更新
+- Astral Mekanismの更新
 - Just Dire Thingsのレシピ追加漏れを修正
 - 古代の残骸鉱石と粉の精錬レシピを追加
 - MekEvoExtrasの圧縮ファクトリーの内部容量を増加

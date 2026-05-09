@@ -111,6 +111,8 @@ ItemEvents.tooltip((event) => {
     Text.translate("mek1000.cognition_soul.desc.5").green(),
   ]);
 
+  event.add('mek1000:large_item_output', [Text.translate("mek1000.auto_output_function.desc")]);
+
   event.add("mek1000:the_null", [Text.translate("item.mek1000.the_null.desc")]);
 });
 

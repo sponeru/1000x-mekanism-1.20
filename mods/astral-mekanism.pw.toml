@@ -1,13 +1,13 @@
 name = "Astral Mekanism  & Energistics"
-filename = "astral_mekanism-1.7.4.jar"
+filename = "astral_mekanism-1.7.6-hotfix-1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "921a27603de99adb76f398d0b365b6e10c24d6eb"
+hash = "3f8ac262ba7b9f272c61ce65442cfa0132a1e504"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8056678
+file-id = 8063014
 project-id = 1415150

@@ -265,5 +265,9 @@
 
   "mek1000.integrated_ore_process_factory.desc": "Saying Goodbye to Spam",
   "block.mek1000.integrated_ore_process_factory": "Integrated Ore Processing Factory",
-  "mek1000.integrated_ore_process": "Integrated Ore Processing"
+  "mek1000.integrated_ore_process": "Integrated Ore Processing",
+
+  "block.mek1000.large_item_output": "Large Item Output Port",
+  "block.mek1000.ae_input": "ME Interface Input Port",
+  "mek1000.auto_output_function.desc": "Have automatic output function to external containers."
 }
