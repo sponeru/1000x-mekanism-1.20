@@ -1,0 +1,28 @@
+
+[cards]
+	#Maximum slot capacity (item count and fluid amount in mB) when a Capacity Card is installed. Default: Integer.MAX_VALUE.
+	#Range: > 64
+	capacityCardSlotLimit = 2147483647
+	#Internal energy buffer limit (in FE) when a Super Energy Card is installed. Default: 2,000,000,000 FE.
+	#Range: 2.0 ~ 1.7976931348623157E308
+	superEnergyCardBufferFE = 2.0E9
+	#Multiplier applied by the Parallel Card (Max tier). Default: Integer.MAX_VALUE.
+	#Range: > 2
+	parallelCardMaxMultiplier = 2147483647
+	#Multiplier applied when Super Speed Card is active on I/O buses and I/O ports. Default: 512.
+	#Range: > 1
+	superSpeedCardMultiplier = 512
+	#Number of ticks to complete a recipe when Overclock Card is installed. Lower = faster. Default: 5.
+	#Range: 1 ~ 200
+	overclockCardProcessTicks = 1
+
+[protection]
+	#Break-protection threshold. When the total item count inside a machine exceeds this value, Shift must be held to break it.
+	#Range: > 1
+	breakProtectionItemThreshold = 1000
+
+[machines]
+	#List of block IDs (namespace:path) whose machines should be excluded from all upgrade card effects,
+	#e.g. ae2:inscriber or ae2cs:crystal_pulverizer.
+	disabledMachineIds = []
+

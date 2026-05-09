@@ -1,0 +1,13 @@
+name = "Astral Mekanism & Energistics:Dynamics"
+filename = "ame_dynamics-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b0ea197e329ca508dcc4a0e19a89fc9fc8c0672f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8062113
+project-id = 1538042

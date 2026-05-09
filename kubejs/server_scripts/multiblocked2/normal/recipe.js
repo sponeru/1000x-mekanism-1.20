@@ -25,4 +25,8 @@ ServerEvents.recipes((event) => {
     
     
     event.shapeless('mek1000:naquadah_reactor_helper',['minecraft:furnace','minecraft:book','minecraft:black_dye'])
+
+    event.shapeless('mek1000:ae_input',['mek1000:item_input','expatternprovider:oversize_interface'])
+
+    event.shapeless('mek1000:large_item_output',['8x mek1000:item_output','astral_mekanism:universal_storage'])
 })
