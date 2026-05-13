@@ -1,10 +1,16 @@
 ServerEvents.recipes(event => {
   soft_ore_process('redstone', true, 'forge:dusts/redstone', 24)
-  soft_ore_process('certus_quartz', true, 'forge:gems/certus_quartz', 6)
+  soft_ore_process('certus_quartz', true, 'forge:gems/certus_quartz', 6 ,'certus')
   soft_ore_process('fluorite', true, 'forge:gems/fluorite', 6)
   soft_ore_process('quartz', true, 'forge:gems/quartz', 6)
 
-  function soft_ore_process (material, vaporize, tagname, mult) {
+  function soft_ore_process (material, vaporize, tagname, mult, altname) {
+    let vaponame = material
+      
+    if(altname != undefined){
+      vaponame = altname
+    }
+
     var tag_material = {
       dust: `forge:dusts/${material}`,
       dirty_dust: `mekanism:dirty_dusts/${material}`,
@@ -136,7 +142,7 @@ ServerEvents.recipes(event => {
             '1000x mekanism:sulfuric_acid'
           )
 
-          .outputGases(`${240 * mult}x mek1000:vaporized_${material}`)
+          .outputGases(`${240 * mult}x mek1000:vaporized_${vaponame}`)
 
           // per tick (consume / generate per tick)
           .perTick(builder => builder.inputFE(2000000000))
@@ -163,7 +169,7 @@ ServerEvents.recipes(event => {
             '3x mekanism:antimatter'
           )
 
-          .outputGases(`${4000 * mult}x mek1000:vaporized_${material}`)
+          .outputGases(`${4000 * mult}x mek1000:vaporized_${vaponame}`)
 
           // per tick (consume / generate per tick)
           .perTick(builder => builder.inputFE(2000000000))
@@ -190,7 +196,7 @@ ServerEvents.recipes(event => {
             '300x mek1000:active_aqua_regia'
           )
 
-          .outputGases(`${720 * mult}x mek1000:vaporized_${material}`)
+          .outputGases(`${720 * mult}x mek1000:vaporized_${vaponame}`)
 
           // per tick (consume / generate per tick)
           .perTick(builder => builder.inputFE(2000000000))
@@ -292,7 +298,7 @@ ServerEvents.recipes(event => {
             '1000x mekanism:sulfuric_acid'
           )
 
-          .outputGases(`${240 * mult * 4}x mek1000:vaporized_${material}`)
+          .outputGases(`${240 * mult * 4}x mek1000:vaporized_${vaponame}`)
 
           // per tick (consume / generate per tick)
           .perTick(builder => builder.inputFE(2000000000))
@@ -319,7 +325,7 @@ ServerEvents.recipes(event => {
             '3x mekanism:antimatter'
           )
 
-          .outputGases(`${4000 * mult * 4}x mek1000:vaporized_${material}`)
+          .outputGases(`${4000 * mult * 4}x mek1000:vaporized_${vaponame}`)
 
           // per tick (consume / generate per tick)
           .perTick(builder => builder.inputFE(2000000000))
@@ -346,7 +352,7 @@ ServerEvents.recipes(event => {
             '300x mek1000:active_aqua_regia'
           )
 
-          .outputGases(`${720 * mult * 4}x mek1000:vaporized_${material}`)
+          .outputGases(`${720 * mult * 4}x mek1000:vaporized_${vaponame}`)
 
           // per tick (consume / generate per tick)
           .perTick(builder => builder.inputFE(2000000000))
