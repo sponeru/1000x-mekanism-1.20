@@ -10,8 +10,8 @@ Extended AEは最新のAE2向けに、1.7.10や1.12.2の一部の機能を移植
 
 [Extended AE GitHub](https://github.com/GlodBlock/ExtendedAE) 
 
-## Extended Devices
+## 「拡張」ブロック
 <CategoryIndex category="extended devices"></CategoryIndex>
 
-## Extended Items
+## 「拡張」アイテム
 <CategoryIndex category="extended items"></CategoryIndex>

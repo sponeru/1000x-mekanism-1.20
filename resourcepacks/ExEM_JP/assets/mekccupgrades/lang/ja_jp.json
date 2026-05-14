@@ -1,0 +1,7 @@
+{
+  "key.categories.mekccupgrades": "Mek Config Card Upgrades",
+  "key.mekccupgrades.batch_paste": "設定カードの一括貼り付け",
+  "item.mekccupgrades.card_slot_bag": "アップグレードバッグ",
+  "tooltip.mekccupgrades.card_slot_bag.insert_supported": "全て適用",
+  "tooltip.mekccupgrades.card_slot_bag.extract_all": "全て抽出"
+}
