@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
       amount: 10000,
       gas: "mekanism:antimatter",
     },
-    energyRequired: 40000000000000,
+    energyRequired: 25000000000000,
     duration: 400,
     itemOutput: {
       item: "mek1000:neutronium_ingot",
