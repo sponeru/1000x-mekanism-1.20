@@ -106,15 +106,15 @@
 
 	[gamerules.spawning]
 		#Whether phantoms can spawn in the nighttime.
-		do_insomnia = true
+		do_insomnia = false
 		#Whether mobs should naturally spawn. Does not affect monster spawners.
-		do_mob_spawning = true
+		do_mob_spawning = false
 		#Whether patrols can spawn.
-		do_patrol_spawning = true
+		do_patrol_spawning = false
 		#Whether wandering traders can spawn.
-		do_trader_spawning = true
+		do_trader_spawning = false
 		#Whether wardens can spawn.
-		do_warden_spawning = true
+		do_warden_spawning = false
 
 #Configs related to difficulty changes
 [difficulty]
