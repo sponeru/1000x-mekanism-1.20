@@ -283,5 +283,6 @@
 
   "block.mek1000.large_item_output":"巨大アイテム搬出ポート",
   "block.mek1000.ae_input":"MEインターフェース搬入ポート",
+  "block.mek1000.large_imitation_sps_port":"桁違いなエネルギー搬入ポート",
   "mek1000.auto_output_function.desc":"外部への自動搬出機能を持ちます"
 }

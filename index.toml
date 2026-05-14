@@ -4638,13 +4638,18 @@ hash = "3011e54cc0370c6eccab1b78e6520266015f8de4a1fd762fd7df2a6c62e1b0e0"
 metafile = true
 
 [[files]]
+file = "mods/astral-mekanism-energistics-cognition.pw.toml"
+hash = "8d89288f2593962ddf1ce831598bb731c22d6fa5efbfe98ef66d74b9ae711115"
+metafile = true
+
+[[files]]
 file = "mods/astral-mekanism-energistics-dynamics.pw.toml"
-hash = "365823b967354325f6c587260e0a25aa92291174475dafdf30b921b3e8c8e0d5"
+hash = "e5f885a17835a85e4caf92a30f9a4d09e7af3ce02eb00e7fd60580468d9e2ac2"
 metafile = true
 
 [[files]]
 file = "mods/astral-mekanism.pw.toml"
-hash = "8cc4337c46011ed588869ac73f73363e626a5cdce0ad86edb8bd0754eba9bada"
+hash = "079b42a0eb8c39256427c294ae9fa2298a261675db0ceeed874db30c88e9d15d"
 metafile = true
 
 [[files]]
@@ -4820,6 +4825,11 @@ metafile = true
 [[files]]
 file = "mods/creativecore.pw.toml"
 hash = "761d47655e8bbabfad7389b74b519528ab5b258cdee8e89a344a51fa8f091b4e"
+metafile = true
+
+[[files]]
+file = "mods/creativity-drive.pw.toml"
+hash = "5de3995ab625f47a10be63180b5bb8d937ba3d982709c5120421dae94bac2dbd"
 metafile = true
 
 [[files]]
@@ -5319,7 +5329,7 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-config-card-upgrades.pw.toml"
-hash = "ade9507ec9c158f754f816cc0905157e15ea017101dbd44ac69c1ba157d1234d"
+hash = "296da0e8c7d410ec9d0ec1126f2e2a4a7ee274a9c49ce4ce0477ce9da7225005"
 metafile = true
 
 [[files]]
@@ -5434,7 +5444,7 @@ metafile = true
 
 [[files]]
 file = "mods/morethermalevaporation.pw.toml"
-hash = "991f2770b427645b2b7a8b79ccc51528375a2421d7f40a24d52da7c3f6c943c5"
+hash = "ee34f9c2c831562a6af2dad44df77cedb20e9bbe0ea014694fd70f9bcb193e99"
 metafile = true
 
 [[files]]

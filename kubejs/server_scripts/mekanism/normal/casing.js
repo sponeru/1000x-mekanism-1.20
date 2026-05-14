@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
       amount: 10000,
       gas: "mekanism:antimatter",
     },
-    energyRequired: 40000000000000,
+    energyRequired: 25000000000000,
     duration: 400,
     itemOutput: {
       item: "mek1000:neutronium_ingot",
@@ -174,6 +174,11 @@ ServerEvents.recipes(event => {
   event.shapeless("mek1000:imitation_sps_port", [
     "mekanism:sps_port",
     "mekanism_extras:alloy_radiance",
+  ]);
+
+  event.shapeless("mek1000:large_imitation_sps_port", [
+    "8x mek1000:imitation_sps_port",
+    'astral_mekanism:alloy_stardust',
   ]);
 
   event.shaped("mek1000:item_input", ["e  ", "t  ", "   "], {

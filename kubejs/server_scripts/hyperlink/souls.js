@@ -121,7 +121,7 @@ ServerEvents.recipes(event => {
       'advanced_ae:quantum_leggings',
       'advanced_ae:quantum_chestplate',
       'advanced_ae:quantum_boots',
-      'advanced_ae:auto_stock_card',
+      //'advanced_ae:auto_stock_card',
       'advanced_ae:magnet_card',
       'advanced_ae:hp_buffer_card',
       'advanced_ae:evasion_card',

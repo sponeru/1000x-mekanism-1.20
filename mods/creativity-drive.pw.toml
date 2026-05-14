@@ -1,0 +1,13 @@
+name = "Creativity Drive"
+filename = "creativity_drive-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "86800d017882ba6d49939a79f32a93bd347ce01c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8069320
+project-id = 1539460

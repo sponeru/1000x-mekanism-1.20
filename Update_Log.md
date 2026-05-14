@@ -1,3 +1,18 @@
+# 2.7.7 アップデート
+- Astral Mekanismの更新
+- Astral Mekanism & Energistics:Dynamicsの追加
+- Astral Mekanism & Energistics:Cognitionの追加
+- Creativity Driveの追加
+- 鉱石統合機の削除
+- Auto Stock Cardの一時削除
+- Mekanism Config Card Upgradesの更新
+- バベルの図書館のスポーンエッグ・レコードの作成速度を高速化
+- 日本語リソースパックの更新
+- 統合鉱石処理工場の外枠ブロックが空気でも許可されていた問題を修正
+- 統合鉱石処理工場にAE入力ハッチが使えなかった不具合を修正
+- 桁違いなエネルギー搬入ポートを追加
+- ニュートロニウムの消費電力を軽減
+
 # 2.7.6 アップデート
 - Astral Mekanismを更新
 - AE2 Toggleable View Cellを更新
