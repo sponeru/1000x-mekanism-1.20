@@ -176,6 +176,11 @@ ServerEvents.recipes(event => {
     "mekanism_extras:alloy_radiance",
   ]);
 
+  event.shapeless("mek1000:large_imitation_sps_port", [
+    "8x mek1000:imitation_sps_port",
+    'astral_mekanism:alloy_stardust',
+  ]);
+
   event.shaped("mek1000:item_input", ["e  ", "t  ", "   "], {
     e: "#forge:chests",
     t: "mek1000:reinforced_steel_casing",

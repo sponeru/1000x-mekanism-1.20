@@ -4,6 +4,25 @@ let energy_tablet = ['mekanism:energy_tablet', 'solarpanels:improved_energy_tabl
 let cubes = ['mekanism:basic_energy_cube', 'mekanism:advanced_energy_cube', 'mekanism:elite_energy_cube', 'mekanism:ultimate_energy_cube']
 
 ItemEvents.modification(event => {
+
+    IngredientHelper.mod("astral_mekanism").getItemIds().forEach(content =>{
+        event.modify(content, item => {
+            item.maxStackSize = 64
+        })
+    })
+
+    IngredientHelper.mod("ame_dynamics").getItemIds().forEach(content =>{
+        event.modify(content, item => {
+            item.maxStackSize = 64
+        })
+    })
+
+    IngredientHelper.mod("ame_cognition").getItemIds().forEach(content =>{
+        event.modify(content, item => {
+            item.maxStackSize = 64
+        })
+    })
+
     machines.forEach(content => {
         event.modify(content, item => {
             item.maxStackSize = 64

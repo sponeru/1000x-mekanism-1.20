@@ -269,5 +269,6 @@
 
   "block.mek1000.large_item_output": "Large Item Output Port",
   "block.mek1000.ae_input": "ME Interface Input Port",
+  "block.mek1000.large_imitation_sps_port":"Extraordinary Energy Input Port",
   "mek1000.auto_output_function.desc": "Have automatic output function to external containers."
 }
