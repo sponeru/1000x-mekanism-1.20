@@ -5213,6 +5213,11 @@ hash = "5f366181cab265e1b1e68f474303c53ba5d207a28e06518a050ec0fcc73099c4"
 metafile = true
 
 [[files]]
+file = "mods/just-dire-fixes.pw.toml"
+hash = "c3bae4daafea2f4cde34731eb96f17f9f5e82d0fa3ba4d022548a2ad5ba13328"
+metafile = true
+
+[[files]]
 file = "mods/just-dire-things-forge.pw.toml"
 hash = "0ddc42e3ba358f328f3d8138dde54c93489ec1fafe3c3cbc966b9d66e5c4894c"
 metafile = true

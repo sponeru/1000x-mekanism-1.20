@@ -54,4 +54,30 @@ StartupEvents.registry("item", event => {
     event.create('mek1000:applied_soul').rarity("epic")
     event.create('mek1000:integrated_soul').rarity("epic")
     event.create('mek1000:cognition_soul').rarity("epic")
+
+    event.create('mek1000:super_press').rarity("epic").texture("advanced_ae:item/quantum_processor_press").glow(true)
+
+    event.create('mek1000:super_flux_processor').texture("mek1000:item/flux_processor").glow(true)
+    event.create('mek1000:super_cognitive_processor').texture("mek1000:item/cognitive_processor").glow(true)
+    event.create('mek1000:super_echo_processor').texture("mek1000:item/echo_processor").glow(true)
+    event.create('mek1000:super_valinium_processor').texture("mek1000:item/valinium_processor").glow(true)
+
+    event.create('mek1000:super_logic_processor').texture("ae2:item/logic_processor").glow(true)
+    event.create('mek1000:super_calculation_processor').texture("ae2:item/calculation_processor").glow(true)
+    event.create('mek1000:super_engineering_processor').texture("ae2:item/engineering_processor").glow(true)
+    event.create('mek1000:super_energy_processor').texture("appflux:item/energy_processor").glow(true)
+    event.create('mek1000:super_quantum_processor').texture("advanced_ae:item/quantum_processor").glow(true)
+    event.create('mek1000:super_accumulation_processor').texture("megacells:item/accumulation_processor").glow(true)
+
+    event.create('mek1000:compressed_flux').texture("mek1000:item/wip").glow(true)
+    event.create('mek1000:compressed_primodial').texture("mek1000:item/wip").glow(true)
+    event.create('mek1000:compressed_echo').texture("mek1000:item/wip").glow(true)
+    event.create('mek1000:compressed_valinium').texture("mek1000:item/wip").glow(true)
+
+    event.create('mek1000:compressed_gold').texture("mek1000:item/wip").glow(true)
+    event.create('mek1000:compressed_certus_quartz').texture("mek1000:item/wip").glow(true)
+    event.create('mek1000:compressed_diamond').texture("mek1000:item/wip").glow(true)
+    event.create('mek1000:compressed_redstone_crystal').texture("mek1000:item/wip").glow(true)
+    event.create('mek1000:compressed_quantum_alloy').texture("mek1000:item/wip").glow(true)
+    event.create('mek1000:compressed_sky_steel').texture("mek1000:item/wip").glow(true)
 })

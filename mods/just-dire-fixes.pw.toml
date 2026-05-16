@@ -1,0 +1,13 @@
+name = "Just Dire Fixes"
+filename = "justdirefixes-1.1-SNAPSHOT.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "357aaf8e1a61a94561da0aae752943e38a680a8e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8098255
+project-id = 1544444
