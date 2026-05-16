@@ -1,3 +1,8 @@
+# 2.7.8 アップデート
+- 圧縮プロセッサーの実装（仮）
+- セルのアナザーレシピ追加
+- Just Dire Fixesの追加
+
 # 2.7.7 アップデート
 - Astral Mekanismの更新
 - Astral Mekanism & Energistics:Dynamicsの追加
