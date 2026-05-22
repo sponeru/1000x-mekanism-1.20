@@ -22,7 +22,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 0.0d
-			y: -15.5d
+			y: -14.0d
 		}
 	]
 	order_index: 1
@@ -39,18 +39,6 @@
 			x: -7.0d
 			y: -6.5d
 		}
-		{
-			id: "00C56BD3BE44EAC7"
-			linked_quest: "02491F4F5E0B2531"
-			x: -5.0d
-			y: -8.5d
-		}
-		{
-			id: "49AAFFCF5C3E4426"
-			linked_quest: "358F6032ACD91551"
-			x: -1.5d
-			y: -13.5d
-		}
 	]
 	quests: [
 		{
@@ -60,17 +48,17 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"このModpackはこのような特徴を持っています"
-				"&a・消費電力が1000倍にされたMekanismの機械たち&r"
-				"&a・大量に生成される鉱石&r"
-				"&a・最大192000倍の鉱石倍加レシピ&r"
-				"&b・Multiblocked2による独自マルチブロックと機械&r"
-				"&c・ピースフル固定&r"
-				"&c・ネザー・エンド廃止&r"
+				"{ftbquests.chapter.1.quest1.description1}"
+				"{ftbquests.chapter.1.quest1.description2}"
+				"{ftbquests.chapter.1.quest1.description3}"
+				"{ftbquests.chapter.1.quest1.description4}"
+				"{ftbquests.chapter.1.quest1.description5}"
+				"{ftbquests.chapter.1.quest1.description6}"
+				"{ftbquests.chapter.1.quest1.description7}"
 				""
 				""
 				""
-				"なるべく耐えてくださいね"
+				"{ftbquests.chapter.1.quest1.description8}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -86,24 +74,22 @@
 				}
 				type: "item"
 			}]
-			subtitle: "1.20アップデート"
+			subtitle: "{ftbquests.chapter.1.quest1.subtitle}"
 			tasks: [{
 				id: "3604615BBDCBBC95"
 				type: "checkmark"
 			}]
-			title: "桁違いな電力へようこそ"
+			title: "{ftbquests.chapter.1.quest1.title}"
 			x: 0.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["016780D32B1ABC49"]
 			description: [
-				"このModpackには&aFTB Ultimine&rが入っています"
-				"キー設定をして使いましょう。"
+				"{ftbquests.chapter.1.quest2.description1}"
+				"{ftbquests.chapter.1.quest2.description2}"
 				""
-				"言い忘れていましたが、&a全てのアイテムのスタック数は65536個&rまで拡張されています！"
-				""
-				"また、このModpackでは鉱石が&a木レベルのツール&rで掘れるようになっています。"
+				"{ftbquests.chapter.1.quest2.description3}"
 			]
 			id: "296399230B63F479"
 			rewards: [
@@ -120,7 +106,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "一括破壊"
+			subtitle: "{ftbquests.chapter.1.quest3.subtitle}"
 			tasks: [
 				{
 					count: 1024L
@@ -172,27 +158,17 @@
 					}
 					type: "item"
 				}
-				{
-					count: 1024L
-					id: "79B95BC6C67C6FCF"
-					item: {
-						BigCount: 1048
-						Count: 1048
-						id: "minecraft:raw_gold"
-					}
-					type: "item"
-				}
 			]
-			title: "基本素材を集める"
+			title: "{ftbquests.chapter.1.quest3.title}"
 			x: 3.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["016780D32B1ABC49"]
 			description: [
-				"&aBotany Pot&rは作物と木を栽培する設備です"
+				"{ftbquests.chapter.1.quest3.description1}"
 				""
-				"土を使用することで1分で木を育てることができます"
+				"{ftbquests.chapter.1.quest3.description2}"
 			]
 			id: "68760385B1DE4302"
 			rewards: [{
@@ -201,7 +177,7 @@
 				item: "botanypots:terracotta_hopper_botany_pot"
 				type: "item"
 			}]
-			subtitle: "盆栽シミュレーター"
+			subtitle: "{ftbquests.chapter.1.quest4.subtitle}"
 			tasks: [
 				{
 					id: "53AA7CA667184448"
@@ -214,17 +190,17 @@
 					type: "item"
 				}
 			]
-			title: "Botany Potを作る"
+			title: "{ftbquests.chapter.1.quest4.title}"
 			x: 0.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["016780D32B1ABC49"]
 			description: [
-				"Sophisticated  BackpacksはバックパックModです"
+				"{ftbquests.chapter.1.quest4.description1}"
 				""
-				"&aStack Upgrade&rはバックパックの強化アイテムで、1つ装着すると&c1スロット当たりの収納量&rが増えます"
-				"最大3枚まで装着可能です"
+				"{ftbquests.chapter.1.quest4.description2}"
+				"{ftbquests.chapter.1.quest4.description3}"
 			]
 			id: "6FB7FFBB57D7E799"
 			rewards: [{
@@ -233,7 +209,7 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
-			subtitle: "多分いちばん使いやすい"
+			subtitle: "{ftbquests.chapter.1.quest5.subtitle}"
 			tasks: [
 				{
 					id: "771F5232DEC1DD57"
@@ -247,20 +223,20 @@
 					type: "item"
 				}
 			]
-			title: "バックパックを作る"
+			title: "{ftbquests.chapter.1.quest5.title}"
 			x: -1.5d
 			y: -12.0d
 		}
 		{
 			dependencies: ["6FB7FFBB57D7E799"]
 			description: [
-				"&aAdvanced Magnet Upgrade&rは装着するとバックパックがマグネットとしても機能するようになります"
-				"フィルタリングをかけることでバックパックに収納中のアイテムのみを収納することも可能です"
+				"{ftbquests.chapter.1.quest5.description1}"
+				"{ftbquests.chapter.1.quest5.description2}"
 				""
-				"&aAdvanced Compacting Upgrade&rは装着すると3x3や2x2のレシピで自動圧縮を行ってくれます"
+				"{ftbquests.chapter.1.quest5.description3}"
 			]
 			id: "05F676E3893ACC4D"
-			subtitle: "マグネットModの代わり"
+			subtitle: "{ftbquests.chapter.1.quest6.subtitle}"
 			tasks: [
 				{
 					id: "0DFD33B4B7487326"
@@ -273,17 +249,13 @@
 					type: "item"
 				}
 			]
-			title: "バックパックの強化"
+			title: "{ftbquests.chapter.1.quest6.title}"
 			x: -3.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["296399230B63F479"]
-			description: [
-				"最初の機械である&a冶金吹き込み機&rを稼働させるには256台の風力発電機が必要です。"
-				""
-				"ヒント：風力発電機は&a高度に比例して発電量が増加&rします"
-			]
+			description: ["{ftbquests.chapter.1.quest6.description1}"]
 			id: "3F9B706BE86D157B"
 			rewards: [{
 				count: 256
@@ -291,7 +263,7 @@
 				item: "mekanism_extras:absolute_universal_cable"
 				type: "item"
 			}]
-			subtitle: "足りません"
+			subtitle: "{ftbquests.chapter.1.quest7.subtitle}"
 			tasks: [{
 				count: 256L
 				id: "5F963FF488D652EA"
@@ -302,15 +274,15 @@
 				}
 				type: "item"
 			}]
-			title: "風力発電機を作る"
+			title: "{ftbquests.chapter.1.quest7.title}"
 			x: 3.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["3F9B706BE86D157B"]
 			description: [
-				"&a冶金吹き込み機&rはMekanismの最初の加工機械です"
-				"制作コストが&c9倍になっています&r"
+				"{ftbquests.chapter.1.quest7.description1}"
+				"{ftbquests.chapter.1.quest7.description2}"
 			]
 			id: "68335D23BF84FEE3"
 			rewards: [
@@ -327,23 +299,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "初めての機械"
+			subtitle: "{ftbquests.chapter.1.quest8.subtitle}"
 			tasks: [{
 				id: "76C8CE2EB8D24328"
 				item: "mekanism:metallurgic_infuser"
 				type: "item"
 			}]
-			title: "冶金吹込み機を作る"
+			title: "{ftbquests.chapter.1.quest8.title}"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["68335D23BF84FEE3"]
-			description: [
-				"&a神秘的なキューブ&rを破壊することで金型を入手できます"
-				""
-				"[ \"スカイストーンの入手法には冶金注入機で作るか、\", { \"text\": \"無限資源にする方法があります。\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"00C56BD3BE44EAC7\" } } ]"
-			]
+			description: ["{ftbquests.chapter.1.quest8.description1}"]
 			id: "2222120D1B1E679D"
 			rewards: [{
 				count: 32
@@ -351,13 +319,13 @@
 				item: "ae2:sky_stone_block"
 				type: "item"
 			}]
-			subtitle: "隕石なんてなかった"
+			subtitle: "{ftbquests.chapter.1.quest9.subtitle}"
 			tasks: [{
 				id: "3E9962C49FA4CCBB"
 				item: "ae2:mysterious_cube"
 				type: "item"
 			}]
-			title: "ケルタスクオーツと神秘的なキューブを作る"
+			title: "{ftbquests.chapter.1.quest9.title}"
 			x: -3.0d
 			y: -6.5d
 		}
@@ -384,7 +352,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "ME倉庫を拡張しよう"
+			subtitle: "{ftbquests.chapter.1.quest10.subtitle}"
 			tasks: [
 				{
 					id: "52176CFF76B2BCEF"
@@ -402,7 +370,7 @@
 					type: "item"
 				}
 			]
-			title: "AE2のプロセッサを作る"
+			title: "{ftbquests.chapter.1.quest10.title}"
 			x: -3.0d
 			y: -4.5d
 		}
@@ -415,7 +383,7 @@
 				item: "minecraft:slime_ball"
 				type: "item"
 			}]
-			subtitle: "べたべた"
+			subtitle: "{ftbquests.chapter.1.quest11.subtitle}"
 			tasks: [
 				{
 					id: "704B12C6B3454D1A"
@@ -445,13 +413,13 @@
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			subtitle: "突然要求されるAE回路"
+			subtitle: "{ftbquests.chapter.1.quest12.subtitle}"
 			tasks: [{
 				id: "247478230D473B87"
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			title: "基本制御回路を作る"
+			title: "{ftbquests.chapter.1.quest12.title}"
 			x: -3.0d
 			y: -2.5d
 		}
@@ -464,13 +432,13 @@
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			subtitle: "コスト9倍"
+			subtitle: "{ftbquests.chapter.1.quest13.subtitle}"
 			tasks: [{
 				id: "0C8424CF566571A6"
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			title: "鋼鉄ケーシングを作る"
+			title: "{ftbquests.chapter.1.quest13.title}"
 			x: 0.0d
 			y: -2.5d
 		}
@@ -494,7 +462,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "鉱石6倍化が解禁"
+			subtitle: "{ftbquests.chapter.1.quest14.subtitle}"
 			tasks: [
 				{
 					id: "12E81BCCB02B32D5"
@@ -507,7 +475,7 @@
 					type: "item"
 				}
 			]
-			title: "濃縮室と粉砕機を作る"
+			title: "{ftbquests.chapter.1.quest14.title}"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -520,13 +488,13 @@
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			subtitle: "赤石の消費量"
+			subtitle: "{ftbquests.chapter.1.quest15.subtitle}"
 			tasks: [{
 				id: "432F5C271294B04E"
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			title: "発展制御回路を作る"
+			title: "{ftbquests.chapter.1.quest15.title}"
 			x: 0.0d
 			y: 1.0d
 		}
@@ -538,7 +506,7 @@
 				item: "mekanism:pressurized_reaction_chamber"
 				type: "item"
 			}]
-			title: "加圧反応室を作る"
+			title: "{ftbquests.chapter.1.quest16.title}"
 			x: 2.0d
 			y: 1.0d
 		}
@@ -556,33 +524,33 @@
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
-			title: "精鋭制御回路を作る"
+			title: "{ftbquests.chapter.1.quest17.title}"
 			x: 0.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["24A7B7094ED357E9"]
 			id: "18EF09B75E5B4CFC"
-			subtitle: "鉱石24倍化が解禁"
+			subtitle: "{ftbquests.chapter.1.quest18.subtitle}"
 			tasks: [{
 				id: "2CF4F7C9B073F03F"
 				item: "mekanism:purification_chamber"
 				type: "item"
 			}]
-			title: "浄化室を作る"
+			title: "{ftbquests.chapter.1.quest18.title}"
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["38F0D9673E24BE74"]
 			id: "61D9BE79FEB34259"
-			subtitle: "鉱石96倍化が解禁"
+			subtitle: "{ftbquests.chapter.1.quest19.subtitle}"
 			tasks: [{
 				id: "718F0D16D48F27C4"
 				item: "mekanism:chemical_injection_chamber"
 				type: "item"
 			}]
-			title: "化学注入室を作る"
+			title: "{ftbquests.chapter.1.quest19.title}"
 			x: -2.0d
 			y: 5.0d
 		}
@@ -599,7 +567,7 @@
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
-			title: "究極制御回路を作る"
+			title: "{ftbquests.chapter.1.quest20.title}"
 			x: 0.0d
 			y: 6.5d
 		}
@@ -612,7 +580,7 @@
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
-			subtitle: "Modpack監督を燃やそう"
+			subtitle: "{ftbquests.chapter.1.quest21.subtitle}"
 			tasks: [
 				{
 					id: "1949A59CAE24BE87"
@@ -660,7 +628,7 @@
 		{
 			dependencies: ["7ED68F17797155BB"]
 			id: "55BC5FEC8F4AE878"
-			subtitle: "つよい発電機その1"
+			subtitle: "{ftbquests.chapter.1.quest23.subtitle}"
 			tasks: [{
 				id: "6AC4BB9887D6DB05"
 				item: "mek1000:advanced_gas_burning_generator"
@@ -690,7 +658,7 @@
 		{
 			dependencies: ["2222120D1B1E679D"]
 			id: "2E4A177EF279802F"
-			subtitle: "アメジストにも使えます"
+			subtitle: "{ftbquests.chapter.1.quest24.subtitle}"
 			tasks: [
 				{
 					count: 4L
@@ -705,17 +673,13 @@
 					type: "item"
 				}
 			]
-			title: "成長加速器を作る"
+			title: "{ftbquests.chapter.1.quest24.title}"
 			x: -3.0d
-			y: -8.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["016780D32B1ABC49"]
-			description: [
-				"ExDeorumが追加されていますが、&cふるいや溶岩るつぼは作成できません&r"
-				""
-				"Skyblockモードでは作成可能です。詳しくはSkyblockの章をご覧ください。"
-			]
+			description: ["{ftbquests.chapter.1.quest25.description1}"]
 			id: "4E84A725FB985753"
 			rewards: [{
 				id: "02070DC4220BF12A"
@@ -728,7 +692,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Skyblock以外で使わなそうなやつ"
+			subtitle: "{ftbquests.chapter.1.quest26.subtitle}"
 			tasks: [{
 				id: "30FC0F5DB738D7A5"
 				item: {
@@ -746,20 +710,20 @@
 		{
 			dependencies: ["016780D32B1ABC49"]
 			description: [
-				"&aFTB Essentials&rによって便利なコマンドが追加されています"
+				"{ftbquests.chapter.1.quest26.description1}"
 				""
-				"/sethome <名前>"
-				"ホームポイントをセットします"
+				"{ftbquests.chapter.1.quest26.description2}"
+				"{ftbquests.chapter.1.quest26.description3}"
 				""
-				"/home <名前>"
-				"ホームポイントへワープします"
+				"{ftbquests.chapter.1.quest26.description4}"
+				"{ftbquests.chapter.1.quest26.description5}"
 				""
-				"/spawn"
-				"スポーンポイントへワープします"
+				"{ftbquests.chapter.1.quest26.description6}"
+				"{ftbquests.chapter.1.quest26.description7}"
 			]
 			id: "037FD1B69569861E"
 			optional: true
-			subtitle: "おめーの家、あるから！"
+			subtitle: "{ftbquests.chapter.1.quest27.subtitle}"
 			tasks: [{
 				id: "73446AE26179E40F"
 				type: "checkmark"
@@ -777,7 +741,7 @@
 				item: "minecraft:budding_amethyst"
 				type: "item"
 			}]
-			subtitle: "アメジスト生えるｗｗｗ"
+			subtitle: "{ftbquests.chapter.1.quest28.subtitle}"
 			tasks: [{
 				id: "369AFA3C07A82284"
 				item: "minecraft:budding_amethyst"
@@ -807,18 +771,13 @@
 		}
 		{
 			dependencies: ["016780D32B1ABC49"]
-			description: [
-				"任意の&a苗木か葉っぱ&rを投入し、&a熱源で加熱&rすることで&a水&rを作成できます"
-				""
-				"&c水たまりは生成されません、無駄に時間を使わないでください&r"
-			]
 			id: "32BA30BD4C4537A0"
 			rewards: [{
 				id: "01C0669DB35F6C23"
 				item: "exdeorum:oak_crucible"
 				type: "item"
 			}]
-			subtitle: "びちゃびちゃ"
+			subtitle: "{ftbquests.chapter.1.quest29.subtitle}"
 			tasks: [
 				{
 					id: "3D646585D32BAE6E"
@@ -836,18 +795,6 @@
 		}
 		{
 			dependencies: ["016780D32B1ABC49"]
-			description: [
-				"チェストやバックパックを開け閉めするのが面倒ですか？"
-				""
-				"&aTom's Storage&r を使いましょう！"
-				""
-				"&aAE2ライクの操作でアイテムを出し入れ&rできます。"
-				""
-				"&aInventory Connector&rにチェストを隣接させ、&aStorage Terminal&rを隣接させると出し入れできるようになります。"
-				""
-				"&c高度な自動化は不可能&rです。"
-				"プロセッサーと電力を確保出来たら、&aME倉庫&rに乗り換えることを忘れずに・・・・"
-			]
 			id: "46DB5D4B1A346D3E"
 			rewards: [{
 				count: 2
@@ -855,7 +802,7 @@
 				item: "expandedstorage:diamond_chest"
 				type: "item"
 			}]
-			subtitle: "ぐちゃぐちゃ防止"
+			subtitle: "{ftbquests.chapter.1.quest30.subtitle}"
 			tasks: [
 				{
 					id: "7B4CD2A2B97F001A"
@@ -868,13 +815,12 @@
 					type: "item"
 				}
 			]
-			title: "Crafting Terminalとその他"
+			title: "{ftbquests.chapter.1.quest30.title}"
 			x: 3.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["32BA30BD4C4537A0"]
-			description: ["&a水&rが入ったバレルに&aDustを投入&rすることで作成できます"]
 			id: "5D812B702AB88859"
 			tasks: [
 				{
@@ -894,9 +840,9 @@
 		{
 			dependencies: ["7F5BC9CABAE2CB00"]
 			description: [
-				"右クリックすることで、何もないディメンションに移動できます。"
+				"{ftbquests.chapter.1.quest30.description1}"
 				""
-				"パッシブで生産しているものを移したり、変なものを置いたりしてください。"
+				"{ftbquests.chapter.1.quest30.description2}"
 			]
 			id: "0D305AEF5BEBF8CF"
 			rewards: [
@@ -920,65 +866,6 @@
 			}]
 			x: -2.0d
 			y: 6.5d
-		}
-		{
-			dependencies: ["016780D32B1ABC49"]
-			description: [
-				"JEIは優秀な&aレシピ検索Mod&rです。"
-				""
-				"このModpackでは&c多くのレシピが変更されています&r。"
-				""
-				"何かを作ろうと思い立ったらまず&aJEIを見ましょう！&r"
-				""
-				"また、1つのアイテムに&a複数のレシピが存在&rすることもあります。"
-				"&a別のページもチェック&rしてください！！"
-			]
-			id: "3C45E41301564CD1"
-			subtitle: "Wikipediaより詳しい"
-			tasks: [{
-				id: "00F483AC85097D64"
-				type: "checkmark"
-			}]
-			title: "Tips : JEIを使おう"
-			x: 0.0d
-			y: -13.5d
-		}
-		{
-			dependencies: ["4E1C88D7480C205E"]
-			description: [
-				"このModpackでは、大量の中間素材を使います。"
-				""
-				"その都度中間素材を作ると疲れてしまいます。"
-				""
-				"できるだけ早く&aAE倉庫&rを作るか、一度に&a沢山作り置き&rすることを推奨します。"
-			]
-			id: "5FEF66DF88B75161"
-			tasks: [{
-				id: "17B7128F4D0DF0F8"
-				type: "checkmark"
-			}]
-			title: "Make More！"
-			x: 2.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["016780D32B1ABC49"]
-			description: [
-				"Modpack公式のDiscordに参加しましょう！"
-				""
-				"同じ志を持つ人たちに質問や会話をすることができます！"
-				""
-				"{\"text\":\"https://discord.gg/VwBefY6Tbh\",\"color\":\"red\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/VwBefY6Tbh\"}}"
-			]
-			id: "087D8C6FF3954A67"
-			subtitle: "被害者の会"
-			tasks: [{
-				id: "55C3A36CE8F7A7C2"
-				type: "checkmark"
-			}]
-			title: "Discord"
-			x: 1.5d
-			y: -13.5d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.1.subtitle0}"]

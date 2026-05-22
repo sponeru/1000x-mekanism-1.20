@@ -11,14 +11,14 @@
 		{
 			dependencies: ["016780D32B1ABC49"]
 			description: [
-				"&a経験値オベリスク&rは経験値を貯めることのできる装置です"
+				"{ftbquests.chapter.cognition.quest1.description1}"
 				""
-				"最大&b1000Lv&rほどの経験値を貯めることができます"
-				"また、液体として経験値を搬入・搬出することも可能です"
+				"{ftbquests.chapter.cognition.quest1.description2}"
+				"{ftbquests.chapter.cognition.quest1.description3}"
 				""
-				"&a調和の杖&rは&a経験値オベリスク&rと他の装置を紐づける時に使用します"
+				"{ftbquests.chapter.cognition.quest1.description4}"
 				""
-				"最初に&a経験値オベリスク&rをシフト+右クリックしたあと紐づけたい装置に右クリックしてください"
+				"{ftbquests.chapter.cognition.quest1.description5}"
 			]
 			id: "613E423F745CDAED"
 			rewards: [{
@@ -27,7 +27,7 @@
 				item: "minecraft:experience_bottle"
 				type: "item"
 			}]
-			subtitle: "経験値を貯める・・・だけじゃない"
+			subtitle: "{ftbquests.chapter.cognition.quest1.subtitle}"
 			tasks: [
 				{
 					id: "3A38586924AA0FD6"
@@ -46,11 +46,11 @@
 		{
 			dependencies: ["613E423F745CDAED"]
 			description: [
-				"&a分子変質機&rは&a経験値オベリスク&rに蓄積された経験値を使い、特殊な加工ができます"
+				"{ftbquests.chapter.cognition.quest2.description1}"
 				""
-				"&a経験値オベリスク&rと紐づけなければ使用できません"
+				"{ftbquests.chapter.cognition.quest2.description2}"
 				""
-				"アイテムの搬入・搬出に対応しているので、AE自動クラフトに組み込むことができます"
+				"{ftbquests.chapter.cognition.quest2.description3}"
 			]
 			id: "51C1587257D31C07"
 			rewards: [{
@@ -64,7 +64,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "ちょっと魔法"
+			subtitle: "{ftbquests.chapter.cognition.quest2.subtitle}"
 			tasks: [{
 				id: "17E51A4BA3E90369"
 				item: "experienceobelisk:molecular_metamorpher"
@@ -76,9 +76,9 @@
 		{
 			dependencies: ["51C1587257D31C07"]
 			description: [
-				"&a精密解呪機&rはツールに付与されている任意のエンチャントや呪いを剥がすことができます"
+				"{ftbquests.chapter.cognition.quest3.description1}"
 				""
-				"&a経験値オベリスク&rに紐づけて使います"
+				"{ftbquests.chapter.cognition.quest3.description2}"
 			]
 			id: "75FCC7B8BEE9A66E"
 			rewards: [{
@@ -95,7 +95,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "バニラにあったらいいのに"
+			subtitle: "{ftbquests.chapter.cognition.quest3.subtitle}"
 			tasks: [{
 				id: "786BC80EF8A97BA8"
 				item: "experienceobelisk:precision_dispeller"
@@ -107,9 +107,9 @@
 		{
 			dependencies: ["016780D32B1ABC49"]
 			description: [
-				"&aエンチャントの本棚&rはバニラの本棚の2倍のエンチャントパワーを持ちます"
+				"{ftbquests.chapter.cognition.quest4.description1}"
 				""
-				"つまり、&c8個&r設置すれば30Lvのエンチャントが可能になります"
+				"{ftbquests.chapter.cognition.quest4.description2}"
 			]
 			id: "36A6DA6DB9B7CF76"
 			rewards: [{
@@ -118,7 +118,7 @@
 				item: "experienceobelisk:enchanted_bookshelf"
 				type: "item"
 			}]
-			subtitle: "いまだけ2倍"
+			subtitle: "{ftbquests.chapter.cognition.quest4.subtitle}"
 			tasks: [{
 				id: "3D8F8C789265B608"
 				item: "experienceobelisk:enchanted_bookshelf"
@@ -130,14 +130,14 @@
 		{
 			dependencies: ["51C1587257D31C07"]
 			description: [
-				"&a本の虫&rは各種本棚と併せて使います"
+				"{ftbquests.chapter.cognition.quest5.description1}"
 				""
-				"本棚に対して右クリックすることで本棚が&a感染&rします。"
+				"{ftbquests.chapter.cognition.quest5.description2}"
 				""
-				"&a感染&rした本棚からは定期的に経験値オーブが生産されます"
-				"&a経験値オベリスク&rを近くに設置して回収しましょう"
+				"{ftbquests.chapter.cognition.quest5.description3}"
+				"{ftbquests.chapter.cognition.quest5.description4}"
 				""
-				"&a感染&rした本棚は一定時間経過すると壊れてしまいます"
+				"{ftbquests.chapter.cognition.quest5.description5}"
 			]
 			id: "4F465BA4CED359B7"
 			rewards: [{
@@ -146,7 +146,7 @@
 				item: "experienceobelisk:bibliophage"
 				type: "item"
 			}]
-			subtitle: "本の虫（物理）"
+			subtitle: "{ftbquests.chapter.cognition.quest5.subtitle}"
 			tasks: [{
 				id: "5145889D2E8DBAE2"
 				item: "experienceobelisk:bibliophage"
@@ -158,10 +158,10 @@
 		{
 			dependencies: ["4F465BA4CED359B7"]
 			description: [
-				"&a蛍光寒天&rは&a本の虫&rを4個右クリックすることで&a栄養的な寒天&rに変化します"
+				"{ftbquests.chapter.cognition.quest6.description1}"
 				""
-				"&a栄養的な寒天&rはゆっくり隣接した本棚を&a感染&rさせます"
-				"また、隣接させた&a蛍光寒天&rを&a栄養的な寒天&rに変化させることも可能です"
+				"{ftbquests.chapter.cognition.quest6.description2}"
+				"{ftbquests.chapter.cognition.quest6.description3}"
 			]
 			id: "2BE80C52491E57C8"
 			rewards: [{
@@ -188,9 +188,9 @@
 		{
 			dependencies: ["2BE80C52491E57C8"]
 			description: [
-				"&a洞察的な寒天&rは&a栄養的な寒天&rと同じ機能を持つほか、隣接した&a感染&rした本棚を強化します"
+				"{ftbquests.chapter.cognition.quest7.description1}"
 				""
-				"&a洞察的な寒天&rによって強化された&a感染&rした本棚は&b経験値オーブが生産される頻度を短くします&r"
+				"{ftbquests.chapter.cognition.quest7.description2}"
 			]
 			id: "23FD0BC53E4EB5B7"
 			rewards: [{
@@ -210,9 +210,9 @@
 		{
 			dependencies: ["2BE80C52491E57C8"]
 			description: [
-				"&a豪華な寒天&rは&a栄養的な寒天&rと同じ機能を持つほか、隣接した&a感染&rした本棚を強化します"
+				"{ftbquests.chapter.cognition.quest8.description1}"
 				""
-				"&a豪華な寒天&rによって強化された&a感染&rした本棚は&b生産される経験値オーブの経験値量が増加します&r"
+				"{ftbquests.chapter.cognition.quest8.description2}"
 			]
 			id: "4840C0AA71998348"
 			rewards: [{

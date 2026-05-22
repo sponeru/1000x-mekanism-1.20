@@ -130,28 +130,12 @@
 				"31D9507041433980"
 			]
 			id: "3EE1C779AEB0D16D"
-			rewards: [
-				{
-					count: 7
-					id: "3834A260CAC375C0"
-					item: "mekanism_extras:infinite_control_circuit"
-					type: "item"
-				}
-				{
-					id: "06BB89BC9E94A87C"
-					ignore_reward_blocking: true
-					item: {
-						Count: 1
-						id: "trofers:large_pillar"
-						tag: {
-							BlockEntityTag: {
-								Trophy: "mek1000:infinite_circuit"
-							}
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 7
+				id: "3834A260CAC375C0"
+				item: "mekanism_extras:infinite_control_circuit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "010265263249FD24"
 				item: "mekanism_extras:infinite_control_circuit"
@@ -166,8 +150,8 @@
 				"3FC57EAE35A4448E"
 			]
 			description: [
-				"&aNaquadah Uranium Fuel&rを燃料にして発電します"
-				"生産される蒸気を加工することで、&aポロニウム&rを大量に得ることができます。できるだけ早めに作りましょう。"
+				"{ftbquests.chapter.2.quest9.description1}"
+				"{ftbquests.chapter.2.quest9.description2}"
 			]
 			icon: "astral_mekanism:essential_compact_naquadah_reactor"
 			id: "0A5CBA30DFD5CDE7"
@@ -177,7 +161,7 @@
 				item: "mekanism_extras:infinite_control_circuit"
 				type: "item"
 			}]
-			subtitle: "超強化済み、より良いポロニウムの供給源"
+			subtitle: "{ftbquests.chapter.2.quest9.subtitle}"
 			tasks: [{
 				id: "4D657FDC75A212CB"
 				item: "astral_mekanism:essential_compact_naquadah_reactor"
@@ -267,7 +251,7 @@
 		{
 			dependencies: ["7ED68F17797155BB"]
 			id: "06504391F9BD9CD7"
-			subtitle: "これはGreg？"
+			subtitle: "{ftbquests.chapter.2.quest16.subtitle}"
 			tasks: [
 				{
 					id: "01CE73A8589AFB77"

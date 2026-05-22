@@ -1,0 +1,13 @@
+name = "Mekanism: The Valinest"
+filename = "mekanismthebestvalinest-0.1-SNAPSHOT.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "07fa4afdeda52a71c7448dc68d9ec547c0116fa5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8109091
+project-id = 1546970

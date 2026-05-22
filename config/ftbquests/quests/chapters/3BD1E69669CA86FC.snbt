@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3BD1E69669CA86FC"
+	group: "7955F24567DE4319"
+	id: "3BD1E69669CA86FC"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["おお"]
+	title: "電力"
+}

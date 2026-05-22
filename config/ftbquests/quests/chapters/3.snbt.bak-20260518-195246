@@ -109,7 +109,7 @@
 				item: "mek1000:the_null"
 				type: "item"
 			}]
-			subtitle: "テクスチャは仕様！"
+			subtitle: "{ftbquests.chapter.3.quest7.subtitle}"
 			tasks: [{
 				id: "505F1C74D343F5BD"
 				item: "mek1000:the_null"

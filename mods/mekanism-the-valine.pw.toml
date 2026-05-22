@@ -1,0 +1,13 @@
+name = "Mekanism:The Valine"
+filename = "mekanism_the_valine-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8ef16f224016fb0adde61e20d1e8a26947c2787c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8097269
+project-id = 1544556

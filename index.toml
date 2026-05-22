@@ -4589,7 +4589,7 @@ metafile = true
 
 [[files]]
 file = "mods/aea-aee.pw.toml"
-hash = "df5fba98e70ec3afa199f60d7bebe84448cbdd491fdf2076c4e7457278adce2c"
+hash = "933f55af152e8169b2bd69d316b47759d79e828dbad305473f5f42373b3824df"
 metafile = true
 
 [[files]]
@@ -5333,6 +5333,16 @@ hash = "8e084175e73c3286ce87573185322e8da04205d9b2df01ed631215790fa194c7"
 metafile = true
 
 [[files]]
+file = "mods/mekanism-animation-injector.pw.toml"
+hash = "243374278e1ee87a5ab7820ca5e27c4494880effdcfd78cbb59a4ffc09e1e693"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-cleanvision.pw.toml"
+hash = "511ae79f45b95aa90b86177c7a9e24781cf7fb6efd4b09f7c449c382806eb5b1"
+metafile = true
+
+[[files]]
 file = "mods/mekanism-config-card-upgrades.pw.toml"
 hash = "296da0e8c7d410ec9d0ec1126f2e2a4a7ee274a9c49ce4ce0477ce9da7225005"
 metafile = true
@@ -5390,6 +5400,16 @@ metafile = true
 [[files]]
 file = "mods/mekanism-overflow-energy.pw.toml"
 hash = "331f9b03030b7804d6dd44388a2a387877e63bb8209c726d57472c251a226379"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-the-valine.pw.toml"
+hash = "8ba9cbcdcc5db2a71a84436c6b91fefdc97731ae2e5b8d6ffc44d1c659ebc2c8"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-the-valinest.pw.toml"
+hash = "bcc89322f9a5201da4bcf20d69817815e994cbf03ae24ed22f9ce2230f3eb29d"
 metafile = true
 
 [[files]]
@@ -5660,6 +5680,11 @@ metafile = true
 [[files]]
 file = "mods/trenzalore.pw.toml"
 hash = "765945f0ae2960eb0cbffeb746b6d98a483b8fb673ce30c48f53c1bb39c1ec5c"
+metafile = true
+
+[[files]]
+file = "mods/trofers.pw.toml"
+hash = "a2b0b10a541f8a55b36c582725e725fdd44ad259c2a63361b796ac26a07c09a0"
 metafile = true
 
 [[files]]
