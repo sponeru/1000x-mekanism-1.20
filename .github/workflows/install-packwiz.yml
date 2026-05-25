@@ -31,7 +31,6 @@ jobs:
         run: | 
           mkdir -p ./build/client
           unzip "extraordinary_energy_modern-nightly-${{ env.SHA }}.zip" -d ./build/client
-          rm -rf ./build/client/.github
           cp ./build/client/overrides/LICENSE ./build/client/LICENSE
           rm -rf ./build/client/overrides/LICENSE
 
@@ -39,7 +38,6 @@ jobs:
         run: | 
           mkdir -p ./build/server
           unzip "extraordinary_energy_modern-server-nightly-${{ env.SHA }}.zip" -d ./build/server
-          rm -rf ./build/server/.github
           cp ./build/server/overrides/LICENSE ./build/server/LICENSE
           rm -rf ./build/server/overrides/LICENSE
 
