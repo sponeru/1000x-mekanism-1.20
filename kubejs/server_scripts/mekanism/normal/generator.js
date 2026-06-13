@@ -78,17 +78,46 @@ ServerEvents.recipes(event => {
     //fusion
 
     event.custom({
-        "type": "mekanism:nucleosynthesizing",
-        "itemInput": { "ingredient": { "item": 'mekanism:steel_casing' } },
-        "gasInput": { "amount": 1, "gas": "mekanism:antimatter" },
-        "output": { "item": 'mekanismgenerators:fusion_reactor_frame' }, "duration": 1000000 //1000*1000
+        "type": "evolvedmekanism:alloying",
+        "extraInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'mekanism:ultimate_control_circuit'
+            }
+        },
+        "secondExtraInput": {
+            "amount": 4,
+            "ingredient": {
+                "item": 'minecraft:netherite_block'
+            }
+        },
+        "mainInput": {
+            "amount": 1,
+            "ingredient": {
+                "item": 'mek1000:reinforced_steel_casing',
+            }
+        },
+        "output": {
+            "item": 'mekanismgenerators:fusion_reactor_frame'
+        }
+    })
+
+    event.remove({ output: 'mekanismgenerators:fusion_reactor_controller' })
+    event.shaped(Item.of('mekanismgenerators:fusion_reactor_controller'), [
+        'C C',
+        'BNB',
+        'BBB'
+    ], {
+        C: 'mekanism_extras:supreme_control_circuit',
+        B: 'mekanismgenerators:fusion_reactor_frame',
+        N: 'mekanism:ultimate_chemical_tank'
     })
 
     event.custom({
         "type": "mekanism:activating",
         "input": {
             "amount": 1,
-            "gas": "mek1000:valine3g"
+            "gas": "mekanism_the_valine:valine3g"
         },
         "output": {
             "gas": "mekanismgenerators:fusion_fuel", "amount": 1000
@@ -166,7 +195,7 @@ ServerEvents.recipes(event => {
         'BTB',
         'BBB'
     ], {
-        T: 'mekanism_extras:absolute_chemical_tank',
+        T: 'astral_mekanism:essential_compact_fusion_reactor',
         G: '#forge:glass_panes',
         B: 'mekanism_extras:naquadah_reactor_casing',
         C: 'mekanism_extras:infinite_control_circuit'

@@ -51,6 +51,26 @@
 			x: -1.5d
 			y: -13.5d
 		}
+		{
+			id: "4B345B2EEB29EF0D"
+			linked_quest: "64310B544BDC74D0"
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			id: "3042DA1AD98E38B8"
+			linked_quest: "7ED68F17797155BB"
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			id: "48B83EE5943E6C4C"
+			linked_quest: "55BC5FEC8F4AE878"
+			shape: "hexagon"
+			size: 3.0d
+			x: 1.5d
+			y: 15.0d
+		}
 	]
 	quests: [
 		{
@@ -248,7 +268,7 @@
 				}
 			]
 			title: "バックパックを作る"
-			x: -1.5d
+			x: -3.0d
 			y: -12.0d
 		}
 		{
@@ -274,7 +294,7 @@
 				}
 			]
 			title: "バックパックの強化"
-			x: -3.0d
+			x: -5.0d
 			y: -12.0d
 		}
 		{
@@ -453,7 +473,7 @@
 			}]
 			title: "基本制御回路を作る"
 			x: -3.0d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["68335D23BF84FEE3"]
@@ -539,7 +559,7 @@
 				type: "item"
 			}]
 			title: "加圧反応室を作る"
-			x: 2.0d
+			x: 1.5d
 			y: 1.0d
 		}
 		{
@@ -551,6 +571,7 @@
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
+			subtitle: "みんなあんまり使わなくない？"
 			tasks: [{
 				id: "54B195626952D9B1"
 				item: "mekanism:elite_control_circuit"
@@ -558,7 +579,7 @@
 			}]
 			title: "精鋭制御回路を作る"
 			x: 0.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["24A7B7094ED357E9"]
@@ -570,8 +591,8 @@
 				type: "item"
 			}]
 			title: "浄化室を作る"
-			x: -2.0d
-			y: 2.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["38F0D9673E24BE74"]
@@ -583,8 +604,8 @@
 				type: "item"
 			}]
 			title: "化学注入室を作る"
-			x: -2.0d
-			y: 5.0d
+			x: 0.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["61D9BE79FEB34259"]
@@ -601,77 +622,12 @@
 			}]
 			title: "究極制御回路を作る"
 			x: 0.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["7F5BC9CABAE2CB00"]
-			id: "64310B544BDC74D0"
-			rewards: [{
-				count: 4
-				id: "50264E3A78E1EF42"
-				item: "mekanism:ultimate_control_circuit"
-				type: "item"
-			}]
-			subtitle: "Modpack監督を燃やそう"
-			tasks: [
-				{
-					id: "1949A59CAE24BE87"
-					item: "mekanism:chemical_dissolution_chamber"
-					type: "item"
-				}
-				{
-					id: "34E8749D13B7183E"
-					item: "mekanism:isotopic_centrifuge"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.1.quest21\\.title}"
-			x: -2.0d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"64310B544BDC74D0"
-				"342D8A0D183D1E23"
-			]
-			id: "7ED68F17797155BB"
-			rewards: [
-				{
-					count: 4
-					id: "65F6EAC000AA96E7"
-					item: "mekanism_empowered:upgrade_empowered_speed"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "01A0A7BC7610386A"
-					item: "mekanism_empowered:upgrade_empowered_energy"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "222546AA95EA5460"
-				item: "mekanismgenerators:gas_burning_generator"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["7ED68F17797155BB"]
-			id: "55BC5FEC8F4AE878"
-			subtitle: "つよい発電機その1"
-			tasks: [{
-				id: "6AC4BB9887D6DB05"
-				item: "mek1000:advanced_gas_burning_generator"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["503CF531934055CD"]
 			id: "4CA94C9C9F1B7FE5"
+			subtitle: "間違えてDISKじゃない方を作らないように"
 			tasks: [
 				{
 					id: "4AD10437245D3323"
@@ -797,13 +753,14 @@
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
+			subtitle: "100t"
 			tasks: [{
 				id: "5206DEF45819C763"
 				item: "mekmm:cnc_stamper"
 				type: "item"
 			}]
 			x: -5.0d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["016780D32B1ABC49"]
@@ -918,8 +875,8 @@
 				item: "mek1000:pdt"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 6.5d
+			x: -1.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["016780D32B1ABC49"]
@@ -957,8 +914,8 @@
 				id: "17B7128F4D0DF0F8"
 				type: "checkmark"
 			}]
-			title: "Make More！"
-			x: 2.0d
+			title: "Make More!"
+			x: 1.5d
 			y: -2.5d
 		}
 		{
@@ -979,6 +936,101 @@
 			title: "Discord"
 			x: 1.5d
 			y: -13.5d
+		}
+		{
+			dependencies: ["13697F0024B3E315"]
+			hide_until_deps_complete: true
+			id: "08BB3DA4AC97725A"
+			rewards: [{
+				count: 3
+				id: "4DB732DAFB196323"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59E8E7D99B6BC921"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"08BB3DA4AC97725A"
+				"24A7B7094ED357E9"
+			]
+			id: "6E6D8463CB3734DF"
+			rewards: [{
+				count: 3
+				id: "6697F2338F248513"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "789D1F5F9F3943F0"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6E6D8463CB3734DF"
+				"38F0D9673E24BE74"
+			]
+			id: "1250AB64CE893AC7"
+			rewards: [{
+				count: 3
+				id: "35D8F17A9804149F"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6911868BF883627E"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1250AB64CE893AC7"]
+			id: "5ACEA5C15A2F5DD8"
+			rewards: [{
+				count: 3
+				id: "5E06D6BDB869134C"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15305D1D3B747A4F"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			description: [
+				"このModpackには、いくつかのリソースパックがあらかじめ導入されています。"
+				""
+				"日本語話者の方におすすめするのは、導入Modを日本語化するExEM_JPリソースパックです。"
+				"特に不都合がない限り、こちらを適応しておくことを推奨します。"
+				""
+				"その他のリソースパックについては見た目が好みな場合に適応しましょう。"
+			]
+			hide_until_deps_complete: true
+			id: "766AE1974722A0DF"
+			tasks: [{
+				id: "093791567A2BBABA"
+				type: "checkmark"
+			}]
+			title: "リソースパックについて"
+			x: -1.5d
+			y: -12.0d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.1.subtitle0}"]

@@ -5389,7 +5389,7 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-more-thermal-evaporation-compat.pw.toml"
-hash = "971ef276d59867ec5060ddaa73e8ed973e72bf9ba4c11673f81f15de62cd2135"
+hash = "11bd0065ad8b1376ead1140d66c52711bc1173f37f94e7640f9a5d8c4d98cff6"
 metafile = true
 
 [[files]]
@@ -5419,7 +5419,7 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-water-generator-rebuild.pw.toml"
-hash = "99e09b51e0e15af22e73870a84e178cee237d9ad9d4933b96f41e37a1fb2022e"
+hash = "7f0aefd7332fe19118f356e21e659f16d366fb36067cd28b0686134f2b97fdbf"
 metafile = true
 
 [[files]]
@@ -5469,7 +5469,7 @@ metafile = true
 
 [[files]]
 file = "mods/morethermalevaporation.pw.toml"
-hash = "ee34f9c2c831562a6af2dad44df77cedb20e9bbe0ea014694fd70f9bcb193e99"
+hash = "693e2f3378e5c4b02cbab24a1a382d28f5c4f783a39392fac5c3b9c8c3007fd8"
 metafile = true
 
 [[files]]

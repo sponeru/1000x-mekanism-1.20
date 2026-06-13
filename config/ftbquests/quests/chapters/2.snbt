@@ -10,34 +10,46 @@
 		{
 			id: "5D601859CCB35AD7"
 			linked_quest: "1DB13345D6C1C917"
-			x: 2.0d
-			y: -1.0d
+			x: 4.5d
+			y: 4.5d
 		}
 		{
 			id: "4C28B888BCF4B921"
 			linked_quest: "7B00BF97FCAA2F2A"
-			x: 3.5d
-			y: -4.0d
+			x: 8.5d
+			y: 2.5d
 		}
 		{
 			id: "62F370C03F77D944"
 			linked_quest: "0D0C3C349D4C156C"
 			shape: "hexagon"
-			size: 2.0d
-			x: 0.0d
-			y: 2.0d
+			size: 5.0d
+			x: 0.5d
+			y: 4.5d
 		}
 		{
 			id: "4B94A4D2D95D9E7D"
 			linked_quest: "02452CFCADF1EAFF"
-			x: -5.0d
-			y: -5.5d
+			x: 4.5d
+			y: -8.0d
 		}
 		{
 			id: "1135ADB698AF2A1D"
 			linked_quest: "4C7BE91F268E9BEF"
-			x: -5.0d
-			y: -2.5d
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			id: "5C0E707EE440505F"
+			linked_quest: "3F59FBB68176B429"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			id: "693C0A66F24ACF3C"
+			linked_quest: "0A5CBA30DFD5CDE7"
+			x: 4.5d
+			y: 0.0d
 		}
 	]
 	quests: [
@@ -49,8 +61,8 @@
 				item: "mekanism:hdpe_pellet"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -5.5d
+			x: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4F31918E1746CC36"]
@@ -60,8 +72,8 @@
 				item: "mek1000:uranite_flux_casing"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.0d
+			x: 6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["18AB749F3D12826F"]
@@ -71,13 +83,13 @@
 				item: "mek1000:wtf_casing"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.5d
+			x: 6.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
 				"52146FA488AE7F9D"
-				"06504391F9BD9CD7"
+				"05D4588644046B10"
 			]
 			id: "1D8DA0985FE1E94B"
 			tasks: [{
@@ -85,35 +97,42 @@
 				item: "mekanism_extras:absolute_control_circuit"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.5d
+			x: 0.5d
+			y: -8.0d
 		}
 		{
-			dependencies: ["1D8DA0985FE1E94B"]
+			dependencies: [
+				"1D8DA0985FE1E94B"
+				"7E871B0EBAE84B5A"
+				"6D98A98733DF6B5A"
+			]
+			hide_until_deps_complete: true
 			id: "2B7577D9D6D44CFD"
 			tasks: [{
 				id: "63744914624FC78E"
 				item: "mekanism_extras:supreme_control_circuit"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.0d
+			x: 0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2B7577D9D6D44CFD"]
 			id: "16F1DD1570039FA7"
+			subtitle: "発電設備？これは加工機械です。"
 			tasks: [{
 				id: "4253083A5E2CE82B"
 				item: "compactmekanismmachines:compact_fission_reactor"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.0d
+			x: 2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
 				"2B7577D9D6D44CFD"
-				"4C7BE91F268E9BEF"
+				"61D1D6D03A8CF166"
+				"5764E18A08A271BA"
 			]
 			id: "4AC7A15037888397"
 			tasks: [{
@@ -121,13 +140,14 @@
 				item: "mekanism_extras:cosmic_control_circuit"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.5d
+			x: 0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
 				"4AC7A15037888397"
 				"31D9507041433980"
+				"6158C4FB18AC32E8"
 			]
 			id: "3EE1C779AEB0D16D"
 			rewards: [
@@ -152,50 +172,15 @@
 					type: "item"
 				}
 			]
+			shape: "pentagon"
+			size: 3.0d
 			tasks: [{
 				id: "010265263249FD24"
 				item: "mekanism_extras:infinite_control_circuit"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"3EE1C779AEB0D16D"
-				"3FC57EAE35A4448E"
-			]
-			description: [
-				"&aNaquadah Uranium Fuel&rを燃料にして発電します"
-				"生産される蒸気を加工することで、&aポロニウム&rを大量に得ることができます。できるだけ早めに作りましょう。"
-			]
-			icon: "astral_mekanism:essential_compact_naquadah_reactor"
-			id: "0A5CBA30DFD5CDE7"
-			rewards: [{
-				count: 2
-				id: "243580CF86337A0F"
-				item: "mekanism_extras:infinite_control_circuit"
-				type: "item"
-			}]
-			subtitle: "超強化済み、より良いポロニウムの供給源"
-			tasks: [{
-				id: "4D657FDC75A212CB"
-				item: "astral_mekanism:essential_compact_naquadah_reactor"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["3FC57EAE35A4448E"]
-			id: "3F59FBB68176B429"
-			tasks: [{
-				id: "44DF6A1E212067C1"
-				item: "astral_mekanism:essential_compact_fusion_reactor"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -1.0d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["16F1DD1570039FA7"]
@@ -211,7 +196,7 @@
 				item: "mekanism:pellet_antimatter"
 				type: "item"
 			}]
-			x: -7.0d
+			x: 2.5d
 			y: -4.0d
 		}
 		{
@@ -222,8 +207,8 @@
 				item: "mek1000:basic_super_circuit"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.5d
+			x: -1.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["52146FA488AE7F9D"]
@@ -233,8 +218,8 @@
 				item: "mek1000:advanced_super_circuit"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: -1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6D98A98733DF6B5A"]
@@ -244,8 +229,8 @@
 				item: "mek1000:elite_super_circuit"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: -1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5764E18A08A271BA"]
@@ -261,8 +246,8 @@
 				item: "mek1000:ultimate_super_circuit"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7ED68F17797155BB"]
@@ -280,8 +265,174 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -7.5d
+			x: -5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"06504391F9BD9CD7"
+				"2300F97D2B373682"
+			]
+			id: "05D4588644046B10"
+			tasks: [{
+				id: "3AE6D1BC92D449EF"
+				item: "mek1000:flux_processor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["55BC5FEC8F4AE878"]
+			id: "2300F97D2B373682"
+			tasks: [{
+				id: "338E8475A44EBE57"
+				item: "evolvedmekanism:alloy_hypercharged"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["19FF26EAB0CE020D"]
+			id: "7E871B0EBAE84B5A"
+			tasks: [{
+				id: "624F98F1914F6A8D"
+				item: "mek1000:cognitive_processor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["645988174FA1C735"]
+			id: "19FF26EAB0CE020D"
+			tasks: [{
+				id: "5CFB0B976ACB052A"
+				item: "evolvedmekanism:alloy_subatomic"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1D8DA0985FE1E94B"]
+			id: "645988174FA1C735"
+			tasks: [{
+				id: "5C17F40AB384FEF4"
+				item: "emextras:absolute_overclocked_control_circuit"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5D87C10B2F4C5C61"]
+			id: "61D1D6D03A8CF166"
+			tasks: [{
+				id: "267539D712706395"
+				item: "mek1000:echo_processor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"19FF26EAB0CE020D"
+				"4C7BE91F268E9BEF"
+			]
+			id: "5D87C10B2F4C5C61"
+			tasks: [{
+				id: "22EBE093CA3BAC1D"
+				item: "evolvedmekanism:alloy_singular"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3FC57EAE35A4448E"]
+			id: "58B3283C7556BABE"
+			tasks: [{
+				id: "5918E61170AA2130"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D87C10B2F4C5C61"]
+			id: "12DEC643E8065BDD"
+			tasks: [{
+				id: "0A2966A0E53A03B9"
+				item: "evolvedmekanism:alloy_exoversal"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"12DEC643E8065BDD"
+				"4F6FD73E96E28670"
+			]
+			id: "6158C4FB18AC32E8"
+			tasks: [{
+				id: "73A517FE03F51C51"
+				item: "mek1000:valinium_processor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["116B0BC73B8834BD"]
+			id: "4F6FD73E96E28670"
+			tasks: [{
+				id: "0C1A600514735147"
+				item: "mek1000:valine3g_ingot_7"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D87C10B2F4C5C61"]
+			id: "116B0BC73B8834BD"
+			tasks: [{
+				id: "4CB464CA833AEE8D"
+				item: "evolvedmekanism:chemixer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6158C4FB18AC32E8"
+				"307A553C91FDBF55"
+			]
+			id: "2148F3BBDE1111D7"
+			tasks: [{
+				id: "73A8CEE4CFB61FBB"
+				item: "astral_mekanism:enhanced_control_circuit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61D1D6D03A8CF166"]
+			id: "307A553C91FDBF55"
+			tasks: [{
+				id: "0AD8C34798D60B62"
+				item: "astral_mekanism:resonance_control_circuit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.2.subtitle0}"]

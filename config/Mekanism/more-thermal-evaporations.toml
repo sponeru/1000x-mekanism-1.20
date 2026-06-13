@@ -9,7 +9,7 @@
 	basicThermalEvaporationHeight = 18
 	#Amount of fluid (mB) that each block of the Basic Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 	#Range: 1 ~ 29826161
-	basicThermalEvaporationInputTankCapacity = 64000
+	basicThermalEvaporationInputTankCapacity = 6400000
 	#Amount of output fluid (mB) that the Basic Thermal Evaporation Plant can store.
 	#Range: 1 ~ 2147483646
 	basicThermalEvaporationOutputTankCapacity = 20000
@@ -21,7 +21,7 @@
 	advancedThermalEvaporationHeight = 18
 	#Amount of fluid (mB) that each block of the Advanced Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 	#Range: 1 ~ 29826161
-	advancedThermalEvaporationInputTankCapacity = 64000
+	advancedThermalEvaporationInputTankCapacity = 6400000
 	#Amount of output fluid (mB) that the Advanced Thermal Evaporation Plant can store.
 	#Range: 1 ~ 2147483646
 	advancedThermalEvaporationOutputTankCapacity = 80000
@@ -33,10 +33,10 @@
 	eliteThermalEvaporationHeight = 18
 	#Amount of fluid (mB) that each block of the Elite Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 	#Range: 1 ~ 29826161
-	eliteThermalEvaporationInputTankCapacity = 64000
+	eliteThermalEvaporationInputTankCapacity = 6400000
 	#Amount of output fluid (mB) that the Elite Thermal Evaporation Plant can store.
 	#Range: 1 ~ 2147483646
-	eliteThermalEvaporationOutputTankCapacity = 640000
+	eliteThermalEvaporationOutputTankCapacity = 6400000
 	#Maximum temperature capping the temperature multiplier for the Ultimate Thermal Evaporation Plant.
 	#Range: 3000.0 ~ 2.147483646E9
 	ultimateThermalEvaporationMultiplierTempCap = 48000.0
@@ -45,7 +45,7 @@
 	ultimateThermalEvaporationHeight = 18
 	#Amount of fluid (mB) that each block of the Ultimate Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 	#Range: 1 ~ 29826161
-	ultimateThermalEvaporationInputTankCapacity = 64000
+	ultimateThermalEvaporationInputTankCapacity = 6400000
 	#Amount of output fluid (mB) that the Ultimate Thermal Evaporation Plant can store.
 	#Range: 1 ~ 2147483646
 	ultimateThermalEvaporationOutputTankCapacity = 10240000
