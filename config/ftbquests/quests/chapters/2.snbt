@@ -16,8 +16,8 @@
 		{
 			id: "4C28B888BCF4B921"
 			linked_quest: "7B00BF97FCAA2F2A"
-			x: 8.5d
-			y: 2.5d
+			x: 6.5d
+			y: 4.5d
 		}
 		{
 			id: "62F370C03F77D944"
@@ -51,6 +51,12 @@
 			x: 4.5d
 			y: 0.0d
 		}
+		{
+			id: "481C50F828D2F0BD"
+			linked_quest: "67ABFB37560F3BD7"
+			x: 4.5d
+			y: 2.5d
+		}
 	]
 	quests: [
 		{
@@ -61,8 +67,8 @@
 				item: "mekanism:hdpe_pellet"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.5d
+			x: 8.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["4F31918E1746CC36"]
@@ -73,7 +79,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 2.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["18AB749F3D12826F"]
@@ -83,8 +89,8 @@
 				item: "mek1000:wtf_casing"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 4.5d
+			x: 4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [

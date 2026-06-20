@@ -13,6 +13,14 @@
 	cnc_rollingMill = "50000"
 	#Energy per operation tick (Joules).
 	ambientGasCollector = "100000"
+	#Energy per operation tick (Joules).
+	" largeRotaryCondensentrator " = "50000"
+	#Energy per operation tick (Joules).
+	" largeChemicalInfuser " = "100000"
+	#Energy per operation tick (Joules).
+	" largeAntiprotonicNucleosynthesizer " = "500000000"
+	#Energy per operation tick (Joules).
+	" largePigmentMixer " = "100000"
 
 	#Settings for configuring Replicator Energy Usage
 	[usage.replicator]

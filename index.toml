@@ -5198,6 +5198,16 @@ hash = "91fb39ac230e5f6b85fb45cd49c99c3806606c9f96e1961787c047675c4712b1"
 metafile = true
 
 [[files]]
+file = "mods/jaopca-extras.pw.toml"
+hash = "6b4cf39b968648369c5245a9b8b43fc87a4a130c13a42daa90dc485047c2c7d2"
+metafile = true
+
+[[files]]
+file = "mods/jaopca.pw.toml"
+hash = "7d07cb96fb76956e5dc310bbddebb2257fb368e45216f2b67254537d374fd233"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
 hash = "f3415c3e457db0c463de8257ba64729ba1f29a9fda1cc29fb882c97225145784"
 metafile = true

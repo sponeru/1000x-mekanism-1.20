@@ -4,7 +4,7 @@
 	#mB of Unstable Dimensional Gas collected by the Ambient Gas Collector.
 	#Range: 1 ~ 1000
 	gasCollectAmount = 1
-	#mB of Unstable Dimensional Gas collected by the Ambient Gas Collector.
+	#Amount of Energy(joules) an item can receive per tick from a Wireless Charging Station.
 	wirelessChargingStationChargingRate = "100000"
 
 	#Custom Replicator Recipes
