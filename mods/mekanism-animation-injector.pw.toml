@@ -1,0 +1,13 @@
+name = "Mekanism: Animation Injector"
+filename = "mekanism_animation_injector-0.5-SNAPSHOT.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bd3a5407f8b6c5f7454fda618ad57e6b8ea66da6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8107669
+project-id = 1544593

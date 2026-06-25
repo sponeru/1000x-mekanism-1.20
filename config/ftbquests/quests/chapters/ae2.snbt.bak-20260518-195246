@@ -1,0 +1,633 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: "7955F24567DE4319"
+	icon: "ae2:controller"
+	id: "797F5C220099BEC3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["503CF531934055CD"]
+			icon: "ae2:singularity"
+			id: "092854B5937D5094"
+			optional: true
+			rewards: [{
+				command: "/infchannel"
+				id: "7F028A45FE41565D"
+				type: "command"
+			}]
+			tasks: [{
+				id: "138485C252A793BE"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.ae2.quest1.title}"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["503CF531934055CD"]
+			icon: "ae2:mysterious_cube"
+			id: "019118B4B2406698"
+			optional: true
+			rewards: [{
+				command: "/defchannel"
+				elevate_perms: true
+				id: "4FB4BDDB6598785B"
+				type: "command"
+			}]
+			tasks: [{
+				id: "389E7CD2E923FD9A"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.ae2.quest2.title}"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["503CF531934055CD"]
+			id: "25D4C3E90302E4EC"
+			rewards: [{
+				count: 3
+				id: "50617171D57B0FCB"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.ae2.quest3.subtitle}"
+			tasks: [{
+				id: "71B57271F0EDE0A3"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "7DD2DA31E86A67DD"
+			rewards: [{
+				id: "5E144097347DFEA5"
+				item: "ae2things:disk_drive_4k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79ACA158BDEE003D"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7DD2DA31E86A67DD"]
+			id: "1991F0F60D3E9641"
+			rewards: [{
+				id: "6B9426370EB2917E"
+				item: "ae2things:disk_drive_64k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16D1084B4AAEA480"
+				item: "expatternprovider:ex_drive"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "3EC8578BF8588081"
+			tasks: [{
+				id: "07082623B6C29F01"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EC8578BF8588081"]
+			description: ["{ftbquests.chapter.ae2.quest10.description1}"]
+			id: "6ED653CBAC9C7950"
+			rewards: [
+				{
+					id: "605E4039F0DB4956"
+					item: "advanced_ae:data_entangler"
+					type: "item"
+				}
+				{
+					id: "5DD02787EBA1E93E"
+					item: "advanced_ae:quantum_multi_threader"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5D152DB54683F3E4"
+					item: "advanced_ae:quantum_storage_256"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "11EE653AA9FC869F"
+					item: "advanced_ae:quantum_core"
+					type: "item"
+				}
+				{
+					id: "4561DD6FB93D50D9"
+					item: "advanced_ae:quantum_storage_256"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "11C405E546ED8DFE"
+			rewards: [{
+				count: 3
+				id: "19D4EAF8C3F102EB"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7692709DF01F0931"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65EC0080DD29B07D"]
+			id: "0DFBAB6D94E89843"
+			rewards: [
+				{
+					count: 64
+					id: "18302F4D717DE511"
+					item: "expatternprovider:assembler_matrix_frame"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7A08B80E0327EB28"
+					item: "expatternprovider:assembler_matrix_wall"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "60A71E03DE8D3E8E"
+					item: "expatternprovider:assembler_matrix_speed"
+					type: "item"
+				}
+				{
+					id: "1F8424A3E6AB2A2E"
+					item: "expatternprovider:assembler_matrix_crafter"
+					type: "item"
+				}
+				{
+					id: "799E762554B534BF"
+					item: "expatternprovider:assembler_matrix_pattern"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["11C405E546ED8DFE"]
+			id: "65EC0080DD29B07D"
+			rewards: [{
+				count: 3
+				id: "64E7A5B38326E039"
+				item: "expatternprovider:ex_molecular_assembler"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2113554AF583B752"
+				item: "expatternprovider:ex_molecular_assembler"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "166C118248FF8548"
+			rewards: [{
+				id: "320C11169C424B88"
+				item: "ae2wtlib:wireless_pattern_encoding_terminal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "336543E17B537CAB"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "333E66220E3377E9"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["166C118248FF8548"]
+			id: "412E7F25B6534FDC"
+			rewards: [{
+				id: "7B1CB9B2EBC51A6F"
+				item: "ae2:tiny_tnt"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "15B2A422B743BE3D"
+					item: { Count: 8, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+				{
+					id: "338EFB23262E59C9"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					id: "44DF89DFC9506723"
+					item: "ae2wtlib:quantum_bridge_card"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			description: ["{ftbquests.chapter.ae2.quest13.description1}"]
+			id: "7A5B9CB0EFC2334B"
+			rewards: [{
+				count: 15
+				id: "590BBC11BA375A77"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "012E7A95EE4B47B2"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "5C461433047AC112"
+			subtitle: "{ftbquests.chapter.ae2.quest14.subtitle}"
+			tasks: [{
+				id: "6BC50F46E8AA496D"
+				item: "mae2a:infinite_dyes_cell"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "0744A701DC9C4B31"
+			tasks: [{
+				id: "62B15BBC8D0E582A"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "22C66A147DFE5632"
+			tasks: [{
+				id: "58C040C1E7788F91"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "minecraft:cobblestone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "4E18A58EB8CBAFAA"
+			rewards: [{
+				id: "110BF5981F9D3590"
+				item: "ae2:item_storage_cell_64k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F775AAFCCA82D98"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mek1000:ae2/any_cell"
+					}
+				}
+				title: "{ftbquests.chapter.ae2.quest18.task_6879066666931072408.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.ae2.quest18.title}"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "0BC6B3768C9D496F"
+			rewards: [
+				{
+					id: "61FBA9A032C3E8DB"
+					item: "ae2things:disk_drive_64k"
+					type: "item"
+				}
+				{
+					id: "7E2F8EB3F41FCFBF"
+					item: "ae2_mega_things:fluid_disk_drive_64k"
+					type: "item"
+				}
+				{
+					id: "52CFFDD0E4C71C13"
+					item: "ae2_mega_things:chemical_disk_drive_64k"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61758251D1F952C4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mek1000:ae2/any_disk_drive"
+					}
+				}
+				title: "{ftbquests.chapter.ae2.quest19.task_7022662481880896196.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.ae2.quest19.title}"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "2FE859F8A8EDA51B"
+			rewards: [{
+				id: "635E8DCF8B29E495"
+				item: "appflux:fe_64k_cell"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E91328AB57BD4CF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mek1000:ae2/any_fe_cell"
+					}
+				}
+				title: "{ftbquests.chapter.ae2.quest20.task_6814283282519938255.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.ae2.quest20.title}"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2FE859F8A8EDA51B"]
+			id: "6568CA0A63A757BD"
+			tasks: [
+				{
+					id: "797C53CD5A924DB3"
+					item: "appflux:induction_card"
+					type: "item"
+				}
+				{
+					id: "3AC9018D31E59410"
+					item: "appflux:flux_accessor"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "1BC858522A153651"
+			tasks: [{
+				id: "5F2D2A7A054B66C1"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1BC858522A153651"]
+			hide_until_deps_visible: false
+			id: "559754BBC6C2D32D"
+			tasks: [{
+				id: "3B5277C2FD76B774"
+				item: "expatternprovider:ex_pattern_provider"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0BC6B3768C9D496F"]
+			id: "6D39411494D38B97"
+			tasks: [{
+				id: "2DFE472685D645A9"
+				item: "mek1000:item_disk_drive_infinity"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BC6B3768C9D496F"]
+			id: "2788F952D2D99902"
+			tasks: [{
+				id: "52D08940569AE238"
+				item: "mek1000:fluid_disk_drive_infinity"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BC6B3768C9D496F"]
+			id: "190C5F3601643547"
+			tasks: [{
+				id: "0D601BB0160E369D"
+				item: "mek1000:chemical_disk_drive_infinity"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			description: [
+				"{ftbquests.chapter.ae2.quest27.description1}"
+				""
+				"{ftbquests.chapter.ae2.quest27.description2}"
+			]
+			id: "02491F4F5E0B2531"
+			rewards: [{
+				count: 128
+				id: "7A7DA1A9F2FC1FF7"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.ae2.quest27.subtitle}"
+			tasks: [
+				{
+					id: "1F49BA875DD9BCF5"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "01F5C1D0EFC47170"
+					item: { Count: 32, id: "ae2:sky_dust" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "5795C2BB5685C593"
+			tasks: [{
+				id: "516C125279272CCC"
+				item: "mek1000:rainbow_concrete_drive"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "626791A1D2F6249C"
+			tasks: [{
+				id: "06918D15BC6ADF68"
+				item: "mek1000:stone_drive"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "58ECC4B9829C49FE"
+			tasks: [{
+				id: "454D0AF4756E0176"
+				item: "mek1000:stonework_drive"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "0E9A5F73F0B53E8C"
+			tasks: [{
+				id: "055F6796404C546A"
+				item: "mek1000:chisel_building_block_drive"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			description: [
+				"{ftbquests.chapter.ae2.quest28.description1}"
+				"{ftbquests.chapter.ae2.quest28.description2}"
+			]
+			id: "0469C4480DC9589F"
+			tasks: [{
+				id: "1A601B962337BAF5"
+				item: "advanced_ae:quantum_crafter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "1117CC211DFC13CE"
+			tasks: [{
+				id: "607B278025FDA882"
+				item: "mek1000:evaporation_drive"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["166C118248FF8548"]
+			description: [
+				"{ftbquests.chapter.ae2.quest29.description1}"
+				"{ftbquests.chapter.ae2.quest29.description2}"
+			]
+			id: "651A594A7EE485DC"
+			tasks: [{
+				id: "5C3A59A98B4C899E"
+				item: "astral_mekanism:mekanism_machine_upgrade_tool"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			description: [
+				"{ftbquests.chapter.ae2.quest30.description1}"
+				"{ftbquests.chapter.ae2.quest30.description2}"
+			]
+			id: "76D9C7A1A4B62890"
+			tasks: [{
+				id: "764EEB1BF92C79F1"
+				item: "extendedae_plus:infinity_biginteger_cell"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.ae2.subtitle0}"]
+	title: "{ftbquests.chapter.ae2.title}"
+}

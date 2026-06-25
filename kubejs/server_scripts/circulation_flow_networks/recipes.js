@@ -1,5 +1,3 @@
-//packmode: disable
-
 ServerEvents.recipes(event => {
     event.remove({output:'circulation_networks:sourceflow_crystal'})
     event.recipes.mekanism.metallurgic_infusing('circulation_networks:sourceflow_crystal','fluxnetworks:flux_core', "100x mekanism:diamond")

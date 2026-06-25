@@ -1,0 +1,273 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2"
+	group: "29F87984A1A84EBA"
+	icon: "mek1000:infinity_fusion_controller"
+	id: "676332C29FA0BFF1"
+	order_index: 2
+	quest_links: [
+		{
+			id: "5D601859CCB35AD7"
+			linked_quest: "1DB13345D6C1C917"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "4C28B888BCF4B921"
+			linked_quest: "7B00BF97FCAA2F2A"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			id: "62F370C03F77D944"
+			linked_quest: "0D0C3C349D4C156C"
+			shape: "hexagon"
+			size: 2.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "4B94A4D2D95D9E7D"
+			linked_quest: "02452CFCADF1EAFF"
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			id: "1135ADB698AF2A1D"
+			linked_quest: "4C7BE91F268E9BEF"
+			x: -5.0d
+			y: -2.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["7ED68F17797155BB"]
+			id: "4F31918E1746CC36"
+			tasks: [{
+				id: "6372522BD7B84724"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4F31918E1746CC36"]
+			id: "18AB749F3D12826F"
+			tasks: [{
+				id: "77169A739BA69F04"
+				item: "mek1000:uranite_flux_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["18AB749F3D12826F"]
+			id: "79896B658F185A07"
+			tasks: [{
+				id: "72101C61F02A4A84"
+				item: "mek1000:wtf_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"52146FA488AE7F9D"
+				"06504391F9BD9CD7"
+			]
+			id: "1D8DA0985FE1E94B"
+			tasks: [{
+				id: "754E34569640CB2E"
+				item: "mekanism_extras:absolute_control_circuit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1D8DA0985FE1E94B"]
+			id: "2B7577D9D6D44CFD"
+			tasks: [{
+				id: "63744914624FC78E"
+				item: "mekanism_extras:supreme_control_circuit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2B7577D9D6D44CFD"]
+			id: "16F1DD1570039FA7"
+			tasks: [{
+				id: "4253083A5E2CE82B"
+				item: "compactmekanismmachines:compact_fission_reactor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2B7577D9D6D44CFD"
+				"4C7BE91F268E9BEF"
+			]
+			id: "4AC7A15037888397"
+			tasks: [{
+				id: "640252799AE9E45B"
+				item: "mekanism_extras:cosmic_control_circuit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4AC7A15037888397"
+				"31D9507041433980"
+			]
+			id: "3EE1C779AEB0D16D"
+			rewards: [{
+				count: 7
+				id: "3834A260CAC375C0"
+				item: "mekanism_extras:infinite_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "010265263249FD24"
+				item: "mekanism_extras:infinite_control_circuit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3EE1C779AEB0D16D"
+				"3FC57EAE35A4448E"
+			]
+			description: [
+				"{ftbquests.chapter.2.quest9.description1}"
+				"{ftbquests.chapter.2.quest9.description2}"
+			]
+			icon: "astral_mekanism:essential_compact_naquadah_reactor"
+			id: "0A5CBA30DFD5CDE7"
+			rewards: [{
+				count: 2
+				id: "243580CF86337A0F"
+				item: "mekanism_extras:infinite_control_circuit"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.2.quest9.subtitle}"
+			tasks: [{
+				id: "4D657FDC75A212CB"
+				item: "astral_mekanism:essential_compact_naquadah_reactor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3FC57EAE35A4448E"]
+			id: "3F59FBB68176B429"
+			tasks: [{
+				id: "44DF6A1E212067C1"
+				item: "astral_mekanism:essential_compact_fusion_reactor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["16F1DD1570039FA7"]
+			id: "3FC57EAE35A4448E"
+			rewards: [{
+				count: 63
+				id: "161782B00F5BE1A4"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FCF3D97B62B57A6"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7ED68F17797155BB"]
+			id: "52146FA488AE7F9D"
+			tasks: [{
+				id: "468361C377E81D72"
+				item: "mek1000:basic_super_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["52146FA488AE7F9D"]
+			id: "6D98A98733DF6B5A"
+			tasks: [{
+				id: "02B7CED9249E77CB"
+				item: "mek1000:advanced_super_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D98A98733DF6B5A"]
+			id: "5764E18A08A271BA"
+			tasks: [{
+				id: "329159E86BADD0C8"
+				item: "mek1000:elite_super_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5764E18A08A271BA"]
+			id: "31D9507041433980"
+			rewards: [{
+				count: 16
+				id: "6D881CF476FD1E03"
+				item: "mek1000:cosmic_super_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C0114523CB71D7B"
+				item: "mek1000:ultimate_super_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7ED68F17797155BB"]
+			id: "06504391F9BD9CD7"
+			subtitle: "{ftbquests.chapter.2.quest16.subtitle}"
+			tasks: [
+				{
+					id: "01CE73A8589AFB77"
+					item: "mek1000:solar_grade_silicon"
+					type: "item"
+				}
+				{
+					id: "121DB132A82836AF"
+					item: "mek1000:printed_solar_grade_silicon"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -7.5d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.2.subtitle0}"]
+	title: "{ftbquests.chapter.2.title}"
+}

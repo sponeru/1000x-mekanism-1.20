@@ -107,4 +107,29 @@ ServerEvents.recipes(event => {
 
         }
     )
+
+    const itemIngredient = (item) => ({ ingredient: { item } })
+
+    const amountIngredient = (item, amount) => ({
+        amount,
+        ingredient: { item }
+    })
+
+    event.custom({
+        type: "mekanism:nucleosynthesizing",
+        itemInput: itemIngredient('mek1000:bablo_crystal'),
+        gasInput: { amount: 1000, gas: "mekanism:antimatter" },
+        output: { item: 'justdirethings:time_crystal' },
+        duration: 10000
+    })
+
+    event.custom({
+        type: "evolvedmekanism:alloying",
+        extraInput: amountIngredient('mek1000:bablo_crystal', 64),
+        secondExtraInput: amountIngredient('mek1000:valinium_processor', 4),
+        mainInput: amountIngredient('astral_mekanism:resonance_control_circuit', 1),
+        output: {
+            item: 'mek1000:double_string_control_circuit'
+        }
+    })
 })

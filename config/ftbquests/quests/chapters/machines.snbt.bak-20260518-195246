@@ -1,0 +1,226 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "machines"
+	group: "7955F24567DE4319"
+	icon: "mekanism:metallurgic_infuser"
+	id: "46AB4FCC54992592"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["016780D32B1ABC49"]
+			description: [
+				"{ftbquests.chapter.machines.quest1.description1}"
+				"{ftbquests.chapter.machines.quest1.description2}"
+			]
+			id: "7A07B2E09F784CCD"
+			rewards: [
+				{
+					count: 31
+					id: "52EA2A83AAAE521C"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+				{
+					count: 31
+					id: "067CC2BAB7D966A4"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "023A3447D6DE143E"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+				{
+					id: "115859CDB6A1A4A2"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.machines.quest1.title}"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7A07B2E09F784CCD"]
+			description: [
+				"{ftbquests.chapter.machines.quest2.description1}"
+				""
+				"{ftbquests.chapter.machines.quest2.description2}"
+				"{ftbquests.chapter.machines.quest2.description3}"
+				"{ftbquests.chapter.machines.quest2.description4}"
+			]
+			id: "247D3BA7DDDA2E52"
+			rewards: [
+				{
+					count: 3
+					id: "05E458D532826E9C"
+					item: "mekanism_empowered:upgrade_empowered_speed"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5418173BD4B6F7A3"
+					item: "mekanism_empowered:upgrade_empowered_energy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "75DBBD25196E4343"
+					item: "mekanism_empowered:upgrade_empowered_speed"
+					type: "item"
+				}
+				{
+					id: "4C3D5347741CBD97"
+					item: "mekanism_empowered:upgrade_empowered_energy"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.machines.quest2.title}"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			description: [
+				"{ftbquests.chapter.machines.quest3.description1}"
+				"{ftbquests.chapter.machines.quest3.description2}"
+			]
+			id: "75FE383632348B74"
+			rewards: [{
+				count: 31
+				id: "54A00F0BEDB8FA80"
+				item: "mekanism_empowered:upgrade_auto_inserter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66C203429E3E0B96"
+				item: "mekanism_empowered:upgrade_auto_inserter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75FE383632348B74"]
+			id: "62324712D8789CB5"
+			tasks: [{
+				id: "46D8C09EAD843ECC"
+				item: "mekanism_empowered:upgrade_fast_item_insert"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68335D23BF84FEE3"]
+			description: ["{ftbquests.chapter.machines.quest4.description1}"]
+			id: "35982E4C23737473"
+			tasks: [{
+				id: "0FB55A0F986EF798"
+				item: "astral_mekanism:mekanical_composter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0A5CBA30DFD5CDE7"
+				"3F59FBB68176B429"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.machines.quest5.description1}"
+				"{ftbquests.chapter.machines.quest5.description2}"
+				"{ftbquests.chapter.machines.quest5.description3}"
+			]
+			id: "1033F47481D7DC8E"
+			rewards: [{
+				id: "10E807DAE5308AFA"
+				item: "mekanism:resistive_heater"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D7293F048924F85"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mek1000:compact_reactors"
+					}
+				}
+				title: "Any #mek1000:compact_reactors"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.machines.quest5.title}"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68335D23BF84FEE3"]
+			description: ["{ftbquests.chapter.machines.quest6.description1}"]
+			id: "35D026DD23C63E30"
+			tasks: [
+				{
+					id: "3A2A014A05CDAD28"
+					item: "astral_mekanism:item_compressor"
+					type: "item"
+				}
+				{
+					id: "7674E9993DFD75C4"
+					item: "astral_mekanism:item_unzipper"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.machines.quest6.title}"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E1C88D7480C205E"]
+			description: ["{ftbquests.chapter.machines.quest7.description1}"]
+			id: "6FBA79749E79F82D"
+			tasks: [{
+				id: "69E3304FF2F726BA"
+				item: "astral_mekanism:infuse_synthesizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E1C88D7480C205E"]
+			description: ["{ftbquests.chapter.machines.quest8.description1}"]
+			id: "759D812041AFE78A"
+			tasks: [{
+				id: "2B119309BF20BB14"
+				item: "astral_mekanism:ratio_separator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E1C88D7480C205E"]
+			description: [
+				"{ftbquests.chapter.machines.quest9.description1}"
+				"{ftbquests.chapter.machines.quest9.description2}"
+			]
+			id: "3C895F378F4254A3"
+			tasks: [{
+				id: "5D834251498C4AD7"
+				item: "astral_mekanism:evenly_inserter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+	]
+	title: "{ftbquests.chapter.machines.title}"
+}

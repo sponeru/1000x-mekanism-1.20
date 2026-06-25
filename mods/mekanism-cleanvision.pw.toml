@@ -1,0 +1,13 @@
+name = "Mekanism: CleanVision"
+filename = "mekanism_clean_vision-1.0.5-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1126bfaf212803eb28ecad7d5dff266517f0014e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7151256
+project-id = 1342655

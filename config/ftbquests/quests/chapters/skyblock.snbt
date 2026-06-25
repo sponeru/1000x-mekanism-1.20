@@ -13,11 +13,18 @@
 				"58D19A0956CF8EDC"
 				"7F4B21A42724338C"
 				"5C124BC2B5689E7B"
+				"016780D32B1ABC49"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"Skyblock専用のクエストが解放されました！"
+				""
+				"すべてクリアしなくても100%にはなりますが、やっておきましょう！"
+			]
 			hide_until_deps_complete: true
 			id: "358F6032ACD91551"
-			min_required_dependencies: 2
+			min_required_dependencies: 3
+			optional: true
 			rewards: [
 				{
 					count: 16
@@ -42,16 +49,19 @@
 					type: "item"
 				}
 			]
+			subtitle: "もしかして空島ですかァ！？"
 			tasks: [{
 				id: "6020EA951C4CF03A"
 				type: "checkmark"
 			}]
+			title: "Skyblock"
 			x: 0.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["358F6032ACD91551"]
 			id: "6BE04AA9D05D616F"
+			optional: true
 			rewards: [{
 				count: 16
 				id: "30825D55A6492F29"
@@ -82,6 +92,7 @@
 		{
 			dependencies: ["358F6032ACD91551"]
 			id: "7CABBA8868B31C74"
+			optional: true
 			rewards: [{
 				count: 3
 				id: "4920EE7F7FEAAB34"
@@ -99,6 +110,7 @@
 		{
 			dependencies: ["358F6032ACD91551"]
 			id: "57EAF95E32994207"
+			optional: true
 			rewards: [{
 				count: 3
 				id: "45AD632BD2B3150A"
@@ -116,6 +128,7 @@
 		{
 			dependencies: ["7CABBA8868B31C74"]
 			id: "324620ADDE5867AF"
+			optional: true
 			rewards: [{
 				count: 7
 				id: "664D47846AA50D47"
@@ -133,6 +146,7 @@
 		{
 			dependencies: ["6BE04AA9D05D616F"]
 			id: "0938E713722DB3EB"
+			optional: true
 			rewards: [{
 				count: 3
 				id: "54C1205BB5823571"
@@ -154,6 +168,7 @@
 				"324620ADDE5867AF"
 			]
 			id: "6875BB6F41BAF596"
+			optional: true
 			rewards: [{
 				count: 15
 				id: "1652BC5C88801B59"
@@ -179,6 +194,7 @@
 		{
 			dependencies: ["6875BB6F41BAF596"]
 			id: "113099C55C19844A"
+			optional: true
 			tasks: [{
 				id: "6553697FD44DBA5D"
 				item: {
@@ -196,6 +212,7 @@
 		{
 			dependencies: ["6875BB6F41BAF596"]
 			id: "0F5BF2437B964256"
+			optional: true
 			rewards: [{
 				count: 3
 				id: "7F34D07EBD14D3B1"
@@ -213,6 +230,7 @@
 		{
 			dependencies: ["0F5BF2437B964256"]
 			id: "42A4CA356DD6E7D9"
+			optional: true
 			rewards: [{
 				count: 3
 				id: "60FE3294494BF6CC"
@@ -230,6 +248,7 @@
 		{
 			dependencies: ["42A4CA356DD6E7D9"]
 			id: "4691AFFFE1B28513"
+			optional: true
 			rewards: [
 				{
 					count: 7
@@ -262,6 +281,7 @@
 		{
 			dependencies: ["7CABBA8868B31C74"]
 			id: "41CA9C8B9B90EFA8"
+			optional: true
 			rewards: [{
 				count: 15
 				id: "3C551F567519783D"
@@ -279,6 +299,7 @@
 		{
 			dependencies: ["7CABBA8868B31C74"]
 			id: "17831EE807ACABF4"
+			optional: true
 			rewards: [{
 				count: 7
 				id: "6B5B930878209385"
@@ -306,6 +327,7 @@
 				"41CA9C8B9B90EFA8"
 			]
 			id: "48F3C0EED99D27F9"
+			optional: true
 			tasks: [{
 				id: "3F6D88AD7F833CA6"
 				item: "exdeorum:porcelain_crucible"

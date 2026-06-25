@@ -1,0 +1,220 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3"
+	group: "29F87984A1A84EBA"
+	icon: "mek1000:eternal_singularity"
+	id: "749E147C58AC2756"
+	order_index: 3
+	quest_links: [{
+		id: "0D8C12A7809A01EE"
+		linked_quest: "2702EF80D5C6865C"
+		shape: "hexagon"
+		size: 5.0d
+		x: -2.5d
+		y: 7.5d
+	}]
+	quests: [
+		{
+			dependencies: ["31D9507041433980"]
+			id: "7979C1853DBBF69D"
+			tasks: [{
+				id: "7573BBF5A81406A9"
+				item: "mek1000:absolute_super_circuit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7979C1853DBBF69D"]
+			id: "6CA637C34B354C01"
+			tasks: [{
+				id: "444F63BF2B291444"
+				item: "mek1000:supreme_super_circuit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6CA637C34B354C01"]
+			id: "6A6C822DC863E990"
+			tasks: [{
+				id: "2E63B189A0CEE74B"
+				item: "mek1000:cosmic_super_circuit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6A6C822DC863E990"
+				"10EEBA10414D289B"
+			]
+			id: "3DCD430017C804E4"
+			rewards: [{
+				count: 3
+				id: "5AAB1CB4574B6507"
+				item: "mek1000:infinite_super_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E5B96F74BEFF296"
+				item: "mek1000:infinite_super_circuit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			id: "6B0FCC402876DBA0"
+			tasks: [{
+				id: "7CB6F7FDC07D90AD"
+				item: "megacells:bulk_cell_component"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3FC57EAE35A4448E"]
+			id: "6A2D004E23EAF784"
+			rewards: [{
+				count: 256
+				id: "77C86D5ABA0F98EF"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C2C82509081FDCA"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6B0FCC402876DBA0"
+				"6A2D004E23EAF784"
+				"3115F760E64A51A4"
+			]
+			id: "260C6DE89D61CD5D"
+			rewards: [{
+				count: 12
+				id: "1E458E7FE500ADAF"
+				item: "mek1000:the_null"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.3.quest7.subtitle}"
+			tasks: [{
+				id: "505F1C74D343F5BD"
+				item: "mek1000:the_null"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			id: "0CAA113723313199"
+			rewards: [{
+				count: 31
+				id: "2DF882A0362A2C41"
+				item: "mek1000:energy_cataryst"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20A386EB70C1ED11"
+				item: "mek1000:energy_cataryst"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			id: "0D8F41487621E030"
+			rewards: [{
+				count: 31
+				id: "04E3F198D41B0BBC"
+				item: "mek1000:item_cataryst"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EAABA17EC2B07DC"
+				item: "mek1000:item_cataryst"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			id: "651BD19DCEE675A6"
+			rewards: [{
+				count: 31
+				id: "68D2678DC4EB0A91"
+				item: "mek1000:fluid_cataryst"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B1B8979830609D8"
+				item: "mek1000:fluid_cataryst"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			id: "6761DFB2171D7CE4"
+			rewards: [{
+				count: 31
+				id: "691806FB30849964"
+				item: "mek1000:gas_cataryst"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73FCC144BC299A62"
+				item: "mek1000:gas_cataryst"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3EE1C779AEB0D16D"]
+			id: "10EEBA10414D289B"
+			rewards: [{
+				count: 256
+				id: "2E4FBCC0CF9718CF"
+				item: "mekanism_extras:infinite_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4624AF7B1663A3E2"
+				item: "mekanism_extras:infinite_energy_cube"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3DCD430017C804E4"]
+			id: "3115F760E64A51A4"
+			tasks: [{
+				id: "16570652C8EBB07D"
+				item: "astral_mekanism:illusion_control_circuit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.3.subtitle0}"]
+	title: "{ftbquests.chapter.3.title}"
+}

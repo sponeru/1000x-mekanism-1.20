@@ -1,0 +1,13 @@
+name = "JAOPCA Extras"
+filename = "JAOPCAExtras-1.20.1-3.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "04dbcf57785e96fcad113191f916e97a3024d4ae"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4750647
+project-id = 679287

@@ -1,0 +1,152 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3BD1E69669CA86FC"
+	group: "7955F24567DE4319"
+	id: "3BD1E69669CA86FC"
+	order_index: 4
+	quest_links: [{
+		id: "3501352CB438A20B"
+		linked_quest: "3F9B706BE86D157B"
+		x: -6.5d
+		y: -1.5d
+	}]
+	quests: [
+		{
+			dependencies: ["7ED68F17797155BB"]
+			description: [
+				"コントローラーに直接ガスを搬入することで発電できます"
+				"電力は搬出ポートから取り出せます"
+			]
+			id: "02452CFCADF1EAFF"
+			rewards: [{
+				id: "15CB28E9CAFB78F0"
+				item: "mek1000:energy_output"
+				type: "item"
+			}]
+			subtitle: "つよい発電機その2"
+			tasks: [{
+				id: "7E722D416A7777C0"
+				item: "mek1000:combustion_gas_generator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7F5BC9CABAE2CB00"]
+			description: [
+				"&a核分裂燃料&rと&aエチレン&rを&a化学混成機&rで混ぜてみましょう"
+				""
+				"一体何が起こるんだ・・・・"
+			]
+			id: "64310B544BDC74D0"
+			rewards: [{
+				count: 4
+				id: "50264E3A78E1EF42"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			subtitle: "Modpack監督を燃やそう"
+			tasks: [
+				{
+					id: "1949A59CAE24BE87"
+					item: "mekanism:chemical_dissolution_chamber"
+					type: "item"
+				}
+				{
+					id: "34E8749D13B7183E"
+					item: "mekanism:isotopic_centrifuge"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.1.quest21\\.title}"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"64310B544BDC74D0"
+				"342D8A0D183D1E23"
+			]
+			id: "7ED68F17797155BB"
+			tasks: [{
+				id: "222546AA95EA5460"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7ED68F17797155BB"]
+			id: "55BC5FEC8F4AE878"
+			rewards: [
+				{
+					count: 4
+					id: "4628BA880CC07F4F"
+					item: "mekanism_empowered:upgrade_empowered_speed"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2ABB03838A27CAC0"
+					item: "mekanism_empowered:upgrade_empowered_energy"
+					type: "item"
+				}
+			]
+			subtitle: "つよい発電機その1"
+			tasks: [{
+				id: "6AC4BB9887D6DB05"
+				item: "mek1000:advanced_gas_burning_generator"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"55BC5FEC8F4AE878"
+				"2B7577D9D6D44CFD"
+			]
+			id: "3F59FBB68176B429"
+			subtitle: "ちょっとつよい発電機"
+			tasks: [{
+				id: "44DF6A1E212067C1"
+				item: "astral_mekanism:essential_compact_fusion_reactor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"3EE1C779AEB0D16D"
+				"3F59FBB68176B429"
+			]
+			description: [
+				"&aNaquadah Uranium Fuel&rを燃料にしておよそ&a4TFE/t&r発電します"
+				""
+				"生産される蒸気を加工することで、&aポロニウム&rを大量に得ることができます。できるだけ早めに作りましょう。"
+			]
+			icon: "astral_mekanism:essential_compact_naquadah_reactor"
+			id: "0A5CBA30DFD5CDE7"
+			rewards: [{
+				count: 2
+				id: "243580CF86337A0F"
+				item: "mekanism_extras:infinite_control_circuit"
+				type: "item"
+			}]
+			subtitle: "より良いポロニウムの供給源"
+			tasks: [{
+				id: "4D657FDC75A212CB"
+				item: "astral_mekanism:essential_compact_naquadah_reactor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.5d
+		}
+	]
+	subtitle: ["おお"]
+	title: "電力"
+}

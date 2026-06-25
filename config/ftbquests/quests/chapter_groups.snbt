@@ -2,5 +2,6 @@
 	chapter_groups: [
 		{ id: "29F87984A1A84EBA", title: "{ftbquests.chapter_groups_3024300760334094010.title}" }
 		{ id: "7955F24567DE4319", title: "{ftbquests.chapter_groups_8743160631518970649.title}" }
+		{ id: "5295123472FC7592", title: "Mod" }
 	]
 }

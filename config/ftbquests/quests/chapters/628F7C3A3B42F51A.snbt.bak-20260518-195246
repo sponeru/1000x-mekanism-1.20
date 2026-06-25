@@ -1,0 +1,76 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "628F7C3A3B42F51A"
+	group: ""
+	id: "628F7C3A3B42F51A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.628F7C3A3B42F51A.quest1.description1}"]
+			icon: "minecraft:grass_block"
+			id: "7F4B21A42724338C"
+			incompatible: ["5C124BC2B5689E7B"]
+			optional: true
+			size: 3.0d
+			tasks: [{
+				id: "7B0EEF4275756816"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.628F7C3A3B42F51A.quest1.title}"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.628F7C3A3B42F51A.quest2.description1}"
+				""
+				"{ftbquests.chapter.628F7C3A3B42F51A.quest2.description2}"
+			]
+			icon: "minecraft:campfire"
+			id: "5C124BC2B5689E7B"
+			incompatible: ["7F4B21A42724338C"]
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/ftbquests block_rewards true"
+				elevate_perms: true
+				id: "4E22746C433AC38C"
+				type: "command"
+			}]
+			size: 3.0d
+			subtitle: "{ftbquests.chapter.628F7C3A3B42F51A.quest2.subtitle}"
+			tasks: [{
+				id: "534D54DF9F9AC04F"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.628F7C3A3B42F51A.quest2.title}"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["{ftbquests.chapter.628F7C3A3B42F51A.quest3.description1}"]
+			id: "58D19A0956CF8EDC"
+			optional: true
+			rewards: [{
+				id: "34D8AE00B08E5C3C"
+				ignore_reward_blocking: true
+				item: "mek1000:skyblock_crafter"
+				type: "item"
+			}]
+			secret: true
+			tasks: [{
+				biome: "minecraft:the_void"
+				disable_toast: true
+				id: "3E020EAD90DC99A3"
+				secret: true
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.628F7C3A3B42F51A.quest3.title}"
+			x: -3.0d
+			y: -3.0d
+		}
+	]
+	title: "{ftbquests.chapter.628F7C3A3B42F51A.title}"
+}

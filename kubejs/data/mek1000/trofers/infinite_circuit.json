@@ -1,0 +1,31 @@
+{
+  "colors": {
+    "accent": "#C90036",
+    "base": "#606060"
+  },
+  "display": {
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 1.5
+  },
+  "animation": {
+    "type": "spinning",
+    "speed": 0.5
+  },
+  "item": {
+    "item": "mekanism_extras:infinite_control_circuit",
+    "count": 1
+  },
+  "name": {
+    "color": "#C90036",
+    "translate": "mek1000.trophies.infinite_control_circuit"
+  }
+}

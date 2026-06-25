@@ -1,13 +1,13 @@
 name = "Mekanism: More Thermal Evaporation Compat"
-filename = "morethermalevaporationcompat-2.1.1.jar"
+filename = "morethermalevaporationcompat-2.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "15687d718d166e656140b577f348b449a1b9bcfe"
+hash = "bbf6f77bbd701dbdad31d7c79e7a1af45fdc7056"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7622489
+file-id = 8084496
 project-id = 1409463

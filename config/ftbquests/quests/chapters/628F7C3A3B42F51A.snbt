@@ -8,7 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.chapter.628F7C3A3B42F51A.quest1.description1}"]
+			description: ["初見はこっちを推奨します"]
 			icon: "minecraft:grass_block"
 			id: "7F4B21A42724338C"
 			incompatible: ["5C124BC2B5689E7B"]
@@ -18,39 +18,40 @@
 				id: "7B0EEF4275756816"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.628F7C3A3B42F51A.quest1.title}"
+			title: "ノーマルモード"
 			x: -6.0d
 			y: -3.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.628F7C3A3B42F51A.quest2.description1}"
+				"&c注意！ クエストの報酬がすべて受け取れなくなります！&r"
 				""
-				"{ftbquests.chapter.628F7C3A3B42F51A.quest2.description2}"
+				"&b完走すると特殊なアイテムが・・？&r"
 			]
 			icon: "minecraft:campfire"
 			id: "5C124BC2B5689E7B"
 			incompatible: ["7F4B21A42724338C"]
 			optional: true
 			rewards: [{
-				auto: "enabled"
+				auto: "no_toast"
 				command: "/ftbquests block_rewards true"
 				elevate_perms: true
 				id: "4E22746C433AC38C"
+				silent: true
 				type: "command"
 			}]
 			size: 3.0d
-			subtitle: "{ftbquests.chapter.628F7C3A3B42F51A.quest2.subtitle}"
+			subtitle: "クエスト報酬縛り"
 			tasks: [{
 				id: "534D54DF9F9AC04F"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.628F7C3A3B42F51A.quest2.title}"
+			title: "ハードモード"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.628F7C3A3B42F51A.quest3.description1}"]
+			description: ["受け取ったらワールドを&a入り直して&rください！"]
 			id: "58D19A0956CF8EDC"
 			optional: true
 			rewards: [{
@@ -67,7 +68,7 @@
 				secret: true
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.628F7C3A3B42F51A.quest3.title}"
+			title: "空島モード"
 			x: -3.0d
 			y: -3.0d
 		}

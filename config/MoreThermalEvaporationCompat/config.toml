@@ -13,7 +13,7 @@
 		absoluteEvaporationOutputTankCapacity = 20480000
 		#Amount of fluid (mB) that each block of the Absolute Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 		#Range: 1 ~ 29826161
-		absoluteThermalEvaporationInputTankCapacity = 64000
+		absoluteThermalEvaporationInputTankCapacity = 6400000
 		#Buildable Height (in blocks) for the Absolute Evaporation Plant.
 		#Range: 18 ~ 514
 		absoluteEvaporationPlantHeight = 18
@@ -25,10 +25,10 @@
 		#Settings for the Supreme Tier
 		#Amount of output fluid (mB) that the Supreme Evaporation Plant can store.
 		#Range: > 1
-		supremeEvaporationOutputTankCapacity = 40960000
+		supremeEvaporationOutputTankCapacity = 409600000
 		#Amount of fluid (mB) that each block of the Supreme Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 		#Range: 1 ~ 29826161
-		supremeThermalEvaporationInputTankCapacity = 64000
+		supremeThermalEvaporationInputTankCapacity = 6400000
 		#Buildable Height (in blocks) for the Supreme Evaporation Plant.
 		#Range: 18 ~ 1026
 		supremeEvaporationPlantHeight = 18
@@ -43,7 +43,7 @@
 		cosmicEvaporationOutputTankCapacity = 81920000
 		#Amount of fluid (mB) that each block of the Cosmic Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 		#Range: 1 ~ 29826161
-		cosmicThermalEvaporationInputTankCapacity = 64000
+		cosmicThermalEvaporationInputTankCapacity = 6400000
 		#Buildable Height (in blocks) for the Cosmic Evaporation Plant.
 		#Range: 18 ~ 2050
 		cosmicEvaporationPlantHeight = 18
@@ -58,7 +58,7 @@
 		infiniteEvaporationOutputTankCapacity = 163840000
 		#Amount of fluid (mB) that each block of the Infinite Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 		#Range: 1 ~ 29826161
-		infiniteThermalEvaporationInputTankCapacity = 64000
+		infiniteThermalEvaporationInputTankCapacity = 6400000
 		#Buildable Height (in blocks) for the Infinite Evaporation Plant.
 		#Range: 18 ~ 4098
 		infiniteEvaporationPlantHeight = 18
@@ -73,7 +73,7 @@
 		overclockedEvaporationOutputTankCapacity = 20480000
 		#Amount of fluid (mB) that each block of the Overclocked Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 		#Range: 1 ~ 29826161
-		overclockedThermalEvaporationInputTankCapacity = 64000
+		overclockedThermalEvaporationInputTankCapacity = 6400000
 		#Buildable Height (in blocks) for the Overclocked Evaporation Plant.
 		#Range: 18 ~ 514
 		overclockedEvaporationPlantHeight = 18
@@ -88,7 +88,7 @@
 		quantumEvaporationOutputTankCapacity = 40960000
 		#Amount of fluid (mB) that each block of the Quantum Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 		#Range: 1 ~ 29826161
-		quantumThermalEvaporationInputTankCapacity = 64000
+		quantumThermalEvaporationInputTankCapacity = 6400000
 		#Buildable Height (in blocks) for the Quantum Evaporation Plant.
 		#Range: 18 ~ 1026
 		quantumEvaporationPlantHeight = 18
@@ -103,7 +103,7 @@
 		denseEvaporationOutputTankCapacity = 81920000
 		#Amount of fluid (mB) that each block of the Dense Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 		#Range: 1 ~ 29826161
-		denseThermalEvaporationInputTankCapacity = 64000
+		denseThermalEvaporationInputTankCapacity = 6400000
 		#Buildable Height (in blocks) for the Dense Evaporation Plant.
 		#Range: 18 ~ 2050
 		denseEvaporationPlantHeight = 18
@@ -118,7 +118,7 @@
 		multiversalEvaporationOutputTankCapacity = 163840000
 		#Amount of fluid (mB) that each block of the Multiversal Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 		#Range: 1 ~ 29826161
-		multiversalThermalEvaporationInputTankCapacity = 64000
+		multiversalThermalEvaporationInputTankCapacity = 6400000
 		#Buildable Height (in blocks) for the Multiversal Evaporation Plant.
 		#Range: 18 ~ 4098
 		multiversalEvaporationPlantHeight = 18
@@ -130,10 +130,10 @@
 		#Settings for the Vibration Tier
 		#Amount of output fluid (mB) that the Vibration Evaporation Plant can store.
 		#Range: > 1
-		vibrationEvaporationOutputTankCapacity = 15360000
+		vibrationEvaporationOutputTankCapacity = 1536000000
 		#Amount of fluid (mB) that each block of the Vibration Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 		#Range: 1 ~ 29826161
-		vibrationThermalEvaporationInputTankCapacity = 64000
+		vibrationThermalEvaporationInputTankCapacity = 6400000
 		#Buildable Height (in blocks) for the Vibration Evaporation Plant.
 		#Range: 18 ~ 432
 		vibrationEvaporationPlantHeight = 18
@@ -148,7 +148,7 @@
 		resonanceEvaporationOutputTankCapacity = 30720000
 		#Amount of fluid (mB) that each block of the Resonance Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 		#Range: 1 ~ 29826161
-		resonanceThermalEvaporationInputTankCapacity = 64000
+		resonanceThermalEvaporationInputTankCapacity = 6400000
 		#Buildable Height (in blocks) for the Resonance Evaporation Plant.
 		#Range: 18 ~ 864
 		resonanceEvaporationPlantHeight = 18
@@ -163,7 +163,7 @@
 		illusionEvaporationOutputTankCapacity = 327680000
 		#Amount of fluid (mB) that each block of the Illusion Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 		#Range: 1 ~ 29826161
-		illusionThermalEvaporationInputTankCapacity = 64000
+		illusionThermalEvaporationInputTankCapacity = 6400000
 		#Buildable Height (in blocks) for the Illusion Evaporation Plant.
 		#Range: 18 ~ 9216
 		illusionEvaporationPlantHeight = 18
@@ -178,7 +178,7 @@
 		absoluteoverclockedEvaporationOutputTankCapacity = 30720000
 		#Amount of fluid (mB) that each block of the Absolute Overclocked Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 		#Range: 1 ~ 29826161
-		absoluteoverclockedThermalEvaporationInputTankCapacity = 64000
+		absoluteoverclockedThermalEvaporationInputTankCapacity = 6400000
 		#Buildable Height (in blocks) for the Absolute Overclocked Evaporation Plant.
 		#Range: 18 ~ 864
 		absoluteoverclockedEvaporationPlantHeight = 18
@@ -190,10 +190,10 @@
 		#Settings for the Supreme_Quantum Tier
 		#Amount of output fluid (mB) that the Supreme Quantum Evaporation Plant can store.
 		#Range: > 1
-		supremequantumEvaporationOutputTankCapacity = 61440000
+		supremequantumEvaporationOutputTankCapacity = 614400000
 		#Amount of fluid (mB) that each block of the Supreme Quantum Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 		#Range: 1 ~ 29826161
-		supremequantumThermalEvaporationInputTankCapacity = 64000
+		supremequantumThermalEvaporationInputTankCapacity = 6400000
 		#Buildable Height (in blocks) for the Supreme Quantum Evaporation Plant.
 		#Range: 18 ~ 1728
 		supremequantumEvaporationPlantHeight = 18
@@ -208,7 +208,7 @@
 		cosmicdenseEvaporationOutputTankCapacity = 122880000
 		#Amount of fluid (mB) that each block of the Cosmic Dense Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 		#Range: 1 ~ 29826161
-		cosmicdenseThermalEvaporationInputTankCapacity = 64000
+		cosmicdenseThermalEvaporationInputTankCapacity = 6400000
 		#Buildable Height (in blocks) for the Cosmic Dense Evaporation Plant.
 		#Range: 18 ~ 3456
 		cosmicdenseEvaporationPlantHeight = 18
@@ -223,7 +223,7 @@
 		infinitemultiversalEvaporationOutputTankCapacity = 245760000
 		#Amount of fluid (mB) that each block of the Infinite Multiversal Thermal Evaporation Plant contributes to the input tank capacity. Max = volume * fluidPerTank
 		#Range: 1 ~ 29826161
-		infinitemultiversalThermalEvaporationInputTankCapacity = 64000
+		infinitemultiversalThermalEvaporationInputTankCapacity = 6400000
 		#Buildable Height (in blocks) for the Infinite Multiversal Evaporation Plant.
 		#Range: 18 ~ 6912
 		infinitemultiversalEvaporationPlantHeight = 18

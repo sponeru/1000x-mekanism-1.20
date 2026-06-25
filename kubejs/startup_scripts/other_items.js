@@ -80,4 +80,7 @@ StartupEvents.registry("item", event => {
     event.create('mek1000:compressed_redstone_crystal').texture("mek1000:item/wip").glow(true)
     event.create('mek1000:compressed_quantum_alloy').texture("mek1000:item/wip").glow(true)
     event.create('mek1000:compressed_sky_steel').texture("mek1000:item/wip").glow(true)
+
+    event.create('mek1000:bablo_crystal')
+    event.create('mek1000:double_string_control_circuit')
 })

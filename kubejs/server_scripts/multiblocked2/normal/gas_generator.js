@@ -16,6 +16,14 @@ ServerEvents.recipes(event => {
         .duration(20 * 100)
         .perTick(builder => builder
             .outputFE(2147483647)
-            .inputGases('200x mek1000:dvt')
+            .inputGases('200x mekanism_the_valine:deuterium_valine3g_tritium')
+        )
+
+    event.recipes.mek1000.advanced_gas_burning()
+        .id("mek1000:advanced_gas_valine")
+        .duration(400)
+        .perTick(builder => builder
+            .outputFE(2950000)
+            .inputGases('128x mekanism_the_valine:valine3g')
         )
 })

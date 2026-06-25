@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ae2"
-	group: "7955F24567DE4319"
+	group: "5295123472FC7592"
 	icon: "ae2:controller"
 	id: "797F5C220099BEC3"
 	order_index: 0
@@ -23,7 +23,7 @@
 				id: "138485C252A793BE"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ae2.quest1.title}"
+			title: "チャンネル切り替え : 無限"
 			x: -2.5d
 			y: -5.5d
 		}
@@ -43,12 +43,17 @@
 				id: "389E7CD2E923FD9A"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ae2.quest2.title}"
+			title: "チャンネル切り替え : デフォルト"
 			x: -1.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["503CF531934055CD"]
+			description: [
+				"AE倉庫のコアとなるブロックです"
+				""
+				"なくても動きますが、消費電力を見れるので置いておきましょう・・・・"
+			]
 			id: "25D4C3E90302E4EC"
 			rewards: [{
 				count: 3
@@ -56,14 +61,14 @@
 				item: "ae2:controller"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest3.subtitle}"
+			subtitle: "ゲーミングキラキラキューブ"
 			tasks: [{
 				id: "71B57271F0EDE0A3"
 				item: "ae2:controller"
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["25D4C3E90302E4EC"]
@@ -98,19 +103,19 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["25D4C3E90302E4EC"]
+			dependencies: ["456A5080BE1D801B"]
 			id: "3EC8578BF8588081"
 			tasks: [{
 				id: "07082623B6C29F01"
 				item: "ae2:crafting_unit"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: 6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3EC8578BF8588081"]
-			description: ["{ftbquests.chapter.ae2.quest10.description1}"]
+			description: ["Modpackでの改変により、&a12x12x12&rまでの大きさで作成できます。"]
 			id: "6ED653CBAC9C7950"
 			rewards: [
 				{
@@ -142,11 +147,16 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: 0.0d
+			x: 6.0d
+			y: -8.5d
 		}
 		{
-			dependencies: ["25D4C3E90302E4EC"]
+			dependencies: ["456A5080BE1D801B"]
+			description: [
+				"&a作業台・鍛冶台・石切台&rでのクラフトを自動化できます"
+				""
+				"任意のパターンプロバイダを隣接させることで自動化させることができます"
+			]
 			id: "11C405E546ED8DFE"
 			rewards: [{
 				count: 3
@@ -154,13 +164,14 @@
 				item: "ae2:molecular_assembler"
 				type: "item"
 			}]
+			subtitle: "まずはこれだよね"
 			tasks: [{
 				id: "7692709DF01F0931"
 				item: "ae2:molecular_assembler"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.0d
+			x: 5.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["65EC0080DD29B07D"]
@@ -179,6 +190,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "もっとはやい"
 			tasks: [
 				{
 					id: "60A71E03DE8D3E8E"
@@ -195,9 +207,14 @@
 					item: "expatternprovider:assembler_matrix_pattern"
 					type: "item"
 				}
+				{
+					id: "5DD8A59B7209F563"
+					item: "extendedae_plus:assembler_matrix_upload_core"
+					type: "item"
+				}
 			]
-			x: -3.5d
-			y: -2.0d
+			x: 5.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["11C405E546ED8DFE"]
@@ -208,13 +225,14 @@
 				item: "expatternprovider:ex_molecular_assembler"
 				type: "item"
 			}]
+			subtitle: "はやい"
 			tasks: [{
 				id: "2113554AF583B752"
 				item: "expatternprovider:ex_molecular_assembler"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: 5.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["25D4C3E90302E4EC"]
@@ -270,7 +288,7 @@
 		}
 		{
 			dependencies: ["25D4C3E90302E4EC"]
-			description: ["{ftbquests.chapter.ae2.quest13.description1}"]
+			description: ["&a石切台&rで&aP2Pトンネル&rの種類を切り替えられます"]
 			id: "7A5B9CB0EFC2334B"
 			rewards: [{
 				count: 15
@@ -289,7 +307,7 @@
 		{
 			dependencies: ["25D4C3E90302E4EC"]
 			id: "5C461433047AC112"
-			subtitle: "{ftbquests.chapter.ae2.quest14.subtitle}"
+			subtitle: "レインボーなアートを描こう"
 			tasks: [{
 				id: "6BC50F46E8AA496D"
 				item: "mae2a:infinite_dyes_cell"
@@ -358,7 +376,7 @@
 				title: "{ftbquests.chapter.ae2.quest18.task_6879066666931072408.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest18.title}"
+			title: "任意のセル"
 			x: 3.5d
 			y: -1.0d
 		}
@@ -394,7 +412,7 @@
 				title: "{ftbquests.chapter.ae2.quest19.task_7022662481880896196.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest19.title}"
+			title: "任意のDISKドライブ"
 			x: 3.5d
 			y: -2.0d
 		}
@@ -418,7 +436,7 @@
 				title: "{ftbquests.chapter.ae2.quest20.task_6814283282519938255.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest20.title}"
+			title: "任意のFEセル"
 			x: 3.5d
 			y: -3.0d
 		}
@@ -441,15 +459,21 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["25D4C3E90302E4EC"]
+			dependencies: ["456A5080BE1D801B"]
+			description: [
+				"&aMEパターンプロバイダー&rは、&a自動クラフトシステムの根幹&rとなる装置です"
+				""
+				"仕様は書ききれないので詳しくはガイドを見てください・・・・"
+			]
 			id: "1BC858522A153651"
+			subtitle: "9枠しかないってマジ？"
 			tasks: [{
 				id: "5F2D2A7A054B66C1"
 				item: "ae2:pattern_provider"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.0d
+			x: 4.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["1BC858522A153651"]
@@ -460,8 +484,8 @@
 				item: "expatternprovider:ex_pattern_provider"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.0d
+			x: 4.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["0BC6B3768C9D496F"]
@@ -497,11 +521,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["25D4C3E90302E4EC"]
+			dependencies: ["2222120D1B1E679D"]
 			description: [
-				"{ftbquests.chapter.ae2.quest27.description1}"
+				"限界高度に&a上向き&rで設置するとMEネットワーク内に&aスカイストーンダスト&rが生成されます"
 				""
-				"{ftbquests.chapter.ae2.quest27.description2}"
+				"ブロックを破壊するのにも使用できます(本来の用途)"
 			]
 			id: "02491F4F5E0B2531"
 			rewards: [{
@@ -510,7 +534,7 @@
 				item: "ae2:sky_dust"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest27.subtitle}"
+			subtitle: "仰げば尊し"
 			tasks: [
 				{
 					id: "1F49BA875DD9BCF5"
@@ -574,8 +598,8 @@
 		{
 			dependencies: ["25D4C3E90302E4EC"]
 			description: [
-				"{ftbquests.chapter.ae2.quest28.description1}"
-				"{ftbquests.chapter.ae2.quest28.description2}"
+				"MEネットワーク内の素材を使い、入っているパターンに沿って自動クラフトをする機械です。"
+				"再帰的なクラフトを自動化することができます(鍛冶型など)"
 			]
 			id: "0469C4480DC9589F"
 			tasks: [{
@@ -600,8 +624,8 @@
 		{
 			dependencies: ["166C118248FF8548"]
 			description: [
-				"{ftbquests.chapter.ae2.quest29.description1}"
-				"{ftbquests.chapter.ae2.quest29.description2}"
+				"無線アクセスポイントに接続し、セルワークベンチでMekanism機械のアップグレードを登録してください。"
+				"在庫がある限り、登録されたアップグレードを機械にインストールできます。"
 			]
 			id: "651A594A7EE485DC"
 			tasks: [{
@@ -615,8 +639,8 @@
 		{
 			dependencies: ["25D4C3E90302E4EC"]
 			description: [
-				"{ftbquests.chapter.ae2.quest30.description1}"
-				"{ftbquests.chapter.ae2.quest30.description2}"
+				"アイテム、液体、ガス、電力などをBigIntegerの最大まで保管出来ます。"
+				"実質無限の容量を持ちます。"
 			]
 			id: "76D9C7A1A4B62890"
 			tasks: [{
@@ -626,6 +650,68 @@
 			}]
 			x: 2.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["25D4C3E90302E4EC"]
+			id: "456A5080BE1D801B"
+			subtitle: "手作業からさようなら"
+			tasks: [{
+				id: "6C92F9591F2B58B2"
+				type: "checkmark"
+			}]
+			title: "自動クラフト"
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["456A5080BE1D801B"]
+			description: [
+				"ここで一度、自動クラフトの設計思想を考えてみましょう。"
+				"設計思想には&aオンデマンド&rと&aパッシブ&rの2種類があります。"
+				""
+				"&6オンデマンド&r：プレイヤーがクラフト発注をかけることによりクラフトが実行される。"
+				""
+				"&bパッシブ&r：ある程度の数、もしくは永遠にアイテムをクラフトし続けるようにする。"
+				""
+				"次のページで両方のメリットとデメリットについて紹介します。"
+				""
+				"{@pagebreak}"
+				""
+				"&6オンデマンド&r"
+				""
+				"メリット"
+				"・余計な数をクラフトしなくて済む"
+				"・素材消費を抑えられる"
+				""
+				"デメリット"
+				"・大規模なクラフトを発注するには大容量のクラフトCPUが必要"
+				"・一気に機械が稼働するため、負荷が高くなる"
+				""
+				"{@pagebreak}"
+				""
+				"&bパッシブ&r"
+				""
+				"メリット"
+				"・放置時間などにクラフトを進められる"
+				""
+				"デメリット"
+				"・素材を大量に消費する"
+				"・1つのアイテムの加工をする機械が乱立する"
+				""
+				"{@pagebreak}"
+				""
+				"お勧めとしては、2種類を組み合わせることです。"
+				""
+				"大規模な&6オンデマンド&rのクラフトに必要な素材を、あらかじめ&bパッシブ&rで生産しておくといった手法が考えられます。"
+			]
+			id: "5A85FEDC582484CE"
+			tasks: [{
+				id: "08B1EFD192731776"
+				type: "checkmark"
+			}]
+			title: "パッシブとオンデマンド"
+			x: 6.5d
+			y: -6.0d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.ae2.subtitle0}"]

@@ -1,0 +1,409 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "092727BC36641B8A"
+	group: "7955F24567DE4319"
+	icon: "mek1000:fusion_controller"
+	id: "092727BC36641B8A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1DB13345D6C1C917"]
+			description: [
+				"{ftbquests.chapter.092727BC36641B8A.quest1.description1}"
+				"{ftbquests.chapter.092727BC36641B8A.quest1.description2}"
+			]
+			icon: "mek1000:sml_drill_s"
+			id: "67ABFB37560F3BD7"
+			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest1.subtitle}"
+			tasks: [{
+				id: "6E6CCD3E55A6FF14"
+				item: "mek1000:sml_drill_s"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["67ABFB37560F3BD7"]
+			id: "78B5A175936E36AB"
+			tasks: [{
+				id: "75A39115E7022B87"
+				item: "mek1000:sml_drill_m"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["78B5A175936E36AB"]
+			id: "1DB07B36BE296360"
+			rewards: [{
+				count: 512
+				id: "77CA89320708511E"
+				item: "mek1000:electricity_resistant_reinforced_casing"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest3.subtitle}"
+			tasks: [{
+				id: "60B0D10FEC4D1431"
+				item: "mek1000:sml_drill_l"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["79896B658F185A07"]
+			description: ["{ftbquests.chapter.092727BC36641B8A.quest4.description1}"]
+			id: "1DB13345D6C1C917"
+			rewards: [{
+				count: 64
+				id: "216F7C5846D7892D"
+				item: "mek1000:wtf_casing"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest4.subtitle}"
+			tasks: [{
+				id: "3C9BB6F34A0CE0E6"
+				item: "mek1000:large_digital_assembly_table"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1DB13345D6C1C917"
+				"3EE1C779AEB0D16D"
+			]
+			description: [
+				"{ftbquests.chapter.092727BC36641B8A.quest5.description1}"
+				"{ftbquests.chapter.092727BC36641B8A.quest5.description2}"
+			]
+			id: "0D0C3C349D4C156C"
+			rewards: [{
+				count: 1024
+				id: "62EE45013DED3253"
+				item: "mek1000:compressed_sps_casing"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest5.subtitle}"
+			tasks: [{
+				id: "75E0FA7D5B046DEC"
+				item: "mek1000:infinity_fusion_controller"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1DB13345D6C1C917"
+				"260C6DE89D61CD5D"
+				"0D8F41487621E030"
+				"0CAA113723313199"
+				"651BD19DCEE675A6"
+				"6761DFB2171D7CE4"
+			]
+			id: "2702EF80D5C6865C"
+			rewards: [{
+				count: 32
+				id: "453F0A5741EC2F67"
+				item: "mek1000:fusion_casing"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest6.subtitle}"
+			tasks: [{
+				id: "73CC062549725E2B"
+				item: "mek1000:fusion_controller"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["18AB749F3D12826F"]
+			id: "7B00BF97FCAA2F2A"
+			rewards: [{
+				id: "45C696D09E08482D"
+				item: "advanced_ae:quantum_unit"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest7.subtitle}"
+			tasks: [{
+				id: "337544FC0BF6AE3C"
+				item: "mek1000:rockbreak_simulator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7ED68F17797155BB"]
+			description: [
+				"{ftbquests.chapter.092727BC36641B8A.quest8.description1}"
+				"{ftbquests.chapter.092727BC36641B8A.quest8.description2}"
+			]
+			id: "02452CFCADF1EAFF"
+			rewards: [{
+				id: "15CB28E9CAFB78F0"
+				item: "mek1000:energy_output"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest8.subtitle}"
+			tasks: [{
+				id: "7E722D416A7777C0"
+				item: "mek1000:combustion_gas_generator"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1DB13345D6C1C917"]
+			icon: "mek1000:singurarity_generator"
+			id: "66B8C5F402898F23"
+			rewards: [{
+				id: "42019339D668EEDC"
+				item: "mek1000:singurarity_gas_input"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest9.subtitle}"
+			tasks: [{
+				id: "33D7DB270FF8EEDC"
+				item: "mek1000:singurarity_generator"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["51C1587257D31C07"]
+			description: ["{ftbquests.chapter.092727BC36641B8A.quest10.description1}"]
+			id: "6BADA3B6CB0642D8"
+			rewards: [{
+				count: 20
+				id: "4100F7D95132F8CC"
+				item: "experienceobelisk:enchanted_bookshelf"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest10.subtitle}"
+			tasks: [{
+				id: "6C7D5E2C0065CF76"
+				item: "mek1000:library_of_babel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1DB13345D6C1C917"]
+			id: "7D70184C6C6FA8F5"
+			rewards: [
+				{
+					count: 1024
+					id: "560E5C1B6583B05E"
+					item: "mek1000:blast_coil"
+					type: "item"
+				}
+				{
+					count: 512
+					id: "1D720A36C99D3558"
+					item: "mek1000:tin_casing"
+					type: "item"
+				}
+				{
+					count: 960
+					id: "5A87180546AFB161"
+					item: "mek1000:electricity_resistant_reinforced_casing"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest11.subtitle}"
+			tasks: [{
+				id: "78D948021D9ADEE8"
+				item: "mek1000:dimensional_blast_furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			id: "2FD5521EC0CFB8E9"
+			tasks: [{
+				id: "1AFF33C50ED87F3B"
+				item: "mbd2:mbd_gadgets"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3FC57EAE35A4448E"]
+			description: ["{ftbquests.chapter.2.quest17.description1}"]
+			icon: "evolvedmekanism:apt_casing"
+			id: "4C7BE91F268E9BEF"
+			rewards: [{
+				count: 4
+				id: "2D529382C7A3A170"
+				item: "evolvedmekanism:quantum_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A55414403AA70E1"
+				item: "astral_mekanism:compact_apt"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.2.quest17.title}"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4C7BE91F268E9BEF"]
+			description: ["{ftbquests.chapter.092727BC36641B8A.quest11.description1}"]
+			id: "5BC14794B728F81F"
+			rewards: [{
+				count: 15
+				id: "62FC810C719FD02C"
+				item: "evolvedmekanism:supercharging_element"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54B46EB4125F2331"
+				item: "evolvedmekanism:supercharging_element"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2702EF80D5C6865C"]
+			id: "79B9892EAFE6CA7C"
+			rewards: [{
+				count: 32
+				id: "1F40F2C1F0D2B023"
+				item: "mek1000:super_computing_cell"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41DEE633E31481E2"
+				item: "mek1000:etheric_computer_array"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2B7577D9D6D44CFD"]
+			description: ["{ftbquests.chapter.092727BC36641B8A.quest12.description1}"]
+			id: "14BFBC8B8E11715E"
+			tasks: [{
+				id: "2BC59D9C954D10E2"
+				item: "mek1000:super_pressure_squeezer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1DB13345D6C1C917"]
+			id: "037E8E375F4EA17C"
+			tasks: [{
+				id: "3EBB7B1D64624DE2"
+				item: "mek1000:integrated_ore_process_factory"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["037E8E375F4EA17C"]
+			description: [
+				"{ftbquests.chapter.092727BC36641B8A.quest13.description1}"
+				"{ftbquests.chapter.092727BC36641B8A.quest13.description2}"
+			]
+			id: "355893826DB821D6"
+			rewards: [{
+				count: 8
+				id: "6CF2FCDD60BDA4A9"
+				item: "mek1000:composite_module"
+				type: "item"
+			}]
+			tasks: [{
+				id: "717088AE0F57BA7F"
+				item: "mek1000:composite_module"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["355893826DB821D6"]
+			description: [
+				"{ftbquests.chapter.092727BC36641B8A.quest13.description1}"
+				"{ftbquests.chapter.092727BC36641B8A.quest14.description1}"
+			]
+			id: "59317CD2D7DF74A5"
+			rewards: [{
+				count: 8
+				id: "30F712DEE830E011"
+				item: "mek1000:enchanted_module"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AC2D03E15FD48C3"
+				item: "mek1000:enchanted_module"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59317CD2D7DF74A5"]
+			description: [
+				"{ftbquests.chapter.092727BC36641B8A.quest13.description1}"
+				"{ftbquests.chapter.092727BC36641B8A.quest15.description1}"
+			]
+			id: "23B95DD484DC8AF5"
+			rewards: [{
+				count: 8
+				id: "221892F083E77E82"
+				item: "mek1000:infinity_module"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F80FE13565EAA93"
+				item: "mek1000:infinity_module"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23B95DD484DC8AF5"]
+			description: [
+				"{ftbquests.chapter.092727BC36641B8A.quest13.description1}"
+				"{ftbquests.chapter.092727BC36641B8A.quest16.description1}"
+			]
+			id: "42D85E67761945BD"
+			rewards: [{
+				count: 8
+				id: "03EB1EA9DF3472C2"
+				item: "mek1000:astral_module"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AABD6B2081DA350"
+				item: "mek1000:astral_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.092727BC36641B8A.subtitle0}"]
+	title: "{ftbquests.chapter.092727BC36641B8A.title}"
+}

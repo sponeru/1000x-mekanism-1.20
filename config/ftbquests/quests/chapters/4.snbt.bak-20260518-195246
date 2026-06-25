@@ -1,0 +1,400 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4"
+	group: "29F87984A1A84EBA"
+	icon: "mek1000:infinity_ingot"
+	id: "5DD3C47237F10280"
+	order_index: 4
+	quest_links: [
+		{
+			id: "1FDF9DD2C1253AE4"
+			linked_quest: "66B8C5F402898F23"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "095F8F3575F5F97C"
+			linked_quest: "7D70184C6C6FA8F5"
+			x: 5.0d
+			y: -1.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["65211AE2930E4A03"]
+			id: "72875BEA367BA174"
+			rewards: [{
+				count: 15
+				id: "6806C72B46294449"
+				item: "mek1000:neutronium_ingot"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "495A937A6C7EF2BD"
+				item: "mek1000:neutronium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["66B8C5F402898F23"]
+			id: "0A7E664D1E059B65"
+			tasks: [{
+				id: "625ACB1C0B2E3907"
+				item: "mek1000:redstone_singularity"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["66B8C5F402898F23"]
+			id: "3DC9289C0A783D39"
+			tasks: [{
+				id: "6694C114101F108B"
+				item: "mek1000:iron_singularity"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["66B8C5F402898F23"]
+			id: "1D4C7FCEA4D65F96"
+			tasks: [{
+				id: "27421990C37ECD6D"
+				item: "mek1000:gold_singularity"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["66B8C5F402898F23"]
+			id: "0E198A234C68B561"
+			tasks: [{
+				id: "3F6F7D38073D533E"
+				item: "mek1000:diamond_singularity"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["66B8C5F402898F23"]
+			id: "2A28D8C23713E235"
+			tasks: [{
+				id: "6FA44C3B77C49C12"
+				item: "mek1000:lapis_singularity"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66B8C5F402898F23"]
+			id: "39A4398F0C776F91"
+			tasks: [{
+				id: "4BB247B627EC67C2"
+				item: "mek1000:emerald_singularity"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66B8C5F402898F23"]
+			id: "0C30CA66AFEE8A50"
+			tasks: [{
+				id: "2C94690C942CE915"
+				item: "mek1000:copper_singularity"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66B8C5F402898F23"]
+			id: "0F61E0DEFE7DCE87"
+			tasks: [{
+				id: "21E24466A53FEAAE"
+				item: "mek1000:amethyst_singularity"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66B8C5F402898F23"]
+			id: "1E7CC368858F7EB1"
+			tasks: [{
+				id: "5D87138305A9A1C8"
+				item: "mek1000:coal_singularity"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66B8C5F402898F23"]
+			id: "3DD347DA977FBEE2"
+			tasks: [{
+				id: "441ADAA1167E0FDB"
+				item: "mek1000:tin_singularity"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["66B8C5F402898F23"]
+			id: "684FA27E3E825E85"
+			tasks: [{
+				id: "3D6F39173821CF32"
+				item: "mek1000:quartz_singularity"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["66B8C5F402898F23"]
+			id: "62518C32089A2EA0"
+			tasks: [{
+				id: "51E9C991738216AA"
+				item: "mek1000:iridium_singularity"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["66B8C5F402898F23"]
+			id: "15A6454FF9FD243C"
+			tasks: [{
+				id: "5113CDCCFE4DD88D"
+				item: "mek1000:certusquartz_singularity"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["66B8C5F402898F23"]
+			id: "1BD8F4241B07DE01"
+			tasks: [{
+				id: "7CA158A44332B9FD"
+				item: "mek1000:fluorite_singularity"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["66B8C5F402898F23"]
+			id: "0883B62679BD3F71"
+			tasks: [{
+				id: "3EB098A85EE995C8"
+				item: "mek1000:lead_singularity"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["66B8C5F402898F23"]
+			id: "7BF564CDF7EF83E1"
+			tasks: [{
+				id: "080E1238035E021E"
+				item: "mek1000:uranium_singularity"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["66B8C5F402898F23"]
+			id: "2C1CA0B9E7AEDB06"
+			tasks: [{
+				id: "78CBEFCDB1D9CDFB"
+				item: "mek1000:osmium_singularity"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0F61E0DEFE7DCE87"
+				"15A6454FF9FD243C"
+				"1E7CC368858F7EB1"
+				"0C30CA66AFEE8A50"
+				"0E198A234C68B561"
+				"39A4398F0C776F91"
+				"1BD8F4241B07DE01"
+				"1D4C7FCEA4D65F96"
+				"62518C32089A2EA0"
+				"3DC9289C0A783D39"
+				"2A28D8C23713E235"
+				"0883B62679BD3F71"
+				"2C1CA0B9E7AEDB06"
+				"0A7E664D1E059B65"
+				"684FA27E3E825E85"
+				"3DD347DA977FBEE2"
+				"7BF564CDF7EF83E1"
+			]
+			id: "525833B30B394873"
+			rewards: [{
+				count: 4
+				id: "1B8E5F95EF4819F3"
+				item: "mek1000:eternal_singularity"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "6B3C4C211FCD81AA"
+				item: "mek1000:eternal_singularity"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"525833B30B394873"
+				"72875BEA367BA174"
+				"2702EF80D5C6865C"
+			]
+			id: "6F6359AE040DD991"
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				id: "31AC46F78D85DE1C"
+				item: "mek1000:infinity_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6F6359AE040DD991"]
+			id: "10050B7F64430EBD"
+			shape: "pentagon"
+			tasks: [{
+				id: "782390A8BADBD7BB"
+				item: {
+					Count: 1
+					id: "mekanism:creative_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+							componentConfig: {
+								config0: {
+									side0: 4
+									side1: 4
+									side2: 4
+									side3: 4
+									side4: 4
+									side5: 4
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6F6359AE040DD991"]
+			id: "59401C265DEB5E33"
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.4.quest22.subtitle}"
+			tasks: [{
+				id: "39B4E80C478B5317"
+				item: "mekanism:creative_chemical_tank"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6F6359AE040DD991"]
+			id: "2A994D1DDF1039D5"
+			shape: "pentagon"
+			tasks: [{
+				id: "6B6E4D2499114EFB"
+				item: "mekanism:creative_fluid_tank"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6F6359AE040DD991"]
+			id: "79896856FE750D5D"
+			shape: "pentagon"
+			tasks: [{
+				id: "19F843827FE724B4"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7D70184C6C6FA8F5"]
+			id: "65211AE2930E4A03"
+			rewards: [{
+				count: 3
+				id: "3EFF92553DDBF25C"
+				item: "mek1000:ultimate_alloy_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "494D41E0A3BAF595"
+				item: "mek1000:ultimate_alloy_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A90004799FC9497"]
+			id: "6D7A910C7242BA45"
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				id: "28BBE0BBD844C628"
+				item: "hyperdaimc:desk"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6F6359AE040DD991"]
+			id: "1A90004799FC9497"
+			tasks: [{
+				id: "52C03664A022F323"
+				item: "hyperdaimc:bug_star"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.4.subtitle0}"]
+	title: "{ftbquests.chapter.4.title}"
+}

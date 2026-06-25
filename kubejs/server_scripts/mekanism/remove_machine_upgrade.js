@@ -43,12 +43,11 @@ ServerEvents.recipes(event => {
             event.remove({ id: `evolvedmekanism:factory/creative/${id}` })
     })
 
-    var advMachineList = ["oxidizing", "chemical_infusing", "washing", "dissolving", "crystallizing", "pressurised_reacting", "centrifuging", "liquifying"]
+    var advMachineList = ["oxidizing", "washing", "dissolving", "crystallizing", "pressurised_reacting", "centrifuging", "liquifying"]
 
     let machineUpgradeMap = new Map([
         ["planting", 'mekmm:planting_station'],
         ["oxidizing", 'mekanism:chemical_oxidizer'],
-        ["chemical_infusing", 'mekanism:chemical_infuser'],
         ["washing", 'mekanism:chemical_washer'],
         ["dissolving", 'mekanism:chemical_dissolution_chamber'],
         ["crystallizing", 'mekanism:chemical_crystallizer'],

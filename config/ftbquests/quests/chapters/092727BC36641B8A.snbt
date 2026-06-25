@@ -5,18 +5,23 @@
 	group: "7955F24567DE4319"
 	icon: "mek1000:fusion_controller"
 	id: "092727BC36641B8A"
-	order_index: 2
-	quest_links: [ ]
+	order_index: 0
+	quest_links: [{
+		id: "64FB089D42BB5155"
+		linked_quest: "02452CFCADF1EAFF"
+		x: -3.5d
+		y: -4.5d
+	}]
 	quests: [
 		{
 			dependencies: ["1DB13345D6C1C917"]
 			description: [
-				"{ftbquests.chapter.092727BC36641B8A.quest1.description1}"
-				"{ftbquests.chapter.092727BC36641B8A.quest1.description2}"
+				"&aSMLドリル&r全てに共通する仕様として、内部に大量のインベントリを持っています"
+				"&cコントローラー上部&rから自動搬出されるため、自動クラフトに組み込む際は&aパターンプロバイダー&rを直付けしましょう"
 			]
 			icon: "mek1000:sml_drill_s"
 			id: "67ABFB37560F3BD7"
-			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest1.subtitle}"
+			subtitle: "鉱石採掘ましーん"
 			tasks: [{
 				id: "6E6CCD3E55A6FF14"
 				item: "mek1000:sml_drill_s"
@@ -45,7 +50,7 @@
 				item: "mek1000:electricity_resistant_reinforced_casing"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest3.subtitle}"
+			subtitle: "鉱石を過剰供給"
 			tasks: [{
 				id: "60B0D10FEC4D1431"
 				item: "mek1000:sml_drill_l"
@@ -56,7 +61,7 @@
 		}
 		{
 			dependencies: ["79896B658F185A07"]
-			description: ["{ftbquests.chapter.092727BC36641B8A.quest4.description1}"]
+			description: ["自動化ができないので気をつけてください"]
 			id: "1DB13345D6C1C917"
 			rewards: [{
 				count: 64
@@ -64,7 +69,7 @@
 				item: "mek1000:wtf_casing"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest4.subtitle}"
+			subtitle: "同名の機械が元ネタらしいです"
 			tasks: [{
 				id: "3C9BB6F34A0CE0E6"
 				item: "mek1000:large_digital_assembly_table"
@@ -79,8 +84,8 @@
 				"3EE1C779AEB0D16D"
 			]
 			description: [
-				"{ftbquests.chapter.092727BC36641B8A.quest5.description1}"
-				"{ftbquests.chapter.092727BC36641B8A.quest5.description2}"
+				"&aMBDガジェット&rで自動設置することができます。"
+				"手作業で設置するのは大変なのでこちらを推奨します"
 			]
 			id: "0D0C3C349D4C156C"
 			rewards: [{
@@ -89,7 +94,7 @@
 				item: "mek1000:compressed_sps_casing"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest5.subtitle}"
+			subtitle: "手動で置くのはやめたほうがいい"
 			tasks: [{
 				id: "75E0FA7D5B046DEC"
 				item: "mek1000:infinity_fusion_controller"
@@ -114,7 +119,7 @@
 				item: "mek1000:fusion_casing"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest6.subtitle}"
+			subtitle: "無限の創造"
 			tasks: [{
 				id: "73CC062549725E2B"
 				item: "mek1000:fusion_controller"
@@ -131,34 +136,13 @@
 				item: "advanced_ae:quantum_unit"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest7.subtitle}"
+			subtitle: "もう石を掘りにいかなくてもいい"
 			tasks: [{
 				id: "337544FC0BF6AE3C"
 				item: "mek1000:rockbreak_simulator"
 				type: "item"
 			}]
 			x: -2.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["7ED68F17797155BB"]
-			description: [
-				"{ftbquests.chapter.092727BC36641B8A.quest8.description1}"
-				"{ftbquests.chapter.092727BC36641B8A.quest8.description2}"
-			]
-			id: "02452CFCADF1EAFF"
-			rewards: [{
-				id: "15CB28E9CAFB78F0"
-				item: "mek1000:energy_output"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest8.subtitle}"
-			tasks: [{
-				id: "7E722D416A7777C0"
-				item: "mek1000:combustion_gas_generator"
-				type: "item"
-			}]
-			x: -3.5d
 			y: -4.5d
 		}
 		{
@@ -170,7 +154,7 @@
 				item: "mek1000:singurarity_gas_input"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest9.subtitle}"
+			subtitle: "21億の暴力"
 			tasks: [{
 				id: "33D7DB270FF8EEDC"
 				item: "mek1000:singurarity_generator"
@@ -181,7 +165,7 @@
 		}
 		{
 			dependencies: ["51C1587257D31C07"]
-			description: ["{ftbquests.chapter.092727BC36641B8A.quest10.description1}"]
+			description: ["コントローラーに直接液体が搬入できます"]
 			id: "6BADA3B6CB0642D8"
 			rewards: [{
 				count: 20
@@ -189,7 +173,7 @@
 				item: "experienceobelisk:enchanted_bookshelf"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest10.subtitle}"
+			subtitle: "叡智"
 			tasks: [{
 				id: "6C7D5E2C0065CF76"
 				item: "mek1000:library_of_babel"
@@ -221,7 +205,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.092727BC36641B8A.quest11.subtitle}"
+			subtitle: "頑張って"
 			tasks: [{
 				id: "78D948021D9ADEE8"
 				item: "mek1000:dimensional_blast_furnace"
@@ -242,8 +226,8 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["3FC57EAE35A4448E"]
-			description: ["{ftbquests.chapter.2.quest17.description1}"]
+			dependencies: ["58B3283C7556BABE"]
+			description: ["&aEvolved Mekanism&rの&a上位の素材を作成するため&rに使用します。"]
 			icon: "evolvedmekanism:apt_casing"
 			id: "4C7BE91F268E9BEF"
 			rewards: [{
@@ -252,18 +236,19 @@
 				item: "evolvedmekanism:quantum_control_circuit"
 				type: "item"
 			}]
+			subtitle: "曲名じゃないよ"
 			tasks: [{
 				id: "7A55414403AA70E1"
 				item: "astral_mekanism:compact_apt"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.2.quest17.title}"
+			title: "APT"
 			x: 1.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["4C7BE91F268E9BEF"]
-			description: ["{ftbquests.chapter.092727BC36641B8A.quest11.description1}"]
+			description: ["コンパクトAPT内部のスロットに入れられます。入れるとAPTの加工速度が上昇します。&c最大25個&rまで効果を発揮します。"]
 			id: "5BC14794B728F81F"
 			rewards: [{
 				count: 15
@@ -298,7 +283,7 @@
 		}
 		{
 			dependencies: ["2B7577D9D6D44CFD"]
-			description: ["{ftbquests.chapter.092727BC36641B8A.quest12.description1}"]
+			description: ["機械にレッドストーン入力をすることで、並列処理が可能になります"]
 			id: "14BFBC8B8E11715E"
 			tasks: [{
 				id: "2BC59D9C954D10E2"
@@ -322,8 +307,8 @@
 		{
 			dependencies: ["037E8E375F4EA17C"]
 			description: [
-				"{ftbquests.chapter.092727BC36641B8A.quest13.description1}"
-				"{ftbquests.chapter.092727BC36641B8A.quest13.description2}"
+				"統合鉱石処理工場に配置します。"
+				"80Tick、16パラレルで処理が可能になります。"
 			]
 			id: "355893826DB821D6"
 			rewards: [{
@@ -343,8 +328,8 @@
 		{
 			dependencies: ["355893826DB821D6"]
 			description: [
-				"{ftbquests.chapter.092727BC36641B8A.quest13.description1}"
-				"{ftbquests.chapter.092727BC36641B8A.quest14.description1}"
+				"統合鉱石処理工場に配置します。"
+				"40Tick、32パラレルで処理が可能になります。"
 			]
 			id: "59317CD2D7DF74A5"
 			rewards: [{
@@ -364,8 +349,8 @@
 		{
 			dependencies: ["59317CD2D7DF74A5"]
 			description: [
-				"{ftbquests.chapter.092727BC36641B8A.quest13.description1}"
-				"{ftbquests.chapter.092727BC36641B8A.quest15.description1}"
+				"統合鉱石処理工場に配置します。"
+				"8Tick、256パラレルで処理が可能になります。"
 			]
 			id: "23B95DD484DC8AF5"
 			rewards: [{
@@ -385,8 +370,8 @@
 		{
 			dependencies: ["23B95DD484DC8AF5"]
 			description: [
-				"{ftbquests.chapter.092727BC36641B8A.quest13.description1}"
-				"{ftbquests.chapter.092727BC36641B8A.quest16.description1}"
+				"統合鉱石処理工場に配置します。"
+				"1Tick、512パラレルで処理が可能になります。"
 			]
 			id: "42D85E67761945BD"
 			rewards: [{

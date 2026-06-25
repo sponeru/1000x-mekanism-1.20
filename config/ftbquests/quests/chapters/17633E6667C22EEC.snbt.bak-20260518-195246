@@ -1,0 +1,558 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "17633E6667C22EEC"
+	group: "7955F24567DE4319"
+	id: "17633E6667C22EEC"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["13697F0024B3E315"]
+			hide_until_deps_complete: true
+			id: "08BB3DA4AC97725A"
+			rewards: [{
+				count: 3
+				id: "4DB732DAFB196323"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59E8E7D99B6BC921"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["08BB3DA4AC97725A"]
+			id: "6E6D8463CB3734DF"
+			rewards: [{
+				count: 3
+				id: "6697F2338F248513"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "789D1F5F9F3943F0"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E6D8463CB3734DF"]
+			id: "1250AB64CE893AC7"
+			rewards: [{
+				count: 3
+				id: "35D8F17A9804149F"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6911868BF883627E"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1250AB64CE893AC7"]
+			id: "5ACEA5C15A2F5DD8"
+			rewards: [{
+				count: 3
+				id: "5E06D6BDB869134C"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15305D1D3B747A4F"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5ACEA5C15A2F5DD8"]
+			id: "10FD2D4CB895DD18"
+			rewards: [{
+				id: "64D87F5565891204"
+				item: "mekanism_extras:absolute_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72A0D567AE8588CB"
+				item: "mekanism_extras:absolute_tier_installer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["10FD2D4CB895DD18"]
+			id: "145DB7F24557B3A5"
+			rewards: [{
+				id: "74B1589E8D700108"
+				item: "mekanism_extras:supreme_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C213472C91AF2C1"
+				item: "mekanism_extras:supreme_tier_installer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["145DB7F24557B3A5"]
+			id: "22073660029A74E6"
+			rewards: [{
+				id: "110A5C8EF14F73EE"
+				item: "mekanism_extras:cosmic_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "641EE2E6B01461DC"
+				item: "mekanism_extras:cosmic_tier_installer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22073660029A74E6"]
+			id: "3C0D1CFFFCA42C53"
+			rewards: [{
+				id: "2527F1B163ABC911"
+				item: "mekanism_extras:infinite_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43024FE6647C44D9"
+				item: "mekanism_extras:infinite_tier_installer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			hide_until_deps_complete: true
+			id: "3A0EA4056C443BB1"
+			rewards: [{
+				count: 15
+				id: "5B21AFA226C46B52"
+				item: "mwgr:water_generator"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest9.subtitle}"
+			tasks: [{
+				id: "52C10BFAB8DABE2B"
+				item: "mwgr:water_generator"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			hide_until_deps_complete: true
+			id: "61E45EC904F1F4FB"
+			rewards: [
+				{
+					id: "4EF3ED8D64840B95"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 15
+							}
+						}
+						id: "laserio:card_holder"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "09141D758235510D"
+					item: "laserio:card_item"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "199B50B4ED99B957"
+					item: "laserio:card_fluid"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1E50A52F5A209277"
+					item: "laserio:card_chemical"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5C0BE2F37E1FE954"
+					item: "laserio:overclocker_node"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3A8C988D1732D5B9"
+					item: "laserio:overclocker_card"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest10.subtitle}"
+			tasks: [
+				{
+					id: "78DB2D834490D7C7"
+					item: "laserio:laser_node"
+					type: "item"
+				}
+				{
+					id: "1AEC5D0E76FBF40F"
+					item: "laserio:laser_wrench"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F31918E1746CC36"]
+			hide_until_deps_complete: true
+			id: "44F6EA6577D68936"
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest11.subtitle}"
+			tasks: [{
+				id: "2A6F01B6C7C2A67D"
+				item: "better_angel_ring:angel_ring"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68335D23BF84FEE3"]
+			id: "634F9F87DFF73DD4"
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest12.subtitle}"
+			tasks: [{
+				id: "14197110D93989B2"
+				item: {
+					Count: 1
+					id: "lightingwand:wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			id: "66749D40CCB801F9"
+			rewards: [{
+				id: "693D8464C66F0D56"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "g_abun:absolutelyunbreakable"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest13.subtitle}"
+			tasks: [{
+				id: "0E6A85C7F28454B6"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "g_abun:absolutelyunbreakable"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5ACEA5C15A2F5DD8"]
+			id: "0E7AE0FD29109D94"
+			rewards: [{
+				id: "56E2D76F42D8FE69"
+				item: "evolvedmekanism:overclocked_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EE43FC8D6469A74"
+				item: "evolvedmekanism:overclocked_tier_installer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0E7AE0FD29109D94"]
+			id: "65FDFB75ECA9CE64"
+			rewards: [{
+				id: "69576407BB71595C"
+				item: "evolvedmekanism:quantum_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FE3BBF293F59695"
+				item: "evolvedmekanism:quantum_tier_installer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65FDFB75ECA9CE64"]
+			id: "3FDA45AAA89AB028"
+			rewards: [{
+				id: "12EE5688ECD004B0"
+				item: "evolvedmekanism:dense_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7488F14BA40DCC22"
+				item: "evolvedmekanism:dense_tier_installer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3FDA45AAA89AB028"]
+			id: "73EE9F0C4AB0E4E9"
+			rewards: [{
+				id: "3D812B45A91B1840"
+				item: "evolvedmekanism:multiversal_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E8F26BF426CC509"
+				item: "evolvedmekanism:multiversal_tier_installer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"10FD2D4CB895DD18"
+				"0E7AE0FD29109D94"
+			]
+			id: "7AA514C39C5227E2"
+			rewards: [{
+				id: "1D45D3C127969035"
+				item: "emextras:absolute_overclocked_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F810826DEED885D"
+				item: "emextras:absolute_overclocked_tier_installer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"65FDFB75ECA9CE64"
+				"145DB7F24557B3A5"
+			]
+			id: "395755F4F317A2D0"
+			rewards: [{
+				id: "56BB99170C25E92C"
+				item: "emextras:supreme_quantum_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B3D0A4A3ED777E2"
+				item: "emextras:supreme_quantum_tier_installer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3FDA45AAA89AB028"
+				"22073660029A74E6"
+			]
+			id: "0491D156213FCA65"
+			rewards: [{
+				id: "6C860A687AEC3330"
+				item: "emextras:cosmic_dense_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E8C21D363DFD76C"
+				item: "emextras:cosmic_dense_tier_installer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"73EE9F0C4AB0E4E9"
+				"3C0D1CFFFCA42C53"
+			]
+			id: "45BE432D55FB50AB"
+			rewards: [{
+				id: "30B2FC27ACC826FB"
+				item: "emextras:infinite_multiversal_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76B43D55C9097CC2"
+				item: "emextras:infinite_multiversal_tier_installer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6BADA3B6CB0642D8"]
+			description: ["{ftbquests.chapter.17633E6667C22EEC.quest22.description1}"]
+			id: "49112B5C9B9A1E5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B4C7B30EB68CF2D"
+				table_id: 2320373292357157649L
+				type: "choice"
+			}]
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest22.subtitle}"
+			tasks: [{
+				id: "718F5A0F38FF420A"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "spawnegg"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6BADA3B6CB0642D8"]
+			description: ["{ftbquests.chapter.17633E6667C22EEC.quest23.description1}"]
+			id: "7B94ADFC703FE203"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4647C7333A68CFE1"
+				table_id: 7630844454365538480L
+				type: "choice"
+			}]
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest23.subtitle}"
+			tasks: [{
+				id: "79430D5B5C0AA83E"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "record"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D0C3C349D4C156C"]
+			id: "514B86381FC49FD4"
+			rewards: [{
+				id: "3E0062E84E932CE6"
+				item: {
+					Count: 1
+					id: "extendedae_plus:entity_speed_card"
+					tag: {
+						"EAS:mult": 4
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest24.subtitle}"
+			tasks: [
+				{
+					id: "1EF3292EADD47BB6"
+					item: {
+						Count: 1
+						id: "extendedae_plus:entity_speed_card"
+						tag: {
+							"EAS:mult": 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39E9499F422288F5"
+					item: "extendedae_plus:entity_speed_ticker"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			id: "12FF2F07AB7D1E55"
+			tasks: [
+				{
+					id: "28269F5DA54A6857"
+					item: "toolbelt:belt"
+					type: "item"
+				}
+				{
+					id: "5AC2B446F14ED52F"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			id: "18C3037FEF8444C6"
+			rewards: [{
+				count: 15
+				id: "4D92FCA3143065A9"
+				item: "mwgr:lava_generator"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31D4CED1E13A090C"
+				item: "mwgr:lava_generator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.17633E6667C22EEC.subtitle0}"]
+	title: "{ftbquests.chapter.17633E6667C22EEC.title}"
+}

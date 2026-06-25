@@ -4,78 +4,9 @@
 	filename: "17633E6667C22EEC"
 	group: "7955F24567DE4319"
 	id: "17633E6667C22EEC"
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
 	quests: [
-		{
-			dependencies: ["13697F0024B3E315"]
-			hide_until_deps_complete: true
-			id: "08BB3DA4AC97725A"
-			rewards: [{
-				count: 3
-				id: "4DB732DAFB196323"
-				item: "mekanism:basic_tier_installer"
-				type: "item"
-			}]
-			tasks: [{
-				id: "59E8E7D99B6BC921"
-				item: "mekanism:basic_tier_installer"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["08BB3DA4AC97725A"]
-			id: "6E6D8463CB3734DF"
-			rewards: [{
-				count: 3
-				id: "6697F2338F248513"
-				item: "mekanism:advanced_tier_installer"
-				type: "item"
-			}]
-			tasks: [{
-				id: "789D1F5F9F3943F0"
-				item: "mekanism:advanced_tier_installer"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["6E6D8463CB3734DF"]
-			id: "1250AB64CE893AC7"
-			rewards: [{
-				count: 3
-				id: "35D8F17A9804149F"
-				item: "mekanism:elite_tier_installer"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6911868BF883627E"
-				item: "mekanism:elite_tier_installer"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["1250AB64CE893AC7"]
-			id: "5ACEA5C15A2F5DD8"
-			rewards: [{
-				count: 3
-				id: "5E06D6BDB869134C"
-				item: "mekanism:ultimate_tier_installer"
-				type: "item"
-			}]
-			tasks: [{
-				id: "15305D1D3B747A4F"
-				item: "mekanism:ultimate_tier_installer"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -4.0d
-		}
 		{
 			dependencies: ["5ACEA5C15A2F5DD8"]
 			id: "10FD2D4CB895DD18"
@@ -150,7 +81,7 @@
 				item: "mwgr:water_generator"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest9.subtitle}"
+			subtitle: "核分裂炉を動かそう"
 			tasks: [{
 				id: "52C10BFAB8DABE2B"
 				item: "mwgr:water_generator"
@@ -209,7 +140,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest10.subtitle}"
+			subtitle: "次世代輸送"
 			tasks: [
 				{
 					id: "78DB2D834490D7C7"
@@ -229,7 +160,7 @@
 			dependencies: ["4F31918E1746CC36"]
 			hide_until_deps_complete: true
 			id: "44F6EA6577D68936"
-			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest11.subtitle}"
+			subtitle: "私も、飛べる！"
 			tasks: [{
 				id: "2A6F01B6C7C2A67D"
 				item: "better_angel_ring:angel_ring"
@@ -241,7 +172,7 @@
 		{
 			dependencies: ["68335D23BF84FEE3"]
 			id: "634F9F87DFF73DD4"
-			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest12.subtitle}"
+			subtitle: "光あれ"
 			tasks: [{
 				id: "14197110D93989B2"
 				item: {
@@ -273,7 +204,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest13.subtitle}"
+			subtitle: "多分壊れない"
 			tasks: [{
 				id: "0E6A85C7F28454B6"
 				item: {
@@ -433,7 +364,7 @@
 		}
 		{
 			dependencies: ["6BADA3B6CB0642D8"]
-			description: ["{ftbquests.chapter.17633E6667C22EEC.quest22.description1}"]
+			description: ["開けるとランダムなスポーンエッグが入手できます"]
 			id: "49112B5C9B9A1E5C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -441,7 +372,7 @@
 				table_id: 2320373292357157649L
 				type: "choice"
 			}]
-			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest22.subtitle}"
+			subtitle: "魔法石で引くやつ"
 			tasks: [{
 				id: "718F5A0F38FF420A"
 				item: {
@@ -458,7 +389,7 @@
 		}
 		{
 			dependencies: ["6BADA3B6CB0642D8"]
-			description: ["{ftbquests.chapter.17633E6667C22EEC.quest23.description1}"]
+			description: ["開けるとランダムなレコードを入手できます"]
 			id: "7B94ADFC703FE203"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -466,7 +397,7 @@
 				table_id: 7630844454365538480L
 				type: "choice"
 			}]
-			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest23.subtitle}"
+			subtitle: "ディスコタイム！"
 			tasks: [{
 				id: "79430D5B5C0AA83E"
 				item: {
@@ -495,7 +426,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.17633E6667C22EEC.quest24.subtitle}"
+			subtitle: "時は、加速する"
 			tasks: [
 				{
 					id: "1EF3292EADD47BB6"

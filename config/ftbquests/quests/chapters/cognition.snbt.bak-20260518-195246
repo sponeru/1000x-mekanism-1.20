@@ -1,0 +1,253 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cognition"
+	group: "7955F24567DE4319"
+	icon: "experienceobelisk:bibliophage"
+	id: "558566367F924239"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["016780D32B1ABC49"]
+			description: [
+				"{ftbquests.chapter.cognition.quest1.description1}"
+				""
+				"{ftbquests.chapter.cognition.quest1.description2}"
+				"{ftbquests.chapter.cognition.quest1.description3}"
+				""
+				"{ftbquests.chapter.cognition.quest1.description4}"
+				""
+				"{ftbquests.chapter.cognition.quest1.description5}"
+			]
+			id: "613E423F745CDAED"
+			rewards: [{
+				count: 64
+				id: "177D528C71BD86AD"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.cognition.quest1.subtitle}"
+			tasks: [
+				{
+					id: "3A38586924AA0FD6"
+					item: "experienceobelisk:experience_obelisk"
+					type: "item"
+				}
+				{
+					id: "17129826E7C92455"
+					item: "experienceobelisk:attunement_staff"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["613E423F745CDAED"]
+			description: [
+				"{ftbquests.chapter.cognition.quest2.description1}"
+				""
+				"{ftbquests.chapter.cognition.quest2.description2}"
+				""
+				"{ftbquests.chapter.cognition.quest2.description3}"
+			]
+			id: "51C1587257D31C07"
+			rewards: [{
+				id: "0825268B01267630"
+				item: {
+					Count: 1
+					id: "experienceobelisk:transforming_focus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.cognition.quest2.subtitle}"
+			tasks: [{
+				id: "17E51A4BA3E90369"
+				item: "experienceobelisk:molecular_metamorpher"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["51C1587257D31C07"]
+			description: [
+				"{ftbquests.chapter.cognition.quest3.description1}"
+				""
+				"{ftbquests.chapter.cognition.quest3.description2}"
+			]
+			id: "75FCC7B8BEE9A66E"
+			rewards: [{
+				id: "5DDFD5F6555A9059"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.cognition.quest3.subtitle}"
+			tasks: [{
+				id: "786BC80EF8A97BA8"
+				item: "experienceobelisk:precision_dispeller"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["016780D32B1ABC49"]
+			description: [
+				"{ftbquests.chapter.cognition.quest4.description1}"
+				""
+				"{ftbquests.chapter.cognition.quest4.description2}"
+			]
+			id: "36A6DA6DB9B7CF76"
+			rewards: [{
+				count: 7
+				id: "344FD921266026EF"
+				item: "experienceobelisk:enchanted_bookshelf"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.cognition.quest4.subtitle}"
+			tasks: [{
+				id: "3D8F8C789265B608"
+				item: "experienceobelisk:enchanted_bookshelf"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51C1587257D31C07"]
+			description: [
+				"{ftbquests.chapter.cognition.quest5.description1}"
+				""
+				"{ftbquests.chapter.cognition.quest5.description2}"
+				""
+				"{ftbquests.chapter.cognition.quest5.description3}"
+				"{ftbquests.chapter.cognition.quest5.description4}"
+				""
+				"{ftbquests.chapter.cognition.quest5.description5}"
+			]
+			id: "4F465BA4CED359B7"
+			rewards: [{
+				count: 15
+				id: "644B81F360A242B5"
+				item: "experienceobelisk:bibliophage"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.cognition.quest5.subtitle}"
+			tasks: [{
+				id: "5145889D2E8DBAE2"
+				item: "experienceobelisk:bibliophage"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4F465BA4CED359B7"]
+			description: [
+				"{ftbquests.chapter.cognition.quest6.description1}"
+				""
+				"{ftbquests.chapter.cognition.quest6.description2}"
+				"{ftbquests.chapter.cognition.quest6.description3}"
+			]
+			id: "2BE80C52491E57C8"
+			rewards: [{
+				count: 7
+				id: "23B056D8B1EBA10A"
+				item: "experienceobelisk:nutrient_agar"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "20AED4F50EE11175"
+					item: "experienceobelisk:fluorescent_agar"
+					type: "item"
+				}
+				{
+					id: "1AB49305E8B4A8F9"
+					item: "experienceobelisk:nutrient_agar"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2BE80C52491E57C8"]
+			description: [
+				"{ftbquests.chapter.cognition.quest7.description1}"
+				""
+				"{ftbquests.chapter.cognition.quest7.description2}"
+			]
+			id: "23FD0BC53E4EB5B7"
+			rewards: [{
+				count: 7
+				id: "0C35AD59199E37DC"
+				item: "experienceobelisk:insightful_agar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42C3125F1E1A4BA3"
+				item: "experienceobelisk:insightful_agar"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2BE80C52491E57C8"]
+			description: [
+				"{ftbquests.chapter.cognition.quest8.description1}"
+				""
+				"{ftbquests.chapter.cognition.quest8.description2}"
+			]
+			id: "4840C0AA71998348"
+			rewards: [{
+				count: 7
+				id: "1733B4F7815CECDB"
+				item: "experienceobelisk:extravagant_agar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "523C4B8303DA5D00"
+				item: "experienceobelisk:extravagant_agar"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["613E423F745CDAED"]
+			id: "41E164CF8EA79589"
+			rewards: [{
+				count: 64
+				id: "750453EBC42DC68E"
+				item: "mek1000:experience_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "2FAC5AF86EB2FEB1"
+				item: "mek1000:experience_crystal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.cognition.subtitle0}"]
+	title: "{ftbquests.chapter.cognition.title}"
+}

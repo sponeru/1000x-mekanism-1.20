@@ -318,7 +318,7 @@
 			dependencies: ["6F6359AE040DD991"]
 			id: "59401C265DEB5E33"
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.4.quest22.subtitle}"
+			subtitle: "最初に作成するのを推奨"
 			tasks: [{
 				id: "39B4E80C478B5317"
 				item: "mekanism:creative_chemical_tank"
