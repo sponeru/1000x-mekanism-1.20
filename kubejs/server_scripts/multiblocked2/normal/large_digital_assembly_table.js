@@ -14,16 +14,11 @@ ServerEvents.recipes((event) => {
     .perTick((builder) => builder.inputFE(2147483647))
     .slotName("cat0", (builder) =>
       builder.chance(0, (builder) =>
-        builder.inputItems("mek1000:energy_cataryst")
-      )
-    )
-    .slotName("cat1", (builder) =>
-      builder.chance(0, (builder) =>
         builder.inputItems("mek1000:item_cataryst")
       )
     )
+    .slotName("cat1", (builder) => builder.inputItems("mek1000:wtf_casing"))
     .slotName("cat2", (builder) => builder.inputItems("mek1000:wtf_casing"))
-    .slotName("cat3", (builder) => builder.inputItems("mek1000:wtf_casing"))
     .slotName("s0", (builder) =>
       builder.inputItems("16x mekanism_extras:alloy_radiance")
     )

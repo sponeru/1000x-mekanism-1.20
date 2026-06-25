@@ -38,9 +38,9 @@ ServerEvents.recipes(event => {
             ' BA'
         ],
         {
-            A: 'mek1000:valinium_processor',
+            A: 'justdirethings:time_crystal_block',
             B: 'astral_mekanism:alloy_enchanted',
-            C: 'astral_mekanism:resonance_control_circuit'
+            C: 'mek1000:double_string_control_circuit'
         }
     )
 
